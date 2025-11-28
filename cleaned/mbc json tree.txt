@@ -1,0 +1,207 @@
+MBC_Framework_v4/
+├─ README.md
+├─ mbc_framework_index.json              # master index over everything
+├─ mbc_schema_master.json                # global JSON schema definitions
+├─ mbc_charter.json                      # monistic charter, invariants, principles
+├─ hash_manifest.json                    # SHA256 hashes for all JSON files
+│
+├─ 00_Meta/
+│  ├─ framework_metadata.json            # version, author, timestamps, notes
+│  ├─ triunity_signature.json            # δ–Φ–Π lock definition
+│  ├─ primitive_operator_list.json       # flat list of all Tier-0 operators
+│  └─ invariant_principles.json          # Monistic Axiom, Curvature Principle, etc.
+│
+├─ 01_Primitives/                        # Tier-0 primitives
+│  ├─ tier0_operators.json               # all Tier-0 in one file
+│  ├─ delta_primitive.json               # δ
+│  ├─ phi_primitive.json                 # Φ
+│  ├─ pi_primitive.json                  # Π
+│  ├─ mu_primitive.json                  # μ
+│  ├─ psi_primitive.json                 # ψ
+│  ├─ lambda_primitive.json              # λ
+│  ├─ sigma_primitive.json               # Σ
+│  ├─ theta_primitive.json               # Θ
+│  ├─ chi_primitive.json                 # χ
+│  ├─ omega_primitive.json               # Ω
+│  └─ rho_primitive.json                 # ρ
+│
+├─ 02_Tiers/
+│  ├─ Tier_01_delta/
+│  │  ├─ tier_01_metadata.json
+│  │  ├─ tier_01_delta_operator_pack.json
+│  │  ├─ tier_01_delta_interaction_table.json
+│  │  ├─ tier_01_delta_axiom_box.json
+│  │  ├─ tier_01_delta_rewrite_system.json
+│  │  └─ tier_01_delta_module_pack.json
+│  │
+│  ├─ Tier_02_phi/
+│  │  ├─ tier_02_metadata.json
+│  │  ├─ tier_02_phi_operator_pack.json
+│  │  ├─ tier_02_phi_interaction_table.json
+│  │  ├─ tier_02_phi_axiom_box.json
+│  │  ├─ tier_02_phi_rewrite_system.json
+│  │  └─ tier_02_phi_module_pack.json
+│  │
+│  ├─ Tier_03_pi/
+│  │  ├─ tier_03_metadata.json
+│  │  ├─ tier_03_pi_operator_pack.json
+│  │  ├─ tier_03_pi_interaction_table.json
+│  │  ├─ tier_03_pi_axiom_box.json
+│  │  ├─ tier_03_pi_rewrite_system.json
+│  │  └─ tier_03_pi_module_pack.json
+│  │
+│  ├─ Tier_04_mu/
+│  │  ├─ tier_04_metadata.json
+│  │  ├─ tier_04_mu_operator_pack.json
+│  │  ├─ tier_04_mu_interaction_table.json
+│  │  ├─ tier_04_mu_axiom_box.json
+│  │  ├─ tier_04_mu_rewrite_system.json
+│  │  └─ tier_04_mu_module_pack.json
+│  │
+│  ├─ Tier_05_lambda/
+│  │  ├─ tier_05_metadata.json
+│  │  ├─ tier_05_lambda_operator_pack.json
+│  │  ├─ tier_05_lambda_interaction_table.json
+│  │  ├─ tier_05_lambda_axiom_box.json
+│  │  ├─ tier_05_lambda_rewrite_system.json
+│  │  └─ tier_05_lambda_module_pack.json
+│  │
+│  ├─ Tier_06_psi/
+│  │  ├─ tier_06_metadata.json
+│  │  ├─ tier_06_psi_operator_pack.json
+│  │  ├─ tier_06_psi_interaction_table.json
+│  │  ├─ tier_06_psi_axiom_box.json
+│  │  ├─ tier_06_psi_rewrite_system.json
+│  │  └─ tier_06_psi_module_pack.json
+│  │
+│  ├─ Tier_07_sigma/
+│  │  ├─ tier_07_metadata.json
+│  │  ├─ tier_07_sigma_operator_pack.json
+│  │  ├─ tier_07_sigma_interaction_table.json
+│  │  ├─ tier_07_sigma_axiom_box.json
+│  │  ├─ tier_07_sigma_rewrite_system.json
+│  │  └─ tier_07_sigma_module_pack.json
+│  │
+│  ├─ Tier_08_theta/
+│  │  ├─ tier_08_metadata.json
+│  │  ├─ tier_08_theta_operator_pack.json
+│  │  ├─ tier_08_theta_interaction_table.json
+│  │  ├─ tier_08_theta_axiom_box.json
+│  │  ├─ tier_08_theta_rewrite_system.json
+│  │  └─ tier_08_theta_module_pack.json
+│  │
+│  ├─ Tier_09_chi/
+│  │  ├─ tier_09_metadata.json
+│  │  ├─ tier_09_chi_operator_pack.json
+│  │  ├─ tier_09_chi_interaction_table.json
+│  │  ├─ tier_09_chi_axiom_box.json
+│  │  ├─ tier_09_chi_rewrite_system.json
+│  │  └─ tier_09_chi_module_pack.json
+│  │
+│  ├─ Tier_10_omega/
+│  │  ├─ tier_10_metadata.json
+│  │  ├─ tier_10_omega_operator_pack.json
+│  │  ├─ tier_10_omega_interaction_table.json
+│  │  ├─ tier_10_omega_axiom_box.json
+│  │  ├─ tier_10_omega_rewrite_system.json
+│  │  └─ tier_10_omega_module_pack.json
+│  │
+│  ├─ Tier_11_rho/
+│  │  ├─ tier_11_metadata.json
+│  │  ├─ tier_11_rho_operator_pack.json
+│  │  ├─ tier_11_rho_interaction_table.json
+│  │  ├─ tier_11_rho_axiom_box.json
+│  │  ├─ tier_11_rho_rewrite_system.json
+│  │  └─ tier_11_rho_module_pack.json
+│  │
+│  └─ Tier_12_xi/
+│     ├─ tier_12_metadata.json
+│     ├─ tier_12_xi_operator_pack.json
+│     ├─ tier_12_xi_interaction_table.json
+│     ├─ tier_12_xi_axiom_box.json
+│     ├─ tier_12_xi_rewrite_system.json
+│     └─ tier_12_xi_module_pack.json
+│
+├─ 03_MetaOperators/
+│  ├─ meta_operator_pack.json            # the 8 meta-ops we just defined
+│  ├─ commutator_definitions.json
+│  ├─ anticommutator_definitions.json
+│  ├─ tensor_product_definitions.json
+│  ├─ semantic_sum_definitions.json
+│  ├─ convolution_definitions.json
+│  ├─ inference_arrow_definitions.json
+│  └─ rewrite_arrow_definitions.json
+│
+├─ 04_InteractionTables/
+│  ├─ triunity_grid.json                 # δ×Φ×Π
+│  ├─ triunity_plus_mu_cube.json         # Tri-Unity+μ cube
+│  ├─ triunity_plus_psi_cube.json        # Tri-Unity+ψ cube
+│  ├─ triunity_plus_sigma_cube.json      # Tri-Unity+Σ cube
+│  ├─ tier0_cross_table.json             # all Tier-0 × Tier-0
+│  ├─ mu_delta_table.json
+│  ├─ lambda_delta_table.json
+│  ├─ psi_lambda_table.json
+│  ├─ sigma_theta_table.json
+│  └─ cross_layer_tables.json            # summary of all cross-family tables
+│
+├─ 05_RewriteSystems/
+│  ├─ triunity_normal_form.json          # δ–Φ–Π canonical NF system
+│  ├─ sigma_normal_form.json             # Σ-enhanced NF
+│  ├─ theta_normal_form.json             # polarity NF
+│  ├─ psi_normal_form.json               # wave NF
+│  ├─ omega_constraint_rules.json        # global constraint rewrites
+│  └─ global_rewrite_system.json         # merged & ordered global rewrites
+│
+├─ 06_AxiomBoxes/
+│  ├─ delta_axiom_box.json
+│  ├─ phi_axiom_box.json
+│  ├─ pi_axiom_box.json
+│  ├─ mu_axiom_box.json
+│  ├─ psi_axiom_box.json
+│  ├─ lambda_axiom_box.json
+│  ├─ sigma_axiom_box.json
+│  ├─ theta_axiom_box.json
+│  ├─ chi_axiom_box.json
+│  ├─ omega_axiom_box.json
+│  ├─ rho_axiom_box.json
+│  └─ composite_axioms.json              # derived theorems that mix families
+│
+├─ 07_Diagrams/
+│  ├─ squares/
+│  │  ├─ triunity_square.json
+│  │  ├─ mu_weighted_square.json
+│  │  └─ polarity_square.json
+│  ├─ cubes/
+│  │  ├─ triunity_cube.json
+│  │  ├─ triunity_mu_cube.json
+│  │  └─ triunity_psi_cube.json
+│  ├─ hypercubes/
+│  │  ├─ triunity_mu_sigma_hypercube.json
+│  │  └─ wave_constraint_hypercube.json
+│  └─ pentacubes/
+│     └─ triunity_mu_sigma_psi_omega_pentacube.json
+│
+├─ 08_ModulePacks/
+│  ├─ triunity_core_pack.json            # δ, Φ, Π + their core interactions
+│  ├─ weighted_layer_pack.json           # μ + δ/Φ/Π integration
+│  ├─ wave_layer_pack.json               # ψ + δ/μ/λ integration
+│  ├─ curvature_layer_pack.json          # λ + δ/ψ integration
+│  ├─ polarity_layer_pack.json           # Θ + Σ integration
+│  ├─ evolution_layer_pack.json          # χ + ψ/Σ integration
+│  ├─ global_constraint_pack.json        # Ω + χ/Σ integration
+│  └─ meta_hierarchy_pack.json           # ρ + all lower layers
+│
+├─ 09_CrossLinks/
+│  ├─ operators_to_axioms.json
+│  ├─ operators_to_interactions.json
+│  ├─ operators_to_rewrite_rules.json
+│  ├─ layers_to_layers.json
+│  ├─ primitives_to_tiers.json
+│  └─ rewrite_to_diagrams.json
+│
+└─ 10_Validation/
+   ├─ schema_definitions.json            # JSON Schema for all object types
+   ├─ validation_rules.json              # what counts as a valid module
+   ├─ dependency_graph.json              # DAG: what depends on what
+   ├─ consistency_checks.json            # e.g. associativity, adjoint duality
+   └─ hash_index.json                    # full list of files and SHA256 hashes

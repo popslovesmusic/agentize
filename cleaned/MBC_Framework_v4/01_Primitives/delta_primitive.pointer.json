@@ -1,0 +1,34 @@
+{
+  "pointer_version": "1.0",
+  "type": "content_pointer",
+  "target": {
+    "source_file": "../Tier-0 Primitive Operators — Concise Canonical Definitions.md",
+    "line_range": [64, 67],
+    "section": "δ — Deviation Operator Definition",
+    "content_type": "operator_definition"
+  },
+  "metadata": {
+    "operator": "δ",
+    "tier": 0,
+    "family": "deviation",
+    "name": "Deviation",
+    "intent": "Measures local deviation or gradient of a Box; generator of change",
+    "classification": ["primitive", "irreducible"],
+    "completeness": "full",
+    "last_verified": "2025-11-27"
+  },
+  "extraction": {
+    "method": "automated",
+    "confidence": "high",
+    "extracted_to": "../reports/Consolidated_JSON_Index.md",
+    "index_entry": "1.1",
+    "notes": "JSON block extracted from markdown code fence"
+  },
+  "cross_references": [
+    "01_Primitives/tier0_operators.pointer.json",
+    "02_Tiers/Tier_01_delta/tier_01_delta_operator_pack.pointer.json",
+    "06_AxiomBoxes/delta_axiom_box.pointer.json"
+  ],
+  "related_operators": ["Φ", "Π", "μ"],
+  "higher_order": ["δ²", "δᴶ", "δᴸ", "δᵂ"]
+}

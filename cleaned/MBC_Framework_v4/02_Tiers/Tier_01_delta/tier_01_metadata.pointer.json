@@ -1,0 +1,37 @@
+{
+  "pointer_version": "1.0",
+  "type": "content_pointer",
+  "target": {
+    "source_file": "../../../TIER 1 — δ-Family.md",
+    "line_range": [1, 50],
+    "section": "Tier-01 δ-Family Metadata",
+    "content_type": "tier_metadata"
+  },
+  "metadata": {
+    "tier": 1,
+    "family": "δ-Family (Deviation)",
+    "primary_operator": "δ",
+    "operator_count": 9,
+    "all_6_files_present": true,
+    "completeness": "100%",
+    "last_verified": "2025-11-28"
+  },
+  "extraction": {
+    "method": "automated",
+    "file_size": "92K",
+    "note": "NEW FILE - COMPLETE Tier-01 with all 6 required files"
+  },
+  "tier_structure": {
+    "metadata": "THIS FILE",
+    "operator_pack": "tier_01_delta_operator_pack.pointer.json",
+    "interaction_table": "tier_01_delta_interaction_table.pointer.json",
+    "axiom_box": "tier_01_delta_axiom_box.pointer.json",
+    "rewrite_system": "tier_01_delta_rewrite_system.pointer.json",
+    "module_pack": "tier_01_delta_module_pack.pointer.json"
+  },
+  "cross_references": [
+    "01_Primitives/delta_primitive.pointer.json",
+    "00_Meta/framework_metadata.pointer.json"
+  ],
+  "impact": "First COMPLETE tier following Universal 6-File Structure"
+}

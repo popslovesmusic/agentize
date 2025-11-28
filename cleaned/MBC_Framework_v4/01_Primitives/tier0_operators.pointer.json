@@ -1,0 +1,41 @@
+{
+  "pointer_version": "1.0",
+  "type": "content_pointer",
+  "target": {
+    "source_file": "../Tier-0 Primitive Operators — Concise Canonical Definitions.md",
+    "line_range": [145, 148],
+    "section": "Tier-0 Primitive Operator Pack (Bundled JSON)",
+    "content_type": "operator_pack"
+  },
+  "metadata": {
+    "collection": "All Tier-0 Primitives",
+    "tier": 0,
+    "count": 11,
+    "operators": ["δ", "Φ", "Π", "μ", "ψ", "λ", "Σ", "Θ", "χ", "Ω", "ρ"],
+    "completeness": "full",
+    "last_verified": "2025-11-27"
+  },
+  "extraction": {
+    "method": "automated",
+    "confidence": "high",
+    "extracted_to": "../reports/Consolidated_JSON_Index.md",
+    "notes": "Complete bundled JSON with all primitives in single structure"
+  },
+  "individual_operators": [
+    "delta_primitive.pointer.json",
+    "phi_primitive.pointer.json",
+    "pi_primitive.pointer.json",
+    "mu_primitive.pointer.json",
+    "psi_primitive.pointer.json",
+    "lambda_primitive.pointer.json",
+    "sigma_primitive.pointer.json",
+    "theta_primitive.pointer.json",
+    "chi_primitive.pointer.json",
+    "omega_primitive.pointer.json",
+    "rho_primitive.pointer.json"
+  ],
+  "cross_references": [
+    "00_Meta/primitive_operator_list.pointer.json",
+    "02_Tiers/"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "pointer_version": "1.0",
+  "type": "content_pointer",
+  "target": {
+    "source_file": "../Meta-Operators .md",
+    "line_range": [1, 50],
+    "section": "Complete Meta-Operator Pack",
+    "content_type": "meta_operator_pack"
+  },
+  "metadata": {
+    "collection": "8 Meta-Operators",
+    "tier": "meta",
+    "operators": [
+      "[ , ] - Commutator",
+      "{ , } - Anticommutator",
+      "⊗ - Tensor Product",
+      "⊕ - Semantic Sum",
+      "∗ - Convolution",
+      "⇒ - Inference Arrow",
+      "↦ - Rewrite Arrow",
+      "∘ - Composition"
+    ],
+    "criticality": "CRITICAL - Universal algebra imported by all tiers",
+    "completeness": "full",
+    "last_verified": "2025-11-28"
+  },
+  "extraction": {
+    "method": "automated",
+    "confidence": "high",
+    "file_size": "39K",
+    "note": "NEW FILE - Fills major gap in framework"
+  },
+  "provides": [
+    "Universal operator composition rules",
+    "Commutation relations",
+    "Tensor algebra foundations",
+    "Semantic combination operators"
+  ],
+  "cross_references": [
+    "00_Meta/framework_metadata.pointer.json",
+    "All tier operator packs import this"
+  ],
+  "impact": "Enables systematic completion of all tier interaction tables"
+}

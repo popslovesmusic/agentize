@@ -1,0 +1,38 @@
+{
+  "pointer_version": "1.0",
+  "type": "content_pointer",
+  "target": {
+    "source_file": "../Universal 6-File Structure for Each Tier.md",
+    "line_range": [1, 100],
+    "section": "Complete Framework Architecture",
+    "content_type": "framework_specification"
+  },
+  "metadata": {
+    "framework_version": "4.0",
+    "specification": "Universal Tier Template",
+    "tier_count": 13,
+    "files_per_tier": 6,
+    "total_tier_files": 78,
+    "criticality": "CRITICAL - Blueprint for framework completion",
+    "completeness": "full",
+    "last_verified": "2025-11-28"
+  },
+  "extraction": {
+    "method": "manual_analysis",
+    "file_size": "21K",
+    "note": "NEW FILE - Provides systematic template"
+  },
+  "defines": [
+    "tier_XX_metadata.json - Tier provenance",
+    "tier_XX_operator_pack.json - All operators",
+    "tier_XX_interaction_table.json - Cross-operator rules",
+    "tier_XX_axiom_box.json - Formal axioms",
+    "tier_XX_rewrite_system.json - Normal forms",
+    "tier_XX_module_pack.json - Integration layer"
+  ],
+  "cross_references": [
+    "All 02_Tiers/ subdirectories",
+    "03_MetaOperators/meta_operator_pack.pointer.json"
+  ],
+  "impact": "Enables systematic generation of all missing tier files"
+}

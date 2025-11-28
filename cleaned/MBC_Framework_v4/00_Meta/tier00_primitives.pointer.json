@@ -1,0 +1,41 @@
+{
+  "pointer_version": "1.0",
+  "type": "content_pointer",
+  "target": {
+    "source_file": "../TIER-00 — PRIMITIVES.md",
+    "line_range": [1, 100],
+    "section": "Tier-00 Primitive Values",
+    "content_type": "primitive_foundation"
+  },
+  "metadata": {
+    "tier": "00",
+    "layer": "Pre-operator foundation",
+    "primitives": ["0", "1", "±", "∞", "⊥", "⊤"],
+    "criticality": "FOUNDATIONAL - Base values for all operators",
+    "completeness": "full",
+    "last_verified": "2025-11-28"
+  },
+  "extraction": {
+    "method": "automated",
+    "file_size": "15K",
+    "json_blocks": 12,
+    "note": "NEW FILE - Fills Tier-00 gap"
+  },
+  "additional_tier00_files": [
+    "../TIER-00 — Primitive Logical Entities.md",
+    "../Tier-00 — Primitive Operator Symbols.md"
+  ],
+  "provides": [
+    "Zero (0) - Null state",
+    "One (1) - Identity",
+    "Polarity (±) - Dual states",
+    "Infinity (∞) - Limit behavior",
+    "Bottom (⊥) - Undefined",
+    "Top (⊤) - Universal"
+  ],
+  "cross_references": [
+    "01_Primitives/tier0_operators.pointer.json",
+    "All operator definitions"
+  ],
+  "impact": "Completes Tier-00 foundation (now 100%)"
+}

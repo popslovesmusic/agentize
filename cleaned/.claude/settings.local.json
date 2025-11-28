@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sort:*)",
+      "Bash(grep:*)",
+      "Bash(python3:*)",
+      "Bash(cat:*)",
+      "Bash({)",
+      "Bash(})",
+      "Bash(Library_Expansion_Analysis.md)",
+      "Bash(tree:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

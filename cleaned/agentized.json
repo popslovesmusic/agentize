@@ -1,0 +1,112 @@
+{
+  // ===========================================================================
+  // PROJECT: MBC/IGSOA AGENTIZATION STRATEGY
+  // DATE: 2025-11-28
+  // CONTEXT: Synthesis of architectural conversation (Strategy -> Architecture -> Implementation)
+  // ===========================================================================
+
+  "meta": {
+    "objective": "Transform MBC framework from theoretical philosophy into an executable Instruction Set Architecture (ISA) for AI agents.",
+    "core_mechanism": "Semantic Virtual Machine",
+    "primary_format": "JSON5 (Dual Representation: Machine-readable bytecode + Human-readable textbook comments)"
+  },
+
+  // ===========================================================================
+  // SECTION 1: THE STRATEGY - DUAL REPRESENTATION
+  // ===========================================================================
+  "strategy": {
+    "concept": "Declarative Agent Definitions",
+    "rationale": "Instead of training models (hard/slow), we define agents via static files (fast/portable).",
+    "components": {
+      "Textbook": "Explains the 'Why' (Symbolic Knowledge Transfer).",
+      "JSON_Framework": "Defines the 'How' (Computational Semantics / Bytecode).",
+      "Agent": "Acts as the 'Processor' executing the JSON instructions."
+    },
+    "benefit": "Drop-in portability. The JSON5 file *is* the agent. It runs identically on Gemini, Claude, or GPT."
+  },
+
+  // ===========================================================================
+  // SECTION 2: THE ARCHITECTURE - MCP & ROUTER STACK
+  // ===========================================================================
+  "architecture_stack": {
+    "interface": "MCP (Model Context Protocol) - Standardized API for tool/data access.",
+    "control_layer": "MBC Router - Deterministic logic gates controlling flow.",
+    "maintenance_layer": "The Librarian - Minimal ML model (SLM) for sanitation.",
+    "execution_layer": "Main Agent (e.g., Gemini Pro) - High-intelligence reasoning."
+  },
+
+  // ===========================================================================
+  // SECTION 3: COMPONENT DEFINITION - THE MBC ROUTER
+  // ===========================================================================
+  // The "Brain" before the Brain. Uses MBC operators as logic gates to route queries.
+  "mbc_router_config": {
+    "role": "Deterministic Control Layer",
+    "logic_gates": [
+      {
+        "gate": "Delta (δ)",
+        "condition": "Is this a request for NEW generation?",
+        "action": "Route to Creative/Reasoning Agent"
+      },
+      {
+        "gate": "Phi (Φ)",
+        "condition": "Is this a request to FIND existing data?",
+        "action": "Route to Librarian (Search/Retrieval)"
+      },
+      {
+        "gate": "Pi (Π)",
+        "condition": "Is this a request to VALIDATE/CHECK work?",
+        "action": "Route to Critic/Validation Tool"
+      }
+    ]
+  },
+
+  // ===========================================================================
+  // SECTION 4: COMPONENT DEFINITION - THE LIBRARIAN
+  // ===========================================================================
+  // The "Constitution" for the minimal maintenance model.
+  "librarian_manifesto": {
+    "identity": {
+      "role": "Librarian",
+      "backend": "Minimal ML Model (SLM / Rule-based)",
+      "purpose": "Prevent Context Pollution"
+    },
+    
+    // The Omega Constraint: Consistency above all.
+    "omega_constraint": {
+      "enforce_consistency": true,
+      "action_on_contradiction": "quarantine_new_entry"
+    },
+
+    "protocols": {
+      "ingestion_protocol": {
+        "rule_1": "Require Provenance (No naked data)",
+        "rule_2": "Delta Check (Duplicate detection)",
+        "thresholds": {
+          "duplicate_reject": 0.99, // >99% similarity = Reject
+          "noise_flag": 0.05        // <5% similarity = Flag as noise
+        }
+      },
+      "indexing_protocol": {
+        "operator": "Phi (Projection)",
+        "method": "Vector Embedding / Classification",
+        "action": "Sort into semantic folders"
+      },
+      "sanitation_protocol": {
+        "operator": "Pi (Evaluation)",
+        "action": "Garbage collection of orphan nodes or deprecated logic"
+      }
+    }
+  },
+
+  // ===========================================================================
+  // SECTION 5: IMPLEMENTATION NOTES
+  // ===========================================================================
+  "implementation_notes": {
+    "training_vs_context": "This is NOT model training. This is 'In-Context Learning' via System Instructions.",
+    "user_experience": "User points script at a .json5 file. The model 'becomes' the agent instantly.",
+    "next_steps": [
+      "Define Execution Semantics for Delta (δ)",
+      "Implement the 'Loader' script to parse JSON5 into System Prompts"
+    ]
+  }
+}
