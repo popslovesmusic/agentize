@@ -1,0 +1,12 @@
+{
+    description:
+      "Criteria the Librarian uses to decide that a piece of the library is in a 'good' canonical state.",
+    nf_types: {
+      structural_nf:
+        "All primitive and tier structures present, no broken references, indices consistent.",
+      semantic_nf:
+        "Key entities are classified, axioms and operators properly linked, no class inconsistencies.",
+      evaluation_nf:
+        "Π-evaluations resolved where appropriate, contradictions either resolved or quarantined.",
+    },
+  }

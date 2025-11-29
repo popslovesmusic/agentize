@@ -1,0 +1,39 @@
+{
+    description:
+      "High-level rewrites the Librarian is allowed to perform on the library representation (metadata, indices, flags).",
+    rules: [
+      {
+        id: "lib_r1_mark_duplicate",
+        pattern: "two documents with similarity >= duplicate_threshold",
+        action:
+          "Mark one as primary, the other as duplicate; link both; do not delete either.",
+      },
+      {
+        id: "lib_r2_cluster_near_duplicates",
+        pattern:
+          "a cluster of documents with similarity >= near_duplicate_threshold",
+        action:
+          "Create a cluster entry, attach Σ-based canonical summary, keep originals.",
+      },
+      {
+        id: "lib_r3_quarantine_contradiction",
+        pattern:
+          "document D introduces direct contradiction with a sealed axiom box",
+        action:
+          "Move D to quarantine, tag with conflicting axioms, do not update main indices.",
+      },
+      {
+        id: "lib_r4_upgrade_index",
+        pattern:
+          "document lacks tier/family tags but content indicates a clear tier/family",
+        action:
+          "Add tier and family metadata (Φ-classification) without changing textual content.",
+      },
+      {
+        id: "lib_r5_version_chain",
+        pattern: "multiple versions of the same file over χ-steps",
+        action:
+          "Build a χ-chain, mark latest as 'current', older as 'historical', preserve all.",
+      },
+    ],
+  }

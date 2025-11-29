@@ -1,0 +1,1 @@
+{ "name": "TriUnity-VM", "version": "1.0", "stack\_model": "operand stack \+ single accumulator term", "term\_model": "tree (Const | Var | App(fn, args))", "primary\_use": "Execute δ–Φ–Π \+ cross-tier rewrite to NF" }

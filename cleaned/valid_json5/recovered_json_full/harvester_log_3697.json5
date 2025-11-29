@@ -1,0 +1,1 @@
+{'\u039e_to_GR': {'intent': 'Map curvature wells to metric tensors.', 'rule': '\u03bb_super \u2192 g_\u03bc\u03bd', 'constraints': 'g_\u03bc\u03bd must be \u03a9-admissible'}}

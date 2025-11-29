@@ -1,0 +1,5 @@
+{  
+            rewrite\_system\_id: "RS\_CYCLIC\_BUT\_STABILIZABLE",  
+            xi\_operator: "Ξ\_REWRITE",  
+            max\_meta\_steps: 32,  
+          }

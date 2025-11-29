@@ -1,0 +1,1 @@
+{"tier":"12","family_symbol":"\u039e","rewrite_rules":[{"rule_id":"\u039e-NF-1","description":"Rewrite universal_schema_state into top-meta normal form.","input_pattern":"universal_schema_state","output_pattern":"universal_schema_NF","preserves_invariants":["Universal Schema Closure Invariant"]}]}

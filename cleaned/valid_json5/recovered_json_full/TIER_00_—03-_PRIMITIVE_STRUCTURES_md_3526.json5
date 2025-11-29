@@ -1,0 +1,1 @@
+{ op: "Φ\_restrict('Box/Geometric')", out: "SemanticClassAtom: 'Box/Geometric/δ-Frame'", comment: "Restricts to δ-geometry flavoured Box." }

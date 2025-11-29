@@ -1,0 +1,15 @@
+python
+@dataclass(frozen=True)
+class Var:
+    name: str
+
+@dataclass(frozen=True)
+class Const:
+    name: str
+
+@dataclass(frozen=True)
+class App:
+    fn: str
+    args: List["Term"]
+
+Term = Union[Var, Const, App]

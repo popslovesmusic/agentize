@@ -1,0 +1,1 @@
+{ "CLOSURE": { "description": "Ensures δ∘Φ∘Π remains inside the closed Tri-Unity algebra.", "form": "∀X: Π(Φ(δ(X))) ∈ TU" }, "COMMUTE": { "description": "All paths through the Tri-Unity cube commute.", "form": "Φ(δ(X)) \= δ(Φ(X)), Π(Φ(X)) \= Φ(Π(X)), etc." }, "NF": { "description": "Tri-Unity Normal Form reduction.", "form": "Any δ–Φ–Π chain reduces to unique NF(δᵃ Φᵇ Πᶜ)" } }

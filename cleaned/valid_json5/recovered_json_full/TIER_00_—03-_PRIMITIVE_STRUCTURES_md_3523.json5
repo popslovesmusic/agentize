@@ -1,0 +1,1 @@
+{ op: "Φ(SemanticGraphNode)", out: "SemanticClassAtom: 'Graph/Node'", comment: "Node → Graph/Node class." }

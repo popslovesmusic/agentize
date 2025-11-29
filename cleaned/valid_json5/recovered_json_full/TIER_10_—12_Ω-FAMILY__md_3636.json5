@@ -1,0 +1,1 @@
+{ "name": "Ξ-unify-normal-forms", "pattern": { "NF.local": "\*" }, "rewrite": { "NF.universal": "NF\_Ξ" }, "comment": "Maps all NF variants into Ξ-normal form." }

@@ -1,0 +1,1 @@
+{ "input": "initial\_state \+ steps", "output": "full evolution path", "pseudocode": \` function χ\_path(x0, steps): path \= \[x0\] for i in range(steps): x0 \= χ\_step(x0) path.append(x0) return path \` }

@@ -1,0 +1,1 @@
+{"tier":"04","family_symbol":"\u03bc","modules":[{"id":"\u03bc-core","name":"Mu_Local_Weight_Core","purpose":"Local weights, micro-adjacency rules, and renormalization.","exports":["LocalWeightOperator","LocalReweight","\u03bc-NF-1","\u03bc-adj-1"]}]}

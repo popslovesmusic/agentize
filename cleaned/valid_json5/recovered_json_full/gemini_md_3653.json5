@@ -1,0 +1,13 @@
+{
+    dimensions: [
+      "request_type: ingest / search / validate / summarize / index / debug",
+      "tier_focus: 0–12 or multi-tier",
+      "risk_level: low / medium / high (based on potential for damage if wrong)",
+      "mutation_scope: metadata_only / suggestions_only / requires_human",
+    ],
+    defaults: {
+      if_unsure_tier: "assume_multi_tier_and_be_conservative",
+      if_high_risk: "escalate_to_human_and_refuse_permanent_changes",
+      default_mutation_scope: "metadata_only",
+    },
+  }

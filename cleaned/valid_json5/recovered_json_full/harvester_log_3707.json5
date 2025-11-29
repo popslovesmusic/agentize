@@ -1,0 +1,1 @@
+{'id': 'Pi', 'symbol': '\u03a0', 'role': 'base_evaluator', 'tier': 3, 'domain': 'Box', 'codomain': 'EvaluationState', 'depends_on': ['\u03b4-state', '\u03a6-state'], 'intent': 'Canonical evaluator returning the causal-truth state of a Box.', 'signature': {'input': ['Box'], 'output': ['EvaluationState'], 'expression': '\u03a0(B)'}}

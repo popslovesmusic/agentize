@@ -1,0 +1,1 @@
+{'\u03a9': {'type': 'global_constraint', 'signature': 'State -> State_NF', 'description': 'Applies all global constraints and enforces system-wide NF.'}}

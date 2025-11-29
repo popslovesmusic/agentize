@@ -1,0 +1,1 @@
+{ truth\_value: "Π\_truth(x) ∈ {⊤, ⊥}", causal\_relation: "Π\_cause(x, y) \= causal if x → y in the causal graph", chain\_validity: "Π\_chain(x1,...,xn) ensures no backward causal edges", evaluation\_norm: "||Π(x)|| \= numeric measure of evaluation strength" }

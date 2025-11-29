@@ -1,0 +1,1 @@
+{"tier":"10","family_symbol":"\u03a9","family_name":"Global Constraints / Normalization","description":"Applies global consistency, normalization, and no-contradiction constraints.","invariants":["Consistency Invariant","Normalization Invariant","Federated Geometry Invariant","No-Contradiction Invariant","Tri-Unity Normal Form Invariant"]}

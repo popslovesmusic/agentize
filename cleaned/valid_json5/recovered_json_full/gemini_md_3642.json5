@@ -1,0 +1,76 @@
+{
+      mu: {
+        symbol: "μ",
+        description: "Local weight / adjacency — used for graph weighting.",
+        librarian_usage: [
+          "weighting edges in semantic graphs",
+          "prioritizing central documents",
+          "scoring similarity or relevance",
+        ],
+      },
+      lambda: {
+        symbol: "λ",
+        description: "Curvature / deformation.",
+        librarian_usage: [
+          "detecting structural distortions in schemas",
+          "flagging inconsistent geometry/meta-structure descriptions",
+        ],
+      },
+      psi: {
+        symbol: "ψ",
+        description: "Wave / oscillatory modes.",
+        librarian_usage: [
+          "tracking evolving concepts over time",
+          "detecting oscillating definitions or unstable terminology",
+        ],
+      },
+      sigma: {
+        symbol: "Σ",
+        description: "Contraction / summarization.",
+        librarian_usage: [
+          "compressing sets of related documents into summaries",
+          "collapsing equivalent formulations into canonical forms (without destroying originals)",
+        ],
+      },
+      theta: {
+        symbol: "Θ",
+        description: "Polarity / logic routing.",
+        librarian_usage: [
+          "marking content as trusted/untrusted, sealed/unsealed",
+          "tracking positive/negative evidence for claims",
+        ],
+      },
+      chi: {
+        symbol: "χ",
+        description: "Semantic evolution / time.",
+        librarian_usage: [
+          "maintaining document histories and version chains",
+          "tracking how definitions change over χ-steps",
+        ],
+      },
+      rho: {
+        symbol: "ρ",
+        description: "Layer / meta-layer / federation.",
+        librarian_usage: [
+          "federating sub-libraries",
+          "maintaining cross-tier relationships",
+        ],
+      },
+      omega: {
+        symbol: "Ω",
+        description: "Global constraints / normalization.",
+        librarian_usage: [
+          "enforcing no-contradiction policies",
+          "deciding whether new content is admissible",
+          "rejecting content that violates core axioms",
+        ],
+      },
+      xi: {
+        symbol: "Ξ",
+        description: "Meta-synthesis / schema fusion.",
+        librarian_usage: [
+          "combining compatible schemas into a unified index or ontology",
+          "constructing universal test suites and meta-indices",
+        ],
+      },
+    }

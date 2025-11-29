@@ -1,0 +1,10 @@
+{  
+            must\_satisfy\_invariants: \[  
+              "Xi-Roundtrip-Invariant",  
+              "Xi-Universal-NF-Existence",  
+            \],  
+            nf\_equivalence: {  
+              target\_schema\_id: "BOX\_MINIMAL\_NF",  
+              mode: "up\_to\_alpha\_renaming",  
+            },  
+          }

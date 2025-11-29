@@ -1,7 +1,0 @@
-{
-  "Π→Θ": {
-    "definition": "Convert boolean result to routing signal",
-    "rule": "1 → Θ₊ ; 0 → Θ₋",
-    "use_case": "Validation result → routing decision"
-  }
-}

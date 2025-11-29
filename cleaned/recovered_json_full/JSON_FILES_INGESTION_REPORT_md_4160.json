@@ -1,0 +1,5 @@
+python
+@dataclass
+class Instr:
+    op: str
+    arg: Optional[Dict[str, Any]] = None

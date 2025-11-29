@@ -1,0 +1,11 @@
+{  
+            must\_satisfy\_invariants: \[  
+              "Xi-Meta-Rewrite-Confluence",  
+            \],  
+            cycle\_result: {  
+              status: "NON\_STABILIZABLE",  
+              diagnostics\_expected: \[  
+                "ERR\_META\_CYCLE\_NON\_TERMINATING",  
+              \],  
+            },  
+          }

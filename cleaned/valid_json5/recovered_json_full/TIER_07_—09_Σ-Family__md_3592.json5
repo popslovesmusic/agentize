@@ -1,0 +1,1 @@
+{ "χ-Theorem 1 — Convergence": "∀x, ∃\! y such that χ^k(x) → y \= χ-NF(x).", "χ-Theorem 2 — Causal Accessibility": "If y is reachable from x under χ, then y ∈ CausalSphere(x).", "χ-Theorem 3 — Multi-Tier Stability": "χ-integrated chains stabilize δ-Φ-Π-μ-λ-ψ-Σ-Θ states." }

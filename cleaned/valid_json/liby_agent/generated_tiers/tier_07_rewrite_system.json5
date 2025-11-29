@@ -1,0 +1,1 @@
+{"tier":"07","family_symbol":"\u03a3","rewrite_rules":[{"rule_id":"\u03a3-NF-1","description":"Normalize sums / integrals to canonical ordering and partitioning.","input_pattern":"distributed_state with arbitrary summation structure","output_pattern":"summary_state with canonical \u03a3 structure","preserves_invariants":["Semantic Mass Conservation Invariant"]}]}

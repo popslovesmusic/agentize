@@ -1,0 +1,1 @@
+{"tier":"11","family_symbol":"\u03c1","modules":[{"id":"\u03c1-core","name":"Rho_Layer_MetaStructure_Core","purpose":"Layer construction, merging, and hierarchy normalization.","exports":["LayerConstructor","LayerMerger","\u03c1-NF-1"]}]}

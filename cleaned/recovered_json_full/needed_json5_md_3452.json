@@ -1,0 +1,14 @@
+{  
+            object\_kind: "RewriteRule",  
+            object\_id: "RR\_DELTA\_V1",  
+            lineage\_steps: \[  
+              {  
+                step\_id: "rr\_1",  
+                from: "RR\_DELTA\_V1",  
+                to:   "RR\_DELTA\_V2",  
+                reason: "add δ-norm invariant",  
+                tier: 1,  
+              },  
+            \],  
+            xi\_operator: "Ξ\_REFLECT",  
+          }

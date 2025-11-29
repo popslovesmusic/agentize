@@ -1,0 +1,1 @@
+{ "input": "state", "output": "χ-normal form", "pseudocode": \` function χ\_to\_NF(x): while not is\_χ\_normal(x): x \= χ\_step(x) return x \` }

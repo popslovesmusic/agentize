@@ -1,0 +1,1 @@
+{"tier":"01","family_symbol":"\u03b4","modules":[{"id":"\u03b4-core","name":"Delta_Deviation_Core","purpose":"Core deviation operators and NF rewrites.","exports":["DeviationOperator","DeviationGradient","\u03b4-NF-1","\u03b4-\u03bb-couple-1"]}]}

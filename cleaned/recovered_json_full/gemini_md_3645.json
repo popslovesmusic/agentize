@@ -1,0 +1,18 @@
+{
+      total_tiers: 13,
+      tiers: {
+        0: "Primitive Structures / Operators",
+        1: "δ-Family (Deviation Geometry)",
+        2: "Φ-Family (Semantic Projection)",
+        3: "Π-Family (Evaluation / Truth / Causality)",
+        4: "μ-Family (Local Weight / Adjacency)",
+        5: "λ-Family (Curvature / Deformation)",
+        6: "ψ-Family (Wave / Modes)",
+        7: "Σ-Family (Summation / Contraction)",
+        8: "Θ-Family (Polarity / Logic Routing)",
+        9: "χ-Family (Semantic Evolution / Time)",
+        10: "Ω-Family (Global Constraints / Normalization)",
+        11: "ρ-Family (Layer / Meta-Structure / Federation)",
+        12: "Ξ-Family (Top-Meta / Universal Schema Operators)",
+      },
+    }

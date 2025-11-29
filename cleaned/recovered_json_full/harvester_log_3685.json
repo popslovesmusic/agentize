@@ -1,0 +1,1 @@
+{'symbol': '\u03a3', 'intent': 'Global semantic summation and contraction.', 'domain': 'Boxes, operator chains, semantic tensors.', 'action': '\u03a3(B1, ..., Bn) -> contracted semantic state.', 'properties': {'linearity': True, 'polarity_sensitive': False, 'commutation': 'commutes with \u03b4, \u03a6, \u03a0 after normalization.'}}

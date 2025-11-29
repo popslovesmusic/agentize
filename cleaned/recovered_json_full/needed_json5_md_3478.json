@@ -1,0 +1,1 @@
+{ "normalize\_primitives": \[ { "match": \["+","-"\], "rewrite": "Θ±" }, { "match": \["⊤","⊥"\], "rewrite": "Π-consistency" }, { "match": \["∞"\], "rewrite": "Ω-extension" } \] }

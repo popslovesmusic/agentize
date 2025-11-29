@@ -1,0 +1,13 @@
+{  
+            must\_satisfy\_invariants: \[  
+              "Xi-Universal-NF-Existence",  
+            \],  
+            nf\_equivalence: {  
+              mode: "ordering\_and\_completion",  
+              target\_schema\_id: "BOX\_MINIMAL\_NF",  
+            },  
+            diagnostics\_expected: \[  
+              "WARN\_MISSING\_CONSTRAINTS",  
+              "INFO\_REORDERED\_FIELDS",  
+            \],  
+          }

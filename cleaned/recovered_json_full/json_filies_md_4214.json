@@ -1,0 +1,4 @@
+{  
+            rewrite\_system\_id: "RS\_TRIUNITY\_STABLE",  
+            mode: "normalize",  
+          }

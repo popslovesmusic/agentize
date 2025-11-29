@@ -1,0 +1,1 @@
+{ id: "r1", pattern: "Φ applied to router node", action: "BLOCK → return ⊥", invariant: "Operator Domain Axiom" }

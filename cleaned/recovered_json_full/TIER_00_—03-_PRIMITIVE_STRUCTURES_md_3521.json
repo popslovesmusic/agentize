@@ -1,0 +1,1 @@
+{ semantic\_class\_id: "A unique identifier for a semantic class (e.g. Φ\_class(x) \= 'Box/Geometric').", class\_distance: "A metric d(C1, C2) on the lattice of semantic classes; used to measure semantic separation.", class\_lattice: "A partial order (C, ≤) where C are semantic classes and ≤ is the refinement / abstraction relation." }

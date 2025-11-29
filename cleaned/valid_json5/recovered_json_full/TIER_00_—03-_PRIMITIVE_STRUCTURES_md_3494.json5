@@ -1,0 +1,1 @@
+{ id: "r2", pattern: "Θ flips polarity", action: "REPAIR → restore original polarity sign", invariant: "Polarity Sign Axiom" }

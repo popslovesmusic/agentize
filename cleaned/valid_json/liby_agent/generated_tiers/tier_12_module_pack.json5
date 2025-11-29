@@ -1,0 +1,1 @@
+{"tier":"12","family_symbol":"\u039e","modules":[{"id":"\u039e-core","name":"Xi_TopMeta_Core","purpose":"Meta-synthesis, universal schema, and self-diagnostics.","exports":["MetaSynthesisOperator","SelfDiagnosticOperator","\u039e-NF-1"]}]}

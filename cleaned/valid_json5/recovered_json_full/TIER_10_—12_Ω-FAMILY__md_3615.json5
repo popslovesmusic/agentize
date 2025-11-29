@@ -1,0 +1,1 @@
+{ "name": "Ω-collapse-contradiction", "pattern": { "Π": "⊥" }, "rewrite": { "state": "⊥\_Ω" }, "comment": "Bubbles local contradictions to Ω layer." }

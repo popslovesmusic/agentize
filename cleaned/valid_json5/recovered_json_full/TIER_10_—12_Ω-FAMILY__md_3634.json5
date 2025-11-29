@@ -1,0 +1,1 @@
+{ "name": "Ξ-encode", "pattern": { "object": "\*" }, "rewrite": { "schema": "Ξ\*" }, "comment": "Encodes any object into universal schema format." }

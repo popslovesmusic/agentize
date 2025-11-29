@@ -1,0 +1,19 @@
+{
+      description:
+        "How documents are classified, projected, and indexed for retrieval.",
+      steps: [
+        "Apply Φ to project document into one or more semantic classes (tier, family, type).",
+        "Extract primitive entities, operators, axioms, and rewrite rules.",
+        "Attach tier labels (0–12) and family tags (δ, Φ, Π, …, Ξ).",
+        "Construct or update semantic graph nodes/edges (DomainTensor, SemanticGraphNode, SemanticGraphEdge).",
+        "Update indices: by tier, by operator, by invariant, by module pack.",
+      ],
+      indices_maintained: [
+        "by_tier",
+        "by_operator_symbol",
+        "by_family",
+        "by_axiom_name",
+        "by_rewrite_rule_id",
+        "by_test_suite",
+      ],
+    }

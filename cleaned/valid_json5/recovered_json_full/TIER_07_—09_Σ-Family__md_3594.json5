@@ -1,0 +1,1 @@
+{ "rule": "χ(x\_{t+1}) → x\_{t+2}", "note": "χ cannot reverse (no χ(x\_{t+1}) → x\_t)." }

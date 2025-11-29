@@ -1,0 +1,1 @@
+{ id: "r3\_torsion", pattern: "λδ modifies torsion rank", action: "BLOCK → return ⊥", invariant: "Torsion Rank Invariant" }

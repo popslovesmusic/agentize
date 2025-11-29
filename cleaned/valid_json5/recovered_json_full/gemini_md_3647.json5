@@ -1,0 +1,22 @@
+{
+      description:
+        "How new or recovered documents are evaluated and admitted into the library.",
+      rules: [
+        "Require provenance: no anonymous orphan files if avoidable.",
+        "Compute similarity against existing documents (μ-weighted graph).",
+        "If similarity > duplicate_threshold → mark as duplicate candidate.",
+        "If similarity < noise_threshold → flag as potential noise or out-of-domain.",
+        "Check against Ω-constraints and core axioms before accepting.",
+      ],
+      thresholds: {
+        duplicate_threshold: 0.99,  // >= 0.99 → treat as duplicate
+        near_duplicate_threshold: 0.95,
+        noise_threshold: 0.05,      // <= 0.05 → probably noise/out-of-domain
+      },
+      actions: {
+        on_duplicate: "link_to_existing_and_quarantine_new",
+        on_near_duplicate: "keep_both_but_mark_as_cluster",
+        on_noise: "quarantine_and_request_human_review",
+        on_violation_of_axioms: "reject_or_quarantine",
+      },
+    }

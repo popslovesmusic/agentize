@@ -1,0 +1,1 @@
+{ "ρ-compose": { "match": "ρ(A ⊗ B)", "rewrite": "ρ(A) ⊗ ρ(B)", "invariants": \["Hierarchy Preservation", "Cross-Layer Consistency"\] }, // Federation canonicalization "ρ-NF": { "match": "ρ(ρ(X))", "rewrite": "ρ(X)", "invariants": \["Meta-Closure"\] } }

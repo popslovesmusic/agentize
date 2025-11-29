@@ -1,0 +1,14 @@
+{  
+            must\_satisfy\_invariants: \[  
+              "Xi-Self-Consistency",  
+            \],  
+            audit\_result: {  
+              expected\_failures: \[  
+                "Xi-Meta-Rewrite-Confluence",  
+              \],  
+              diagnostics\_expected: \[  
+                "ERR\_META\_REWRITE\_DIVERGENCE\_DETECTED",  
+                "ERR\_META\_CYCLE\_NON\_TERMINATING",  
+              \],  
+            },  
+          }

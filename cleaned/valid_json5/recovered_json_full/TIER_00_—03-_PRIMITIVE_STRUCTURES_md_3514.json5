@@ -1,0 +1,1 @@
+{ id: "r4\_flow", pattern: "discontinuous δ-flow", action: "SMOOTH → enforce C¹ continuity", invariant: "Deviation Flow Continuity" }

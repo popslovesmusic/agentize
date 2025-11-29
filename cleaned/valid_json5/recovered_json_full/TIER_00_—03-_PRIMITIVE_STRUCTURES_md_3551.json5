@@ -1,0 +1,1 @@
+{ id: "r3\_cause\_cycle", pattern: "Π\_cause(x, x) or cycle in Π\_chain", action: "REWRITE → invalid\_chain", invariant: "CausalChainAxiom" }

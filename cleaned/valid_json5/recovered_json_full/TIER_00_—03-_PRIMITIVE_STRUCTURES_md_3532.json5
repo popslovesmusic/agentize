@@ -1,0 +1,1 @@
+{ before: { expr1: "Π(Φ(Box)) \= ⊤", expr2: "Π(Box) \= ⊥" }, after: { expr1: "Π(Φ(Box)) \= Π(Box)", expr2: "Π(Box) \= Π(Φ(Box))" } }

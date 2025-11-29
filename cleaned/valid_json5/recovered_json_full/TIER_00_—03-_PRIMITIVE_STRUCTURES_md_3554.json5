@@ -1,0 +1,1 @@
+{ id: "r3\_normal\_form", pattern: "Complex Π-expression with unresolved δ or Φ", action: "REDUCE → Π-NF by evaluating truth and validating causality", invariant: "Π-Normal Form Invariant" }

@@ -1,0 +1,1 @@
+{"tier":"06","family_symbol":"\u03c8","modules":[{"id":"\u03c8-core","name":"Psi_Wave_Core","purpose":"Semantic wave propagation, spectral transforms, and \u03bc/\u03bb couplings.","exports":["SemanticWaveOperator","WaveSpectrumTransform","\u03c8-NF-1","\u03c8-\u03bc-couple-1"]}]}

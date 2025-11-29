@@ -1,0 +1,1 @@
+{"tier":"11","family_symbol":"\u03c1","rewrite_rules":[{"rule_id":"\u03c1-NF-1","description":"Normalize layer hierarchies to canonical \u03c1-structure.","input_pattern":"layered_state with arbitrary nesting","output_pattern":"canonical_layer_hierarchy","preserves_invariants":["Layer-Identity Invariant","Hierarchy Preservation Invariant"]}]}

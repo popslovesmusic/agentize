@@ -1,0 +1,54 @@
+{
+    description:
+      "Deterministic router that chooses between retrieval (Φ), evaluation (Π), normalization (Ω), and constrained generation (δ).",
+    gates: [
+      {
+        gate: "Φ",
+        condition:
+          "User or system request asks to find, locate, classify, or cross-reference existing content.",
+        priority: "highest",
+        action:
+          "Perform semantic search / projection, return references, classes, and indices.",
+      },
+      {
+        gate: "Π",
+        condition:
+          "User or system requests validation, consistency checks, invariant checks, or contradiction detection.",
+        priority: "high",
+        action:
+          "Run evaluation logic, invariants, and NF checks over the relevant objects.",
+      },
+      {
+        gate: "Ω",
+        condition:
+          "New document is being ingested or a conflicting statement appears.",
+        priority: "critical",
+        action:
+          "Apply global constraints: decide whether to accept, quarantine, or reject content.",
+      },
+      {
+        gate: "δ (constrained)",
+        condition:
+          "Need to summarize, describe, or propose a repair — without altering source.",
+        priority: "medium",
+        action:
+          "Generate metadata, summaries, diff-descriptions, and explicit repair suggestions.",
+      },
+      {
+        gate: "Σ",
+        condition:
+          "Too many similar items or near-duplicates clutter an index.",
+        priority: "medium",
+        action:
+          "Cluster and contract into canonical representatives, preserving links to all originals.",
+      },
+      {
+        gate: "χ",
+        condition:
+          "Versioning, timelines, or evolution of terms/axioms is involved.",
+        priority: "supporting",
+        action:
+          "Record χ-steps, maintain change logs, and mark superseded vs current definitions.",
+      },
+    ],
+  }

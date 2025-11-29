@@ -1,0 +1,1 @@
+{ "name": "Ω-resolve-Θ-polarity", "pattern": { "Θ.sum": 0 }, "rewrite": { "Θ.state": "balanced" }, "comment": "Ensures polarity neutrality when NF requires it." }

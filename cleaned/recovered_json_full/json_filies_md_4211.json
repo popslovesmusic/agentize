@@ -1,0 +1,10 @@
+{  
+            must\_satisfy\_invariants: \[  
+              "Xi-Roundtrip-Invariant",  
+              "Xi-Universal-NF-Existence",  
+            \],  
+            nf\_equivalence: {  
+              target\_schema\_id: "SCHEMA\_TRIUNITY\_LAYERED\_NF",  
+              mode: "structural\_and\_typing",  
+            },  
+          }

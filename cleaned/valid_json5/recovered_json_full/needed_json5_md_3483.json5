@@ -1,0 +1,1 @@
+{ "match": "ANY\_CHAIN", "rewrite": "NF\_global( NF\_TriUnity( NF\_Tiered(X) ) )", "description": "Full cross-tier normal form collapse: Tier → Tri-Unity → Ω → ρ." }

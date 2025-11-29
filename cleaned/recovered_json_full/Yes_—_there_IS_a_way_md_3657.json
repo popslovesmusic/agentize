@@ -1,0 +1,1 @@
+{ "tier": tier, "family": family, "description": T.get("description", ""), "invariants": T.get("invariants", \[\]), }

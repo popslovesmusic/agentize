@@ -1,0 +1,5 @@
+{
+  "object_kind": "RewriteRule",
+  "object_id": "RR_DELTA_V2",
+  "expected_ancestors": ["RR_DELTA_V1"]
+}

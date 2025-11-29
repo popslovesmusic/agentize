@@ -1,0 +1,1 @@
+{ "Σ-Theorem 1 — Associative Contraction": "Σ(Σ(A,B),C) \= Σ(A,B,C).", "Σ-Theorem 2 — Mixed Contraction Stability": "Σ\_ψ ∘ Σ\_w \= Σ\_w ∘ Σ\_ψ under μ-normalized mode sets.", "Σ-Theorem 3 — Π-Ready Normal Form": "Π(Σ(X)) \= Π(NF\_Σ(X))." }

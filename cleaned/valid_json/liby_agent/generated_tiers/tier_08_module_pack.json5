@@ -1,0 +1,1 @@
+{"tier":"08","family_symbol":"\u0398","modules":[{"id":"\u0398-core","name":"Theta_Polarity_Core","purpose":"Logic routing, polarity tensors, and \u03a0 alignment.","exports":["PolarityRouter","TruthPolarityBridge","\u0398-NF-1","\u0398-\u03a0-align-1"]}]}

@@ -1,0 +1,8 @@
+python
+# Pseudo-code
+def load_rules_from_json5(filepath):
+    rules_json = json5.load(open(filepath))
+    for rule in rules_json['rewrite_rules']:
+        pattern = parse_pattern(rule['pattern'])
+        rewrite = parse_pattern(rule['rewrite'])
+        add_dynamic_rule(pattern, rewrite)

@@ -1,0 +1,1 @@
+{"tier":"07","family_symbol":"\u03a3","modules":[{"id":"\u03a3-core","name":"Sigma_Summation_Core","purpose":"Summation, contraction, and semantic aggregate construction.","exports":["SemanticSumOperator","ContractionOperator","\u03a3-NF-1"]}]}

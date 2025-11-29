@@ -1,0 +1,1 @@
+{"tier":"03","family_symbol":"\u03a0","family_name":"Evaluation / Truth / Causality","description":"Evaluates semantic classes into truth values and causal orderings.","invariants":["Evaluation Consistency Invariant","Causal Order Preservation Invariant","Tri-Unity Evaluation Commutativity Invariant"]}

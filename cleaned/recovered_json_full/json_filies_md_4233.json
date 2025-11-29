@@ -1,0 +1,1 @@
+{ "mnemonic": "REWRITE\_ALL", "args": \["max\_steps"\], "effect": "Apply rewrite to top term until NF or max\_steps reached." }

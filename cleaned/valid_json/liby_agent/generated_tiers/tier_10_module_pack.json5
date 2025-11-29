@@ -1,0 +1,1 @@
+{"tier":"10","family_symbol":"\u03a9","modules":[{"id":"\u03a9-core","name":"Omega_Global_Constraint_Core","purpose":"Global consistency, normalization, and contradiction removal.","exports":["GlobalConstraintOperator","GlobalNormalizer","\u03a9-NF-1"]}]}

@@ -1,0 +1,1 @@
+{"tier":"10","family_symbol":"\u03a9","rewrite_rules":[{"rule_id":"\u03a9-NF-1","description":"Rewrite any admissible global_state into unique \u03a9-normal form.","input_pattern":"global_state","output_pattern":"global_normal_form","preserves_invariants":["Consistency Invariant","No-Contradiction Invariant","Tri-Unity Normal Form Invariant"]}]}

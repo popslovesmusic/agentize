@@ -1,0 +1,11 @@
+{  
+            // encode then decode should yield NF-equivalent schema  
+            must\_satisfy\_invariants: \[  
+              "Xi-Roundtrip-Invariant",  
+              "Xi-Universal-NF-Existence",  
+            \],  
+            nf\_equivalence: {  
+              mode: "up\_to\_alpha\_renaming",  
+              target\_schema\_id: "BOX\_MINIMAL\_NF",  
+            },  
+          }

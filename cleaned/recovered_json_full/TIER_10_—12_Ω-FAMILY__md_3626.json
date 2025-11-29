@@ -1,0 +1,1 @@
+{ "name": "ρ-federate", "pattern": { "objects": \["\*","\*"\] }, "rewrite": { "ρ\_fed": true }, "comment": "Combines objects into a federated structure." }

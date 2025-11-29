@@ -1,0 +1,1 @@
+{ "mnemonic": "PUSH\_VAR", "args": \["name"\], "effect": "Push Var(name) onto stack." }

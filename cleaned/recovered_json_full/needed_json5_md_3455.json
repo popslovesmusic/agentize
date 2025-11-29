@@ -1,0 +1,11 @@
+{  
+            must\_satisfy\_invariants: \[  
+              "Xi-Lineage-Preservation",  
+            \],  
+            lineage\_query: {  
+              query\_type: "full\_history",  
+              target\_id: "META\_TRIUNITY\_FLOW\_V3",  
+              expected\_origin: "META\_TRIUNITY\_FLOW\_V1",  
+              minimum\_length: 2,  
+            },  
+          }

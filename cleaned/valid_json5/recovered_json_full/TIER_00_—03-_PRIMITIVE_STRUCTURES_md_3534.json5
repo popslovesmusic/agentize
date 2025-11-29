@@ -1,0 +1,1 @@
+{ id: "r2\_5\_box\_consistency", pattern: "Box({δ, Φ, Π}) where Φ(Box) is inconsistent with δ-geometry or Π-truth class", action: "REPAIR → adjust Φ(Box) to the nearest consistent semantic class or signal ⊥", invariant: "Box Field Completeness Axiom" }

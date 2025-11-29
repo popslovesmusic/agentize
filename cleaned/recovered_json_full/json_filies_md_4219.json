@@ -1,0 +1,8 @@
+{  
+            must\_satisfy\_invariants: \[  
+              "Xi-Universal-NF-Existence",  
+            \],  
+            universal\_nf: {  
+              target\_id: "UNF\_TRIUNITY\_METAOBJECT",  
+            },  
+          }

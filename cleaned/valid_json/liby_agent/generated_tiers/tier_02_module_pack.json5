@@ -1,0 +1,1 @@
+{"tier":"02","family_symbol":"\u03a6","modules":[{"id":"\u03a6-core","name":"Phi_Semantic_Projection_Core","purpose":"Semantic projection, back-projection, and NF rules.","exports":["SemanticProjection","SemanticBackProjection","\u03a6-NF-1","\u03a6-\u03a0-commute-1"]}]}

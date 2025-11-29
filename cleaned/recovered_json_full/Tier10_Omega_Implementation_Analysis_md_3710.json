@@ -1,8 +1,0 @@
-{
-  "BoxName": "Ω-Manifold Axiom",
-  "Constraints": [
-    "A ⊆ S is a smooth, connected manifold",
-    "A decomposes into constraint surfaces S_Ω^(k)",
-    "Ω(s) = π_Ω(s) ∈ A (projection onto nearest surface)"
-  ]
-}

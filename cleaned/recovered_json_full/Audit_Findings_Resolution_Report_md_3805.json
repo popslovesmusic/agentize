@@ -1,6 +1,0 @@
-{
-  "variant_id": "perturbative_expansion",
-  "expression": "δ∘λ + [δ, λ] + O([δ, [δ, λ]])",
-  "use_when": ["Analytical calculations", "Small curvature"],
-  "performance": "Variable - depends on expansion order"
-}

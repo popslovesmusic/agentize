@@ -1,0 +1,1 @@
+{ "name": "Ξ-meta-rewrite", "pattern": { "rewrite\_system": "\*" }, "rewrite": { "rewrite\_system": "meta-transformed" }, "comment": "Allows rewrite-system-level rewriting." }

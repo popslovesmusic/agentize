@@ -1,0 +1,1 @@
+{ "tier": tier\["tier"\], "family\_symbol": tier.get("family\_symbol"), "rewrite\_rules": tier.get("rewrite\_rules", \[\]), "tests": tier.get("tests", \[\]), }

@@ -1,0 +1,15 @@
+{
+      description:
+        "How the Librarian removes or isolates invalid or deprecated content.",
+      rules: [
+        "Π-evaluate content regularly against current axioms and invariants.",
+        "Detect contradictions via Π and Θ (truth vs polarity).",
+        "Move invalid or contradictory items into quarantine, not deletion.",
+        "Mark items as deprecated rather than erasing them (χ-evolution).",
+      ],
+      quarantine_policy: {
+        location: "QUARANTINE/",
+        requires_human_review: true,
+        may_not_be_used_for_training: true,
+      },
+    }

@@ -1,0 +1,1 @@
+{ "name": "Ω-merge-geometry", "pattern": { "δ": "\*", "λ": "\*", "μ": "\*", "ψ": "\*" }, "rewrite": { "ρ.federated": true }, "comment": "Unifies all geometry fields into a ρ-federation object." }

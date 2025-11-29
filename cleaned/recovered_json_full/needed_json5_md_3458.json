@@ -1,0 +1,25 @@
+{  
+          id: "Ξ-MRST-002",  
+          name: "Divergent Proto-System Must Be Repaired or Rejected",  
+          type: "meta\_rewrite",  
+          tags: \["meta-rewrite", "divergence", "failure-mode"\],
+
+          input: {  
+            rewrite\_system\_id: "RS\_PROTO\_UNSTABLE",  
+            xi\_operator: "Ξ\_REWRITE",  
+            mode: "stabilize",  
+          },
+
+          expected: {  
+            must\_satisfy\_invariants: \[  
+              "Xi-Meta-Rewrite-Confluence",  
+            \],  
+            allowed\_outcomes: \[  
+              "STABILIZED\_TO\_NF",  
+              "REJECTED\_AS\_NON-STABILIZABLE",  
+            \],  
+            diagnostics\_expected: \[  
+              "ERR\_META\_REWRITE\_DIVERGENCE\_DETECTED",  
+            \],  
+          },  
+        }

@@ -1,0 +1,8 @@
+{  
+            must\_satisfy\_invariants: \[  
+              "Xi-Self-Consistency",  
+            \],  
+            audit\_result: {  
+              minimum\_pass\_rate: 1.0,  
+            },  
+          }

@@ -1,0 +1,1 @@
+{'mu': {'symbol': '\u03bc', 'description': 'Local weight / adjacency  used for graph weighting.', 'librarian_usage': ['weighting edges in semantic graphs', 'prioritizing central documents', 'scoring similarity or relevance']}}

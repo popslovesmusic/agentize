@@ -1,0 +1,1 @@
+{"tier":"05","family_symbol":"\u03bb","modules":[{"id":"\u03bb-core","name":"Lambda_Curvature_Core","purpose":"Curvature, deformation, and \u03bb\u2013\u03b4\u2013\u03c8 couplings.","exports":["CurvatureOperator","ModeDeformationCoupler","\u03bb-NF-1"]}]}

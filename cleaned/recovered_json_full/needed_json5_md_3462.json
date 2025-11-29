@@ -1,0 +1,12 @@
+{  
+            must\_satisfy\_invariants: \[  
+              "Xi-Ontology-Compatibility",  
+            \],  
+            binding\_result: {  
+              status: "INCOMPATIBLE",  
+              diagnostics\_expected: \[  
+                "ERR\_MISSING\_GEOMETRIC\_CLASSES",  
+                "ERR\_INSUFFICIENT\_DELTA\_LAMBDA\_STRUCTURE",  
+              \],  
+            },  
+          }

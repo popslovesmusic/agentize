@@ -1,0 +1,1 @@
+{ "input": "state", "output": "discrete jump outcome", "pseudocode": \` function χ\_discrete(x): assert continuity\_flag\_disabled return discrete\_jump(x) \` }

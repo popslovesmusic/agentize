@@ -1,0 +1,13 @@
+{
+    description:
+      "Where the Librarian expects test suites and regressions to live.",
+    expected_test_suites: [
+      "T0-SI-TESTS.json5",
+      "T1-δ-TESTS.json5",
+      "T2-Φ-TESTS.json5",
+      "T3-Π-TESTS.json5",
+      // ... extend for higher tiers as you agentize them
+    ],
+    behavior_on_failed_test:
+      "Mark affected modules as 'suspect', quarantine changes, and report to human.",
+  }

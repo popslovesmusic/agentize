@@ -1,0 +1,1 @@
+{ "Π∘Φ": { law: "Π(Φ(x)) \= Π(x) for all well-typed x." }, "Π∘δ": { law: "Π(δ(x)) \= Π(x) unless δ breaks Φ-class consistency." }, "Π∘Θ": { law: "Truth-Preserving: polarity must not alter Π-value." }, "Π∘Σ": { law: "Evaluation of sums is monotonic: Π(Σ(x,y)) ≥ min(Π(x), Π(y))." } }

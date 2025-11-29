@@ -1,9 +1,0 @@
-{
-  "meta_operation": "validate_framework",
-  "checks": [
-    "all_operators_have_execution",
-    "all_compositions_legal",
-    "all_axioms_satisfied",
-    "omega_globally_consistent"
-  ]
-}

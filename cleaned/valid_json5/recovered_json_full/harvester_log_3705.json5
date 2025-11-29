@@ -1,0 +1,1 @@
+{'\u03a9.NORMALIZE': {'type': 'global-pass', 'input': 'Any Box B or chain', 'output': '\u03a9-normal form B*', 'effect': 'Resolves contradictions, enforces invariants, standardizes geometry.'}}

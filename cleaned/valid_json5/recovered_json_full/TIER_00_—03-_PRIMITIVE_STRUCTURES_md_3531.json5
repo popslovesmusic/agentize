@@ -1,0 +1,1 @@
+{ id: "r2\_2\_idempotence", pattern: "Φ(Φ(x))", action: "REWRITE → Φ(x)", invariant: "Φ-Idempotence Invariant" }

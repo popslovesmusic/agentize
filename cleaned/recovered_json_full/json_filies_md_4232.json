@@ -1,0 +1,1 @@
+{ "mnemonic": "REWRITE\_STEP", "args": \[\], "effect": "Apply one rewrite step to top term (if any rule matches)." }

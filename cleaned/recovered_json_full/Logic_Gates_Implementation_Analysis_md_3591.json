@@ -1,5 +1,0 @@
-Θ-MUX(
-     control: Π→Θ(validation_result),
-     A: "return_validation",
-     B: "route_to_δ_for_generation"
-   )

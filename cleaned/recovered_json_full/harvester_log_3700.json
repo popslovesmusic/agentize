@@ -1,0 +1,1 @@
+{'description': 'Run all \u03c1-invariant checks on a given layered configuration.', 'input_type': 'LayerHierarchy', 'output_type': 'InvariantReport', 'uses': None}

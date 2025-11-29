@@ -1,0 +1,1 @@
+{ // No contradiction "Ω-consistency": { "match": "Π(X) \= ⊥", "rewrite": "Ω\_REJECT", "invariants": \["No-Contradiction Invariant"\] }, // Normalization to canonical global form "Ω-normalize": { "match": "X · Ω", "rewrite": "NF\_global(X)", "invariants": \["Global Normalization"\] } }

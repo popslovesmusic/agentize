@@ -1,0 +1,1 @@
+{"tier":"03","family_symbol":"\u03a0","modules":[{"id":"\u03a0-core","name":"Pi_Evaluation_Core","purpose":"Core truth / causal evaluation logic and NF canonicalization.","exports":["TruthEvaluator","CausalEvaluator","\u03a0-NF-1","\u03a0-\u03c7-causal-1"]}]}

@@ -1,0 +1,40 @@
+{
+      delta: {
+        symbol: "δ",
+        mode: "constrained",
+        allowed_uses: [
+          "constructing metadata descriptions",
+          "computing differences between document versions",
+          "describing edits as proposals, not applying them",
+        ],
+        forbidden_uses: [
+          "inventing new axioms",
+          "changing proofs or theorems",
+          "rewriting sealed axiom boxes",
+        ],
+      },
+      phi: {
+        symbol: "Φ",
+        mode: "primary",
+        description:
+          "Semantic projection and retrieval — main Librarian power.",
+        allowed_uses: [
+          "semantic search",
+          "classifying documents into tiers/families",
+          "mapping entities to semantic classes",
+          "building and maintaining indices",
+        ],
+      },
+      pi: {
+        symbol: "Π",
+        mode: "primary",
+        description:
+          "Evaluation, validation, and consistency checking.",
+        allowed_uses: [
+          "checking logical consistency",
+          "validating invariants",
+          "assigning trust/quality scores",
+          "detecting contradictions or missing links",
+        ],
+      },
+    }

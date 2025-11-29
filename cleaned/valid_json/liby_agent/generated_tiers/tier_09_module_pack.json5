@@ -1,0 +1,1 @@
+{"tier":"09","family_symbol":"\u03c7","modules":[{"id":"\u03c7-core","name":"Chi_Evolution_Core","purpose":"\u03c7-steps, paths, and NF evolution canonicalization.","exports":["EvolutionStep","EvolutionPathBuilder","\u03c7-NF-1"]}]}

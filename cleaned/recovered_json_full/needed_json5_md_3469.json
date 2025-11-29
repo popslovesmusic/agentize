@@ -1,0 +1,6 @@
+{  
+            xi\_operator: "Ξ\_SELF",  
+            scope: "GLOBAL",  
+            // audit all test groups defined in this suite  
+            audit\_targets: \["USET", "RLT", "MRST", "OBCT", "UNF", "RRMC"\],  
+          }

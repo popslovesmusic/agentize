@@ -1,0 +1,1 @@
+{'\u03a6': {'id': 'OP_PHI_BASE', 'kind': 'projection', 'arity': 1, 'signature': 'Box -> Box', 'description': 'Canonical semantic-form projection on Boxes.', 'preserves': None}}

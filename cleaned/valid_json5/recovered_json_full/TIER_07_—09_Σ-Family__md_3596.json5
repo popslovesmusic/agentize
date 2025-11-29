@@ -1,0 +1,1 @@
+{ "rule": "χ\_path(\[..., x\_t\], x\_{t+1}) → \[..., x\_t, x\_{t+1}\]", "note": "Append next forward state." }

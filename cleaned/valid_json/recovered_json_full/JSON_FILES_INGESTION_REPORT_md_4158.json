@@ -1,0 +1,19 @@
+{
+  "tag": "app",
+  "fn": "Π",
+  "args": [
+    {
+      "tag": "app",
+      "fn": "Φ",
+      "args": [
+        {
+          "tag": "app",
+          "fn": "δ",
+          "args": [
+            { "tag": "var", "name": "X" }
+          ]
+        }
+      ]
+    }
+  ]
+}

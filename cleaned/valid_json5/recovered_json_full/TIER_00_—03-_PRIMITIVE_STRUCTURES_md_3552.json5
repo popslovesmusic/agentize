@@ -1,0 +1,1 @@
+{ id: "r3\_causal\_backward", pattern: "Π\_cause(x, y) \= causal but x occurs after y", action: "BLOCK → non-causal", invariant: "Causality Monotonicity Invariant" }

@@ -1,0 +1,21 @@
+{  
+            object\_kind: "MetaOperator",  
+            object\_id: "META\_TRIUNITY\_FLOW\_V3",  
+            lineage\_steps: \[  
+              {  
+                step\_id: "m1",  
+                from: "META\_TRIUNITY\_FLOW\_V1",  
+                to:   "META\_TRIUNITY\_FLOW\_V2",  
+                reason: "add Φ-normalization",  
+                tier: 2,  
+              },  
+              {  
+                step\_id: "m2",  
+                from: "META\_TRIUNITY\_FLOW\_V2",  
+                to:   "META\_TRIUNITY\_FLOW\_V3",  
+                reason: "add Π-constraint linking",  
+                tier: 3,  
+              },  
+            \],  
+            xi\_operator: "Ξ\_REFLECT",  
+          }

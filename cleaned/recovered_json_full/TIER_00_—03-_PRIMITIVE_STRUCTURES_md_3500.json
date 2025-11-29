@@ -1,0 +1,1 @@
+{ primitives: { values: \["0","1","±","∞","⊥","⊤"\], operators: \["δ","Φ","Π","μ","ψ","λ","Σ","Θ","χ","ρ","Ω"\], domain\_structures: \[ "DomainTensor", "SemanticGraphNode", "SemanticGraphEdge", "RouterNode", "LayerAtom" \] } }

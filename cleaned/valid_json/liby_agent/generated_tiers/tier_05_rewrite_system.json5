@@ -1,0 +1,1 @@
+{"tier":"05","family_symbol":"\u03bb","rewrite_rules":[{"rule_id":"\u03bb-NF-1","description":"Normalize curvature representation (e.g. move to canonical frame).","input_pattern":"raw_curvature_state","output_pattern":"canonical_curvature_state","preserves_invariants":["Curvature Boundedness Invariant"]}]}

@@ -1,0 +1,1 @@
+{ "rules": T.get("rewrite\_rules", \[\]) }

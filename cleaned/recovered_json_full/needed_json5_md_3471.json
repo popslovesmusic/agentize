@@ -1,0 +1,8 @@
+{  
+            xi\_operator: "Ξ\_SELF",  
+            scope: "PARTIAL",  
+            audit\_targets: \["MRST", "RRMC"\],  
+            injected\_faults: \[  
+              "FORCE\_META\_REWRITE\_DIVERGENCE",  
+            \],  
+          }

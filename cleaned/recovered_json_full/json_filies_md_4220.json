@@ -1,0 +1,4 @@
+{  
+            rewrite\_system\_id: "RS\_CYCLIC\_BUT\_STABILIZABLE",  
+            max\_meta\_steps: 32,  
+          }

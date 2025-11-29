@@ -1,0 +1,1 @@
+{'\u03a3': {'type': 'semantic_contraction', 'arity': 'n\u21921', 'rank_effect': '-1 per contraction (unless \u03a3\u2070)', 'commutativity': 'conditional', 'associativity': True, 'description': 'Primary tensor/semantic contraction operator.'}}

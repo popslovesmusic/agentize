@@ -1,0 +1,1 @@
+{'delta_mu': {'symbol': '\u03b4_\u03bc', 'name': '\u03bc-weighted deviation', 'definition': '\u03b4_\u03bc S = \u03bc\u207b \u03b4( \u03bc S )', 'order': 1, 'role': 'Deviation with respect to \u03bc-weighted adjacency', 'inputs': None}}

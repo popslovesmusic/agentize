@@ -1,0 +1,1 @@
+{ "input": "state x\_t", "output": "state x\_{t+1}", "pseudocode": \` function χ\_step(x): return evolve\_forward(x) \` }

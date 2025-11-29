@@ -1,0 +1,17 @@
+python
+# In TriUnityRewriteSystem class
+
+def rule_my_new_rule(self, term: Term) -> Term:
+    if isinstance(term, App) and term.fn == "MyOp":
+        # Pattern matching logic
+        # Return rewritten term
+        pass
+    return term
+
+# Register in __init__:
+def __init__(self) -> None:
+    self.rules = [
+        self.rule_delta_phi_commute,
+        # ... existing rules ...
+        self.rule_my_new_rule,  # Add here
+    ]

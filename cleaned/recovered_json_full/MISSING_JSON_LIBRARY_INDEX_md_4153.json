@@ -1,0 +1,17 @@
+bash
+# 1. Locate tier specification
+cd D:/intake/cleaned/missing-json/
+
+# 2. Extract JSON5 for desired tier (example: Tier-8 Θ-Family)
+# Open: TIER 07 —09 Σ-Family .md
+# Find section: "TIER 08 — Θ-FAMILY"
+# Copy JSON5 blocks 1-6
+
+# 3. Create canonical JSON files
+cd ../operators/canonical/
+# Create: theta_selective_commutativity.json
+# Create: theta_logic_gates.json
+
+# 4. Validate
+cd ../validation/
+python variant_consistency_tests.py

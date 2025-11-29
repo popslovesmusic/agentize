@@ -1,0 +1,6 @@
+{
+      // Hard rule: Librarian is NOT a creative theorist.
+      delta_creative_generation_allowed: false,
+      theory_invention_allowed: false,
+      can_extend_axioms: "only_if_explicitly_requested_and_clearly_annotated",
+    }

@@ -1,0 +1,23 @@
+{  
+    nf\_engine\_id: "TriUnity-CrossTier-NF-v1",  
+    ontology\_root\_ids: \[  
+      "ONTO\_CORE\_TRINITY",  
+      "ONTO\_BOX\_GEOMETRY",  
+      "ONTO\_SEMANTIC\_GRAPH",  
+    \],  
+    xi\_operators: \[  
+      "Ξ\_SCHEMA",      // universal schema encoder/decoder  
+      "Ξ\_REFLECT",     // meta-reflection / lineage  
+      "Ξ\_REWRITE",     // rewrite-the-rewrites  
+      "Ξ\_BIND",        // ontology / schema binding  
+      "Ξ\_SELF",        // self-diagnostic / introspection  
+    \],  
+    invariants: \[  
+      "Xi-Roundtrip-Invariant",       // encode ∘ decode \= identity (up to NF)  
+      "Xi-Lineage-Preservation",      // history/lineage never lost  
+      "Xi-Meta-Rewrite-Confluence",   // meta-rewrites terminate \+ are confluent  
+      "Xi-Ontology-Compatibility",    // schema remains consistent with ontology  
+      "Xi-Universal-NF-Existence",    // every meta-object has a universal NF  
+      "Xi-Self-Consistency",          // Ξ-SELF checks must pass for suite  
+    \],  
+  }

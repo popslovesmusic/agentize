@@ -1,0 +1,1 @@
+{ id: "r2\_norm", pattern: "δ-norm changes under frame reparameterization", action: "REPAIR → normalize ||δ||", invariant: "δ-Norm Invariant" }

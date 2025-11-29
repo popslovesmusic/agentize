@@ -1,0 +1,11 @@
+{
+      json5: {
+        role: "Primary canonical format for operators, axioms, rewrite systems, test suites.",
+      },
+      md: {
+        role: "Human-oriented documentation, textbooks, and commentary.",
+      },
+      other: {
+        role: "Optional; treated as payload needing wrappers.",
+      },
+    }

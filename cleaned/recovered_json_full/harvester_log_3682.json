@@ -1,0 +1,1 @@
+{'lambda': {'symbol': '\u03bb', 'role': 'Total curvature/deformation generator.', 'definition': 'Curvature of the mode-augmented deviation connection \u2207M = \u03b4 + M.', 'core_equation': '\u03bb(B) = \u03bb_curv(B) + \u03bb_mode(B) + \u03bb_cross(B)', 'theorem_links': None}}

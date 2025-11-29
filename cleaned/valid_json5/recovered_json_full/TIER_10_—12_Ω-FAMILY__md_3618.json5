@@ -1,0 +1,1 @@
+{ "name": "Ω-project-NF", "pattern": { "NF.local": "\*" }, "rewrite": { "NF.global": "NF\_Ω" }, "comment": "Replaces local NFs with global canonical NF." }

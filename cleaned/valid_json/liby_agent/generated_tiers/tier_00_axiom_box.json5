@@ -1,0 +1,1 @@
+{"tier":"00","family_symbol":"T0","axioms":["Every valid Box has well-typed \u03b4, \u03a6, \u03a0 subfields.","Adjacency relations form a valid graph with no dangling references.","Domain tensor rank may only change via explicitly declared operators."]}

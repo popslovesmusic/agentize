@@ -1,0 +1,9 @@
+{  
+            must\_satisfy\_invariants: \[  
+              "Xi-Lineage-Preservation",  
+            \],  
+            lineage\_query: {  
+              query\_type: "ancestor\_chain",  
+              expected\_ancestors: \["RR\_DELTA\_V1"\],  
+            },  
+          }

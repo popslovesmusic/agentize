@@ -1,0 +1,1 @@
+{ id: "r3\_truth\_polarity", pattern: "Π(Θ(x)) ≠ Π(x)", action: "REPAIR → Π(Θ(x)) := Π(x)", invariant: "Truth-Preservation Invariant" }

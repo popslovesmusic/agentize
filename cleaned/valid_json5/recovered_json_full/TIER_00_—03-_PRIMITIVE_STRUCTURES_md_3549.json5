@@ -1,0 +1,1 @@
+{ id: "r3\_truth\_eval", pattern: "Π\_truth(x) produces no value", action: "REPAIR → enforce Π\_truth(x) ∈ {⊤, ⊥}", invariant: "Truth-Preservation Invariant" }

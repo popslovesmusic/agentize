@@ -1,0 +1,6 @@
+bash
+# Save the code from json filies.md to triunity_vm.py
+python triunity_vm.py
+
+# Expected output:
+# Final term: NF_TU(·(X, Y))

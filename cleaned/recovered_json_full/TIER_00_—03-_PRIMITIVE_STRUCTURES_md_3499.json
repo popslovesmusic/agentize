@@ -1,0 +1,1 @@
+{ metadata: "tier\_00\_metadata.json5", operator\_pack: "tier\_00\_operator\_pack.json5", interaction\_table: "tier\_00\_interaction\_table.json5", axiom\_box: "tier\_00\_axiom\_box.json5", rewrite\_system: "tier\_00\_rewrite\_system.json5" }

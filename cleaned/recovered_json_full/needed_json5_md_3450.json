@@ -1,0 +1,11 @@
+{  
+              kind: "BoxSchema",  
+              id: "BOX\_NON\_CANONICAL",  
+              fields: {  
+                pi\_layer:  "Π",  
+                delta:     "δ",  
+                phi\_layer: "Φ",  
+              },  
+              // intentionally out-of-order and missing metadata  
+              constraints: \[\],  
+            }

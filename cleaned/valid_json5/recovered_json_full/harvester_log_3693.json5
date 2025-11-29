@@ -1,0 +1,1 @@
+{'BOX': {'type': 'constructor', 'input': 'raw_data', 'output': 'canonical_box', 'description': 'Instantiates the canonical MBC-4.0 Box object with all required semantic fields.'}}

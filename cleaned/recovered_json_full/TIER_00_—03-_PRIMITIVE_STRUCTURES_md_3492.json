@@ -1,0 +1,1 @@
+{ before: { tensor: "Dᵢⱼ", applied: "δ", illegal\_change\_to: "Dᵢⱼₖ" }, after: { tensor: "Dᵢⱼ (restored)" } }

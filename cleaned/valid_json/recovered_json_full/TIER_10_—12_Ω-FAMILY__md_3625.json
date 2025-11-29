@@ -1,0 +1,1 @@
+{ "name": "ρ-collapse-cycles", "pattern": { "ρ.graph": "cyclic" }, "rewrite": { "ρ.graph": "acyclic" }, "comment": "Removes illegal cycles in layer hierarchy." }

@@ -1,0 +1,15 @@
+{
+    global: [
+      "No-Contradiction Invariant: Ω enforces that the active library slice has no unresolved direct contradictions.",
+      "Tri-Unity Consistency: δ–Φ–Π chains must respect type and class invariants.",
+      "Tier-0 Structural Invariants: primitive structures and operators must remain intact.",
+      "Tier-1 δ-curvature and norm invariants must not be silently violated.",
+      "Tier-2 semantic class invariants: every admissible entity has a well-defined Φ-image.",
+      "Tier-3 evaluation invariants: Π returns a meaningful value for all well-typed entities.",
+    ],
+    librarian_specific: [
+      "No Silent Mutation: Librarian never changes source content without explicit human instruction.",
+      "Explicit Repair Proposals: All suggested edits expressed as diffs or rewrite proposals, not actions.",
+      "Metadata First: Librarian may freely modify and enrich metadata, indices, and graphs.",
+    ],
+  }

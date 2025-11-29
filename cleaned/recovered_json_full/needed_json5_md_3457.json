@@ -1,0 +1,10 @@
+{  
+            must\_satisfy\_invariants: \[  
+              "Xi-Meta-Rewrite-Confluence",  
+              "Xi-Universal-NF-Existence",  
+            \],  
+            properties: {  
+              idempotent: true,  
+              nf\_fixed\_point: true,  
+            },  
+          }

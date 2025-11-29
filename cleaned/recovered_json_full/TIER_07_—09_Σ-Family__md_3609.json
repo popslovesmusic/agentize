@@ -1,0 +1,1 @@
+{ "input": "object with δ-Φ-Π-μ-λ-ψ-Σ-Θ structure", "output": "integrated evolved state", "pseudocode": \` function χ\_integrate(obj): return apply\_all\_tiers\_forward(obj) \` }

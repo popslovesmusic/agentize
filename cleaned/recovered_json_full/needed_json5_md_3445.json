@@ -1,0 +1,10 @@
+{  
+              kind: "BoxSchema",  
+              id: "BOX\_MINIMAL",  
+              fields: {  
+                delta: "δ",  
+                phi:   "Φ",  
+                pi:    "Π",  
+              },  
+              constraints: \["BoxIntegrity", "TriUnityClosure"\],  
+            }

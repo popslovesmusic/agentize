@@ -1,0 +1,1 @@
+{"tier":"12","family_symbol":"\u039e","axioms":["The universal schema is closed under allowed \u039e meta-operators.","Cross-layer fusion must not break core invariants without explicit annotation.","Self-diagnostics must be able to detect contradictions and NF violations."]}

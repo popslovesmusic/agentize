@@ -1,0 +1,1 @@
+{ "mnemonic": "APPLY", "args": \["fn", "arity"\], "effect": "Pop 'arity' terms, build App(fn, args), push result." }

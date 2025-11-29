@@ -1,0 +1,1 @@
+{'delta': {'symbol': '\u03b4', 'type': 'first_order', 'rank': 1, 'description': 'Base deviation operator; initiates asymmetry and curvature.', 'composes_with': ['delta_squared', 'phi_of_delta', 'delta_of_phi', 'pi_of_delta'], 'formal_equivalent': 'first_order_derivative'}}

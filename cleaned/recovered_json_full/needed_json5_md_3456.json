@@ -1,0 +1,5 @@
+{  
+            rewrite\_system\_id: "RS\_TRIUNITY\_STABLE",  
+            xi\_operator: "Ξ\_REWRITE",  
+            mode: "normalize",  
+          }

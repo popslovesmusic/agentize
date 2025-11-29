@@ -1,0 +1,1 @@
+{ "rule": "χ(δ(x)) → δ(χ(x))", "note": "δ-evolution commutes with χ (local geometry evolves)." }

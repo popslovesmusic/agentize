@@ -1,0 +1,1 @@
+{ id: "r3\_PiPhi\_commute", pattern: "Π(Φ(x)) ≠ Π(x)", action: "NORMALIZE → enforce Π(Φ(x)) \= Π(x) if Φ(x) is well-typed; otherwise signal ⊥", invariant: "EvaluationConsistencyInvariant" }

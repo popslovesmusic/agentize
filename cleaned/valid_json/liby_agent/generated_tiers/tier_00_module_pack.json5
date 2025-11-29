@@ -1,0 +1,1 @@
+{"tier":"00","family_symbol":"T0","modules":[{"id":"T0-core","name":"T0_Primitive_Core","purpose":"Provides baseline Box, tensor, graph, and layer structures.","exports":["BoxConstructor","DomainTensorConstructor","T0-NF-1","T0-NF-2"]}]}

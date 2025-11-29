@@ -1,0 +1,1 @@
+{ "name": "ρ-up-down-commute", "pattern": { "ρ↑↓": "\*" }, "rewrite": { "ρ↑↓": "commuted" }, "comment": "Ensures MAP\_UP ∘ MAP\_DOWN \= MAP\_DOWN ∘ MAP\_UP on valid structures." }

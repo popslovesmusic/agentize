@@ -1,0 +1,15 @@
+{  
+            must\_satisfy\_invariants: \[  
+              "Xi-Self-Consistency",  
+            \],  
+            audit\_result: {  
+              required\_invariants: \[  
+                "Xi-Roundtrip-Invariant",  
+                "Xi-Lineage-Preservation",  
+                "Xi-Meta-Rewrite-Confluence",  
+                "Xi-Ontology-Compatibility",  
+                "Xi-Universal-NF-Existence",  
+              \],  
+              minimum\_pass\_rate: 1.0,  // all must pass  
+            },  
+          }

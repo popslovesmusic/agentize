@@ -1,0 +1,1 @@
+{ "mnemonic": "ASSERT\_NOT\_OMEGA\_REJECT", "args": \[\], "effect": "If top term is Ω\_REJECT, signal failure." }

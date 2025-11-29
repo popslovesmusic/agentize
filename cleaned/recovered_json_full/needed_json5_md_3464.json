@@ -1,0 +1,6 @@
+{  
+              target\_id: "UNF\_TRIUNITY\_METAOBJECT",  
+              properties: {  
+                uniqueness\_mode: "up\_to\_isomorphism",  
+              },  
+            }

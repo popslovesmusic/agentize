@@ -1,0 +1,1 @@
+{ "name": "ρ-normalize", "pattern": { "NF.local": "\*" }, "rewrite": { "NF.global.layer": "NF\_ρ" }, "comment": "Enforces canonical meta-layer normal form." }

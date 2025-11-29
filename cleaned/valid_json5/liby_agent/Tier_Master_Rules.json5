@@ -1,0 +1,1126 @@
+{
+  // ================================================================
+  // IGSOA / MBC TIER MASTER RULES (FULL 00–12)
+  // ================================================================
+
+  meta: {
+    version: "1.0",
+    author: "James / IGSOA",
+    description: "Authoritative Tier rules for generating all tier_XX_*.json5 files."
+  },
+
+  // ----------------------------------------------------------------
+  // GLOBAL DEFAULTS
+  // ----------------------------------------------------------------
+  defaults: {
+    description: "No description provided yet.",
+    invariants: [],
+    operators: [],
+    axioms: [],
+    rewrite_rules: [],
+    interactions: [],
+    modules: []
+  },
+
+  // ----------------------------------------------------------------
+  // TIER DEFINITIONS (00–12)
+  // ----------------------------------------------------------------
+  tiers: [
+
+    // ============================================================
+    // TIER 00 — PRIMITIVE STRUCTURES
+    // ============================================================
+    {
+      tier: "00",
+      family_symbol: "T0",
+      family_name: "Primitive Structures",
+      description: "Primitive Boxes, domain tensors, graph adjacency, layer atoms.",
+
+      invariants: [
+        "Box Integrity Invariant",
+        "Domain Tensor Rank Invariant",
+        "Adjacency Integrity Invariant",
+        "Layer Consistency Invariant"
+      ],
+
+      operators: [
+        {
+          symbol: "□",
+          name: "BoxConstructor",
+          role: "Constructs a primitive Box with δ, Φ, Π fields and adjacency handles.",
+          inputs: ["raw_state"],
+          outputs: ["box_state"],
+          constraints: [
+            "Must initialize δ, Φ, Π subfields (even if default).",
+            "Must register adjacency edges as valid graph relations."
+          ]
+        },
+        {
+          symbol: "⊕ₙ",
+          name: "DomainTensorConstructor",
+          role: "Builds primitive domain tensors of fixed rank.",
+          inputs: ["components"],
+          outputs: ["domain_tensor"],
+          constraints: [
+            "Rank of tensor must match schema.",
+            "No implicit rank promotion."
+          ]
+        }
+      ],
+
+      axioms: [
+        "Every valid Box has well-typed δ, Φ, Π subfields.",
+        "Adjacency relations form a valid graph with no dangling references.",
+        "Domain tensor rank may only change via explicitly declared operators."
+      ],
+
+      rewrite_rules: [
+        {
+          rule_id: "T0-NF-1",
+          description: "Repair missing δ/Φ/Π fields in a Box to default values.",
+          input_pattern: "box_state with missing core field",
+          output_pattern: "box_state with default δ, Φ, Π initialized",
+          preserves_invariants: [
+            "Box Integrity Invariant",
+            "Adjacency Integrity Invariant"
+          ]
+        },
+        {
+          rule_id: "T0-NF-2",
+          description: "Normalize domain tensor rank annotations.",
+          input_pattern: "tensor with ambiguous rank metadata",
+          output_pattern: "tensor with canonical rank metadata",
+          preserves_invariants: [
+            "Domain Tensor Rank Invariant"
+          ]
+        }
+      ],
+
+      interactions: [
+        {
+          with_tier: "01",
+          description: "Primitive Box / tensor structures are the base for δ-Deviation geometry."
+        }
+      ],
+
+      modules: [
+        {
+          id: "T0-core",
+          name: "T0_Primitive_Core",
+          purpose: "Provides baseline Box, tensor, graph, and layer structures.",
+          exports: ["BoxConstructor", "DomainTensorConstructor", "T0-NF-1", "T0-NF-2"]
+        }
+      ]
+    },
+
+    // ============================================================
+    // TIER 01 — δ-FAMILY (DEVIATION GEOMETRY)
+    // ============================================================
+    {
+      tier: "01",
+      family_symbol: "δ",
+      family_name: "Deviation Geometry",
+      description: "Deviation curvature, δ-norm, and torsion invariants on primitive structures.",
+
+      invariants: [
+        "δ-Curvature Sign Invariant",
+        "δ-Norm Invariant",
+        "Weitzenböck Torsion Rank Invariant"
+      ],
+
+      operators: [
+        {
+          symbol: "δ",
+          name: "DeviationOperator",
+          role: "Measures deviation from a reference geometry or state.",
+          inputs: ["geometry_state"],
+          outputs: ["deviation_state"],
+          constraints: [
+            "Must not flip curvature sign spontaneously.",
+            "Must preserve δ-norm under internal reparameterizations."
+          ]
+        },
+        {
+          symbol: "∇δ",
+          name: "DeviationGradient",
+          role: "Computes local gradient of deviation fields.",
+          inputs: ["deviation_state"],
+          outputs: ["gradient_state"],
+          constraints: [
+            "Torsion rank must be preserved under ∇δ.",
+            "Acts linearly on deviation components."
+          ]
+        }
+      ],
+
+      axioms: [
+        "Deviation curvature sign is invariant under δ-allowed transformations.",
+        "δ-norm is preserved under internal reparameterizations.",
+        "Weitzenböck torsion rank is preserved under λ–δ coupling."
+      ],
+
+      rewrite_rules: [
+        {
+          rule_id: "δ-NF-1",
+          description: "Normalize deviation coordinates into canonical δ-frame.",
+          input_pattern: "raw_deviation_state",
+          output_pattern: "canonical_deviation_state",
+          preserves_invariants: [
+            "δ-Curvature Sign Invariant",
+            "δ-Norm Invariant"
+          ]
+        },
+        {
+          rule_id: "δ-λ-couple-1",
+          description: "Align δ deviation basis with λ curvature frame.",
+          input_pattern: "deviation_state + curvature_frame",
+          output_pattern: "aligned_deviation_state",
+          preserves_invariants: [
+            "Weitzenböck Torsion Rank Invariant"
+          ]
+        }
+      ],
+
+      interactions: [
+        {
+          with_tier: "00",
+          description: "δ acts on Box / tensor fields from T0."
+        },
+        {
+          with_tier: "02",
+          description: "δ feeds geometric deviation into Φ semantic projection."
+        },
+        {
+          with_tier: "05",
+          description: "δ–λ coupling relates deviation and curvature deformation."
+        }
+      ],
+
+      modules: [
+        {
+          id: "δ-core",
+          name: "Delta_Deviation_Core",
+          purpose: "Core deviation operators and NF rewrites.",
+          exports: ["DeviationOperator", "DeviationGradient", "δ-NF-1", "δ-λ-couple-1"]
+        }
+      ]
+    },
+
+    // ============================================================
+    // TIER 02 — Φ-FAMILY (SEMANTIC PROJECTION)
+    // ============================================================
+    {
+      tier: "02",
+      family_symbol: "Φ",
+      family_name: "Semantic Projection",
+      description: "Maps geometric / structural state into semantic class space.",
+
+      invariants: [
+        "Class Preservation Invariant",
+        "Projection–Evaluation Consistency"
+      ],
+
+      operators: [
+        {
+          symbol: "Φ",
+          name: "SemanticProjection",
+          role: "Maps raw or geometric state into a semantic class.",
+          inputs: ["deviation_state", "raw_state"],
+          outputs: ["semantic_class"],
+          constraints: [
+            "Must not produce undefined semantic classes.",
+            "Φ → Π chain must commute globally over valid paths."
+          ]
+        },
+        {
+          symbol: "Φ⁻¹",
+          name: "SemanticBackProjection",
+          role: "Lifts a semantic class back to an admissible representative state.",
+          inputs: ["semantic_class"],
+          outputs: ["representative_state"],
+          constraints: [
+            "Back-projected state must remain consistent with the class.",
+            "Φ(Φ⁻¹(c)) = c for all admissible classes c."
+          ]
+        }
+      ],
+
+      axioms: [
+        "Every Φ-projection lands in a well-defined semantic class.",
+        "Composing Φ then Π yields the same truth evaluation as any valid equivalent path.",
+        "Back-projection Φ⁻¹ does not generate new semantic classes."
+      ],
+
+      rewrite_rules: [
+        {
+          rule_id: "Φ-NF-1",
+          description: "Normalize semantic classes to canonical labels.",
+          input_pattern: "semantic_class (non-canonical)",
+          output_pattern: "semantic_class (canonical)",
+          preserves_invariants: [
+            "Class Preservation Invariant"
+          ]
+        },
+        {
+          rule_id: "Φ-Π-commute-1",
+          description: "Rewrite Φ→Π evaluation paths to a canonical commuting path.",
+          input_pattern: "Π(Φ(state)) via non-canonical route",
+          output_pattern: "Π(Φ(state)) via canonical commuting route",
+          preserves_invariants: [
+            "Projection–Evaluation Consistency"
+          ]
+        }
+      ],
+
+      interactions: [
+        {
+          with_tier: "01",
+          description: "Φ consumes δ deviation information when projecting into semantic classes."
+        },
+        {
+          with_tier: "03",
+          description: "Φ semantic classes are evaluated by Π into truth/causal order."
+        }
+      ],
+
+      modules: [
+        {
+          id: "Φ-core",
+          name: "Phi_Semantic_Projection_Core",
+          purpose: "Semantic projection, back-projection, and NF rules.",
+          exports: ["SemanticProjection", "SemanticBackProjection", "Φ-NF-1", "Φ-Π-commute-1"]
+        }
+      ]
+    },
+
+    // ============================================================
+    // TIER 03 — Π-FAMILY (EVALUATION / TRUTH / CAUSALITY)
+    // ============================================================
+    {
+      tier: "03",
+      family_symbol: "Π",
+      family_name: "Evaluation / Truth / Causality",
+      description: "Evaluates semantic classes into truth values and causal orderings.",
+
+      invariants: [
+        "Evaluation Consistency Invariant",
+        "Causal Order Preservation Invariant",
+        "Tri-Unity Evaluation Commutativity Invariant"
+      ],
+
+      operators: [
+        {
+          symbol: "Π",
+          name: "TruthEvaluator",
+          role: "Evaluates a semantic class or proposition into a truth/validity state.",
+          inputs: ["semantic_class"],
+          outputs: ["truth_state"],
+          constraints: [
+            "Equivalent semantic classes must evaluate to the same truth_state.",
+            "Π must respect Φ/Θ polarity constraints."
+          ]
+        },
+        {
+          symbol: "Π₍cause₎",
+          name: "CausalEvaluator",
+          role: "Evaluates causal ordering between events or states.",
+          inputs: ["event_sequence"],
+          outputs: ["causal_graph"],
+          constraints: [
+            "May not introduce cycles where forbidden by χ evolution.",
+            "Must preserve previously established causal relations unless rewritten by valid χ-rules."
+          ]
+        }
+      ],
+
+      axioms: [
+        "If two Φ-classes are equivalent, Π assigns them the same truth value.",
+        "Causal order is antisymmetric and transitive on admissible event sets.",
+        "Tri-Unity (δ–Φ–Π) evaluation commutes on all closed operator cubes."
+      ],
+
+      rewrite_rules: [
+        {
+          rule_id: "Π-NF-1",
+          description: "Normalize truth_state into canonical NF (e.g. {true, false, undecidable}).",
+          input_pattern: "raw_truth_state",
+          output_pattern: "canonical_truth_state",
+          preserves_invariants: [
+            "Evaluation Consistency Invariant"
+          ]
+        },
+        {
+          rule_id: "Π-χ-causal-1",
+          description: "Rewrite causal graphs to χ-consistent partial orders.",
+          input_pattern: "causal_graph with χ-violating edges",
+          output_pattern: "χ-consistent causal_graph",
+          preserves_invariants: [
+            "Causal Order Preservation Invariant"
+          ]
+        }
+      ],
+
+      interactions: [
+        {
+          with_tier: "02",
+          description: "Π evaluates Φ semantic projections."
+        },
+        {
+          with_tier: "08",
+          description: "Π truth values must respect Θ polarity structure."
+        },
+        {
+          with_tier: "09",
+          description: "Π causal evaluations must remain consistent with χ evolution."
+        }
+      ],
+
+      modules: [
+        {
+          id: "Π-core",
+          name: "Pi_Evaluation_Core",
+          purpose: "Core truth / causal evaluation logic and NF canonicalization.",
+          exports: ["TruthEvaluator", "CausalEvaluator", "Π-NF-1", "Π-χ-causal-1"]
+        }
+      ]
+    },
+
+    // ============================================================
+    // TIER 04 — μ-FAMILY (LOCAL WEIGHT / MICRO-ADJACENCY)
+    // ============================================================
+    {
+      tier: "04",
+      family_symbol: "μ",
+      family_name: "Local Weight / Micro-Adjacency",
+      description: "Assigns local weights and manages micro-adjacency neighborhoods on graphs/Boxes.",
+
+      invariants: [
+        "Local Weight Positivity Invariant",
+        "Micro-Adjacency Conservation Invariant"
+      ],
+
+      operators: [
+        {
+          symbol: "μ",
+          name: "LocalWeightOperator",
+          role: "Assigns or updates a local weight on nodes/edges.",
+          inputs: ["graph_state"],
+          outputs: ["weighted_graph_state"],
+          constraints: [
+            "μ-weights remain ≥ 0 unless explicitly marked as negative-weighted.",
+            "Changes must respect micro-adjacency conservation unless in a rewrite that explicitly edits topology."
+          ]
+        },
+        {
+          symbol: "μᵣ",
+          name: "LocalReweight",
+          role: "Re-normalizes local weights within a neighborhood.",
+          inputs: ["weighted_graph_state", "neighborhood"],
+          outputs: ["renormalized_graph_state"],
+          constraints: [
+            "Total weight in the neighborhood remains constant (unless specified)."
+          ]
+        }
+      ],
+
+      axioms: [
+        "Micro-adjacency neighborhoods remain fixed unless acted on by authorized topology rewrites.",
+        "Weights must satisfy μ-positivity unless explicitly tagged as exception states."
+      ],
+
+      rewrite_rules: [
+        {
+          rule_id: "μ-NF-1",
+          description: "Normalize weights within a neighborhood to a canonical distribution.",
+          input_pattern: "weighted_graph_state with arbitrary weights",
+          output_pattern: "weighted_graph_state with normalized μ-weights",
+          preserves_invariants: [
+            "Local Weight Positivity Invariant"
+          ]
+        },
+        {
+          rule_id: "μ-adj-1",
+          description: "Repair adjacency structure after local rewrites.",
+          input_pattern: "graph_state with broken neighborhood adjacency",
+          output_pattern: "graph_state with μ-conserved adjacency",
+          preserves_invariants: [
+            "Micro-Adjacency Conservation Invariant"
+          ]
+        }
+      ],
+
+      interactions: [
+        {
+          with_tier: "00",
+          description: "μ weights live on primitive graph / Box structures."
+        },
+        {
+          with_tier: "06",
+          description: "μ modulates ψ wave amplitudes and local modes."
+        }
+      ],
+
+      modules: [
+        {
+          id: "μ-core",
+          name: "Mu_Local_Weight_Core",
+          purpose: "Local weights, micro-adjacency rules, and renormalization.",
+          exports: ["LocalWeightOperator", "LocalReweight", "μ-NF-1", "μ-adj-1"]
+        }
+      ]
+    },
+
+    // ============================================================
+    // TIER 05 — λ-FAMILY (CURVATURE / DEFORMATION)
+    // ============================================================
+    {
+      tier: "05",
+      family_symbol: "λ",
+      family_name: "Curvature / Deformation",
+      description: "Curvature, deformation modes, and λ–δ–ψ coupling on domains.",
+
+      invariants: [
+        "Curvature Boundedness Invariant",
+        "Mode-Deformation Consistency Invariant"
+      ],
+
+      operators: [
+        {
+          symbol: "λ",
+          name: "CurvatureOperator",
+          role: "Measures or imposes curvature/deformation on a domain.",
+          inputs: ["geometry_state"],
+          outputs: ["curvature_state"],
+          constraints: [
+            "Curvature must remain within admissible bounds (no singularities unless flagged)."
+          ]
+        },
+        {
+          symbol: "λ⊗ψ",
+          name: "ModeDeformationCoupler",
+          role: "Couples curvature modes to ψ-wave modes.",
+          inputs: ["curvature_state", "wave_state"],
+          outputs: ["deformed_wave_state"],
+          constraints: [
+            "Must preserve key ψ invariants (e.g. amplitude where required)."
+          ]
+        }
+      ],
+
+      axioms: [
+        "Curvature operators do not change δ torsion rank.",
+        "λ-deformations applied to ψ modes must satisfy mode-deformation consistency."
+      ],
+
+      rewrite_rules: [
+        {
+          rule_id: "λ-NF-1",
+          description: "Normalize curvature representation (e.g. move to canonical frame).",
+          input_pattern: "raw_curvature_state",
+          output_pattern: "canonical_curvature_state",
+          preserves_invariants: [
+            "Curvature Boundedness Invariant"
+          ]
+        }
+      ],
+
+      interactions: [
+        {
+          with_tier: "01",
+          description: "λ and δ jointly describe deviation + curvature geometry."
+        },
+        {
+          with_tier: "06",
+          description: "λ couples to ψ oscillatory modes via λ⊗ψ."
+        }
+      ],
+
+      modules: [
+        {
+          id: "λ-core",
+          name: "Lambda_Curvature_Core",
+          purpose: "Curvature, deformation, and λ–δ–ψ couplings.",
+          exports: ["CurvatureOperator", "ModeDeformationCoupler", "λ-NF-1"]
+        }
+      ]
+    },
+
+    // ============================================================
+    // TIER 06 — ψ-FAMILY (WAVE / OSCILLATION / MODE INTERACTION)
+    // ============================================================
+    {
+      tier: "06",
+      family_symbol: "ψ",
+      family_name: "Wave / Oscillation / Mode Interaction",
+      description: "Semantic waveforms, oscillatory modes, and ψ–μ–λ interactions.",
+
+      invariants: [
+        "Amplitude Conservation Invariant",
+        "Semantic Phase Invariant",
+        "Mode-Frequency Invariant"
+      ],
+
+      operators: [
+        {
+          symbol: "ψ",
+          name: "SemanticWaveOperator",
+          role: "Propagates semantic waveforms through the domain.",
+          inputs: ["state"],
+          outputs: ["wave_state"],
+          constraints: [
+            "Amplitude may only change under specified gain/loss rules.",
+            "Phase evolution must follow ψ-phase equations."
+          ]
+        },
+        {
+          symbol: "Fψ",
+          name: "WaveSpectrumTransform",
+          role: "Transforms wave_state into frequency/mode spectrum.",
+          inputs: ["wave_state"],
+          outputs: ["spectrum_state"],
+          constraints: [
+            "Total spectral energy must match integrated amplitude (up to normalization)."
+          ]
+        }
+      ],
+
+      axioms: [
+        "ψ-wave amplitude is conserved in closed, lossless systems.",
+        "Semantic phase accumulates linearly under free propagation.",
+        "Mode index / frequency pairs remain invariant unless scattering or deformation explicitly applied."
+      ],
+
+      rewrite_rules: [
+        {
+          rule_id: "ψ-NF-1",
+          description: "Normalize wave_state to a canonical amplitude-phase representation.",
+          input_pattern: "arbitrary_wave_state",
+          output_pattern: "canonical_wave_state",
+          preserves_invariants: [
+            "Amplitude Conservation Invariant",
+            "Semantic Phase Invariant"
+          ]
+        },
+        {
+          rule_id: "ψ-μ-couple-1",
+          description: "Rewrite ψ modes according to μ local weights.",
+          input_pattern: "wave_state + weighted_graph_state",
+          output_pattern: "locally_modulated_wave_state",
+          preserves_invariants: [
+            "Mode-Frequency Invariant"
+          ]
+        }
+      ],
+
+      interactions: [
+        {
+          with_tier: "04",
+          description: "μ local weights modulate ψ amplitudes and local interference patterns."
+        },
+        {
+          with_tier: "05",
+          description: "λ curvature deforms ψ modes via λ⊗ψ."
+        },
+        {
+          with_tier: "07",
+          description: "Σ gathers ψ contributions into contracted summaries."
+        }
+      ],
+
+      modules: [
+        {
+          id: "ψ-core",
+          name: "Psi_Wave_Core",
+          purpose: "Semantic wave propagation, spectral transforms, and μ/λ couplings.",
+          exports: ["SemanticWaveOperator", "WaveSpectrumTransform", "ψ-NF-1", "ψ-μ-couple-1"]
+        }
+      ]
+    },
+
+    // ============================================================
+    // TIER 07 — Σ-FAMILY (SUMMATION / CONTRACTION)
+    // ============================================================
+    {
+      tier: "07",
+      family_symbol: "Σ",
+      family_name: "Summation / Contraction",
+      description: "Aggregates distributed structure into contracted, summarized forms.",
+
+      invariants: [
+        "Semantic Mass Conservation Invariant",
+        "Contraction Consistency Invariant"
+      ],
+
+      operators: [
+        {
+          symbol: "Σ",
+          name: "SemanticSumOperator",
+          role: "Sums or integrates contributions over a domain or index set.",
+          inputs: ["distributed_state"],
+          outputs: ["summary_state"],
+          constraints: [
+            "Total semantic mass must be conserved unless loss/gain explicitly modeled."
+          ]
+        },
+        {
+          symbol: "TrΣ",
+          name: "ContractionOperator",
+          role: "Contracts tensor indices / modes to lower-rank summaries.",
+          inputs: ["high_rank_tensor"],
+          outputs: ["lower_rank_tensor"],
+          constraints: [
+            "Index pairing should follow schema and preserve invariants."
+          ]
+        }
+      ],
+
+      axioms: [
+        "Σ over a closed system preserves semantic mass.",
+        "Contractions that discard indices must be explicitly annotated as lossy."
+      ],
+
+      rewrite_rules: [
+        {
+          rule_id: "Σ-NF-1",
+          description: "Normalize sums / integrals to canonical ordering and partitioning.",
+          input_pattern: "distributed_state with arbitrary summation structure",
+          output_pattern: "summary_state with canonical Σ structure",
+          preserves_invariants: [
+            "Semantic Mass Conservation Invariant"
+          ]
+        }
+      ],
+
+      interactions: [
+        {
+          with_tier: "06",
+          description: "Aggregates ψ wave contributions into spectral or spatial summaries."
+        },
+        {
+          with_tier: "10",
+          description: "Provides contracted inputs to Ω global constraints."
+        }
+      ],
+
+      modules: [
+        {
+          id: "Σ-core",
+          name: "Sigma_Summation_Core",
+          purpose: "Summation, contraction, and semantic aggregate construction.",
+          exports: ["SemanticSumOperator", "ContractionOperator", "Σ-NF-1"]
+        }
+      ]
+    },
+
+    // ============================================================
+    // TIER 08 — Θ-FAMILY (POLARITY / LOGIC ROUTING)
+    // ============================================================
+    {
+      tier: "08",
+      family_symbol: "Θ",
+      family_name: "Polarity / Logic Routing",
+      description: "Polarity tensors, logic routing, Θ+/Θ− management, and truth–polarity bridges.",
+
+      invariants: [
+        "Polarity Conservation Invariant",
+        "Polarity Tensor-Sign Invariant",
+        "Truth-Polarity Bridge Invariant"
+      ],
+
+      operators: [
+        {
+          symbol: "Θ",
+          name: "PolarityRouter",
+          role: "Routes signals based on Θ+ / Θ− polarity.",
+          inputs: ["signal_state"],
+          outputs: ["routed_signal_state"],
+          constraints: [
+            "No operator may spontaneously create or destroy net polarity.",
+            "Net Θ count must be preserved unless explicitly offset."
+          ]
+        },
+        {
+          symbol: "Θ⊗Π",
+          name: "TruthPolarityBridge",
+          role: "Aligns Π truth values with Θ polarity tensors.",
+          inputs: ["truth_state"],
+          outputs: ["polarity_enriched_truth_state"],
+          constraints: [
+            "Truth evaluation must not violate Θ-sign structure."
+          ]
+        }
+      ],
+
+      axioms: [
+        "Net polarity count is conserved in closed Θ systems.",
+        "Θ-tensor contractions preserve net polarity sign.",
+        "Π truth evaluation must embed consistently into Θ polarity space."
+      ],
+
+      rewrite_rules: [
+        {
+          rule_id: "Θ-NF-1",
+          description: "Normalize polarity routing graph to a canonical wiring.",
+          input_pattern: "routed_signal_state with arbitrary routing",
+          output_pattern: "routed_signal_state with canonical Θ routing",
+          preserves_invariants: [
+            "Polarity Conservation Invariant"
+          ]
+        },
+        {
+          rule_id: "Θ-Π-align-1",
+          description: "Align Π truth_state with Θ polarity structure.",
+          input_pattern: "truth_state + polarity_tensor",
+          output_pattern: "polarity_enriched_truth_state",
+          preserves_invariants: [
+            "Truth-Polarity Bridge Invariant"
+          ]
+        }
+      ],
+
+      interactions: [
+        {
+          with_tier: "03",
+          description: "Π truth evaluation must be embedded into Θ polarity routing."
+        },
+        {
+          with_tier: "10",
+          description: "Ω global constraints may restrict polarity patterns."
+        }
+      ],
+
+      modules: [
+        {
+          id: "Θ-core",
+          name: "Theta_Polarity_Core",
+          purpose: "Logic routing, polarity tensors, and Π alignment.",
+          exports: ["PolarityRouter", "TruthPolarityBridge", "Θ-NF-1", "Θ-Π-align-1"]
+        }
+      ]
+    },
+
+    // ============================================================
+    // TIER 09 — χ-FAMILY (SEMANTIC EVOLUTION / TIME)
+    // ============================================================
+    {
+      tier: "09",
+      family_symbol: "χ",
+      family_name: "Semantic Evolution / Time",
+      description: "Semantic time steps, evolution paths, and NF evolution rules.",
+
+      invariants: [
+        "Forward-Flow Invariant",
+        "Continuity Invariant"
+      ],
+
+      operators: [
+        {
+          symbol: "χ-step",
+          name: "EvolutionStep",
+          role: "Applies a single atomic semantic time increment.",
+          inputs: ["state_t"],
+          outputs: ["state_t_plus_1"],
+          constraints: [
+            "χ must not reverse semantic time.",
+            "Must respect declared continuity/discreteness mode."
+          ]
+        },
+        {
+          symbol: "χ-path",
+          name: "EvolutionPathBuilder",
+          role: "Builds a semantic path from a sequence of χ-steps.",
+          inputs: ["state_0", "step_sequence"],
+          outputs: ["evolution_path"],
+          constraints: [
+            "Path must be χ-forward unless explicitly marked as reversible analysis."
+          ]
+        }
+      ],
+
+      axioms: [
+        "χ-time flows forward by default in admissible evolution paths.",
+        "χ-evolution must be continuous unless explicitly defined as discrete."
+      ],
+
+      rewrite_rules: [
+        {
+          rule_id: "χ-NF-1",
+          description: "Normalize evolution paths to canonical forward-time representations.",
+          input_pattern: "evolution_path with ambiguous direction or parameterization",
+          output_pattern: "canonical_forward_evolution_path",
+          preserves_invariants: [
+            "Forward-Flow Invariant",
+            "Continuity Invariant"
+          ]
+        }
+      ],
+
+      interactions: [
+        {
+          with_tier: "03",
+          description: "Π causal evaluations must be consistent with χ-time ordering."
+        },
+        {
+          with_tier: "06",
+          description: "ψ-wave evolution over χ-time defines dynamic interference patterns."
+        }
+      ],
+
+      modules: [
+        {
+          id: "χ-core",
+          name: "Chi_Evolution_Core",
+          purpose: "χ-steps, paths, and NF evolution canonicalization.",
+          exports: ["EvolutionStep", "EvolutionPathBuilder", "χ-NF-1"]
+        }
+      ]
+    },
+
+    // ============================================================
+    // TIER 10 — Ω-FAMILY (GLOBAL CONSTRAINTS / NORMALIZATION)
+    // ============================================================
+    {
+      tier: "10",
+      family_symbol: "Ω",
+      family_name: "Global Constraints / Normalization",
+      description: "Applies global consistency, normalization, and no-contradiction constraints.",
+
+      invariants: [
+        "Consistency Invariant",
+        "Normalization Invariant",
+        "Federated Geometry Invariant",
+        "No-Contradiction Invariant",
+        "Tri-Unity Normal Form Invariant"
+      ],
+
+      operators: [
+        {
+          symbol: "Ω",
+          name: "GlobalConstraintOperator",
+          role: "Applies global semantic/structural constraints.",
+          inputs: ["global_state"],
+          outputs: ["constrained_state"],
+          constraints: [
+            "Must not introduce contradictions.",
+            "Must preserve local tier invariants where possible."
+          ]
+        },
+        {
+          symbol: "NFΩ",
+          name: "GlobalNormalizer",
+          role: "Reduces global_state to Ω-normal form.",
+          inputs: ["global_state"],
+          outputs: ["global_normal_form"],
+          constraints: [
+            "Resulting NF must be unique up to Ω-equivalence."
+          ]
+        }
+      ],
+
+      axioms: [
+        "The global system must be free of explicit contradictions.",
+        "Global normalization commutes with Tri-Unity NF reductions.",
+        "Federated geometries (δ, λ, ψ, Σ, …) must be globally consistent."
+      ],
+
+      rewrite_rules: [
+        {
+          rule_id: "Ω-NF-1",
+          description: "Rewrite any admissible global_state into unique Ω-normal form.",
+          input_pattern: "global_state",
+          output_pattern: "global_normal_form",
+          preserves_invariants: [
+            "Consistency Invariant",
+            "No-Contradiction Invariant",
+            "Tri-Unity Normal Form Invariant"
+          ]
+        }
+      ],
+
+      interactions: [
+        {
+          with_tier: "07",
+          description: "Consumes Σ contracted summaries for global checks."
+        },
+        {
+          with_tier: "08",
+          description: "May restrict allowed Θ polarity patterns globally."
+        },
+        {
+          with_tier: "11",
+          description: "Feeds global federation info into ρ layer/meta-structure."
+        }
+      ],
+
+      modules: [
+        {
+          id: "Ω-core",
+          name: "Omega_Global_Constraint_Core",
+          purpose: "Global consistency, normalization, and contradiction removal.",
+          exports: ["GlobalConstraintOperator", "GlobalNormalizer", "Ω-NF-1"]
+        }
+      ]
+    },
+
+    // ============================================================
+    // TIER 11 — ρ-FAMILY (LAYER / META-STRUCTURE / FEDERATION)
+    // ============================================================
+    {
+      tier: "11",
+      family_symbol: "ρ",
+      family_name: "Layer / Meta-Structure / Federation",
+      description: "Defines layered architectures, federated subsystems, and meta-closure.",
+
+      invariants: [
+        "Layer-Identity Invariant",
+        "Hierarchy Preservation Invariant",
+        "Meta-Closure Invariant",
+        "Cross-Layer Semantic Consistency Invariant"
+      ],
+
+      operators: [
+        {
+          symbol: "ρ-layer",
+          name: "LayerConstructor",
+          role: "Creates or annotates a layer in the federated architecture.",
+          inputs: ["subsystem_state"],
+          outputs: ["layered_state"],
+          constraints: [
+            "Layer identity must be stable under local rewrites.",
+            "Parent-child relations must remain acyclic."
+          ]
+        },
+        {
+          symbol: "ρ-merge",
+          name: "LayerMerger",
+          role: "Merges compatible layers or federated components.",
+          inputs: ["layered_state_1", "layered_state_2"],
+          outputs: ["merged_layered_state"],
+          constraints: [
+            "Must respect hierarchy preservation.",
+            "Semantic conflicts must be resolved or signaled."
+          ]
+        }
+      ],
+
+      axioms: [
+        "Each layer has a unique identity within the federated architecture.",
+        "Parent-child hierarchies must preserve acyclicity and ordering.",
+        "The meta-system remains closed under allowed ρ operations."
+      ],
+
+      rewrite_rules: [
+        {
+          rule_id: "ρ-NF-1",
+          description: "Normalize layer hierarchies to canonical ρ-structure.",
+          input_pattern: "layered_state with arbitrary nesting",
+          output_pattern: "canonical_layer_hierarchy",
+          preserves_invariants: [
+            "Layer-Identity Invariant",
+            "Hierarchy Preservation Invariant"
+          ]
+        }
+      ],
+
+      interactions: [
+        {
+          with_tier: "10",
+          description: "Receives Ω global constraints and federates them across layers."
+        },
+        {
+          with_tier: "12",
+          description: "Provides structured layers to Ξ for top-meta synthesis."
+        }
+      ],
+
+      modules: [
+        {
+          id: "ρ-core",
+          name: "Rho_Layer_MetaStructure_Core",
+          purpose: "Layer construction, merging, and hierarchy normalization.",
+          exports: ["LayerConstructor", "LayerMerger", "ρ-NF-1"]
+        }
+      ]
+    },
+
+    // ============================================================
+    // TIER 12 — Ξ-FAMILY (TOP-META / UNIVERSAL SCHEMA OPERATORS)
+    // ============================================================
+    {
+      tier: "12",
+      family_symbol: "Ξ",
+      family_name: "Top-Meta / Universal Schema Operators",
+      description: "Top-level meta-operators, universal schema closure, and self-diagnostics.",
+
+      invariants: [
+        "Universal Schema Closure Invariant",
+        "Cross-Layer Fusion Consistency Invariant",
+        "Self-Reflection Consistency Invariant"
+      ],
+
+      operators: [
+        {
+          symbol: "Ξ",
+          name: "MetaSynthesisOperator",
+          role: "Fuses multi-tier / multi-layer structures into a universal schema.",
+          inputs: ["federated_state"],
+          outputs: ["universal_schema_state"],
+          constraints: [
+            "Must preserve all lower-tier invariants as much as possible.",
+            "Any necessary violations must be explicitly recorded."
+          ]
+        },
+        {
+          symbol: "Ξ-self",
+          name: "SelfDiagnosticOperator",
+          role: "Performs self-consistency and meta-diagnostic checks on the entire framework.",
+          inputs: ["universal_schema_state"],
+          outputs: ["diagnostic_report"],
+          constraints: [
+            "Must detect invariant violations and report them.",
+            "May propose rewrite paths to restored NF."
+          ]
+        }
+      ],
+
+      axioms: [
+        "The universal schema is closed under allowed Ξ meta-operators.",
+        "Cross-layer fusion must not break core invariants without explicit annotation.",
+        "Self-diagnostics must be able to detect contradictions and NF violations."
+      ],
+
+      rewrite_rules: [
+        {
+          rule_id: "Ξ-NF-1",
+          description: "Rewrite universal_schema_state into top-meta normal form.",
+          input_pattern: "universal_schema_state",
+          output_pattern: "universal_schema_NF",
+          preserves_invariants: [
+            "Universal Schema Closure Invariant"
+          ]
+        }
+      ],
+
+      interactions: [
+        {
+          with_tier: "11",
+          description: "Consumes ρ-layered federated architectures for universal synthesis."
+        },
+        {
+          with_tier: "10",
+          description: "Reports contradictions / NF issues to Ω for global constraint refinement."
+        }
+      ],
+
+      modules: [
+        {
+          id: "Ξ-core",
+          name: "Xi_TopMeta_Core",
+          purpose: "Meta-synthesis, universal schema, and self-diagnostics.",
+          exports: ["MetaSynthesisOperator", "SelfDiagnosticOperator", "Ξ-NF-1"]
+        }
+      ]
+    }
+
+  ]
+}

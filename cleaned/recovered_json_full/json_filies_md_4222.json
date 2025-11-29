@@ -1,0 +1,4 @@
+{  
+            scope: "GLOBAL",  
+            audit\_targets: \["USET", "RLT", "MRST", "OBCT", "UNF", "RRMC"\],  
+          }

@@ -1,0 +1,6 @@
+tier_XX_metadata.json5         - Tier metadata, invariants, dependencies
+tier_XX_operator_pack.json5     - All operators with descriptions
+tier_XX_interaction_table.json5 - Cross-tier interaction rules
+tier_XX_axiom_box.json5         - Sealed axioms and theorems
+tier_XX_rewrite_system.json5    - Normal form rewrite rules
+tier_XX_module_pack.json5       - Implementation modules

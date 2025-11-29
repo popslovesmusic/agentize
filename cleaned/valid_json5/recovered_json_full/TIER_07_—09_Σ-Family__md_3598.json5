@@ -1,0 +1,1 @@
+{ "rule": "χ\_discrete(x) → x\_jump", "constraint": "Must not violate causal coherence or Ω-consistency." }

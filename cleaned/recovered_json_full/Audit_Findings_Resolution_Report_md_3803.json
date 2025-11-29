@@ -1,6 +1,0 @@
-{
-  "variant_id": "flat_geometry",
-  "commutator": "[λ, δ] = 0",
-  "use_when": ["λ = 0", "Flat manifold regions"],
-  "performance": "Fastest - skips curvature computation"
-}

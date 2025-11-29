@@ -1,0 +1,21 @@
+python
+[
+    # Build X · Y
+    Instr("PUSH_VAR", {"name": "X"}),
+    Instr("PUSH_VAR", {"name": "Y"}),
+    Instr("APPLY", {"fn": "·", "arity": 2}),  # ·(X, Y)
+
+    # δ(X · Y)
+    Instr("APPLY", {"fn": "δ", "arity": 1}),
+
+    # Φ(δ(X · Y))
+    Instr("APPLY", {"fn": "Φ", "arity": 1}),
+
+    # Π(Φ(δ(X · Y)))
+    Instr("APPLY", {"fn": "Π", "arity": 1}),
+
+    # Rewrite to NF
+    Instr("REWRITE_ALL", {"max_steps": 50}),
+
+    Instr("HALT", {})
+]

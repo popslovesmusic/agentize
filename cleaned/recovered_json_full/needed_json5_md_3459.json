@@ -1,0 +1,5 @@
+{  
+            schema\_id: "BOX\_MINIMAL\_NF",  
+            ontology\_id: "ONTO\_CORE\_TRINITY",  
+            xi\_operator: "Ξ\_BIND",  
+          }

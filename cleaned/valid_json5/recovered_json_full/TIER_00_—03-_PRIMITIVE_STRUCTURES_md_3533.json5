@@ -1,0 +1,1 @@
+{ id: "r2\_4\_class\_merge\_block", pattern: "Φ(x) and Φ(y) merged into a single class when class\_distance \> 0", action: "BLOCK → return ⊥ or split into distinct classes", invariant: "Semantic Separation Invariant" }

@@ -1,7 +1,0 @@
-{
-  "Θ-AND": {
-    "rule": "(A Θ₊ AND B Θ₊) → Θ₊ ; else Θ₋",
-    "semantic": "Both must be positive polarity to succeed",
-    "use_case": "Quality gate - all conditions must be favorable"
-  }
-}

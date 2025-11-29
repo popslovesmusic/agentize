@@ -1,9 +1,0 @@
-{
-  "operator": "ψ",
-  "name": "semantic_wave",
-  "version": "4.0",
-  "description": "Semantic wave operator combining weighted δ-Laplacian with Φ and Π potentials.",
-  "depends_on": ["δ", "μ", "Φ", "Π", "Δ_{δ,μ}"],
-  "role": "generator_of_semantic_time_evolution",
-  "formal_definition": "ψ(B) = Δ_{δ,μ} B - Φ(B) + Π(B)"
-}

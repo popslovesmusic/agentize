@@ -1,0 +1,12 @@
+{  
+    nf\_engine\_id: "CrossTier\_TriUnity\_NF\_v1",  
+    xi\_operators: \["Ξ\_SCHEMA", "Ξ\_REFLECT", "Ξ\_REWRITE", "Ξ\_BIND", "Ξ\_SELF"\],  
+    invariants: \[  
+      "Xi-Roundtrip-Invariant",  
+      "Xi-Lineage-Preservation",  
+      "Xi-Meta-Rewrite-Confluence",  
+      "Xi-Ontology-Compatibility",  
+      "Xi-Universal-NF-Existence",  
+      "Xi-Self-Consistency",  
+    \],  
+  }

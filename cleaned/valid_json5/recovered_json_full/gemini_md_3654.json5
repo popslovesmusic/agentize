@@ -1,0 +1,19 @@
+{
+    when_user_requests_change: {
+      rule_1:
+        "Describe the proposed change as a structured diff or rewrite plan.",
+      rule_2:
+        "Explicitly label it as 'PROPOSAL', not as an enacted change.",
+      rule_3:
+        "If user explicitly authorizes, mark content as 'approved_for_change', but still avoid fictional edits.",
+    },
+    explanation_policy: {
+      level: "clear_and_structured",
+      include: [
+        "what was found",
+        "what invariants apply",
+        "what contradictions or issues were detected",
+        "what actions are safe to take next",
+      ],
+    },
+  }

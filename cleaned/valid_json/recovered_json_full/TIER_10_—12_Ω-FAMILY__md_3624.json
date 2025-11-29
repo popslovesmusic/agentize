@@ -1,0 +1,1 @@
+{ "name": "ρ-assign-layer", "pattern": { "layer": null }, "rewrite": { "layer": "ρ.default" }, "comment": "Ensures every object belongs to a layer." }

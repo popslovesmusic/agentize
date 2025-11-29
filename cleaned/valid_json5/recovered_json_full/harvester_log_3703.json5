@@ -1,0 +1,1 @@
+{'WEIGHT(B)': {'symbol': '\u03bc', 'type': 'local-weight', 'input': 'Box', 'output': '\u03bc-weight tensor', 'description': 'Extract or modify the local weight profile of a Box.'}}

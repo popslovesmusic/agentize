@@ -1,0 +1,5 @@
+{  
+            schema\_id: "SCHEMA\_TRIUNITY\_LAYERED\_NF",  
+            ontology\_id: "ONTO\_CORE\_TRINITY",  
+            rewrite\_system\_id: "RS\_TRIUNITY\_STABLE",  
+          }

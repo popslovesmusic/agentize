@@ -1,0 +1,1 @@
+{"tier":"09","family_symbol":"\u03c7","rewrite_rules":[{"rule_id":"\u03c7-NF-1","description":"Normalize evolution paths to canonical forward-time representations.","input_pattern":"evolution_path with ambiguous direction or parameterization","output_pattern":"canonical_forward_evolution_path","preserves_invariants":["Forward-Flow Invariant","Continuity Invariant"]}]}

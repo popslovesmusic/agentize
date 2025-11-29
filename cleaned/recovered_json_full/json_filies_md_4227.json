@@ -1,0 +1,1 @@
+{ "mnemonic": "PUSH\_CONST", "args": \["name"\], "effect": "Push Const(name) onto stack." }

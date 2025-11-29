@@ -1,0 +1,1 @@
+{"tier":"00","family_symbol":"T0","family_name":"Primitive Structures","description":"Primitive Boxes, domain tensors, graph adjacency, layer atoms.","invariants":["Box Integrity Invariant","Domain Tensor Rank Invariant","Adjacency Integrity Invariant","Layer Consistency Invariant"]}

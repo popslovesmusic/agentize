@@ -1,0 +1,1 @@
+{ "input": "state", "output": "continuously evolved state", "pseudocode": \` function χ\_flow(x): return smooth\_update(x) \` }
