@@ -1,0 +1,1 @@
+{ "id": "RS-INV-03", "name": "Global Confluence (Newman Promotion)", "call": "RS\_CHECK\_CONF(R)", "expect": { "status": "true" }, "description": "If termination \+ local confluence hold, global confluence must hold." }

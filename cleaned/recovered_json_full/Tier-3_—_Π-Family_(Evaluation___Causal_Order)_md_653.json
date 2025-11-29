@@ -1,0 +1,1 @@
+{ "id": "adj\_Pi\_phi\_1", "expression": "Π\*(Φ(B)) \= Π(B) ∘ Φ\*", "intent": "Pulling evaluation back along Φ uses Φ\*." }

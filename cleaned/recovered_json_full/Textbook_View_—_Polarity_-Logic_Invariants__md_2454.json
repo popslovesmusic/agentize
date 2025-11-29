@@ -1,0 +1,1 @@
+{ "id": "OP\_ΘNF\_NORMALIZE", "name": "Theta Normal Form Normalizer", "family": "Theta-System", "invariant\_id": "Θ\_INV\_CONSERVATION", "signature": "ThetaLogicNetwork \-\> ThetaLogicNetwork", "input\_type": "ThetaLogicNetwork", "output\_type": "ThetaLogicNetwork", "description": "Rewrite a Θ-logic network into Θ-Normal Form (ΘNF) where all polarity logic invariants hold." }

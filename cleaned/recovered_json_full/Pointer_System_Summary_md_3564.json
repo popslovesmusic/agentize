@@ -1,0 +1,3 @@
+bash
+cd MBC_Framework_v4/02_Tiers/Tier_04_mu/
+cat tier_04_mu_operator_pack.pointer.json

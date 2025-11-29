@@ -1,0 +1,1 @@
+{ "id": "R-ρ-18", "name": "triunity\_component\_layering", "category": "interaction", "lhs": "δ\[k\] ∘ Φ\[m\] ∘ Π\[n\]", "rhs": "(δ ∘ Φ ∘ Π)\[max(k,m,n)\]", "conditions": { "k\_in\_N": true, "m\_in\_N": true, "n\_in\_N": true }, "notes": "Layer-indexed Tri-Unity collapses to a single max layer." }

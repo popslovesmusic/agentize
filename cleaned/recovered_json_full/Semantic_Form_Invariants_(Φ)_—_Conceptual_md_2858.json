@@ -1,0 +1,1 @@
+{ operator: "Π", input: "B1", output\_raw: { id: "Π(B1)", value: "NF\_vector\_sum(6)", // Example evaluation: sum of terms notes: "Even though dim mismatch exists, Tier-02 allows Π to interpret payload and normalize." } }

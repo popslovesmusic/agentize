@@ -1,0 +1,1 @@
+{ id: "OP\_χψ\_WAVE\_EVOLVE", name: "Chi-Wave Evolution", family: "Chi-Family", signature: "WaveBox(χ) \-\> WaveBox(χ+Δχ)", description: "Evolves ψ-waves along χ using the semantic wave equation." }

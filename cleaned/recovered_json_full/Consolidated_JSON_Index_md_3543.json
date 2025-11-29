@@ -1,0 +1,10 @@
+{
+    "B": { "label": "B", "type": "Box" },
+    "delta_B": { "label": "δB", "type": "Box" },
+    "phi_B": { "label": "ΦB", "type": "Box" },
+    "pi_B": { "label": "ΠB", "type": "Box" },
+    "phi_delta_B": { "label": "ΦδB", "type": "Box" },
+    "pi_delta_B": { "label": "ΠδB", "type": "Box" },
+    "pi_phi_B": { "label": "ΠΦB", "type": "Box" },
+    "pi_phi_delta_B": { "label": "ΠΦδB", "type": "Box" }
+  }

@@ -1,0 +1,1 @@
+{ "operator": "one of {δ, Φ, Π}", "weighted\_operator": "one of {μ→δ, μ→Φ, μ→Π}", "weighted": "boolean flag", "mu\_profile": "optional reference to μ(x) or μ\_ij(x) used on that edge" }

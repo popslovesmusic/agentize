@@ -1,0 +1,1 @@
+{ id: 'TU-COMM-05', invariant: 'commutativity', pattern: \['ΠΦδ', 'δΠΦ'\], rewrite: 'NF\_ΠΦδ', conditions: { three\_cycle: true }, explanation: '3-cycle Π→Φ→δ and δ→Π→Φ share NF\_ΠΦδ.', }

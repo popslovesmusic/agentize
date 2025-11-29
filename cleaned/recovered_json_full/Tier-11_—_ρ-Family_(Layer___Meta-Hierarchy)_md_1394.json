@@ -1,0 +1,1 @@
+{ "id": "R-ρ-15", "name": "rho\_canonical\_outermost\_form", "category": "normal\_form", "lhs": "rho\_k ∘ (rho\_m ∘ A)", "rhs": "rho\_max(k,m) ∘ A", "conditions": { "k\_in\_N": true, "m\_in\_N": true }, "notes": "All nested ρ\_k are collapsed to a single outermost ρ with max index." }

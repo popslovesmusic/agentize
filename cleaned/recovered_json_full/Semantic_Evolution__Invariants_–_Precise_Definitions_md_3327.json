@@ -1,0 +1,1 @@
+{ "symbol": "d/dχ", "name": "χ-Derivative", "arity": 1, "domain": "Box\_or\_Field", "codomain": "Box\_or\_Field", "params": { "regularity": "C1\_default", "distributional\_extension": true }, "description": "Continuous-time derivative with respect to χ.", "invariants\_respected": \[ "INV\_CHI\_CONTINUITY" \] }

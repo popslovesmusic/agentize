@@ -1,0 +1,29 @@
+{
+  "module_type": "OperatorModule",
+  "tier": 4,
+  "name": "Pi-Family Evaluation Module",
+  "symbol": "Π-Family",
+  "version": "MBC-4.0",
+  "schema_version": "4.0.0",
+  "description": "Tier-4 module pack encoding the Π-Family evaluation and causal order operators, their signatures, compositions with δ and Φ, and basic rewrite/validation rules.",
+  "primitives_used": ["δ", "Φ", "Π", "μ", "Θ", "χ"],
+  "tri_unity": ["δ", "Φ", "Π"],
+  "operators": {
+    "Pi": {
+      "id": "Pi",
+      "symbol": "Π",
+      "role": "base_evaluator",
+      "tier": 3,
+      "domain": "Box",
+      "codomain": "EvaluationState",
+      "depends_on": ["δ-state", "Φ-state"],
+      "intent": "Canonical evaluator returning the causal-truth state of a Box.",
+      "signature": { "input": ["Box"], "output": ["EvaluationState"], "expression": "Π(B)" },
+      "properties": {
+        "linearity": false,
+        "causal_monotonicity": true,
+        "idempotent_on_evaluation_state": true
+      }
+    }
+  }
+}

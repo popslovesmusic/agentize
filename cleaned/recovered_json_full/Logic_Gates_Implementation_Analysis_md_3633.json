@@ -1,0 +1,7 @@
+{
+      "step": 2,
+      "gate": "Π",
+      "action": "run_tests(generated_code)",
+      "agent": "critic_agent",
+      "output": "test_results (boolean)"
+    }

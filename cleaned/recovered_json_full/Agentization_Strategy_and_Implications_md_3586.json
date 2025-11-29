@@ -1,0 +1,11 @@
+{
+      "step": 1,
+      "operator": "δ",
+      "pre_validation": "passed",
+      "execution": {
+        "grounding": "graph_laplacian",
+        "result": "deviation_field"
+      },
+      "post_validation": "passed",
+      "omega_check": "passed"
+    }

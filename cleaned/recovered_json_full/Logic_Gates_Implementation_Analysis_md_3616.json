@@ -1,0 +1,9 @@
+{
+        "operator": "Θ-MUX",
+        "control": "validation_result",
+        "paths": {
+          "Θ₊": "success_path",
+          "Θ₋": "failure_path"
+        },
+        "example": "If validation fails, route to δ for fix"
+      }

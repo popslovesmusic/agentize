@@ -1,0 +1,1 @@
+{ "id": "R-ρ-27", "name": "chi\_layer\_restriction", "category": "interaction", "lhs": "rho\_k ∘ χ", "rhs": "χ\[k\]", "conditions": { "k\_in\_N": true }, "notes": "ρ\_k applied to χ yields layer-specific evolution operator χ\[k\]." }

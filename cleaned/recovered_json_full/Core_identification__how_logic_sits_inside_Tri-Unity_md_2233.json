@@ -1,0 +1,1 @@
+{ "tier": 2, "invariants": \[ { "id": "PI-IDEMPOTENCE", "statement": "Evaluation is idempotent.", "formal": "Π ∘ Π \= Π.", "dependencies": \[\] }, { "id": "PI-TOTALITY", "statement": "Π is total on Boxes satisfying upstream invariants.", "formal": "If B satisfies BoxIntegrityInvariant and all prior layer invariants, Π(B) is defined.", "dependencies": \["G-BOX-INT"\] } \] }

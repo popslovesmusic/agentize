@@ -1,0 +1,1 @@
+{ "tier": 8, "family": "Theta", "version": "1.0", "description": "Polarity-based Boolean logic library for MBC-4.0. Every gate is defined purely algebraically in terms of polarity values p ∈ {+1, \-1}." }

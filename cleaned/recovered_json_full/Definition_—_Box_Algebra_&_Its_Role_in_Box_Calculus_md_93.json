@@ -1,0 +1,17 @@
+{`  
+    `"sealed": true,`  
+    `"invariants": [`  
+      `{`  
+        `"name": "tower_commutation",`  
+        `"schema": "Pi(Phi(delta(B))) is well-defined for all Boxes B"`  
+      `},`  
+      `{`  
+        `"name": "closure",`  
+        `"schema": "For any primitive op f and Boxes B_i, f(B_i) is a Box"`  
+      `},`  
+      `{`  
+        `"name": "polarity_bounds",`  
+        `"schema": "-1 <= theta_state.polarity <= 1"`  
+      `}`  
+    `]`  
+  `}

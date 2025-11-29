@@ -1,0 +1,1 @@
+{ "pattern": "LayerLikeCollection", "rewrite": "LayerTemplate instance", "description": "Any collection of tier artifacts is normalized into a LayerTemplate, with explicit references." }

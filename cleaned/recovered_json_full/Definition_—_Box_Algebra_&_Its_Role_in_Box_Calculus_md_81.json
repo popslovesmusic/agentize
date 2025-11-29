@@ -1,0 +1,8 @@
+{`  
+      `"name": "delta_adjacency_compatibility",`  
+      `"requires": [`  
+        `"output_ports(B1) ~ input_ports(B2)",`  
+        `"adjacency_match(delta_state(B1), delta_state(B2))"`  
+      `],`  
+      `"failure_mode": "composition_invalid"`  
+    `}

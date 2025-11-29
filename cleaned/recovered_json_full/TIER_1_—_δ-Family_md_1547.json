@@ -1,0 +1,1 @@
+{ "pattern": "TriUnityLikeObject", "rewrite": "TriUnityTemplate instance", "description": "Any triple ({δ,Φ,Π} \+ cube \+ rules) is normalized to a TriUnityTemplate object." }

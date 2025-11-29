@@ -1,0 +1,1 @@
+{ "objects": [ "Proto-Cloud C", "Proto-Matter M_i", "Curvature Filaments", "Density Wells", "ψ-Coherent Regions" ], "clustering_conditions": { "curvature": "∇λ < 0", "density": "∇μ < 0", "oscillation": "ψ_coherence > ψ_c" }, "cloud_definition": "C = {M_i | shared λ, μ gradients and partial ψ coherence}" }

@@ -1,0 +1,1 @@
+{ "name": "idempotent\_δ", "when": "δ ∘ δ", "then": "δ", "intent": "Embedding twice is equivalent to embedding once." }

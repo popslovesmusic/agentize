@@ -1,0 +1,5 @@
+{
+                    'type': 'external',
+                    'with': existing,
+                    'reason': self._explain_contradiction(state, existing)
+                }

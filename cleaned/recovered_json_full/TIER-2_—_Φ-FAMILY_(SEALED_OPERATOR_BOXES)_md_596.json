@@ -1,0 +1,1 @@
+{ "Left": "Φ", "Right": "Φ", "CompositeName": "Phi\_idempotent", "Expression": "Φ ∘ Φ", "DefinedAtTier2": true, "DefinitionMode": "primitive\_from\_Phi\_family", "Intent": "Idempotent projection: Φ∘Φ \= Φ.", "Law": "Φ(Φ(B)) \= Φ(B)" }

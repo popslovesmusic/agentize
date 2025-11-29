@@ -1,0 +1,1 @@
+{ description: 'Evaluate an observable O on a projected state Φ(S).', pseudo\_math: 'Π\_O(Φ(S)) \= ⟨O⟩', pseudo\_json5: { op: 'Π', mode: 'observable', observable: 'O', input: 'Φ(S)', }, }

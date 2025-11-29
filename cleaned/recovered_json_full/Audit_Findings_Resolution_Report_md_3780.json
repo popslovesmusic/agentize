@@ -1,0 +1,6 @@
+{
+  "commutator": "[λ, δ] = λ∘δ - δ∘λ",
+  "value": "Non-zero (general case)",
+  "status": "PRIMARY",
+  "physical_meaning": "Curvature-induced deviation coupling"
+}

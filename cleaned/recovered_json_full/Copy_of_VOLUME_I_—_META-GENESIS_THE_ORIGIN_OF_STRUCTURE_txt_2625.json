@@ -1,0 +1,1 @@
+{ "objects": [ "Region R ⊂ M", "Semantic Wave Field Ψ on R", "Curvature Field λ on R", "Metric Weight Field μ on R" ], "equations": { "semantic_wave_equation": "d²Ψ/dχ² = δ²_μ Ψ + λ Ψ", "resonance_condition": "ψ(R) · λ(R) · μ(R) > Θ_c" }, "fsm_properties": [ "Periodic in χ", "Non-trivial (Ψ ≠ 0)", "Σ-stable", "Π-invariant" ] }

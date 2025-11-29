@@ -1,0 +1,1 @@
+{ "id": "T51", "left": "Θ", "right": "Θ", "composition": "Θ⊗Θ", "category": "tensor\_product", "signature": "(Polarity,Polarity) \-\> {+1,-1}", "rule": "p1 \* p2; \+1 if signs match, \-1 if opposite.", "notes": "Core tensor rule of Θ-algebra." }

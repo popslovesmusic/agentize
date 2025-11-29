@@ -1,0 +1,1 @@
+{ "operators": \[ "BOX", "ROUTER", "NORMALIZE", "EVAL", "PROJECT", "DEVIATE", "WEIGHT", "CURVE", "WAVE", "SUM", "STEP", "FEDERATE" \], "definitions": {...} }

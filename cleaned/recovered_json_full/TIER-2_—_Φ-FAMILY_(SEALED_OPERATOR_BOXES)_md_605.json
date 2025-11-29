@@ -1,0 +1,1 @@
+{ "Name": "TriUnityBridge", "Expression": "TriUnityBridge(δ, Φ, Π)", "Intent": "Global constraint operator binding δ–Φ–Π.", "SealedBoxRef": "TriUnityBridge" }

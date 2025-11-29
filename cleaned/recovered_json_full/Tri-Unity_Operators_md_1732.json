@@ -1,0 +1,1 @@
+{ "fields": { "name": "string", "pattern": "string", "rewrite": "string", "comment": "optional\<string\>" } }

@@ -1,0 +1,1 @@
+{ "fields": { "name": "string", "inputs": "list\<string\>", "expression": "string", "type": "string", "normal\_form": "string", "constraints": "optional\<string\>" } }

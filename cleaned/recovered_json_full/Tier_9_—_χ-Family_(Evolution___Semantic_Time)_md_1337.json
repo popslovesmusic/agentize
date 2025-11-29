@@ -1,0 +1,1 @@
+{ "name": "Omega-Chi Evolution Constraint Axiom", "statement": "Omega(dB/dchi) yields the unique, globally admissible evolution flow.", "properties": \[ "idempotent\_under\_Omega", "globally\_normalized", "invariant\_preserving", "consistency\_enforcing", "Tri-Unity\_stable" \] }

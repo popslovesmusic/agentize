@@ -1,0 +1,5 @@
+{
+        "condition": "validation_intent",
+        "polarity": "Θ₊",
+        "routes_to": "critic_agent"
+      }

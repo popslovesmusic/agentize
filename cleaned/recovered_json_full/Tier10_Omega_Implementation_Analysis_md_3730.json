@@ -1,0 +1,5 @@
+{
+                'status': 'rejected',
+                'reason': 'Failed Ω-consistency check',
+                'inconsistency': self.omega_enforcer._inconsistency_metric(result_state)
+            }

@@ -1,0 +1,1 @@
+{ "id": "PI\_JUSTIFY", "symbol": "J\_Π", "role": "justification\_extractor", "signature": "(EventId, EvalState) \-\> EventId\[\]", "description": "Return the minimal Π-justifying cause set for the event.", "invariant\_guards": \["PI-CO", "PI-TM"\] }

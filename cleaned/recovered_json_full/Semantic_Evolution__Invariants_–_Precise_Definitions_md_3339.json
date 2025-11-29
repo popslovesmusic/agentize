@@ -1,0 +1,1 @@
+{ "id": "R\_CHI\_DERIVATIVE\_SMOOTH\_01", "name": "Derivative Regularization", "pattern": "d/dχ B with piecewise smooth χ-profile", "condition": "continuous\_segments\_detected", "rewrite": "represent as union\_of\_smooth\_segments \+ tagged\_kinks", "preserves\_invariants": \[ "INV\_CHI\_CONTINUITY" \] }

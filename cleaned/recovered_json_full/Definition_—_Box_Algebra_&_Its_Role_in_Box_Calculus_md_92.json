@@ -1,0 +1,4 @@
+{`  
+        `"name": "Pi_terminal_idempotent",`  
+        `"schema": "Pi(Pi(B)) == Pi(B)"`  
+      `}

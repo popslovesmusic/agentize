@@ -1,0 +1,1 @@
+{ "symbol": "Σ", "intent": "Global semantic summation and contraction.", "domain": "Boxes, operator chains, semantic tensors.", "action": "Σ(B1, ..., Bn) \-\> contracted semantic state.", "properties": { "linearity": true, "polarity\_sensitive": false, "commutation": "commutes with δ, Φ, Π after normalization." } }

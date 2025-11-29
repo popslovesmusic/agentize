@@ -1,0 +1,1 @@
+{ before: { amp: 1.0 }, after\_raw: { amp: 7.5 }, // exceeds Ωχ energy cap omega\_cap: 2.0 }

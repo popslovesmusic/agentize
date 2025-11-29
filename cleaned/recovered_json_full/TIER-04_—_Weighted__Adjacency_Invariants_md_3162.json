@@ -1,0 +1,1 @@
+{ name: "NF\_μAdj\_λ", desc: "MuAdj state that satisfies Tier-04 invariants and is fixed under λ-curvature repair rules.", conditions: \[ "All Tier-04 invariants A1–A5 hold.", "No pending BR-λ-\* rewrite rule is applicable." \] }

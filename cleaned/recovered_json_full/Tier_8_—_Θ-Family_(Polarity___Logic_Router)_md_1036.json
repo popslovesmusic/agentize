@@ -1,0 +1,1 @@
+{ "id": "T38", "left": "λ", "right": "Θ", "composition": "λ ∘ Θ", "category": "right\_composition", "signature": "Box \-\> Curved\_channels", "rule": "Apply curvature per polarity channel.", "notes": "Channels may couple with torsion." }

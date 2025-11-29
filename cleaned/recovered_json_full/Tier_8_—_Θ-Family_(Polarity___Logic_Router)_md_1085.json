@@ -1,0 +1,1 @@
+{ "id": "Θ\_AND\_n", "signature": "Polarity^n \-\> Bool", "polarity\_expression": "p1 ⊗ p2 ⊗ ... ⊗ pn", "truth\_expression": "Pi(p1 ⊗ p2 ⊗ ... ⊗ pn)", "comments": "Generalized AND over n inputs." }

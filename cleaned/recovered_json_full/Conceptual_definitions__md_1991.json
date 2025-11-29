@@ -1,0 +1,1 @@
+{ "id": "INT\_01", "lhs\_structure": "SEM\_NODE", "rhs\_structure": "SEM\_EDGE", "relation": "INCIDENCE", "result": "NODE\_EDGE\_PAIR", "constraints": \[ "Each SEM\_EDGE has exactly two endpoint SEM\_NODEs (source, target).", "Endpoints may coincide for self-loops." \] }

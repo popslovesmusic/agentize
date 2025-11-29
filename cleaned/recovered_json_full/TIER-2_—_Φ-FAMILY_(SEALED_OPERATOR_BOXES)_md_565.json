@@ -1,0 +1,1 @@
+{ "BoxName": "Π", "BoxIntent": "Define the primitive causal-evaluation operator.", "Domain": { "Input": "Box B", "Output": "Π(B)" }, "Constraints": { "Functoriality": "Π respects Box morphisms", "CausalDependence": "Π acts only on Φ\_c(B)", "Idempotence": "Π(Π(B)) \= Π(B)" }, "CrossLinks": { "Φ\_to\_Π": "Normalizer", "δ": "Gradient source", "Θ": "Polarity routing" } }

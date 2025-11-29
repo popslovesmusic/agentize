@@ -1,0 +1,6 @@
+{`  
+      `"id": "LAW-1",`  
+      `"name": "associativity",`  
+      `"schema": "B3 ∘ (B2 ∘ B1) == (B3 ∘ B2) ∘ B1",`  
+      `"conditions": "All intermediate δ-compatibilities hold."`  
+    `}

@@ -1,0 +1,1 @@
+{ "OperatorToAxiomLinks": \[ { "operator": "δ", "family": "δ", "tier": 1, "axiom\_box": "06\_AxiomBoxes/delta\_axiom\_box.json" }, { "operator": "λᶜᵘʳᵛ", "family": "λ", "tier": 5, "axiom\_box": "06\_AxiomBoxes/lambda\_axiom\_box.json" } \] }

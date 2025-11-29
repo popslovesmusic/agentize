@@ -1,0 +1,1 @@
+{ "name": "bottom\_face", "vertices": \["v000", "v100", "v101", "v001"\], "operators\_cycle": \["Φ", "Π", "Φ⁻¹", "Π⁻¹"\], "commutes": true, "interpretation": "Φ and Π commute on B." }

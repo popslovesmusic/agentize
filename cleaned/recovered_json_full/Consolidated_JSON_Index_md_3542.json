@@ -1,0 +1,7 @@
+{
+    "id": "tri_unity_face",
+    "morphism_path": ["m1", "m3"],
+    "alternate_path": ["m2", "m4"],
+    "commutativity": "strict",
+    "equation": "ΦΠ ∘ δ = Πδ ∘ Φ"
+  }

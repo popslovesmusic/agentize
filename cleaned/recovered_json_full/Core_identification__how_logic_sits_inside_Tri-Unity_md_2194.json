@@ -1,0 +1,1 @@
+{ "id": "G-LAYER-CONS", "statement": "ρ-layer relationships cannot violate parent–child hierarchy or produce cycles in the meta-layer DAG.", "formal": "For ρ-layers {ρ\_k}, the induced meta-graph on layers is acyclic, and all edges respect parent-child partial order.", "violations\_map\_to": "⊥", "notes": "Layer hierarchy is a DAG, not a general graph." }

@@ -1,0 +1,1 @@
+{ "id": "m1", "name": "Reject Non-Terminating Rule", "pattern": { "lhs": "rule(ℓ, r)", "condition": "μ\_term(r) ≥ μ\_term(ℓ) AND ℓ and r syntactically unbounded" }, "action": "mark(rule(ℓ, r), 'termination\_suspect')", "comment": "Heuristic meta-rule to flag rules that cannot obviously " \+ "participate in a terminating system." }

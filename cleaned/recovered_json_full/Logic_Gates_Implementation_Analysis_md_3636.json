@@ -1,0 +1,14 @@
+{
+    "iteration_1": {
+      "generated": "def add(a, b): return a + b",
+      "tests": "FAIL (missing type checking)",
+      "polarity": "Θ₋",
+      "action": "loop"
+    },
+    "iteration_2": {
+      "generated": "def add(a: int, b: int) -> int: return a + b",
+      "tests": "PASS",
+      "polarity": "Θ₊",
+      "action": "return"
+    }
+  }

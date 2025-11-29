@@ -1,0 +1,1 @@
+{ "id": "R-ρ-28", "name": "omega\_layer\_restriction", "category": "interaction", "lhs": "rho\_k ∘ Ω", "rhs": "Ω\[k\]", "conditions": { "k\_in\_N": true }, "notes": "ρ\_k applied to Ω yields global constraint at layer k." }

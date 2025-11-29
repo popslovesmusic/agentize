@@ -1,0 +1,18 @@
+python
+class OmegaConstraintEnforcer:
+    """Global consistency enforcement"""
+
+    def omega_operator(self, state):
+        """Ω: S → A (project to admissible)"""
+
+    def ingestion_protocol(self, new_entry):
+        """Librarian's Omega Constraint"""
+
+    def _inconsistency_metric(self, state):
+        """K: S → ℝ≥0"""
+
+    def _tri_unity_tension(self, state):
+        """τ_TPU: Tri-Unity consistency"""
+
+    def validate_knowledge_base(self):
+        """Global validation"""

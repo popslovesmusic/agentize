@@ -1,0 +1,1 @@
+{ "id": "T50", "left": "Θ", "right": "Θ", "composition": "Θ⊕Θ", "category": "polarity\_algebra", "signature": "(Polarity,Polarity) \-\> Int", "rule": "Polarity sum p1 \+ p2 as integer.", "notes": "Net sign and magnitude." }

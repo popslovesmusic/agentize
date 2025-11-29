@@ -1,0 +1,1 @@
+{ id: 34, description: "Commutativity: equalizing opposite cube edges.", input: \["δΦ", "Πδ"\], expect\_nf\_equal: true, invariant: "commutativity", }

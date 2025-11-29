@@ -1,0 +1,1 @@
+{ "tier": "XX", "name": "Tier-XX Box-Level Layer", "intent": "Define Box-level operators and interactions", "dependencies": \["Tier-0", "Tier-1 …"\], "invariants": \[ "All Boxes sealed", "All operators unary on B except STEP and FEDERATE" \] }

@@ -1,0 +1,1 @@
+{ "id": "T\_CHI\_001\_FORWARD\_OK", "description": "Simple increasing χ sequence.", "input\_trace": \[ { "state": "B0", "chi": 0.0 }, { "state": "B1", "chi": 1.0 }, { "state": "B2", "chi": 2.0 } \], "expected": { "is\_nf": true, "violations": \[\], "normalized\_trace": "same" } }

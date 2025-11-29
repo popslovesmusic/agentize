@@ -1,0 +1,1 @@
+{ test\_id: "T2-PHI-INV-CP-001", input: "B0", result\_before: "class(undefined)", result\_after: "class(vector)", invariant\_satisfied: true }

@@ -1,0 +1,1 @@
+{ // Simple commuting square: Φ then Π vs Π directly. commuting\_square\_ascii: \` B \--Φ--\> Φ(B) | | Π| |Π v v Π(B) \== Π(Φ(B)) (in NF) \`, }

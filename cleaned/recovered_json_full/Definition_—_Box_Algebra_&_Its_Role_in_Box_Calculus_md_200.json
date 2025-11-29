@@ -1,0 +1,5 @@
+{`  
+        `"id": "INV-G-3",`  
+        `"name": "polarity_bounds",`  
+        `"schema": "-1 <= Theta(Out).polarity <= 1."`  
+      `}

@@ -1,0 +1,1 @@
+{ "id": "T28", "left": "Θ", "right": "μ", "composition": "Θ⊕μ", "category": "sum\_composition", "signature": "(Box,Box) \-\> Real", "rule": "Weighted polarity sum μ1·p1 ⊕ μ2·p2.", "notes": "Importance-aware sign combination." }

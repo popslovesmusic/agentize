@@ -1,0 +1,1 @@
+{ id: 'TU-NF-15', invariant: 'closure', pattern: 'δ⋆Π', rewrite: 'NF\_δ⋆Π', conditions: { convolution\_semantics: true }, explanation: 'Convolution δ⋆Π is closed and mapped to NF\_δ⋆Π.', }

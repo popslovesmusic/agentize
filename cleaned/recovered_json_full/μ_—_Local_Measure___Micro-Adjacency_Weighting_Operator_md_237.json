@@ -1,0 +1,6 @@
+{
+        "delta_mu_laplacian": { "type": "string" },
+        "phi_potential": { "type": "string" },
+        "pi_potential": { "type": "string" },
+        "psi_operator": { "type": "string" }
+      }

@@ -1,0 +1,7 @@
+{`  
+            `"step": 4,`  
+            `"op": "select_branch",`  
+            `"input": ["M"],`  
+            `"output": "S",`  
+            `"params": { "selector": "exactly_one_positive" }`  
+          `}

@@ -1,0 +1,1 @@
+{ "symbol": "Σ⊗", "intent": "Tensor contraction.", "domain": "δ⊗, Φ⊗, ψ⊗, λ⊗ tensors.", "action": "Contract repeated indices; reduce tensor rank.", "properties": { "reduces\_rank": true, "linearity": true } }

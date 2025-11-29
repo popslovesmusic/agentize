@@ -1,0 +1,1 @@
+{ linear: true, idempotent: true, // Φ∘Φ \= Φ contractive: true, // removes components orthogonal to the target subspace key\_identities: \[ 'Φ∘Φ \= Φ', 'Φ∘⊤ \= Φ (projection on tautology leaves Φ form)', \], }

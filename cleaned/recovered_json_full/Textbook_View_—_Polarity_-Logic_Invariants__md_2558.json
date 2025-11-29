@@ -1,0 +1,1 @@
+{ id: "T9\_17\_hamiltonian\_conservation", description: "Ωχ-Hamiltonian must remain constant or bounded.", h\_values\_raw: \[1.0, 1.1, 4.3, 1.1\], // jump violates Ωχ expected: { invariant\_violations: \["χ\_PR\_WAVE\_CONSTRAINT"\], rewrite\_applied: \["RW\_χ\_ENFORCE\_WAVE\_CONSTRAINT"\], nf: "χNF" } }

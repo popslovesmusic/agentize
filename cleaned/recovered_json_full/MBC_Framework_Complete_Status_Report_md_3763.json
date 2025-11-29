@@ -1,0 +1,10 @@
+python
+class OmegaEnhancedRouter:
+    """Complete MBC agent stack"""
+
+    def __init__(self, tri_unity_router, logic_router):
+        self.omega_enforcer = OmegaConstraintEnforcer()
+        self._enforce_omega_coherence()
+
+    def route_with_omega_constraint(self, query, context):
+        """Full pipeline: Ω → Tri-Unity → Θ → Agent"""

@@ -1,0 +1,1 @@
+{ step1: 'Parse input chain as a word over {δ, Φ, Π}.', step2: 'Check for direct NF mapping via tri\_unity\_algebra.nf\_labels.', step3: 'If no direct NF, use rewrite rules from TRI-UNITY-INVARIANTS-REWRITE.', step4: 'Enforce uniqueness: all equivalent expressions yield the same NF\_\* symbol.', }

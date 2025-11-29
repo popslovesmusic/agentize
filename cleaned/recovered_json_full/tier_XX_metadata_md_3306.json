@@ -1,0 +1,1 @@
+{ "id": "RS-INV-05", "name": "Composite RS Certification", "call": "RS\_CHECK(R)", "expect": { "status": "ok" }, "description": "Aggregates all invariants into one master certification." }

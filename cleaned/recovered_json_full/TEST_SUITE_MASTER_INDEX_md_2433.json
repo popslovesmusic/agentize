@@ -1,0 +1,1 @@
+{ id: 'TU-NF-35', invariant: 'normal\_form', pattern: 'δΦΠΦδ', rewrite: 'NF\_δΦΠ', conditions: { chain\_length: 5, reduces\_to: 3, }, explanation: 'Longer chain δΦΠΦδ reduces uniquely to NF\_δΦΠ.', }

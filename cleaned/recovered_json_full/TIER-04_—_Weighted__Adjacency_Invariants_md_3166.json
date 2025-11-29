@@ -1,0 +1,1 @@
+{ invariants: \["A1","A2","A3"\], properties: { mu\_non\_negative: true, adj\_unchanged: true, weighted\_adj\_complete: true }, normal\_form: "NF\_μAdj\_λ" }

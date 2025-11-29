@@ -1,0 +1,1 @@
+{ "tier": "Logic-Gates", "version": "1.0", "description": "Full Θ-aware logic-gate tier for MBC-4.0", "contains": \[ "classical\_boolean\_gates", "theta\_extended\_gates", "rewrite\_rules", "interaction\_table", "sealed\_axioms", "module\_pack" \] }

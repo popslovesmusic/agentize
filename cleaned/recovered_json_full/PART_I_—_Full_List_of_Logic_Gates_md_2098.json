@@ -1,0 +1,1 @@
+{ "arity": 2, "θ-aware": true, "definition": "Flip polarity on mismatch", "rule": "(Θ₊,Θ₊)-\>Θ₋ ; (Θ₋,Θ₋)-\>Θ₋ ; else Θ₊" }

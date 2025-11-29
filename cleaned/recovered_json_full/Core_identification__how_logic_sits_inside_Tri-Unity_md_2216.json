@@ -1,0 +1,1 @@
+{ "TruthAtom": { "type": "primitive\_truth", "values": \["0", "1"\] }, "PolarityAtom": { "type": "polarity", "values": \["Θ+", "Θ-"\] }, "SemanticClass": { "type": "φ-class", "role": "Semantic class identity" }, "DeviationAtom": { "type": "δ-core", "role": "Atomic deviation unit" } }

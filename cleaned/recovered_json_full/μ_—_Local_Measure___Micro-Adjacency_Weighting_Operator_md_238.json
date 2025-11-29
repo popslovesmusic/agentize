@@ -1,0 +1,10 @@
+{
+        "mu_normalization": { "type": "string" },
+        "mu_nonnegativity": { "type": "string" },
+        "delta_symmetry": { "type": "string" },
+        "delta_zero_diagonal": { "type": "string" },
+        "phi_linearity": { "type": "string" },
+        "pi_linearity": { "type": "string" },
+        "psi_linearity": { "type": "string" },
+        "psi_covariance": { "type": "string" }
+      }

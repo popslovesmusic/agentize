@@ -1,0 +1,1 @@
+{ // NF labels are symbolic identifiers for canonical semantic states. // They do NOT need to match the raw input string; they are semantic IDs. closure\_nf\_prefix: 'NF\_', treat\_chains\_as\_words: true, // e.g. 'δΦΠ' \= δ→Φ→Π treat\_composites\_as\_atoms: true, // e.g. 'δ⊗Φ' is a single composite symbol }

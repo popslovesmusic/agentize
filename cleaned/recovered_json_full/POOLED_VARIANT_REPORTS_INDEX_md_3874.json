@@ -1,0 +1,30 @@
+Logical_Audit_Report.md
+                              |
+                              v
+            [Identifies 4 conflicts, including #1 and #3]
+                              |
+                    +---------+---------+
+                    |                   |
+                    v                   v
+      Audit_Findings_Resolution     Resolution_Summary
+          (Full resolution)          (Quick reference)
+                    |
+                    v
+      [Validated against expanded library]
+                    |
+      +-------------+-------------+
+      |                           |
+      v                           v
+Pooled_Variant_System         Updated_Library
+  Updated_Analysis          Validation_Summary
+  (Library validation)      (Quick validation)
+      |
+      v
+[Completeness analysis]
+      |
+      +-------------+
+      |             |
+      v             v
+Completeness      Completeness
+  Report          Summary
+(Full analysis)  (Quick scores)

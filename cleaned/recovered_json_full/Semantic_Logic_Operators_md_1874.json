@@ -1,0 +1,1 @@
+{ "id": "SL-NOT-EXISTS-IN", "name": "Not\_Exists\_Push\_In", "pattern": "NOT(EXISTS(x, A(x)))", "rewrite": "FORALL(x, NOT(A(x)))", "theta\_update": "t\_out \= theta\_forall\_x(theta\_not(t\_Ax));", "sigma\_update": "s\_out \= sigma\_quant\_forall({sigma\_not(s\_Ax)});", "pi\_update": "p\_out \= pi\_quant\_forall({pi\_not(p\_Ax)});", "goal": "Push NOT inward across EXISTS." }

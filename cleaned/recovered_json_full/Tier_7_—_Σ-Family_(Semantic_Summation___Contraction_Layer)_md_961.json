@@ -1,0 +1,1 @@
+{ "symbol": "ΣΘ", "intent": "Polarity-aware summation.", "domain": "Polarized semantic objects.", "action": "Σ(Θ(x,y)) respecting polarity rules.", "properties": { "polarity\_sensitive": true, "phase\_consistent": true } }

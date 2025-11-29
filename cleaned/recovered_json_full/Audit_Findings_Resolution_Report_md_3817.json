@@ -1,0 +1,12 @@
+{
+      "level_1_base": {
+        "operators": "Raw λ, δ (pre-transformation)",
+        "commutativity": "[λ, δ] ≠ 0",
+        "context": "Direct geometric/semantic operations"
+      },
+      "level_2_psi_layer": {
+        "operators": "ψ(λ), ψ(δ) (wave-transformed)",
+        "commutativity": "ψ(λ) ∘ ψ(δ) = ψ(δ) ∘ ψ(λ)",
+        "context": "Wave space / modal decomposition"
+      }
+    }

@@ -1,0 +1,1 @@
+{ tier: "04", interaction\_table: { "μ × δ": "δ may scale μ but cannot flip sign or alter adjacency.", "μ × Φ": "Φ projection preserves μ-class.", "μ × Π": "Evaluation cannot contradict μ-positivity.", "μ × λ": "Curvature modifies μ-gradients but preserves adjacency.", "μ × ψ": "Oscillations must obey μ-weighted wave equation." } }

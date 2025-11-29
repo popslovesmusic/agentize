@@ -1,0 +1,1 @@
+{ "id": "T59", "left": "Θ\_plus", "right": "Θ\_minus", "composition": "Θ\_plus \+ Θ\_minus \= id", "category": "projector\_relation", "signature": "Polarity\_projectors", "rule": "Sum of positive and negative projectors is identity on polarity space.", "notes": "Completeness relation." }

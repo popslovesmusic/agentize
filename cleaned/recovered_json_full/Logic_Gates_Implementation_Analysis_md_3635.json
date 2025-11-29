@@ -1,0 +1,11 @@
+{
+        "Θ₊": {
+          "action": "return_code",
+          "reason": "tests passed"
+        },
+        "Θ₋": {
+          "action": "loop_back_to_step_1",
+          "reason": "refine and regenerate",
+          "modification": "add_test_failure_context"
+        }
+      }

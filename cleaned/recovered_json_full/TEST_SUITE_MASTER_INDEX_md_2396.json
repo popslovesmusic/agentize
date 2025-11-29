@@ -1,0 +1,1 @@
+{ id: 'TU-NF-10', invariant: 'closure', pattern: \['Φ', 'Φ'\], rewrite: 'NF\_Φ', conditions: { idempotent: true }, explanation: 'Φ∘Φ \= Φ; projection is idempotent.', }

@@ -1,0 +1,15 @@
+{
+    "raw_components": ["H_delta","H_phi","H_pi","H_mu","H_psi","H_lambda","H_sigma","H_theta"],
+    "projection": "Omega(H_raw)",
+    "invariance": "d/dchi(H_omega) = 0",
+    "canonical_pairs": {
+      "delta":"delta_chi",
+      "phi":"phi_chi",
+      "pi":"pi_chi",
+      "mu":"mu_chi",
+      "psi":"psi_chi",
+      "lambda":"lambda_chi",
+      "sigma":"sigma_chi",
+      "theta":"theta_chi"
+    }
+  }

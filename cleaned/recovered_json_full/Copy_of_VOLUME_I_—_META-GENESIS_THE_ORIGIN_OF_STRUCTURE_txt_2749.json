@@ -1,0 +1,1 @@
+{ "identity_fields": { "DomainTensor": ["rank", "index_ranges", "signature"], "SemanticGraphNode": ["node_id", "attached_Box_id"], "SemanticGraphEdge": ["source_id", "target_id", "edge_type"], "RouterNode": ["router_id", "Θ-state"], "LayerElement": ["layer_index", "parent_layer"] } }

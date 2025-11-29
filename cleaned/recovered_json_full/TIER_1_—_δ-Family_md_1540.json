@@ -1,0 +1,1 @@
+{ "type": "structural\_template", "intent": "Template for Tri-Unity objects locking δ–Φ–Π signatures and interactions.", "schema": { "name": "string", "operators": \["δ", "Φ", "Π"\], "interaction\_cube": "InteractionTableRef", "normal\_form\_rules": "RewriteSystemRef", "extensions": "list\<OperatorRef\>" } }

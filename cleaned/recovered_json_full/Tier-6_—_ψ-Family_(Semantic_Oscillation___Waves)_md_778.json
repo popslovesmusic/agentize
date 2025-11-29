@@ -1,0 +1,1 @@
+{ "formal\_axiom": \[ "1. Linearity: ψ(a δ1 \+ b δ2) \= a ψ(δ1) \+ b ψ(δ2)", "2. Projection-compatibility: Φ(ψ(B)) \= ψ(Φ(B))", "3. Evaluation-periodicity: Π(ψ(B)) \= Π(B) \* exp(i ω χ)", "4. Semantic Wave Equation: ψ\_{χχ} \= δ² ψ \+ Φ(ψ) \+ Π(ψ) \+ μ·ψ \+ λ·ψ" \] }

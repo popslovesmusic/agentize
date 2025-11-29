@@ -1,0 +1,1 @@
+{ "id": "AX\_ψ-PHASE", "name": "Semantic Phase Axiom", "formal": "∀θ ∈ ℝ: WAVE\_SEMANTIC\_PROJECT(e^{iθ} ψ) \= WAVE\_SEMANTIC\_PROJECT(ψ).", "narrative": "Global phase rotations of ψ do not change Φ or Π semantics." }

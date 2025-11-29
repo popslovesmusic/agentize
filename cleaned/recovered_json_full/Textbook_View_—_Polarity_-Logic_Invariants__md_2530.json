@@ -1,0 +1,1 @@
+{ id: "RW\_χ\_ENFORCE\_WAVE\_CONSTRAINT", axiom\_id: "AX\_χ\_WAVE\_CONSTRAINT", pattern: { violation: "wave\_growth\_exceeds\_Ω\_bounds" }, action: { insert: "Ωχ-constraint node or renormalization step", description: "Clamp or rescale ψ modes so Ωχ-invariant holds." }, ensures: \["χNF\_WaveConstrained"\] }

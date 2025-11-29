@@ -1,0 +1,1 @@
+{ "id": "T57", "left": "Θ\_to\_Pi", "right": "Σ", "composition": "Π(Σ p\_i)", "category": "evaluation\_composition", "signature": "Polarity^N \-\> Bool", "rule": "Evaluate majority sign of Σ p\_i as Boolean truth.", "notes": "Threshold on net polarity." }

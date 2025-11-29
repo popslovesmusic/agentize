@@ -1,0 +1,1 @@
+{ "id": "SL-DOUBLE-NEGATION", "name": "Double\_Negation", "pattern": "NOT(NOT(A))", "rewrite": "A", "conditions": { "logic\_system": "classical", "theta\_constraint": "polarity\_flip(polarity\_flip(Θ\_A)) \= Θ\_A", "pi\_equivalence": true } }

@@ -1,0 +1,1 @@
+{ id: 'TU-NF-05', invariant: 'closure', pattern: 'ΠΦδ', rewrite: 'NF\_ΠΦδ', conditions: {}, explanation: 'Reverse sweep Π→Φ→δ is closed with NF\_ΠΦδ.', }

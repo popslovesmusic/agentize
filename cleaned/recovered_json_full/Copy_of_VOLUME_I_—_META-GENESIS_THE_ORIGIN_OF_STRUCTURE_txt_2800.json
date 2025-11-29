@@ -1,0 +1,1 @@
+{ "name": "V3_Ch2_StarStructure_Box", "intent": "Define the mapping of semantic layers to stellar layers.", "domain": "Core, radiative zone, convection zone, photosphere", "constraints": [ "ρ layering respected", "ψ modes define magnetic/topology", "Σ-stability ensures thermal equilibrium" ], "cross_links": ["V2_Ch9_CollapseEndStates_Box"] }

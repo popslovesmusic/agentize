@@ -1,0 +1,1 @@
+{ "id": "T16", "left": "Φ", "right": "Θ\_minus", "composition": "Φ ∘ Θ\_minus", "category": "channel\_composition", "signature": "Box \-\> Box\_projected", "rule": "Projection restricted to negative polarity channel.", "notes": "Defines Φ\_minus." }

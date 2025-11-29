@@ -1,0 +1,16 @@
+{
+      "operator": "μ (Local Weight)",
+      "definition": "Score and rank inputs by weight/importance",
+      "signature": "μ(inputs[]) → ranked_list",
+      "use_case": "Prioritization gate for multi-option selection",
+      "implementation": {
+        "step_1": "Assign weight to each input",
+        "step_2": "Sort by weight descending",
+        "step_3": "Return ranked list"
+      },
+      "example": {
+        "inputs": ["option_A", "option_B", "option_C"],
+        "weights": [0.9, 0.3, 0.7],
+        "output": ["option_A", "option_C", "option_B"]
+      }
+    }

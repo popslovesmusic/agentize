@@ -1,0 +1,6 @@
+{
+      "step": 3,
+      "gate": "Π→Θ",
+      "action": "convert_test_results_to_polarity",
+      "output": "test_polarity (Θ₊ or Θ₋)"
+    }

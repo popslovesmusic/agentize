@@ -1,0 +1,1 @@
+{ id: 'TU-NF-19', invariant: 'closure', pattern: 'δ⊗Φ⊗Π', rewrite: 'NF\_δ⊗Φ⊗Π', conditions: { tensor\_semantics: true }, explanation: '3-way tensor δ⊗Φ⊗Π has dedicated NF\_δ⊗Φ⊗Π.', }

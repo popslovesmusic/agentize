@@ -1,0 +1,1 @@
+{ "id": "RHO-INV-03", "name": "Meta-Layer Closure Test", "goal": "Ensure all operations on ρ\_n structures stay within meta-layer domain.", "input": { "layer": "ρ2", "operator": "LIFT\_LAYER", "args": \["ρ2", 2\] }, "expect": { "output\_layer": "ρ2", "invariant": "RHO-META-CLOSURE", "status": "pass" } }

@@ -1,0 +1,1 @@
+{ "id": "RS\_NF", "signature": "Term × RuleSet → Term", "description": "Iteratively apply STEP until no rules are applicable.", "guarantees": \[ "If RS-I1 \+ RS-I2 hold, RS\_NF(t, R) is unique.", "If RS-I3 holds, dim\_sem(NF(t)) ≤ dim\_sem(t)." \] }

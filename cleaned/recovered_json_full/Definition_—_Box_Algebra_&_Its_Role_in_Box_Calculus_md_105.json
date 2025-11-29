@@ -1,0 +1,8 @@
+{`  
+      `"step": 2,`  
+      `"op": "semantic_projection",`  
+      `"formal_op": "Φ",`  
+      `"input": ["B_delta"],`  
+      `"output": "B_phi",`  
+      `"description": "Project δ-geometry into the Φ-semantic tier."`  
+    `}

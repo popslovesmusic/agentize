@@ -1,0 +1,1 @@
+{ "Ω-symmetry": "Commutator/anticommutator forms must respect Ω symmetries.", "Σ-regularization": "Divergent commutators must be Σ-regularized.", "rank_safety": "No commutator may change tensor rank unless explicitly defined." }

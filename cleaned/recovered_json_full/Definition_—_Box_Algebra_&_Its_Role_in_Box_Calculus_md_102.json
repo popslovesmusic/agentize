@@ -1,0 +1,8 @@
+{`  
+    `"name": "compose",`  
+    `"symbol": "∘",`  
+    `"kind": "binary",`  
+    `"signature": "Box × Box → Box",`  
+    `"sealed": true,`  
+    `"notes": "Composition follows the δ → Φ → Θ → ΣΣₐ → Π pipeline with compatibility rules."`  
+  `}

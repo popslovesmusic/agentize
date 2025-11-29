@@ -1,0 +1,1 @@
+{ "name": "ρ\_redundant\_layer", "when": "ρ\_j(ρ\_k(B))", "then": "ρ\_k(B)", "intent": "Collapse multiple layer tags." }

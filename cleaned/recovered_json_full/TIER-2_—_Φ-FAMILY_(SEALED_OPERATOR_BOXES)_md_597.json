@@ -1,0 +1,1 @@
+{ "Left": "Φ", "Right": "Π", "CompositeName": "Pi\_after\_Phi", "Expression": "Π ∘ Φ", "DefinedAtTier2": true, "DefinitionMode": "primitive\_Tier2\_Pi\_family", "Intent": "Canonical projection→evaluation pipeline.", "SealedBoxRef": "Pi\_after\_Phi", "CanonicalDecomposition": "Π ∘ Φ\_to\_Π" }

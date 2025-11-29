@@ -1,0 +1,1 @@
+{ "id": "S5\_psi\_lambda", "pattern": "ψ∘λ", "rewrite": "NF\_ψλ", "comment": "Wave applied to curvature." }

@@ -1,0 +1,1 @@
+{ "entities": { "TruthAtom": "Π-core state representing atomic truth assignment.", "PolarityAtom": "Θ-core state representing primitive polarity (Θ+, Θ-).", "SemanticClassAtom": "Φ-core class label for semantic type.", "DeviationAtom": "δ-core local displacement marker." } }

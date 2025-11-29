@@ -1,0 +1,1 @@
+{ id: "Ω-C3", description: "Θ-polarity flips that violate logic must be blocked.", input\_chain: \["Θ\_plus", "Θ\_flip", "Θ\_minus"\], expected\_chain: \["Θ\_plus", "blocked"\], enforced\_by: "Ω\_consistency", notes: "Checks legality of polarity transitions." }

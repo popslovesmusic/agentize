@@ -1,0 +1,29 @@
+{
+      "research_pattern": {
+        "flow": "Φ → Θ-OR → Σ → Π",
+        "gates": [
+          "Φ_gate (search)",
+          "Θ-OR (parallel sources)",
+          "Σ (merge results)",
+          "Π_gate (validate synthesis)"
+        ]
+      },
+
+      "creative_validation_loop": {
+        "flow": "δ → Π → Θ-MUX → (δ or done)",
+        "gates": [
+          "δ_gate (generate)",
+          "Π_gate (validate)",
+          "Θ-MUX (if Θ₋: loop to δ, if Θ₊: done)"
+        ]
+      },
+
+      "decision_tree": {
+        "flow": "Φ → μ → Θ-ROUTER → execution",
+        "gates": [
+          "Φ_gate (gather options)",
+          "μ_gate (score each)",
+          "Θ-ROUTER (route to best option)"
+        ]
+      }
+    }

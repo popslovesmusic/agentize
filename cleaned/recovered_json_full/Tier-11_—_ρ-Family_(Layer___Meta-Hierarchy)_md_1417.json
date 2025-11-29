@@ -1,0 +1,1 @@
+{ "id": "R-ρ-38", "name": "rho\_nf\_general", "category": "normal\_form", "lhs": "rho\_k ∘ (A\_1 ∘ A\_2 ∘ ... ∘ A\_n)", "rhs": "(A\_1 ∘ A\_2 ∘ ... ∘ A\_n)\[max(k, ρ(A\_1), ..., ρ(A\_n))\]", "conditions": { "sequence\_length\_n\>=1": true }, "notes": "General rule: push ρ to the outermost and collapse all layers to a single max index." }

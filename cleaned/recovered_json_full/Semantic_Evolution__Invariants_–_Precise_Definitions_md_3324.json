@@ -1,0 +1,1 @@
+{ "symbol": "χ", "name": "Semantic Time Coordinate", "arity": 0, "domain": "R\_or\_Z", "codomain": "semantic\_time\_axis", "params": { "orientation": "forward", "default\_mode": "continuous" }, "invariants\_respected": \[ "INV\_CHI\_FORWARD\_FLOW", "INV\_CHI\_CONTINUITY" \] }

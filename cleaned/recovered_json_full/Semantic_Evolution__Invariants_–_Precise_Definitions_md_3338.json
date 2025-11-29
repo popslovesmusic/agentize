@@ -1,0 +1,1 @@
+{ "id": "R\_CHI\_NF\_COLLAPSE\_01", "name": "Collapse χ-Equivalent Segments", "pattern": "two segments of χ-evolution that are χ-NF-equivalent", "condition": "NF\_checker returns EQUIVALENT", "rewrite": "replace both segments with canonical χ-NF representative", "preserves\_invariants": \[ "INV\_CHI\_NF\_STABILITY" \] }

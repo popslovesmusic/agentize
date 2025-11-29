@@ -1,0 +1,1 @@
+{ "id": "R-ρ-20", "name": "phi\_layer\_restriction", "category": "interaction", "lhs": "rho\_k ∘ Φ", "rhs": "Φ\[k\]", "conditions": { "k\_in\_N": true }, "notes": "ρ\_k applied to Φ yields Φ restricted to layer k." }

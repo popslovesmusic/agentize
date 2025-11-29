@@ -1,0 +1,1 @@
+{ "signature": "RuleSet → {status, report}", "implementation": "RS\_CHECK", "contracts": \[ "status ∈ {'ok', 'warning', 'error'}", "report.invariants lists RS-I1…RS-I3 status." \] }

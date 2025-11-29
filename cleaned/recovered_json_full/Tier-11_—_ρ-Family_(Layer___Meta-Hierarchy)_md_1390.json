@@ -1,0 +1,1 @@
+{ "id": "R-ρ-11", "name": "composition\_with\_rho\_left", "category": "core", "lhs": "rho\_k ∘ (A ∘ B)", "rhs": "(A ∘ B)\[k\]", "conditions": { "composable": true, "k\_in\_N": true }, "notes": "ρ\_k simply annotates the composite with layer k." }

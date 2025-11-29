@@ -1,0 +1,1 @@
+{ id: 'TU-COMM-07', invariant: 'commutativity', pattern: \['δ⊕Π', 'Π⊕δ'\], rewrite: 'NF\_Πδ', conditions: { sum\_semantics: true }, explanation: 'δ⊕Π and Π⊕δ reduce to the same NF as Πδ.', }

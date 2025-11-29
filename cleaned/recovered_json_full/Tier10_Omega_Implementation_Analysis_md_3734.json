@@ -1,0 +1,6 @@
+{
+            'agent': 'critic',
+            'mode': 'validate',
+            'omega_normalized': True,
+            'polarity': polarity
+        }

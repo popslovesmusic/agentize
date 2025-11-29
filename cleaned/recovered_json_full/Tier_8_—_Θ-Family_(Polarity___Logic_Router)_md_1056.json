@@ -1,0 +1,1 @@
+{ "id": "T58", "left": "Θ\_plus", "right": "Θ\_minus", "composition": "Θ\_plus Θ\_minus \= 0", "category": "projector\_relation", "signature": "Polarity\_projectors", "rule": "Projectors onto positive and negative subspaces are orthogonal.", "notes": "Θ\_plus ∘ Θ\_minus \= 0 operator." }

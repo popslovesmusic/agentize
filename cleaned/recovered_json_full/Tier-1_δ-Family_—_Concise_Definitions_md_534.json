@@ -1,0 +1,1 @@
+{ "name": "Front\_TriUnity\_Square", "vertices": \["B", "PhiB", "PiB", "PiPhiB"\], "relations": \[ "Π ∘ Φ (B) \= Π(Φ(B))", "Φ ∘ Π (B) \= Φ(Π(B))", "Π(Φ(B)) \= Φ(Π(B))" \], "commutes": true }

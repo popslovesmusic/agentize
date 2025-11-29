@@ -1,0 +1,1 @@
+{ "name": "Top\_Mu\_Naturality\_Phi\_Evaluated", "vertices": \["PiB", "PiPhiB", "MuPiB", "MuPiPhiB"\], "relations": \[ "μ ∘ Φ (Π(B)) \= μ(Φ(Π(B)))", "Φ ∘ μ (Π(B)) \= Φ(μ(Π(B)))", "μ(Φ(Π(B))) \= Φ(μ(Π(B)))" \], "commutes": true }

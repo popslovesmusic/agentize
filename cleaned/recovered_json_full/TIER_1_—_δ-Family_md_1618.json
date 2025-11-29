@@ -1,0 +1,1 @@
+{ "pattern": "Ξ\_TriUnity(δ, Φ, Π)", "rewrite": "TriUnity\_sym\_equivalent(δ', Φ', Π')", "description": "Replace Tri-Unity triple with a symmetry-equivalent triple." }

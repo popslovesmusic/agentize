@@ -1,0 +1,1 @@
+{ "name": "EDGE\_BOUNDARY", "symbol": "∂E", "signature": "Edge \-\> {Point, Point}", "intent": "Return boundary Points of an Edge." }

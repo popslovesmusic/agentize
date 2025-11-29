@@ -1,0 +1,46 @@
+{`  
+  `"mbc_version": "4.0",`  
+  `"type": "module_pack",`  
+  `"pack_id": "theta_logic_pack",`  
+  `"pack_name": "Θ Polarity Logic Pack",`
+
+  `"manifest": {`  
+    `"description": "Defines Θ-router, polarity algebra, logic gates, and semantic logic operators.",`  
+    `"tags": ["theta", "polarity", "logic"]`  
+  `},`
+
+  `"dependencies": {`  
+    `"module_packs": ["tri_unity_core_pack"],`  
+    `"layers": ["theta_layer"],`  
+    `"operators": ["Θ"],`  
+    `"axioms": []`  
+  `},`
+
+  `"objects": {`  
+    `"theorems": ["polarity_algebra_theorem", "theta_logic_theorem"],`  
+    `"layers": ["theta_layer"],`  
+    `"axiom_boxes": ["theta_axiom"],`  
+    `"diagrams": ["theta_router_diagram"]`  
+  `},`
+
+  `"router": {`  
+    `"operator_chains": ["Θ → logical_operator"],`  
+    `"tri_unity_extensions": [],`  
+    `"psi_mu_links": [],`  
+    `"semantic_flows": ["Box → Θ → LogicState"]`  
+  `},`
+
+  `"rewrite_rules": [`  
+    `{`  
+      `"pattern": "Θ(AND(x,y))",`  
+      `"rewrite": "Θ(x) ∧ Θ(y)",`  
+      `"note": "Router implements polarity propagation."`  
+    `}`  
+  `],`
+
+  `"export": {`  
+    `"operators": ["Θ"],`  
+    `"theorems": ["polarity_algebra_theorem"],`  
+    `"layers": ["theta_layer"]`  
+  `}`  
+`}

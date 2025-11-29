@@ -1,0 +1,1 @@
+{ "type": "structural\_template", "intent": "Template for ρ-layer and sub-layer definitions.", "schema": { "layer\_id": "string", "tier": "integer", "role": "string", "operators": "list\<OperatorRef\>", "interaction\_tables": "list\<InteractionTableRef\>", "axiom\_boxes": "list\<AxiomBoxRef\>", "rewrite\_systems": "list\<RewriteSystemRef\>", "sub\_layers": "list\<LayerRef\>" } }

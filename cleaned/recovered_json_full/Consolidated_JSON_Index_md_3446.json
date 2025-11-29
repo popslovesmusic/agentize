@@ -1,0 +1,21 @@
+{
+  "operator": "Φ",
+  "tier": 0,
+  "name": "Projection",
+  "intent": "Projects Box onto semantic form subspace; extracts structure.",
+  "domain": "Any Box B",
+  "codomain": "Projected Box",
+  "action_type": "global",
+  "classification": ["primitive", "idempotent"],
+  "constraints": {
+    "idempotency": "Φ ∘ Φ = Φ",
+    "self_adjoint": "Φ* = Φ"
+  },
+  "inputs": ["B"],
+  "outputs": ["Φ(B)"],
+  "cross_links": {
+    "bridge": "Φ→Π",
+    "composed_with": ["δ", "Π", "μ"],
+    "family": "Φ-Family (Tier-2)"
+  }
+}

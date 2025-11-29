@@ -1,0 +1,1 @@
+{ "name": "Π₂\_after\_ΣΘ", "when": "Π₂ ∘ Σ", "then": "Σ ∘ Θ ∘ Π₂", "intent": "Ensure Σ and Θ happen before Π₂." }

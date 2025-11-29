@@ -1,0 +1,1 @@
+{ "id": "R-ρ-07", "name": "identity\_layer\_preservation", "category": "functorial", "lhs": "rho( id\_A )", "rhs": "id\_A\[k\]", "conditions": { "k\_equals\_rho\_of\_A": true }, "notes": "ρ preserves the identity at the same layer as A." }

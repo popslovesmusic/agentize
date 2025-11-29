@@ -1,0 +1,1 @@
+{ "id": "adj\_Pi\_identity", "expression": "Π\*(id\_B) \= id\_{EvaluationState}", "intent": "Adjoint of identity is identity on evaluation states." }

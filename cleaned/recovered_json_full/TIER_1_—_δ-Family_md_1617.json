@@ -1,0 +1,1 @@
+{ "pattern": "Ξ\_ρ(ρk)", "rewrite": "ρσ(k)", "description": "Permute / fold layer index k via some symmetry σ." }

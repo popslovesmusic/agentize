@@ -1,0 +1,1 @@
+{ rewrite\_rule: "NEGATIVE\_WEIGHT → ERROR", errors: \["A1\_LocalWeightPositivity"\] }

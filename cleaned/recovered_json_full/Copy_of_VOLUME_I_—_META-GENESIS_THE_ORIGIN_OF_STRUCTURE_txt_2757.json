@@ -1,0 +1,1 @@
+{ "identity_persistence": "Identity must not spontaneously duplicate or annihilate without explicit rewrite specifying that outcome.", "Π_traceability": "Π must be able to evaluate the truth of each evolution trace.", "Σ_truncation": "Overlong traces may be Σ-truncated but with Ω-accounted summaries." }

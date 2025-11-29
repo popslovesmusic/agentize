@@ -1,0 +1,1 @@
+{ "id": "R-ρ-34", "name": "chi\_eval\_layered", "category": "interaction", "lhs": "χ\[k\] ∘ Π\[m\]", "rhs": "(χ ∘ Π)\[max(k,m)\]", "conditions": { "composable": true }, "notes": "Temporal evolution of evaluation is performed at maximal layer." }

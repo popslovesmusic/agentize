@@ -1,0 +1,1 @@
+{ "objects": ["FSM", "Attractor A"], "conditions": [ "curvature_stability: λ(A) > λ_c", "metric_stability: μ(A) > μ_c", "oscillation_stability: ψ(A) periodic", "normalization: Σ(A)=A" ] }

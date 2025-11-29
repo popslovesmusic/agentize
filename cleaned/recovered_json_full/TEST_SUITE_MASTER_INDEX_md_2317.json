@@ -1,0 +1,6 @@
+{  
+  // Connection timeout in milliseconds  
+  timeout: 5000,  
+  server: 'http://example.com',  
+  retries: 3, // Trailing comma allowed\!  
+}

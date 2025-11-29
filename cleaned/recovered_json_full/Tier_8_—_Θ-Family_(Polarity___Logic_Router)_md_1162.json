@@ -1,0 +1,1 @@
+{ "type": "boolean\_morphisms", "mappings": { "AND": "Θ→AND", "OR": "Θ→OR", "XOR": "Θ→XOR", "IMPLIES": "Θ→IMPLIES", "NAND": "Θ→NAND", "NOR": "Θ→NOR", "XNOR": "Θ→XNOR" } }

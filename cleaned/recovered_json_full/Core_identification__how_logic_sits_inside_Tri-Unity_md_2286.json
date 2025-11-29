@@ -1,0 +1,1 @@
+{ "module\_id": "MBC4\_CrossTier\_0\_12", "provides": \[ "Cross-tier operator registry (tiers 0–12)", "Cross-tier interaction table", "Cross-tier invariants (Axiom Box)", "Cross-tier rewrite system (NF\_cross\_semantic)", "Canonical flow \+ metadata" \] }

@@ -1,0 +1,9 @@
+python
+   def theta_to_pi(theta_signal):
+       """
+       Θ→Π: Map polarity to truth domain.
+
+       Θ₊ → 1 (assume valid)
+       Θ₋ → 0 (assume invalid)
+       """
+       return 1 if theta_signal == "Θ₊" else 0

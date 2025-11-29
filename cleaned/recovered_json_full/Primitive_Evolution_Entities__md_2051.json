@@ -1,0 +1,1 @@
+{ "id": "e3", "id\_alias": "final\_step", "state\_in": "S2", "state\_out": "S3", "chi\_step": "chi\_step", "description": "Manual transition C ⇒ D" }

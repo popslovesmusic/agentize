@@ -1,0 +1,8 @@
+{
+    "semantic_wave_equation": "ψ(B) = 0",
+    "interpretation": "B is in semantic wave equilibrium under weighted δ-geometry.",
+    "evolution_form": {
+      "propagator": "U_psi(t) = exp(t * ψ)",
+      "time_evolution": "B(t) = U_psi(t) * B(0)"
+    }
+  }

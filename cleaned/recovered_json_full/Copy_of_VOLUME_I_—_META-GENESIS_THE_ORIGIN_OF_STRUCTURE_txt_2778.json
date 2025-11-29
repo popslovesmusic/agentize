@@ -1,0 +1,1 @@
+{ "invariants": { "BoxIntegrity": "Box must retain internal δ, Φ, Π fields.", "DomainTensorRank": "Operator actions may not change tensor rank unless explicitly specified.", "AdjacencyIntegrity": "Graph adjacency must remain valid.", "LayerConsistency": "ρ-layer relationships must respect parent-child hierarchy." } }

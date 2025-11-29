@@ -1,0 +1,1 @@
+{ "type": "fractal\_lift\_operator", "intent": "Replicate and scale operator-layer structures across scales, generating fractal and self-similar copies.", "domain": "Layer / module configuration", "codomain": "Fractal hierarchy of layers / modules" }

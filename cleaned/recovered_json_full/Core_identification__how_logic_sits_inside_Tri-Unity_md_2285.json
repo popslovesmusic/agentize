@@ -1,0 +1,1 @@
+{ "name": "collapse\_to\_NF\_cross\_semantic", "when": "Any composition O\_n ∘ ... ∘ O\_2 ∘ O\_1 (B)", "then": "ρ ∘ Ω ∘ χ ∘ Π₂ ∘ Θ ∘ Σ ∘ ψ ∘ λ ∘ μ ∘ Π₁ ∘ Φ ∘ δ (B)", "conditions": \[ "All O\_i ∈ {δ, Φ, Π₁, μ, λ, ψ, Σ, Θ, Π₂, χ, Ω, ρ}", "Subject to preceding ordering/idempotence/neutral rules." \], "intent": "Define the canonical NF for any cross-tier pipeline." }

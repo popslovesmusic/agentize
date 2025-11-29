@@ -1,0 +1,9 @@
+{
+      "id": "kappa",
+      "from_functor": "pi",
+      "to_functor": "mu",
+      "components": [
+        { "object": "A", "morphism": "kapA" },
+        { "object": "B", "morphism": "kapB" }
+      ]
+    }

@@ -1,0 +1,1 @@
+{ id: "Ω-C1", description: "ΦΠ chain must not produce undefined class.", input\_chain: \["Φ", "Π"\], expected\_chain: \["Φ\_consistent", "Π"\], enforced\_by: "Ω\_consistency", notes: "Tests the Φ→Π commuting constraint under Ω." }

@@ -1,0 +1,9 @@
+{
+      "signature": "Θ-OR(A, B, ...) → Θ",
+      "algorithm": {
+        "step_1": "Evaluate all inputs to polarities",
+        "step_2": "If ANY Θ₊ present: return Θ₊",
+        "step_3": "Else: return Θ₋"
+      },
+      "use_case": "Parallel search - success if any source returns positive"
+    }

@@ -1,0 +1,1 @@
+{ "id": "R-ρ-13", "name": "pull\_rho\_to\_front\_left", "category": "normal\_form", "lhs": "A\[k\] ∘ B", "rhs": "(A ∘ B)\[max(k, ρ(B))\]", "conditions": { "composable": true }, "notes": "Push layer annotation outward to the composite, using max rule." }

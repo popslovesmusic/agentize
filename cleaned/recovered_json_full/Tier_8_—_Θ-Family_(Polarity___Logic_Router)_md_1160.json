@@ -1,0 +1,1 @@
+{ "type": "truth\_routing", "mapping\_rule": { "+1": 1, "-1": 0 } }

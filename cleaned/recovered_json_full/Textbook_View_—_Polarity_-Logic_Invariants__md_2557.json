@@ -1,0 +1,1 @@
+{ id: "T9\_16\_phase\_evolution\_valid", description: "ψ phase evolves consistently along χ.", psi\_phase: { chi\_0: 0, chi\_1: "π/2", chi\_2: "π" }, expected: { invariant\_violations: \[\], nf: "χNF" } }

@@ -1,0 +1,1 @@
+{ rewrite\_rule: "PiViolation → REPAIR\_CLASS\_STRUCTURE", errors: \["A5\_PhiPiCompatibility"\] }

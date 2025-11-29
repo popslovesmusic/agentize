@@ -1,0 +1,1 @@
+{ "id": "R1\_pairwise\_composition", "pattern": "A∘B", "rewrite": "NF\_AB", "comment": "Canonical pairwise composition normal form for any operators A,B." }

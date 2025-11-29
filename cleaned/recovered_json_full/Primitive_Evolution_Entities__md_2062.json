@@ -1,0 +1,1 @@
+{ "id": "e2", "state\_in": "S1", "state\_out": "S2", "chi\_step": "chi\_step", "description": "Manual transition B ⇒ C", "psi": { "phase": 0.5, "frequency": 1.0, "mode\_label": "ψ₁" }, "mu": { "weight": 0.9, "adjacency\_factor": 0.90 }, "lambda": { "curvature": 0.03, "deformation\_mode": "λˣ" } }

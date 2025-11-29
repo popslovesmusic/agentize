@@ -1,0 +1,9 @@
+{
+      "id": "delta_to_pi_composite",
+      "dimension": 2,
+      "boundary": ["d_f", "tauB", "p_f", "etaA"],
+      "commutes": {
+        "equation": "Π(f) ∘ (τ_A ∘ η_A) = (τ_B ∘ η_B) ∘ δ(f)",
+        "semantic_layer": "general"
+      }
+    }

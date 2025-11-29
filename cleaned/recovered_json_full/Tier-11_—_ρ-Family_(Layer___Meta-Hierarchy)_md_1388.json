@@ -1,0 +1,1 @@
+{ "id": "R-ρ-09", "name": "rho\_indexed\_functor\_law", "category": "functorial", "lhs": "rho\_k ∘ (A ∘ B)", "rhs": "(rho\_k ∘ A) ∘ (rho\_k ∘ B)", "conditions": { "composable": true, "k\_in\_N": true }, "notes": "ρ\_k distributes over composition at the same layer." }

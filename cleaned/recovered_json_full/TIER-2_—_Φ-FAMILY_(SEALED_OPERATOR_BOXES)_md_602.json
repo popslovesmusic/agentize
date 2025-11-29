@@ -1,0 +1,1 @@
+{ "Name": "delta\_phi\_anticommutator", "Expression": "{δ, Φ} \= δΦ \+ Φδ", "Intent": "Capture symmetric δ–Φ contributions.", "SealedBoxRef": "delta\_phi\_anticommutator" }

@@ -1,0 +1,1 @@
+{ "id": "T30", "left": "Θ", "right": "ψ", "composition": "Θ ∘ ψ", "category": "left\_composition", "signature": "Box \-\> Polarity", "rule": "Assign polarity from dominant wave phase or sign.", "notes": "Phase-based polarity." }

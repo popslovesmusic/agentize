@@ -1,0 +1,1 @@
+{ "type": "string", "description": "Allowed operators appearing in Θ-interaction rules", "enum": \[ "Θ", "Θ\_plus", "Θ\_minus", "Θ\_LG", "Θ\_oplus", "Θ\_otimes", "Θ\_to\_Pi", "Θ\_to\_Sigma", "Θ\_to\_logic", "δ", "Φ", "Π", "μ", "ψ", "λ", "Σ", "δ\_plus", "δ\_minus", "Φ\_plus", "Φ\_minus" \] }

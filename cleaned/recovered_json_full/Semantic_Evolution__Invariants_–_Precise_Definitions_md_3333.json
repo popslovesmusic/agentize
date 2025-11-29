@@ -1,0 +1,1 @@
+{ "id": "R\_CHI\_ORIENTATION\_01", "name": "Eliminate Negative χ-Steps", "pattern": "STEP(B, χ2) after STEP(B, χ1) with χ2 \< χ1 and not tagged 'reverse\_allowed'", "condition": "no\_explicit\_time\_reversal\_flag", "rewrite": "REJECT\_SEQUENCE as INVALID\_CHI\_ORIENTATION", "preserves\_invariants": \[ "INV\_CHI\_FORWARD\_FLOW" \] }

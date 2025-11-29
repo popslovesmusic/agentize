@@ -1,0 +1,1 @@
+{ id: "T8\_07\_wave\_polarity\_phase\_flip", description: "Semantic wave oscillation ψ must not implicitly flip Θ without ψ-declared phase inversion.", wave\_state: { polarity: "+", phase: "π", // suggests inversion declared\_flip: false }, expected: { invariant\_violations: \["Θ\_INV\_TENSOR\_SIGN"\], rewrite\_applied: \["RW\_Θ\_TENSOR\_SIGN\_WRAP\_NOT"\], nf: "ΘNF" } }

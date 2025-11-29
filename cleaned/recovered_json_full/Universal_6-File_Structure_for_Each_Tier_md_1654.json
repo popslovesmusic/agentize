@@ -1,0 +1,1 @@
+{ "type": "string", "description": "Semantic codomain or result type (e.g. 'operator', 'inference\_rule', 'rewrite\_rule')." }

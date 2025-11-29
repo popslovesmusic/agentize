@@ -1,0 +1,9 @@
+{
+      "id": "sigma_nat",
+      "from_functor": "mu",
+      "to_functor": "sigma",
+      "components": [
+        { "object": "A", "morphism": "sigA" },
+        { "object": "B", "morphism": "sigB" }
+      ]
+    }

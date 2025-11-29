@@ -1,0 +1,3 @@
+bash
+# Script would read pointer, extract lines from source, write to .json
+./extract_from_pointers.sh 01_Primitives/delta_primitive.pointer.json

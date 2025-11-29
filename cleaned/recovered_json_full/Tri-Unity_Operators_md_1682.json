@@ -1,0 +1,1 @@
+{ "operators": \["δ", "Φ", "Π", "..."\], "k": "number of operators", "vertices": "2^k", "edges": "k \* 2^(k-1)", "faces": "C(k,2) \* 2^(k-2)", "cells": "C(k,3) \* 2^(k-3)", "constraints": { "commutativity": "All k-dimensional faces commute", "normal\_form": "NF\_k" }, "metadata": { "description": "General k-operator Tri-Unity hypercube" } }

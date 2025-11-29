@@ -1,0 +1,1 @@
+{ "commutator": "\[A,B\]", "anticommutator": "{A,B}", "composition": "A∘B", "tensor": "A⊗B", "semantic\_sum": "A⊕B", "semantic\_convolution": "A⋆B", "inference": "A⇒B", "rewrite": "A↦B" }

@@ -1,0 +1,1 @@
+{ "symbol": "¬", "arity": 1, "category": "boolean", "definition": { "theta\_rule": "Θ\_out \= polarity\_flip(Θ\_in).", "sigma\_rule": "Σ\_out copies Σ\_in (no aggregation change).", "pi\_rule": "Π\_out \= logical\_not(Π\_in)." } }

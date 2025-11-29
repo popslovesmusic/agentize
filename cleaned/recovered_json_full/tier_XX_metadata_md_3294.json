@@ -1,0 +1,1 @@
+{ "id": "m2", "name": "Enforce Non-Expansion", "pattern": { "lhs": "rule(ℓ, r)", "condition": "dim\_sem(r) \> dim\_sem(ℓ)" }, "action": "reject(rule(ℓ, r))", "comment": "Hard constraint: non-expansion must not be violated." }

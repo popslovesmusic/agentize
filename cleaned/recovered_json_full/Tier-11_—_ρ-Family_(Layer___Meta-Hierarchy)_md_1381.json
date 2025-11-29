@@ -1,0 +1,1 @@
+{ "id": "R-ρ-02", "name": "layer\_annotation\_to\_rho", "category": "structural", "lhs": "A\[k\]", "rhs": "rho\_k ∘ A", "conditions": { "k\_in\_N": true }, "notes": "Annotated layer can be expressed as explicit ρ\_k action." }

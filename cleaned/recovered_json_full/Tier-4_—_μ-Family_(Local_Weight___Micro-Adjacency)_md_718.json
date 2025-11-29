@@ -1,0 +1,1 @@
+{ "tri\_unity\_normal\_form": "Any composite path around the cube can be reduced to a canonical Tri-Unity normal form with explicit μ-weighting factors.", "mu\_normalization": "Whenever Π is the terminal operator, μ-weighted evaluations must be renormalized.", "locality": "μ depends only on local Box state at each node; μ decorations on edges are local in that sense." }

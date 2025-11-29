@@ -1,0 +1,12 @@
+python
+   def pi_to_theta(pi_result):
+       """
+       Π→Θ: Map truth values to polarity.
+
+       Π(B) = 1 (valid) → Θ₊ (positive polarity)
+       Π(B) = 0 (invalid) → Θ₋ (negative polarity)
+       """
+       if pi_result.get('overall_valid'):
+           return "Θ₊"
+       else:
+           return "Θ₋"

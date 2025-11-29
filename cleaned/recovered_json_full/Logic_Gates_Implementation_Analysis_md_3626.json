@@ -1,0 +1,8 @@
+{
+      "signature": "Θ→Π(polarity) → boolean",
+      "algorithm": {
+        "step_1": "If Θ₊: return 1 (true)",
+        "step_2": "If Θ₋: return 0 (false)"
+      },
+      "use_case": "Convert routing decision to boolean output"
+    }

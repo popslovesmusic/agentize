@@ -1,0 +1,1 @@
+{ "λ\_curv": { "type": "curvature", "role": "Pure curvature" }, "λ\_mode": { "type": "mode\_deformation", "role": "Modal deformation" }, "λ\_x": { "type": "cross\_mode", "role": "Cross-mode curvature" }, "λ\*": { "type": "adjoint\_curvature", "role": "Adjoint λ" } }

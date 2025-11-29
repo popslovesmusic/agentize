@@ -1,0 +1,1 @@
+{ description: 'Project raw state S onto semantic class C.', pseudo\_math: 'Φ\_C(S) \= projection of S onto class C', pseudo\_json5: { op: 'Φ', mode: 'class', target: 'C', input: 'S', }, }

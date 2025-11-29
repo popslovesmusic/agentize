@@ -1,0 +1,1 @@
+{ "id": "T03\_GEO\_03", "name": "Geodesic Length Drift with Dynamic μ", "invariant": "δ-GEODESIC-LENGTH", "initial\_state": { "geodesic\_length": 8.0, "μ": "dynamic", "Ω": "active" }, "operators": \[ "μ\_rescale", "χ\_step" \], "expected": { "status": "ok", "explanation": "Geodesic length allowed to change under dynamic μ." } }

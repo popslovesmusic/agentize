@@ -1,0 +1,1 @@
+{ description: 'Evaluate formula F after projection onto a logical subspace.', pseudo\_math: 'Π(F) ∈ {⊥, ⊤}', pseudo\_json5: { op: 'Π', mode: 'truth', input: 'F', }, }

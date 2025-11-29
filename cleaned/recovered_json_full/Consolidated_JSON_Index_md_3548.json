@@ -1,0 +1,6 @@
+{
+    "B": { "label": "B", "type": "Box" },
+    "mu_B": { "label": "μB", "type": "Box", "description": "μ-weighted Box" },
+    "mu_phi_delta_B": { "label": "μΦδB", "type": "Box" },
+    "mu_pi_phi_delta_B": { "label": "μΠΦδB", "type": "Box", "description": "Full Tri-Unity+μ endpoint" }
+  }

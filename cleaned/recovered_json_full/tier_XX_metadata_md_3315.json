@@ -1,0 +1,1 @@
+{ "id": "RS-INT-03", "lhs": "RS\_NF(δ(t), R)", "rhs": "δ(RS\_NF(t, R))", "description": "δ commutes with NF when R satisfies RS-I2 \+ RS-I3." }

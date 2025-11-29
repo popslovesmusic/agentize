@@ -1,0 +1,1 @@
+{ "OperatorVars": \["A", "B", "C", "X", "Y"\], "LayerIndexVars": \["k", "m", "n"\], "Constants": \["δ", "Φ", "Π", "μ", "λ", "ψ", "Σ", "Θ", "χ", "Ω", "ρ"\], "Forms": \[ "A", "A\[k\]", "rho(A)", "rho\_k", "A ∘ B", "rho(A) ∘ B", "A ∘ rho(B)", "rho\_k ∘ A", "A ∘ rho\_k" \] }

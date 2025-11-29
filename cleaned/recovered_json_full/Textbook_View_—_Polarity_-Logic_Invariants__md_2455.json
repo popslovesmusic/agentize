@@ -1,0 +1,1 @@
+{ "description": "Net polarity accounting for a logic network.", "fields": { "inputs": "Array of signed inputs (+1/-1/0)", "outputs": "Array of signed outputs (+1/-1/0)", "explicit\_sources": "Array of declared polarity sources", "explicit\_sinks": "Array of declared polarity sinks" } }

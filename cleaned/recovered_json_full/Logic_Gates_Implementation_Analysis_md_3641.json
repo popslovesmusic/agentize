@@ -1,0 +1,7 @@
+{
+    "dimensions": ["user_expertise", "query_complexity"],
+    "values": {
+      "user_expertise": ["beginner", "intermediate", "expert"],
+      "query_complexity": ["simple", "moderate", "complex"]
+    }
+  }

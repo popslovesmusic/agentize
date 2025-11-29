@@ -1,0 +1,1 @@
+{ "chapter\_title": "Rewrite-System Invariants and Normal Forms", "recommended\_order": \[ "Tri-Unity Invariants", "Structural Invariants", "Rewrite-System Invariants (this tier)", "Ω Global Constraints" \], "example\_ids": \[ "RS-EX-01-simple-idempotent-system", "RS-EX-02-box-normalization", "RS-EX-03-cross-tier-normalization" \] }

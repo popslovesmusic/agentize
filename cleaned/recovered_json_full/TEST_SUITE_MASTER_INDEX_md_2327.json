@@ -1,0 +1,1 @@
+{ allowed: \[ "δ", "Φ", "Π", "μ", "ψ", "λ", "Σ", "Θ", "χ", "Ω", "ρ", "⊗", "⊕", "⋆", "⇒", "↦", "⊥", "⊤", "∞", "±" \], transform\_rules: { do\_not\_rename: true, do\_not\_escape\_unicode: true, treat\_as\_identifiers: true, treat\_as\_operator\_keys: true } }

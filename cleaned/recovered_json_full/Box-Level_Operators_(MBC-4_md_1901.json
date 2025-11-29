@@ -1,0 +1,1 @@
+{ "rewrite\_rules": \[ { "rule": "NORMALIZE ∘ BOX → BOX" }, { "rule": "EVAL ∘ PROJECT → ΠΦ" }, { "rule": "SUM ∘ DEVIATE → δΣ-normal" }, { "rule": "STEP(B,0) → B" }, { "rule": "FEDERATE ∘ BOX → ρ-BOX" } \], "normal\_form": "Θ-aware Box-NF" }

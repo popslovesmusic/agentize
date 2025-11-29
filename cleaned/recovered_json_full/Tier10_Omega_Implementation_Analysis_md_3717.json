@@ -1,0 +1,5 @@
+{
+                'decision': 'flag_noise',
+                'reason': f"Potential noise (similarity={duplicate_check['similarity']:.3f})",
+                'normalized_entry': new_entry
+            }

@@ -1,0 +1,1 @@
+{ id: 'TU-NF-16', invariant: 'closure', pattern: 'δ∘Φ∘Π', rewrite: 'NF\_δΦΠ', conditions: {}, explanation: 'Functor composition δ∘Φ∘Π matches chain δΦΠ \-\> NF\_δΦΠ.', }

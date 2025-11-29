@@ -1,0 +1,69 @@
+{`  
+    `"mu_delta": {`  
+      `"id": "mu_delta",`  
+      `"label": "μ–δ",`  
+      `"kind": "local_weighting",`  
+      `"source_operator": "mu",`  
+      `"target_operator": "delta",`  
+      `"interaction_role": "weights_delta_by_local_measure",`  
+      `"input_type": "BoxField",`  
+      `"output_type": "BoxField",`  
+      `"schematic_equation": "μ∘δ : B ↦ μ · (δB)",`  
+      `"effects": [`  
+        `"induces_local_metric_density",`  
+        `"modulates_delta_strength_by_adjacent_structure"`  
+      `]`  
+    `},`
+
+    `"mu_phi": {`  
+      `"id": "mu_phi",`  
+      `"label": "μ–Φ",`  
+      `"kind": "projection_weighting",`  
+      `"source_operator": "mu",`  
+      `"target_operator": "phi",`  
+      `"interaction_role": "biases_projection_toward_locally_heavier_modes",`  
+      `"input_type": "BoxField",`  
+      `"output_type": "SemanticFormField",`  
+      `"schematic_equation": "μ–Φ : B ↦ Φ(B) with mode weights rescaled by μ",`  
+      `"effects": [`  
+        `"preferred_modes_follow_high_mu_regions",`  
+        `"suppresses_low_mu_modes_in_projection"`  
+      `]`  
+    `},`
+
+    `"mu_pi": {`  
+      `"id": "mu_pi",`  
+      `"label": "μ–Π",`  
+      `"kind": "evaluation_weighting",`  
+      `"source_operator": "mu",`  
+      `"target_operator": "pi",`  
+      `"interaction_role": "weights_causal_evaluation_by_local_measure",`  
+      `"input_type": "SemanticFormField",`  
+      `"output_type": "CausalOrderField",`  
+      `"schematic_equation": "μ–Π : S ↦ Π(S; weights=μ)",`  
+      `"effects": [`  
+        `"causal_paths_through_high_mu_regions_gain_influence",`  
+        `"reweights_causal_order_by_local_density"`  
+      `]`  
+    `},`
+
+    `"psi_couplings": {`  
+      `"id": "psi_couplings",`  
+      `"label": "ψ with Tri-Unity + μ",`  
+      `"kind": "composite",`  
+      `"source_operator": "psi",`  
+      `"target_operators": [`  
+        `"delta",`  
+        `"phi",`  
+        `"pi",`  
+        `"mu"`  
+      `],`  
+      `"interaction_role": "semantic_wave_built_from_mu_weighted_delta_and_tri_unity_feedback",`  
+      `"schematic_equation": "ψ(B) ≈ μ·Δ_δ(B) + Φ_feedback(B) + Π_feedback(B)",`  
+      `"dependencies": [`  
+        `"mu_delta",`  
+        `"mu_phi",`  
+        `"mu_pi"`  
+      `]`  
+    `}`  
+  `}

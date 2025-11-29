@@ -1,0 +1,1 @@
+{ "id": "OP\_ψ-PHASE-SHIFT", "symbol": "PHASE\_θ", "kind": "unary", "signature": "(ψ, θ ∈ ℝ) \-\> ψ", "description": "Apply global phase shift e^{iθ} to ψ.", "definition": "PHASE\_θ(ψ)\_i \= e^{iθ} ψ\_i", "invariant": "ψ-PHASE" }

@@ -1,0 +1,1 @@
+{ "classical": "negation", "theta\_formula": "Θ\_out \= \-Θ\_p (swap Θ\_+ ↔ Θ\_-)", "pi\_formula": "Π\_out \= 1 if Θ\_out \= Θ\_+ else 0", "tri\_unity\_form": "NOT \= Π ∘ Φ\_logic ∘ Θ\_negation", "notes": "Polarity inversion gate." }

@@ -1,0 +1,1 @@
+{ id: 'TU-NF-33', invariant: 'normal\_form', pattern: 'δ∘Φ∘Π', rewrite: 'NF\_δΦΠ', conditions: { functor\_composition: true }, explanation: 'Functor chain δ∘Φ∘Π matches NF\_δΦΠ.', }

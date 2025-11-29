@@ -1,0 +1,1 @@
+{ "fields": { "box_id": "Unique identifier", "delta_state": "δ-field snapshot", "phi_state": "Φ-field snapshot", "pi_state": "Π-field snapshot", "meta_links": "Cross-references to other boxes" } }

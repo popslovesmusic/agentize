@@ -1,0 +1,1 @@
+{ id: "T9\_12\_delta\_surge\_omega\_violation", description: "Large δ deviation creates too much χ-evolution energy (Ω violation).", delta\_deviation: { magnitude\_raw: 15.0, allowed: 3.0 }, expected: { invariant\_violations: \["χ\_PR\_WAVE\_CONSTRAINT"\], rewrite\_applied: \["RW\_χ\_ENFORCE\_WAVE\_CONSTRAINT"\], nf: "χNF" } }

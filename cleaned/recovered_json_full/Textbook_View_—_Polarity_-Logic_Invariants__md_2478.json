@@ -1,0 +1,1 @@
+{ // Basic signed input/output system fields: { inputs: "Array\<+1|-1|0\>", outputs: "Array\<+1|-1|0\>", explicit\_sources: "Array\<PolaritySource\>", explicit\_sinks: "Array\<PolaritySink\>", }, }

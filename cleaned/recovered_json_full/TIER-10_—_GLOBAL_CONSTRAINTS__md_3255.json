@@ -1,0 +1,1 @@
+{ name: "Ω-polarity-guard", pattern: { Θ\_flip: true }, replace\_with: { Θ\_flip: "blocked" }, comment: "Illegal polarity flips never propagate." }

@@ -1,0 +1,1 @@
+{ id: 'TU-NF-28', invariant: 'normal\_form', pattern: 'ΦΠΦΠ', rewrite: 'NF\_ΦΠ', conditions: { collapses\_to\_chain: true }, explanation: 'ΦΠΦΠ collapses to 2-step NF\_ΦΠ.', }

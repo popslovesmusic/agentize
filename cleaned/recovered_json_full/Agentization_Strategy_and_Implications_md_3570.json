@@ -1,0 +1,10 @@
+{
+  "operator": "δ",
+  "semantic": "deviation/difference",
+  "grounds_to": {
+    "numerical": "gradient, derivative",
+    "logical": "negation, difference",
+    "geometric": "tangent vector",
+    "data": "delta encoding, diff"
+  }
+}

@@ -1,0 +1,1 @@
+{ id: "T9\_13\_truth\_locked\_by\_omega", description: "Ω forbids truth flip across χ; Π tries to flip must be corrected.", truth: { before: true, after\_raw: false }, omega\_rule: "no\_truth\_flip", expected: { invariant\_violations: \["χ\_PR\_WAVE\_CONSTRAINT"\], rewrite\_applied: \["RW\_χ\_ENFORCE\_WAVE\_CONSTRAINT"\], nf: "χNF" } }

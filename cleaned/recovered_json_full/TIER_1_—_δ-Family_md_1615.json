@@ -1,0 +1,1 @@
+{ "pattern": "Ξ\_self(X)", "rewrite": "X (up to isomorphism)", "description": "Self-equivalences preserve structure; only labels or coordinates may change." }

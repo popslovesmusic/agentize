@@ -1,0 +1,1 @@
+{ id: 9, description: "Closure: δ² (δ ∘ δ) remains a Tri-Unity operator.", input: \[δ, δ\], expect\_nf: "NF\_δ2", invariant: "closure", }

@@ -1,0 +1,5 @@
+λ(B) = λ_curv(B) + λ_mode(B) + λ_×(B)
+where:
+  λ_curv = [δ,δ]           (intrinsic, modes off)
+  λ_mode = δ(M) + [δ,M]    (linear modal)
+  λ_× = M∧M                 (cross-mode)

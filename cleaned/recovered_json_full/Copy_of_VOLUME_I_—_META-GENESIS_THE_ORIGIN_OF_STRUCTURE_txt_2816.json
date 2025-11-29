@@ -1,0 +1,1 @@
+{ "name": "V3_Ch8_Feedback_ChapterAxiom", "intent": "Define cosmic feedback as δ–ψ–μ–Σ-Ω cycles.", "domain": "Feedback loops across scale", "constraints": [ "Feedback must preserve Ω", "Σ must stabilize each cycle" ], "cross_links": ["V1_Ch9_StructuralInvariants_ChapterAxiom"] }

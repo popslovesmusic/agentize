@@ -1,0 +1,1 @@
+{ id: 'TU-NF-17', invariant: 'closure', pattern: '{δ,Φ}', rewrite: 'NF\_{δΦ}', conditions: { anticommutator: true }, explanation: 'Anticommutator {δ,Φ} is given NF\_{δΦ} within Tri-Unity.', }

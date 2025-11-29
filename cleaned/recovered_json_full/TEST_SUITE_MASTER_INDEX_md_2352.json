@@ -1,0 +1,1 @@
+{ id: 18, description: "Closure: Commutator \[Φ,Π\].", input: \["\[Φ,Π\]"\], expect\_nf: "NF\_\[ΦΠ\]", invariant: "closure", }

@@ -1,0 +1,9 @@
+{`  
+        `"name": "identity_box",`  
+        `"schema": "compose(I, B) == B && compose(B, I) == B",`  
+        `"definition_of_I": {`  
+          `"delta_state": "zero_deviation",`  
+          `"theta_state": "neutral_polarity",`  
+          `"pi_state": "identity_evaluation"`  
+        `}`  
+      `}

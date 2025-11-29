@@ -1,0 +1,12 @@
+{
+  "name": "Directional Deviation",
+  "symbol": "δᵢ",
+  "family": "δ-family",
+  "intent": "Deviation along direction i.",
+  "formal_definition": "δᵢ(B) = ∂B/∂xᵢ",
+  "semantic_definition": "Deviation restricted to a semantic or geometric axis.",
+  "rank": "operator",
+  "inputs": { "box": "B", "axes": ["i"] },
+  "outputs": { "box": "δᵢB", "rank": "tensor" },
+  "constraints": ["Axis i must be defined"]
+}

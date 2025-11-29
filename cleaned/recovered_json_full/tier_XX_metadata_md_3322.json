@@ -1,0 +1,1 @@
+{ "required\_status": { "termination": "true", "local\_confluence": "true", "global\_confluence": "true", "non\_expansion": "true", "rs\_check": "ok", "nf\_uniqueness": "true", "Ω\_stability": "true" }, "meaning": "ALL invariants must hold for this tier to declare a rewrite system valid." }

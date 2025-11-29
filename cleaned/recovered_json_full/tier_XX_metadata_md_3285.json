@@ -1,0 +1,1 @@
+{ "id": "RS\_CHECK\_NEXP", "signature": "RuleSet → {true, false}", "description": "Verify dim\_sem(rhs) ≤ dim\_sem(lhs) for every rule.", "related\_invariant": "RS-I3" }

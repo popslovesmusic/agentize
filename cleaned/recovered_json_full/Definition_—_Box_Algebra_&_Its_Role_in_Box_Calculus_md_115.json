@@ -1,0 +1,7 @@
+{`  
+    `"name": "Pi",`  
+    `"terminal": true,`  
+    `"idempotent": true,`  
+    `"schema": "Π: Box → Box",`  
+    `"notes": "Once Π converges, no further semantic information can change the Box."`  
+  `}

@@ -1,0 +1,1 @@
+{ "id": "S4\_psi\_idempotent", "pattern": "ψ∘ψ", "rewrite": "ψ", "comment": "ψ behaves idempotently at the operator level." }

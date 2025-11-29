@@ -1,0 +1,1 @@
+{ "map": { "Point → SemanticGraphNode": "via Φ-projection", "Edge → SemanticGraphEdge": "via adjacency mapping", "Box → DomainTensorSlice": "via indexing scheme" } }

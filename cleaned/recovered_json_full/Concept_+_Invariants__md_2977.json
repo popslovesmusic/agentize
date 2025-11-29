@@ -1,0 +1,1 @@
+{ "events": \["A", "B", "C"\], "edges": \[ \["A", "B"\], \["B", "C"\], \["C", "A"\] // illegal edge creating a cycle \], "truth\_values": { "A": 0.7, "B": 0.6, "C": 0.9 } }

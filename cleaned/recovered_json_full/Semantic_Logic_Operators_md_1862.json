@@ -1,0 +1,1 @@
+{ "id": "SL-NAND-ELIM", "name": "NAND\_Elimination", "pattern": "NAND(A, B)", "rewrite": "NOT(AND(A, B))", "theta\_update": "t\_out \= theta\_not(theta\_and(t\_A, t\_B));", "sigma\_update": "s\_out \= sigma\_not(sigma\_and(s\_A, s\_B));", "pi\_update": "p\_out \= pi\_not(pi\_and(p\_A, p\_B));", "goal": "Eliminate NAND; represent via NOT and AND." }

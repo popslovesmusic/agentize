@@ -1,0 +1,20 @@
+{`  
+    `"id": "psi_rewrite",`  
+    `"rules": [`  
+      `{`  
+        `"pattern": "ψ(δ(B))",`  
+        `"rewrite": "μ·Δ_δ(δ(B)) + Φ_feedback(δ(B)) + Π_feedback(δ(B))",`  
+        `"note": "Promotes δ-curvature waves with semantic filters."`  
+      `},`  
+      `{`  
+        `"pattern": "ψ(ψ(B))",`  
+        `"rewrite": "ψ(B) + nonlinear_interaction(ψ,B)",`  
+        `"note": "Allows multi-wave interference terms."`  
+      `},`  
+      `{`  
+        `"pattern": "Π(ψ(B))",`  
+        `"rewrite": "evaluate_boundary(ψ(B))",`  
+        `"note": "Semantic wave must collapse to valid causal state."`  
+      `}`  
+    `]`  
+  `}

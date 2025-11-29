@@ -1,0 +1,1 @@
+{ "id": "SL-FORALL-EXISTS-DUAL", "name": "Forall\_Exists\_Duality", "pattern": "FORALL(x, A(x))", "rewrite": "NOT(EXISTS(x, NOT(A(x))))", "conditions": { "frame": "standard\_first\_order", "pi\_equivalence": true } }

@@ -1,0 +1,1 @@
+{ "id": "face\_phi\_pi\_low", "name": "Φ-Π face (δ \= 0)", "vertices": \["B", "phi\_B", "pi\_B", "phi\_pi\_B"\], "commutativity": { "unweighted": "Φ ∘ Π vs Π ∘ Φ (governed by Φ→Π bridge).", "weighted": "\[μ→Φ, μ→Π\] encodes μ-weighted semantic vs causal ordering." } }

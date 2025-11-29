@@ -1,0 +1,1 @@
+{ "tier": "00", "name": "Primitive Logical Entities", "entities": \[ "TruthAtom", "PolarityAtom", "SemanticClassAtom", "DeviationAtom" \], "description": "Tier-00 defines the irreducible logical-semantic atoms for MBC-4.0.", "version": "1.0" }

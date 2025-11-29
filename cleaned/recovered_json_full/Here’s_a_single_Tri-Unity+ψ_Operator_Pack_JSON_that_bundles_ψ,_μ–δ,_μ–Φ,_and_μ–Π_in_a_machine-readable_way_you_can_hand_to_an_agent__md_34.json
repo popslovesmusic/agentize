@@ -1,0 +1,22 @@
+{`  
+        `"mbc_version": "4.0",`  
+        `"type": "theorem",`  
+        `"id": f"theorem_{re.sub(r'[^A-Za-z0-9]+','_',item['name']).lower()}",`  
+        `"meta": {"name": item["name"], "tags": []},`  
+        `"dependencies": {`  
+            `"axioms": [],`  
+            `"lemmas": [],`  
+            `"operators": [],`  
+            `"layers": []`  
+        `},`  
+        `"statement": {`  
+            `"informal": guess_informal(item["context"]),`  
+            `"formal": ""`  
+        `},`  
+        `"proof": {`  
+            `"outline": guess_proof_outline(item["context"]),`  
+            `"steps": [],`  
+            `"completion_status": "partial"`  
+        `},`  
+        `"diagram_stack": {"required": False, "elements": []}`  
+    `}

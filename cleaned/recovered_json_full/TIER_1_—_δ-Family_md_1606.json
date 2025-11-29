@@ -1,0 +1,1 @@
+{ "type": "meta\_symmetry\_operator", "intent": "Act on the entire operator-layer hierarchy to reveal or enforce global symmetries, dualities, and self-similarities.", "domain": "Full IGSOA operator and layer space", "codomain": "Symmetry-transformed IGSOA space" }

@@ -1,0 +1,10 @@
+{`  
+      `"decomposition": [`  
+        `"psi_core",`  
+        `"psi_mu_weight",`  
+        `"psi_phi_feedback",`  
+        `"psi_pi_feedback"`  
+      `],`
+
+      `"formal_shape": "ψ(B) = ψ_core(B) + μ·Δ_δ(B) + Φ_feedback(B) + Π_feedback(B)"`  
+    `}

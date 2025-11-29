@@ -1,0 +1,1 @@
+{ "id": "Rho2\_rho\_idempotent", "pattern": "ρ∘ρ", "rewrite": "ρ", "comment": "Layer operator is idempotent at meta-level." }

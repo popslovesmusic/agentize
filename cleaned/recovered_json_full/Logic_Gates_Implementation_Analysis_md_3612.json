@@ -1,0 +1,7 @@
+{
+  "Θ→Π": {
+    "definition": "Convert routing decision to boolean output",
+    "rule": "Θ₊ → 1 ; Θ₋ → 0",
+    "use_case": "Final routing outcome → user-facing result"
+  }
+}

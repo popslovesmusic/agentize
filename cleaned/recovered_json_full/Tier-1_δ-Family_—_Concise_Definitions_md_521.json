@@ -1,0 +1,1 @@
+{ "δ": { "symbol": "Φδ", "intent": "Projection of deviation", "defined": true, "constraints": \[\] }, "Φ": { "symbol": "Φ", "intent": "Idempotent projection", "defined": true, "constraints": \["Φ∘Φ \= Φ"\] }, "Π": { "symbol": "ΦΠ", "intent": "Projection of evaluation", "defined": true, "constraints": \[\] } }

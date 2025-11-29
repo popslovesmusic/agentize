@@ -1,0 +1,1 @@
+{ "module\_pack": { "tier": "XX", "includes": \[ "tier\_XX\_metadata.json", "tier\_XX\_operator\_pack.json", "tier\_XX\_interaction\_table.json", "tier\_XX\_axiom\_box.json", "tier\_XX\_rewrite\_system.json" \], "entrypoint": "BOX-Level Operator Module", "export": "Box\_Operator\_Library" } }

@@ -1,0 +1,1 @@
+{ fields: { ok: "bool", violation: "bool", details: "string", }, }

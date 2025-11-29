@@ -1,0 +1,1 @@
+{ "id": "RHO-R4-ALIGN-CHI", "name": "χ-Alignment Rewrite", "pattern": "ρ\_k(B\_t) with χ-step Δt", "rewrite": "ALIGN\_WITH\_CHI(ρ\_k(B\_t), Δt) \-\> ρ\_k(B\_{t+Δt})", "kind": "evolution", "invariants\_preserved": \[ "RHO-LAYER-IDENTITY", "RHO-HIERARCHY-PRESERVATION" \] }

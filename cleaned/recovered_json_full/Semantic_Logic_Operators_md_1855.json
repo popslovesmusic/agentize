@@ -1,0 +1,1 @@
+{ "id": "SL-NEC-POSS-DUAL", "name": "Necessity\_Possibility\_Duality", "pattern": "NECESSITY(A)", "rewrite": "NOT(POSSIBILITY(NOT(A)))", "conditions": { "modal\_frame": "normal (K or stronger)", "pi\_equivalence": true } }

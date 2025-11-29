@@ -1,0 +1,1 @@
+{ "normal\_form\_checker": "PI\_CHECK\_DAG \+ PI\_CHECK\_MONO", "normalizer": "PI\_NORMALIZE", "invariant\_suite": \["PI-CO", "PI-TM", "PI-CT"\], "flow": "OMEGA\_CHI\_PI\_FLOW" // NEW: expose full Ω–χ–Π flow }

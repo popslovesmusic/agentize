@@ -1,0 +1,1 @@
+{ "id": "P1\_pi\_idempotent", "pattern": "Π∘Π", "rewrite": "Π", "comment": "Evaluation is idempotent." }

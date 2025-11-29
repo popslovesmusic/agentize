@@ -1,0 +1,1 @@
+{ id: "RW\_BRIDGE\_ΘΣ\_WRAP\_MODE", when: "ΣΘ collapses sign without mode declaration", action: "Add ΣΘ(mode='collapse') operator", ensures: "Θ\_INV\_TENSOR\_SIGN" }

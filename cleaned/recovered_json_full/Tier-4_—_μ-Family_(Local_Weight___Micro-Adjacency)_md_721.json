@@ -1,0 +1,1 @@
+{ "mu\_delta": { "symbol": "mu→delta", "definition": "(mu→delta)(X) \= delta(mu \* X)" }, "mu\_Phi": { "symbol": "mu→Phi", "definition": "Phi\_mu(X) \= Phi(mu \* X)" }, "Delta\_mu": { "symbol": "Delta\_mu", "definition": "Delta\_mu(X) \= delta(mu \* delta X)", "expansion": "Delta\_mu(X) \= mu \* delta^2 X \+ (delta mu) \* (delta X)" } }

@@ -1,0 +1,4 @@
+{
+          "label": { "type": "string" },
+          "type": { "type": "string", "enum": ["Box", "Functor", "Transform", "Field"] }
+        }

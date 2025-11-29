@@ -1,0 +1,1 @@
+{ "operators": ["δ", "Φ", "Π"], "composite": "T = Π ∘ Φ ∘ δ", "structures": ["Semantic Manifold M", "Form Space F", "Truth Space T"], "relations": { "projection": "Φ: M → F", "evaluation": "Π: F → TruthStates" } }

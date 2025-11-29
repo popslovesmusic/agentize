@@ -1,0 +1,1 @@
+{ "symbol": "Π", "name": "pi", "role": "Evaluation / causal truth", "lifts": { "weighted": "μπ", "modal": "ψΠ", "weighted\_modal": "ψ(μπ)" }, "adjoint": "Π\*", "notes": "Tri-Unity base operator." }

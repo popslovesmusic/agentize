@@ -1,0 +1,4 @@
+python
+def pi_to_theta(validation_result):
+    """Π→Θ: Convert validation to polarity signal"""
+    return "Θ₊" if validation_result['valid'] else "Θ₋"

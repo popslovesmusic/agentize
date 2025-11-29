@@ -1,0 +1,7 @@
+{
+            'agent': 'creative',
+            'mode': 'generate',
+            'omega_normalized': True,
+            'constraint_surface': omega_state.metadata.get('constraint_surface'),
+            'polarity': polarity
+        }

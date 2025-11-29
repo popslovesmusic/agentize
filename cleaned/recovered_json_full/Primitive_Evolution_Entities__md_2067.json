@@ -1,0 +1,1 @@
+{ "step\_index": 3, "path\_element": "e3", "input\_state": "S2", "action": "Manual transition C ⇒ D", "psi": { "phase": 1.0, "frequency": 1.0 }, "mu": { "weight": 0.85 }, "lambda": { "curvature": 0.05 }, "result\_state": "S3", "chi\_increment": 1, "chi\_total": 3 }

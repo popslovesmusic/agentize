@@ -1,0 +1,59 @@
+{
+  "use_case": "code_generation_with_tests",
+  "agent_flow": "δ → Π → Θ-MUX loop",
+  "max_iterations": 5,
+
+  "steps": [
+    {
+      "step": 1,
+      "gate": "δ",
+      "action": "generate_code(specification)",
+      "agent": "creative_agent",
+      "output": "generated_code"
+    },
+    {
+      "step": 2,
+      "gate": "Π",
+      "action": "run_tests(generated_code)",
+      "agent": "critic_agent",
+      "output": "test_results (boolean)"
+    },
+    {
+      "step": 3,
+      "gate": "Π→Θ",
+      "action": "convert_test_results_to_polarity",
+      "output": "test_polarity (Θ₊ or Θ₋)"
+    },
+    {
+      "step": 4,
+      "gate": "Θ-MUX",
+      "control": "test_polarity",
+      "paths": {
+        "Θ₊": {
+          "action": "return_code",
+          "reason": "tests passed"
+        },
+        "Θ₋": {
+          "action": "loop_back_to_step_1",
+          "reason": "refine and regenerate",
+          "modification": "add_test_failure_context"
+        }
+      }
+    }
+  ],
+
+  "example_execution": {
+    "iteration_1": {
+      "generated": "def add(a, b): return a + b",
+      "tests": "FAIL (missing type checking)",
+      "polarity": "Θ₋",
+      "action": "loop"
+    },
+    "iteration_2": {
+      "generated": "def add(a: int, b: int) -> int: return a + b",
+      "tests": "PASS",
+      "polarity": "Θ₊",
+      "action": "return"
+    }
+  }
+}

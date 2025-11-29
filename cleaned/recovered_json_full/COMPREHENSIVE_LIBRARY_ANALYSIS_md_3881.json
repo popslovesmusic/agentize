@@ -1,0 +1,4 @@
+[Θ, δ] = 0    (commutes with deviation) ✓
+[Θ, Φ] ≠ 0    (non-commutative with projection) ✗
+[Θ, Π] ≠ 0    (non-commutative with evaluation) ✗
+[Θ, Σ] = 0    (commutes with summation) ✓

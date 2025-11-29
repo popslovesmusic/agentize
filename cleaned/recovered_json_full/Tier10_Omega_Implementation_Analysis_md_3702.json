@@ -1,0 +1,15 @@
+python
+# Add multiple entries
+omega.admissible_manifold.extend([
+    SemanticState(content="Fact 1", metadata={'provenance': 'Source A'}),
+    SemanticState(content="Fact 2", metadata={'provenance': 'Source B'}),
+    SemanticState(content="Fact 3", metadata={'provenance': 'Source C'})
+])
+
+# Validate
+report = omega.validate_knowledge_base()
+
+print(f"Total states: {report['total_states']}")
+print(f"Global inconsistency: {report['global_inconsistency']:.3f}")
+print(f"Validation passed: {report['validation_passed']}")
+print(f"Surface distribution: {report['surface_distribution']}")

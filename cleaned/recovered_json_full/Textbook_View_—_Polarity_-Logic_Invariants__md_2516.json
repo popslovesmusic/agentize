@@ -1,0 +1,1 @@
+{ id: "RW\_BRIDGE\_Θψ\_INSERT\_PHASE\_NODE", when: "ψ flips polarity implicitly", action: "Insert ψ-phase-inversion node", ensures: "Θ\_INV\_TENSOR\_SIGN" }

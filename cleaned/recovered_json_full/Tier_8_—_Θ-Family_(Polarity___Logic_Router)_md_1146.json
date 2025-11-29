@@ -1,0 +1,1 @@
+{ "id": "T54", "left": "Θ\_to\_logic", "right": "Θ", "composition": "Θ→OR(p1,p2)", "category": "logic\_gate", "signature": "(Polarity,Polarity) \-\> Bool", "rule": "True iff at least one polarity is positive.", "notes": "OR via polarity." }

@@ -1,0 +1,1 @@
+{ "id": "R8\_inference\_normalization", "pattern": "A⇒B", "rewrite": "NF\_{A⇒B}", "comment": "Entailment reduced to canonical logical/semantic truth conditions." }

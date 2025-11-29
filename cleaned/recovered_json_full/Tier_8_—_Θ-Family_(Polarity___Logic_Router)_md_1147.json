@@ -1,0 +1,1 @@
+{ "id": "T55", "left": "Θ\_to\_logic", "right": "Θ", "composition": "Θ→XOR(p1,p2)", "category": "logic\_gate", "signature": "(Polarity,Polarity) \-\> Bool", "rule": "True iff polarities differ.", "notes": "XOR via polarity." }

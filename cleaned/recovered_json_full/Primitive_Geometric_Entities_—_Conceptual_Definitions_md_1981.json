@@ -1,0 +1,1 @@
+{ "delta\_chi": 0.1, "rule": "Psi\_next \= Psi \- i \* delta\_chi \* H \* Psi", "omega\_normalization": "Psi\_next /= sqrt(|m1|^2 \+ |m2|^2)" }

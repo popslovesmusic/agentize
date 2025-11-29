@@ -1,0 +1,1 @@
+{ "name": "idempotent\_Ω", "when": "Ω ∘ Ω", "then": "Ω", "intent": "Global constraint projection is idempotent." }

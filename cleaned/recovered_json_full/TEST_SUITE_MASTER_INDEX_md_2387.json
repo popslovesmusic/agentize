@@ -1,0 +1,1 @@
+{ id: 'TU-NF-01', invariant: 'closure', pattern: \['δ', 'Φ'\], rewrite: 'NF\_δΦ', conditions: {}, explanation: 'Composition δ∘Φ stays in Tri-Unity and is assigned NF\_δΦ.', }

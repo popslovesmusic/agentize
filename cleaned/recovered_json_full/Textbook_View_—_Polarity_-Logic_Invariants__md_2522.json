@@ -1,0 +1,1 @@
+{ id: "OP\_χΩ\_CONSTRAIN", name: "Chi-Omega Constraint Enforcer", family: "Chi-Family", signature: "State(χ) × Ω \-\> State(χ+Δχ)", description: "Applies Ω-constraints during χ evolution (e.g. energy/invariant bounds)." }

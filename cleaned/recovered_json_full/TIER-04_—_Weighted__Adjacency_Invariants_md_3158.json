@@ -1,0 +1,1 @@
+{ id: "BR-λ-01", name: "LambdaCurvatureCannotCreateNegativeMu", pattern: "λᶜᵘʳᵛ(μ) \-\> μ'", condition: "∃ edge e: μ'(e) \< 0 && flag(e) \!= 'signed'", action: "set μ'(e) \= 0 for all such e", preserves: \["A1\_LocalWeightPositivity"\] }

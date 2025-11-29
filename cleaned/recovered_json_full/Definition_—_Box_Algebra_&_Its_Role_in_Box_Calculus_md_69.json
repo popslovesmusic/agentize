@@ -1,0 +1,5 @@
+{`  
+          `"type": "object",`  
+          `"description": "Semantic/causal metadata carried through routing.",`  
+          `"additionalProperties": true`  
+        `}

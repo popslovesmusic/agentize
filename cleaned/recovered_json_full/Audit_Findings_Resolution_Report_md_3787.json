@@ -1,0 +1,6 @@
+Real Space:          [x, p] = iℏ        (non-commutative)
+Fourier Space:       Both have simultaneous wave representations
+
+Similarly:
+Base Level:          [λ, δ] ≠ 0         (non-commutative)
+ψ-Layer:            ψ(λ) ∘ ψ(δ) = ψ(δ) ∘ ψ(λ)  (commutative)

@@ -1,0 +1,1 @@
+{ id: 7, description: "Closure: Φ acting on tautology ⊤ stays Tri-Unity.", input: \[Φ, ⊤\], expect\_nf: "NF\_Φ", invariant: "closure", }

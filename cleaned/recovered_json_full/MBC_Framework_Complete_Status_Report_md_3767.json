@@ -1,0 +1,6 @@
+{
+  "omega_constraint": {
+    "enforce_consistency": true,
+    "action_on_contradiction": "quarantine_new_entry"
+  }
+}

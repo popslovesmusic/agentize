@@ -1,0 +1,1 @@
+{ "name": "idempotent\_Π₁", "when": "Π₁ ∘ Π₁", "then": "Π₁", "intent": "Pre-evaluation behaves like an idempotent projector." }

@@ -1,0 +1,1 @@
+{ "δ": { "symbol": "δ²", "intent": "Second-order deviation", "defined": true, "constraints": \[\] }, "Φ": { "symbol": "δΦ", "intent": "Deviation of projection", "defined": true, "constraints": \["Φ must be differentiable under δ"\] }, "Π": { "symbol": "δΠ", "intent": "Deviation of evaluation", "defined": true, "constraints": \["Π must be locally smooth"\] } }

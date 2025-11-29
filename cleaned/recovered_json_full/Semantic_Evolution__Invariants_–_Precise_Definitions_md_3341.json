@@ -1,0 +1,1 @@
+{ "description": "Given a χ-evolution trace, returns whether it is χ-NF and which invariants are satisfied.", "input": "chi\_trace", "output": { "is\_nf": "boolean", "violations": "list\<invariant\_id\>", "normalized\_trace": "chi\_trace" } }

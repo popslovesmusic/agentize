@@ -1,0 +1,1 @@
+{ "name": "V3_Ch4_ThermalIdentity_StructureBox", "intent": "Define mapping of IGSOA thermal operators.", "domain": "ψ/μ ratio defines temperature", "constraints": [ "No violation of Σ-equilibrium", "λ curvature shapes thermal gradients" ], "cross_links": ["V2_Ch7_MotionStructure_Box"] }

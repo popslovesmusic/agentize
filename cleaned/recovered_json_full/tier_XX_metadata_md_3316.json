@@ -1,0 +1,1 @@
+{ "id": "RS-INT-04", "lhs": "Ω(RS\_NF(t, R))", "expect": true, "description": "Global constraints remain consistent under normalization." }

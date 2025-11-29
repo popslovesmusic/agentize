@@ -1,0 +1,1 @@
+{ suite\_id: "TRI-UNITY-INVARIANTS-TESTS", family: "Tri-Unity", tier: "Tri-Unity-Core", version: "1.0.0", schema: "mbc4.test\_suite.tri\_unity.v1", description: "50-test suite verifying δ–Φ–Π closure, commutativity, and canonical NF.", editable: true, }

@@ -1,0 +1,1 @@
+{ id: "RW\_Θ\_TRUTH\_BRIDGE\_INSERT\_NOT", invariant\_id: "Θ\_INV\_TRUTH\_BRIDGE", pattern: { violation: "Π-Θ mismatch" }, action: { insert: "NOT or contradiction witness", }, ensures: \[ "Θ\_INV\_TRUTH\_BRIDGE" \], nf\_target: "ΘNF\_TruthPolarityConsistent", }

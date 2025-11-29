@@ -1,0 +1,1 @@
+{ "description": "Runs χ-invariant regression tests (T09\_CHI\_INV\_TESTS).", "input": "optional\_subset\_of\_tests", "output": { "passed": "list\<test\_id\>", "failed": "list\<test\_id\>", "details": "map\<test\_id, result\>" } }

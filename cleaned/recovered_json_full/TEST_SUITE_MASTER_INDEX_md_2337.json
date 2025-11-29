@@ -1,0 +1,1 @@
+{ id: 3, description: "Closure: Π after δ stays within Tri-Unity.", input: \[Π, δ\], expect\_nf: "NF\_Πδ", invariant: "closure", }

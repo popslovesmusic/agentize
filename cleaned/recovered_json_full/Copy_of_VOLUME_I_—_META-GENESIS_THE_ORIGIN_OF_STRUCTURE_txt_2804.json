@@ -1,0 +1,1 @@
+{ "name": "V3_Ch4_ThermodynamicEmergence_ChapterAxiom", "intent": "Define thermodynamics as Σ-normalization.", "domain": "Σ, μ, ψ", "constraints": [ "Σ reduces microstates", "Π evaluates macro-equivalence", "Ω enforces monotonic χ→t mapping" ], "cross_links": ["V1_Ch9_InvariantPreservation_Theorem"] }

@@ -1,0 +1,1 @@
+{ "id": "FLOW-PI-CHI-OMEGA-01", "name": "ΩχΠ Causal Evolution Loop", "description": "Standard flow: apply χ\_step\_Π, normalize to Π-CE-NF, then apply Ω\_Π at each time step.", "pipeline": \[ "CHI\_STEP\_PI", "PI\_NORMALIZE", "OMEGA\_CONSTRAIN\_PI" \], "macro\_operator": "OMEGA\_CHI\_PI\_FLOW" }

@@ -1,0 +1,1 @@
+{ id: "OP\_Θ\_TRUTH\_BRIDGE\_CHECK", name: "Truth-Polarity Bridge Checker", family: "Theta-System", invariant\_id: "Θ\_INV\_TRUTH\_BRIDGE", // Truth+Polarity → Consistency report signature: "ThetaTruthState \-\> InvariantReport", description: "Checks Π truth values against Θ polarity constraints.", }

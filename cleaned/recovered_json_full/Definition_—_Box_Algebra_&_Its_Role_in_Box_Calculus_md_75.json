@@ -1,0 +1,8 @@
+{`  
+      `"name": "Phi",`  
+      `"sealed": true,`  
+      `"kind": "unary",`  
+      `"signature": "Box -> Box",`  
+      `"tier_effect": { "delta": "none", "phi": "project", "theta": "none", "pi": "none" },`  
+      `"description": "Semantic projection from δ-geometry."`  
+    `}

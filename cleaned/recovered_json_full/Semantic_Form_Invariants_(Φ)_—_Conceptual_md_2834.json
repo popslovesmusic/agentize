@@ -1,0 +1,1 @@
+{ tier: 2, family: "Φ", module: "tier\_02\_axiom\_box", version: "0.1.0", sealed: true, // This box is not to be rewritten by lower tiers. }

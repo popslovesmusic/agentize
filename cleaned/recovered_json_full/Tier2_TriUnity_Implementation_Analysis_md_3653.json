@@ -1,0 +1,409 @@
+python
+class MBCTriUnityRouter:
+    """
+    Implements the δ-Φ-Π routing logic for MBC agent architecture.
+
+    The router classifies incoming queries into three channels:
+    - δ (Delta): NEW generation/creative tasks
+    - Φ (Phi): FIND/search/retrieval tasks
+    - Π (Pi): VALIDATE/check/evaluation tasks
+    """
+
+    def __init__(self, librarian, creative_agent, critic):
+        self.librarian = librarian          # Φ-handler (search/retrieval)
+        self.creative_agent = creative_agent  # δ-handler (generation)
+        self.critic = critic                  # Π-handler (validation)
+
+        # Operator cache
+        self.operators = {
+            'delta': self.delta_operator,
+            'phi': self.phi_operator,
+            'pi': self.pi_operator
+        }
+
+    # ========== PRIMITIVE OPERATORS ==========
+
+    def delta_operator(self, query):
+        """
+        δ: Deviation operator - detects novelty/generation requests.
+
+        Returns True if query requests NEW content generation.
+
+        Constraints:
+        - Measures "distance from existing knowledge"
+        - High δ → creative/generative task
+        """
+        generation_keywords = [
+            'create', 'generate', 'write', 'build', 'implement',
+            'design', 'develop', 'compose', 'draft', 'synthesize'
+        ]
+
+        # Semantic analysis
+        is_generative = any(kw in query.lower() for kw in generation_keywords)
+        has_constraints = 'new' in query.lower() or 'novel' in query.lower()
+
+        return is_generative or has_constraints
+
+    def phi_operator(self, query):
+        """
+        Φ: Projection operator - extracts search/retrieval requests.
+
+        Returns True if query requests FINDING existing data.
+
+        Constraints:
+        - Φ(Φ(q)) = Φ(q) (idempotent)
+        - Projects to semantic-form subspace
+        """
+        search_keywords = [
+            'find', 'search', 'locate', 'retrieve', 'look up',
+            'get', 'fetch', 'show', 'display', 'what is', 'where is'
+        ]
+
+        # Semantic projection
+        is_search = any(kw in query.lower() for kw in search_keywords)
+        is_question = query.strip().endswith('?')
+
+        return is_search or is_question
+
+    def pi_operator(self, query):
+        """
+        Π: Evaluation operator - detects validation/checking requests.
+
+        Returns True if query requests VALIDATION/CHECKING.
+
+        Constraints:
+        - Π(Π(q)) = Π(q) (idempotent)
+        - Only acts on Φ_c(q) - causally normalized queries
+        """
+        validation_keywords = [
+            'check', 'verify', 'validate', 'test', 'review',
+            'correct', 'fix', 'debug', 'audit', 'is this right'
+        ]
+
+        # Causal evaluation
+        is_validation = any(kw in query.lower() for kw in validation_keywords)
+
+        return is_validation
+
+    # ========== COMPOSITE OPERATORS ==========
+
+    def phi_after_delta(self, query):
+        """
+        Φ∘δ: Project deviation into semantic space.
+
+        Use case: "Generate a summary" → find existing summaries first
+        """
+        if self.delta_operator(query):
+            # Extract semantic constraints from generative request
+            return self.phi_operator(query)
+        return False
+
+    def pi_after_phi(self, query, search_results):
+        """
+        Π∘Φ: Canonical projection→evaluation pipeline.
+
+        Use case: Search first, then validate results.
+
+        This is the MOST COMMON agent pattern:
+        1. Φ: Search for relevant data
+        2. Π: Validate/rank/filter results
+        """
+        # First project (search)
+        if self.phi_operator(query):
+            # Then evaluate search results
+            return self.pi_operator_on_results(search_results)
+        return None
+
+    def delta_phi_pi_canonical(self, query):
+        """
+        Π∘Φ∘δ: Tri-Unity Normal Form.
+
+        The complete canonical pipeline:
+        1. δ: Detect what's novel in the query
+        2. Φ: Project to semantic form
+        3. Π: Evaluate for truth/validity
+
+        Use case: "Write a correct implementation of X"
+        - δ: Generate code
+        - Φ: Extract semantic requirements
+        - Π: Validate correctness
+        """
+        # Step 1: Detect novelty
+        is_generative = self.delta_operator(query)
+
+        if is_generative:
+            # Step 2: Extract semantic form
+            semantic_form = self.phi_s_operator(query)
+
+            # Step 3: Evaluate
+            return self.pi_t_operator(semantic_form)
+
+        return None
+
+    # ========== SPECIALIZED PROJECTIONS ==========
+
+    def phi_s_operator(self, query):
+        """
+        Φₛ: Semantic-form projection.
+
+        Removes geometric/causal components, keeps pure meaning.
+
+        Constraints:
+        - Φₛ(Φₛ(q)) = Φₛ(q) (idempotent)
+        - Φₛ∘δ = 0 (removes all deviation)
+        """
+        # Extract pure semantic content
+        # Remove temporal markers, causal dependencies
+        import re
+
+        # Remove temporal markers
+        cleaned = re.sub(r'\b(when|then|after|before)\b', '', query, flags=re.IGNORECASE)
+
+        # Remove causal connectives
+        cleaned = re.sub(r'\b(because|since|therefore)\b', '', cleaned, flags=re.IGNORECASE)
+
+        return cleaned.strip()
+
+    def phi_c_operator(self, query):
+        """
+        Φᶜ: Causal projection.
+
+        Extracts causal-ready structure for Π evaluation.
+
+        Constraints:
+        - Monotonic: preserves causal order
+        - Π∘Φᶜ is canonical evaluation
+        """
+        # Extract causal dependencies
+        import re
+
+        # Find temporal/causal keywords
+        causal_pattern = r'(when .+ then|if .+ then|because .+ therefore)'
+        causal_matches = re.findall(causal_pattern, query, flags=re.IGNORECASE)
+
+        return causal_matches
+
+    def phi_to_pi_bridge(self, phi_output):
+        """
+        Φ→Π: Bridge from semantic projection to evaluation.
+
+        Normalizes Φ-output into Π-ready form.
+
+        Constraints:
+        - Functorial: respects morphisms
+        - Unique: single Π-ready representative
+        """
+        # Normalize semantic form for evaluation
+        # Ensure all variables are bound
+        # Remove ambiguity
+
+        if not phi_output:
+            return None
+
+        # Convert to normal form
+        normalized = {
+            'semantic_content': phi_output,
+            'evaluation_ready': True,
+            'ambiguities_resolved': True
+        }
+
+        return normalized
+
+    # ========== SPECIALIZED EVALUATIONS ==========
+
+    def pi_t_operator(self, semantic_form):
+        """
+        Πₜ: Truth-evaluation functor.
+
+        Evaluates semantic truth (boolean-like).
+
+        Constraints:
+        - Π_t∘Φ = Π_t (projection requirement)
+        - Stable under Φₛ
+        """
+        # Evaluate semantic truth
+        # This would connect to a validation system
+
+        if not semantic_form:
+            return False
+
+        # Placeholder: real implementation would use
+        # - Consistency checking
+        # - Fact verification
+        # - Logical validity
+
+        return True  # Simplified
+
+    def pi_c_operator(self, causal_structure):
+        """
+        Π_c: Causal-order evaluator.
+
+        Evaluates based on causal ordering.
+
+        Constraints:
+        - Order-preserving: if B₁ ≤ B₂ then Π_c(B₁) ≤ Π_c(B₂)
+        - Respects χ-time evolution
+        """
+        # Evaluate causal ordering
+        # Check for causal consistency
+
+        if not causal_structure:
+            return True  # No causal constraints
+
+        # Check for causal loops, contradictions
+        # Placeholder implementation
+
+        return True
+
+    def pi_operator_on_results(self, results):
+        """
+        Π: Primitive evaluator applied to search results.
+
+        Constraints:
+        - Π(Π(r)) = Π(r) (idempotent)
+        - Only acts on Φᶜ-normalized input
+        """
+        if not results:
+            return []
+
+        # Rank and filter results
+        evaluated = []
+        for result in results:
+            # Evaluate causal truth
+            causal_valid = self.pi_c_operator(result.get('causal_deps', []))
+
+            # Evaluate semantic truth
+            semantic_valid = self.pi_t_operator(result.get('content', ''))
+
+            if causal_valid and semantic_valid:
+                evaluated.append({
+                    'result': result,
+                    'pi_score': 1.0,
+                    'valid': True
+                })
+
+        return evaluated
+
+    # ========== COMMUTATORS & JACOBIANS ==========
+
+    def delta_phi_commutator(self, query):
+        """
+        [δ, Φ]: Commutator measuring semantic curvature.
+
+        [δ, Φ](q) = δ(Φ(q)) - Φ(δ(q))
+
+        Non-zero commutator indicates:
+        - Semantic curvature
+        - Order matters
+        - Tri-Unity not flat
+        """
+        # Apply δ then Φ
+        delta_first = self.delta_operator(query)
+        phi_of_delta = self.phi_operator(str(delta_first))
+
+        # Apply Φ then δ
+        phi_first = self.phi_operator(query)
+        delta_of_phi = self.delta_operator(str(phi_first))
+
+        # Commutator
+        commutator = phi_of_delta != delta_of_phi
+
+        return {
+            'commutes': not commutator,
+            'semantic_curvature': commutator,
+            'order_matters': commutator
+        }
+
+    # ========== MAIN ROUTING LOGIC ==========
+
+    def route_query(self, query):
+        """
+        Main routing function using Tri-Unity logic.
+
+        Decision tree:
+        1. Check Π (validation) - highest priority
+        2. Check δ (generation) - medium priority
+        3. Check Φ (search) - lowest priority (default)
+        4. Apply composite operators if needed
+
+        Returns: (agent, processing_mode, metadata)
+        """
+        # Priority 1: Validation requests
+        if self.pi_operator(query):
+            return {
+                'agent': self.critic,
+                'mode': 'validate',
+                'operator': 'Π',
+                'pipeline': 'Π-only'
+            }
+
+        # Priority 2: Generative requests
+        if self.delta_operator(query):
+            # Check if we need Φ∘δ (search before generating)
+            if self.phi_after_delta(query):
+                return {
+                    'agent': self.creative_agent,
+                    'mode': 'generate_with_search',
+                    'operator': 'Φ∘δ',
+                    'pipeline': 'phi_after_delta',
+                    'preprocessing': self.librarian  # Search first
+                }
+            else:
+                return {
+                    'agent': self.creative_agent,
+                    'mode': 'generate',
+                    'operator': 'δ',
+                    'pipeline': 'delta_only'
+                }
+
+        # Priority 3: Search/retrieval (default)
+        if self.phi_operator(query):
+            return {
+                'agent': self.librarian,
+                'mode': 'search',
+                'operator': 'Φ',
+                'pipeline': 'phi_only'
+            }
+
+        # Fallback: treat as search
+        return {
+            'agent': self.librarian,
+            'mode': 'search',
+            'operator': 'Φ',
+            'pipeline': 'default_phi'
+        }
+
+    def process_with_triunity(self, query):
+        """
+        Full Tri-Unity pipeline: Π∘Φ∘δ
+
+        Steps:
+        1. δ: Detect novelty
+        2. Φ: Extract semantic form
+        3. Π: Validate
+
+        This is the CANONICAL AGENT PIPELINE.
+        """
+        # Step 1: Deviation detection
+        has_novelty = self.delta_operator(query)
+
+        # Step 2: Semantic projection
+        semantic_form = self.phi_s_operator(query)
+        causal_form = self.phi_c_operator(query)
+
+        # Step 3: Bridge to evaluation
+        pi_ready = self.phi_to_pi_bridge(semantic_form)
+
+        # Step 4: Evaluate
+        semantic_valid = self.pi_t_operator(pi_ready)
+        causal_valid = self.pi_c_operator(causal_form)
+
+        return {
+            'novelty_detected': has_novelty,
+            'semantic_form': semantic_form,
+            'causal_structure': causal_form,
+            'semantic_valid': semantic_valid,
+            'causal_valid': causal_valid,
+            'overall_valid': semantic_valid and causal_valid,
+            'pipeline': 'Π∘Φ∘δ (canonical)'
+        }

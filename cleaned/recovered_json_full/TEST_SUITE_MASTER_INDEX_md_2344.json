@@ -1,0 +1,1 @@
+{ id: 10, description: "Closure: Φ² (idempotent projection).", input: \[Φ, Φ\], expect\_nf: "NF\_Φ", invariant: "closure", }

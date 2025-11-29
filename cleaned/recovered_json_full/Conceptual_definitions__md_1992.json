@@ -1,0 +1,1 @@
+{ "id": "INT\_02", "lhs\_structure": "SEM\_EDGE", "rhs\_structure": "ROUTER\_NODE", "relation": "ROUTES\_THROUGH", "result": "ROUTED\_EDGE\_SET", "constraints": \[ "Incoming edges to a ROUTER\_NODE are processed by Θ\_ROUTE.", "Output edges inherit updated polarity Θ and weights μ." \] }

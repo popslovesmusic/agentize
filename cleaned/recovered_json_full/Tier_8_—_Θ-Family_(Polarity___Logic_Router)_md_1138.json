@@ -1,0 +1,1 @@
+{ "id": "T46", "left": "Σ", "right": "μ", "composition": "Σ(μ\_i p\_i)", "category": "weighted\_sum", "signature": "Box^N \-\> Real", "rule": "Weighted polarity summation with local metric μ\_i.", "notes": "Importance-weighted vote." }

@@ -1,0 +1,4 @@
+Ω(δ) = δΩ,  Ω(Φ) = ΦΩ,  Ω(Π) = ΠΩ    (Tri-Unity compatibility)
+Ω(O₁∘O₂) = Ω(O₁)∘Ω(O₂)                (operator products)
+[Ω, d/dχ] = 0                          (evolution)
+Ω ∘ F = F ∘ Ω                          (all functors F)

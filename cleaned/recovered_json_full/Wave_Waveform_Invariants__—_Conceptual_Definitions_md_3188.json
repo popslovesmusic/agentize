@@ -1,0 +1,1 @@
+{ "id": "RULE\_ψ-PHASE-CANONICAL", "pattern": { "state": "ψ", "condition": "global\_phase(ψ) ∉ \[0, 2π)" }, "action": "ψ' \= e^{-i θ₀} ψ where θ₀ is chosen to bring global\_phase(ψ') into \[0, 2π)", "target\_nf": "ψ\_state", "preserves\_invariants": \["ψ-PHASE"\] }

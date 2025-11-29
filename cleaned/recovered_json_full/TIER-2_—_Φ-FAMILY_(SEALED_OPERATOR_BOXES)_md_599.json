@@ -1,0 +1,1 @@
+{ "Left": "Π", "Right": "Φ", "CompositeName": "Phi\_after\_Pi", "Expression": "Φ ∘ Π", "DefinedAtTier2": false, "DefinitionMode": "derived\_or\_forbidden", "Intent": "Attempt to project evaluation back into semantic space; not primitive.", "Conditions": "If enabled, define via Φ ∘ Π\* with Π\* adjoint.", "RecommendedImplementation": "Use Π\* and treat Φ\_after\_Pi as Φ ∘ Π\*." }

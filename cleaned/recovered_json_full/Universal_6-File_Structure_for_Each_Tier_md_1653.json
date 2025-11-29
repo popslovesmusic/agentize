@@ -1,0 +1,1 @@
+{ "type": "string", "description": "Semantic domain in which this instance lives (e.g. 'operator\_layer', 'logical\_layer', 'rewrite\_layer')." }

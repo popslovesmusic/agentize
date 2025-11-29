@@ -1,0 +1,19 @@
+{
+  "tier": 0,
+  "pack_name": "Tier-0 Primitive Operator Pack",
+  "version": "MBC-4.0",
+  "operators": ["δ", "Φ", "Π", "μ", "ψ", "λ", "Σ", "Θ", "χ", "Ω", "ρ"],
+  "description": "Complete set of primitive operators forming the foundation of MBC-4.0 semantic calculus",
+  "cross_tier_links": {
+    "Tier-1": "δ-Family",
+    "Tier-2": "Φ-Family",
+    "Tier-3": "Π-Family",
+    "Tier-4": "μ-Family",
+    "Tier-5": "λ-Family",
+    "Tier-6": "ψ-Family",
+    "Tier-7": "Σ-Family",
+    "Tier-8": "Θ-Family",
+    "Tier-9": "χ-Family",
+    "Tier-10": "Ω-Family"
+  }
+}

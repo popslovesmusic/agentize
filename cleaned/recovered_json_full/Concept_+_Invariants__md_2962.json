@@ -1,0 +1,1 @@
+{ "id": "PI\_EVAL", "symbol": "Π", "role": "truth\_evaluation", "signature": "(EventId, EvalState) \-\> TruthValue", "description": "Evaluate the Π-truth value of a given event in the current EvalState.", "invariant\_guards": \["PI-TM", "PI-CT"\] }

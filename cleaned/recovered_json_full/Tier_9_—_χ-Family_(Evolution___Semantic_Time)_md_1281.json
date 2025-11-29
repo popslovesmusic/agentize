@@ -1,0 +1,1 @@
+{ "type": "operator", "role": "global\_constraint", "signature": "B \-\> B\_valid", "description": "Projects any Box or operator stack into a globally admissible semantic state.", "properties": \["idempotent", "normalizing", "consistency\_enforcing"\] }

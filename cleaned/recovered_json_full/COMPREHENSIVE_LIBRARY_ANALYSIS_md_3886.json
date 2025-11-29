@@ -1,0 +1,23 @@
+┌─────────┬───────────────────────────────────────────────────────────┐
+│ Pair    │ Interaction Rule                                          │
+├─────────┼───────────────────────────────────────────────────────────┤
+│ λ × δ   │ [λ, δ] = λ→δ = curvature-induced deviation                │
+│         │ δλ = λδ + λ_curv + λ_mode_δ + λ_cross_δ                   │
+│         │ λ generates δ-deviation when modal curvature ≠ 0          │
+├─────────┼───────────────────────────────────────────────────────────┤
+│ λ × Φ   │ [λ, Φ] = λ→Φ = curvature-induced projection shift         │
+│         │ Φλ = λΦ + curvature-of-projection terms                   │
+│         │ λ bends projection geometry via Φ-mode and ψ-mode         │
+├─────────┼───────────────────────────────────────────────────────────┤
+│ λ × Π   │ [λ, Π] = λ→Π = curvature-induced evaluation shift         │
+│         │ Πλ = λΠ + causal-curvature terms                          │
+│         │ λ modifies causal paths in Π                              │
+├─────────┼───────────────────────────────────────────────────────────┤
+│ λ × μ   │ [λ, μ] = μ-weighted curvature gradient                    │
+│         │ λμ = μλ + (∂μ)λ + μ·λ_mode                                │
+│         │ μ rescales local curvature density                        │
+├─────────┼───────────────────────────────────────────────────────────┤
+│ λ × ψ   │ [λ, ψ] = λ_mode + λ_cross (modal-curvature coupling)      │
+│         │ λψ = ψλ + λ_mode_ψ + λ_cross_ψ                            │
+│         │ ψ-oscillation generates λ_mode and λ_cross                │
+└─────────┴───────────────────────────────────────────────────────────┘

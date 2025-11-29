@@ -1,0 +1,11 @@
+{
+  "operator_pair": ["λ", "δ"],
+  "canonical_definition": { /* PRIMARY formulation */ },
+  "variants": [
+    { "variant_id": "flat_geometry", /* ... */ },
+    { "variant_id": "symmetric_approximation", /* ... */ },
+    { "variant_id": "perturbative_expansion", /* ... */ }
+  ],
+  "selection_guide": { /* decision tree */ },
+  "validation": { /* consistency tests */ }
+}

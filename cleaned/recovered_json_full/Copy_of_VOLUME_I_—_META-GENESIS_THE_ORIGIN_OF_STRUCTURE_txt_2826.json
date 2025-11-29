@@ -1,0 +1,1 @@
+{ "Volume_I": { "axiom_boxes": 30, "module_pack": "IGSOA_Volume1_ModulePack", "transition": "V1_to_V2_BridgeBox" }, "Volume_II": { "axiom_boxes": 30, "module_pack": "IGSOA_Volume2_ModulePack", "transition": "IGSOA_Vol2_to_Vol3_TransitionPack" }, "Volume_III": { "axiom_boxes": 30, "module_pack": "IGSOA_Volume3_ModulePack", "transition": "Vol3_to_Vol4_TransitionPack" } }

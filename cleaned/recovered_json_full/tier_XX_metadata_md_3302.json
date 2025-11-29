@@ -1,0 +1,1 @@
+{ "id": "RS-INV-01", "name": "Termination Check", "call": "RS\_CHECK\_TERM(R)", "expect": { "status": "true" }, "description": "Ensures μ\_term(r.rhs) \< μ\_term(r.lhs) for all rules in R." }

@@ -1,0 +1,1 @@
+{ // NF representation chooses a canonical phase and normalization "ψ\_state": { "constraints": \[ "‖ψ‖\_μ² \= 1 OR ‖ψ‖\_μ² \= 0", // normalized or identically zero "global\_phase(ψ) ∈ \[0, 2π)" // canonical representative \] } }

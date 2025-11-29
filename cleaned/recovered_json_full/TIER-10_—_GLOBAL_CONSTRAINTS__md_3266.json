@@ -1,0 +1,1 @@
+{ id: "Ω-X1", input\_chain: \["Π", "Θ\_minus", "Θ\_flip", "Π"\], expected\_output: "Contradiction-Blocked", enforced\_by: "Ω\_guard", description: "Truth evaluation must never enter contradiction cycles." }

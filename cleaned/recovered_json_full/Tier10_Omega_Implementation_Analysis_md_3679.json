@@ -1,0 +1,9 @@
+{
+  "BoxName": "Ω-Principle",
+  "Constraints": [
+    "Ω(s) ∈ A ⊆ S  (Global admissibility)",
+    "Ω ∘ O = O ∘ Ω  (Operator compatibility)",
+    "I(Ω(s)) = I(s)  (Invariant preservation)"
+  ],
+  "CrossLinks": ["Tri-Unity", "Ω-Consistency", "Ω-Normalization"]
+}

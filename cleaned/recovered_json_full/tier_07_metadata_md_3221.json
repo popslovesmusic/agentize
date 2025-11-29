@@ -1,0 +1,1 @@
+{ "operator": "Σ", "indices\_to\_contract": \["i"\], "comment": "Naively sums all i regardless of Θ channel." }

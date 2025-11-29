@@ -1,0 +1,48 @@
+{`  
+  `"mbc_version": "4.0",`  
+  `"type": "module_pack",`  
+  `"pack_id": "PACK_ID",`  
+  `"pack_name": "PACK_NAME",`
+
+  `"manifest": {`  
+    `"description": "Short description of this module pack.",`  
+    `"tags": []`  
+  `},`
+
+  `"dependencies": {`  
+    `"module_packs": [],`  
+    `"layers": [],`  
+    `"axioms": [],`  
+    `"operators": []`  
+  `},`
+
+  `"objects": {`  
+    `"theorems": [],`  
+    `"layers": [],`  
+    `"axiom_boxes": [],`  
+    `"tri_unity_signatures": [],`  
+    `"diagrams": []`  
+  `},`
+
+  `"router": {`  
+    `"operator_chains": [],`  
+    `"tri_unity_extensions": [],`  
+    `"psi_mu_links": [],`  
+    `"semantic_flows": []`  
+  `},`
+
+  `"rewrite_rules": [`  
+    `{`  
+      `"pattern": "",`  
+      `"rewrite": "",`  
+      `"note": ""`  
+    `}`  
+  `],`
+
+  `"export": {`  
+    `"operators": [],`  
+    `"layers": [],`  
+    `"axioms": [],`  
+    `"theorems": []`  
+  `}`  
+`}

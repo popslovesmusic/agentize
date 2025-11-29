@@ -1,0 +1,1 @@
+{ "id": "NF2", "lhs": "Ξ-\>NF ∘ (XiVar ∘ Family)", "rhs": "XiVar(Family)", "conditions": \[ "XiVar ∈ {Ξ,ΞG,ΞL,Ξ⊗,Ξ⊕,Ξ-\>NF,Ξ\*}", "Family ∈ {δ,Φ,Π,μ,λ,ψ,Σ,Θ,χ,Ω,ρ,Ξ}" \], "priority": 9 }

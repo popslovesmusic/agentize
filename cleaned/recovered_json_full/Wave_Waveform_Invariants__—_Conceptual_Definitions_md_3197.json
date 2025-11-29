@@ -1,0 +1,1 @@
+{ actions: \[ "Normalize ψ using μ → ψ\_N \= ψ / sqrt(6)", "Choose θ0 such that global\_phase(ψ\_N \* exp(-iθ0)) ∈ \[0, 2π)" \], psi\_nf: "ψ\_N \* exp(-iθ0)", invariants\_preserved: \["ψ-AMP", "ψ-PHASE", "ψ-MODE"\] }

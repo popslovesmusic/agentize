@@ -1,0 +1,1 @@
+{ id: 33, description: "Commutativity: cube-face consistency 2.", input: \["(Π∘δ)∘Φ", "Π∘(δ∘Φ)"\], expect\_nf\_equal: true, invariant: "commutativity", }

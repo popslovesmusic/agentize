@@ -1,0 +1,10 @@
+{
+  "variant_id": "exception_lambda_delta",
+  "statement": "Most faces commute EXCEPT λ–δ which retains non-commutativity",
+  "level": "ψ-layer with exceptions",
+  "use_when": [
+    "Conservative analysis",
+    "Safety-critical contexts",
+    "When uncertain about full ψ-commutativity"
+  ]
+}

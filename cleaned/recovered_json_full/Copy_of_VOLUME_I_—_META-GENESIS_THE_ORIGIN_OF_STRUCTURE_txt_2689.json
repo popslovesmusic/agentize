@@ -1,0 +1,1 @@
+{ "semantic_evolution": ["d/dχ", "d²/dχ²"], "field_operators": ["λ", "ψ", "μ"], "stability_operators": ["Σ", "Π", "Ω"], "hierarchy_operators": ["ρ"], "composition_rules": { "proto_force_sum": "F_total = F_λ + F_ψ + F_μ + F_Σ + F_ρ", "field_evolution": "dF/dχ = δ_μ²(F) + λ(F) + ψ(F) - Σ(F)" } }

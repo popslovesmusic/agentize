@@ -1,0 +1,1 @@
+{ "id": "SL-DEMORGAN-AND", "name": "DeMorgan\_AND", "pattern": "NOT(AND(A, B))", "rewrite": "OR(NOT(A), NOT(B))", "conditions": { "theta\_preservation": true, "sigma\_preservation": "Σ\_out ≈ Σ\_in modulo representation choice", "pi\_equivalence": true } }

@@ -1,0 +1,1 @@
+{ "id": "T41", "left": "Θ", "right": "λ", "composition": "Θ⊕λ", "category": "sum\_composition", "signature": "(Box,Box) \-\> polarity\_sum", "rule": "Sum curvature-derived polarities.", "notes": "Classifies bend regions by sign." }

@@ -1,0 +1,1 @@
+{ id: 5, description: "Closure: Π→Φ→δ (reverse sweep).", input: \[Π, Φ, δ\], expect\_nf: "NF\_ΠΦδ", invariant: "closure", }

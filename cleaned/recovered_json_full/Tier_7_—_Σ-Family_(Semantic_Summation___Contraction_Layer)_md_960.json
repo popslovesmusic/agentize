@@ -1,0 +1,1 @@
+{ "symbol": "ΣδΦΠ", "intent": "Tri-Unity contraction on δ/Φ/Π triple.", "domain": "δ(B), Φ(B), Π(B)", "action": "Σ(δ(B), Φ(B), Π(B)) \-\> semantic residue.", "properties": { "tri\_unity\_closure": true, "normal\_form\_target": "NF(B)" } }

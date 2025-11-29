@@ -1,0 +1,7 @@
+{
+      "step": 2,
+      "gate": "Σ",
+      "action": "merge_and_deduplicate(raw_results)",
+      "output": "merged_results",
+      "method": "polarity-weighted ranking"
+    }

@@ -1,0 +1,1 @@
+{ "id": "OP\_ψ-PROJECT-ΦΠ", "symbol": "WAVE\_SEMANTIC\_PROJECT", "kind": "projection", "signature": "(ψ) \-\> (Φ\_state, Π\_state)", "description": "Project waveform into semantic class Φ and evaluation Π.", "notes": "Must factor out global phase to respect ψ-PHASE." }

@@ -1,0 +1,1 @@
+{ id: "RW\_BRIDGE\_ΘΠ\_INSERT\_NOT", when: "Π–Θ mismatch with no witness", action: "Insert NOT or contradiction witness", ensures: "Θ\_INV\_TRUTH\_BRIDGE" }

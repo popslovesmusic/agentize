@@ -1,0 +1,1 @@
+{ "raw\_composed": "((e1 ∘\_path e2) ∘\_path e3)", "elements": \["e1", "e2", "e3"\], "total\_steps": 3, "total\_delta\_chi": "3 \* chi\_step" }

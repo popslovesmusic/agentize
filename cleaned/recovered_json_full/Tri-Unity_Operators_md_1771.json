@@ -1,0 +1,1 @@
+{ "id": "D1\_delta\_squared", "pattern": "δ∘δ", "rewrite": "δ²", "comment": "Self-composition of deviation yields δ²." }

@@ -1,0 +1,1 @@
+{ "invariants": \[ "ψ-AMP", "ψ-PHASE", "ψ-MODE" \], "operators": \[ "OP\_ψ-AMP-NORM", "OP\_ψ-PHASE-SHIFT", "OP\_ψ-MODE-EVOLVE", "OP\_ψ-PROJECT-ΦΠ", "OP\_ψ-NORMALIZE" \], "axiom\_box": "TXX-ψ-INV-AXIOMS", "rewrite\_system": "TXX-ψ-INV-REWRITE", "interaction\_table": "TXX-ψ-INV-INTERACTIONS" }

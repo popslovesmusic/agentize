@@ -1,0 +1,1 @@
+{ "id": "T41", "left": "Θ", "right": "λ", "composition": "Θ⊕λ", "category": "sum\_composition", "signature": "(Box,Box) \-\> Polarity", "rule": "Sum curvature-induced polarities from two Boxes.", "notes": "Classify bend regions by sign." }

@@ -1,0 +1,1 @@
+{ "id": "C4\_sigma\_mu", "pattern": "Σ∘μ", "rewrite": "μ", "comment": "Summation over weighted structure collapses to effective μ." }

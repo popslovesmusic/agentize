@@ -1,0 +1,1 @@
+{ "requirements": \[ "All compositions in Expr must respect the domain/codomain typing of the underlying operators.", "Ξ-\>NF is only defined on well-typed expressions.", "Morphisms between Boxes must preserve the MBC-4.0 operator structure." \] }

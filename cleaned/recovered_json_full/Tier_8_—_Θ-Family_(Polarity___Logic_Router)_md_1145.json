@@ -1,0 +1,1 @@
+{ "id": "T53", "left": "Θ\_to\_logic", "right": "Θ", "composition": "Θ→AND(p1,p2)", "category": "logic\_gate", "signature": "(Polarity,Polarity) \-\> Bool", "rule": "True iff both polarities are positive.", "notes": "AND via polarity." }

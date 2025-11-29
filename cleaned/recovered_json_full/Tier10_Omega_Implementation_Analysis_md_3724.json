@@ -1,0 +1,11 @@
+{
+            'total_states': len(self.admissible_manifold),
+            'surface_distribution': {
+                surface: len(states)
+                for surface, states in self.constraint_surfaces.items()
+            },
+            'global_inconsistency': 0.0,
+            'contradictions_found': [],
+            'tri_unity_coherent_states': 0,
+            'validation_passed': True
+        }

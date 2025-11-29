@@ -1,0 +1,1 @@
+{ id: "OP\_χ\_STEP", name: "Chi-Step Evolution", family: "Chi-Family", // State at χ → State at χ+Δχ signature: "State(χ) × Δχ \-\> State(χ+Δχ)", description: "Primitive χ-step operator. Advances a semantic state forward by Δχ." }

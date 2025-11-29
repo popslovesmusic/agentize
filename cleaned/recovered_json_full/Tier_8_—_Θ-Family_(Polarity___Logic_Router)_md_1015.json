@@ -1,0 +1,1 @@
+{ "id": "T17", "left": "Θ", "right": "Pi", "composition": "Θ ∘ Π", "category": "left\_composition", "signature": "Box \-\> Polarity", "rule": "Assign polarity to an evaluated truth value.", "notes": "Useful in mixed continuous/discrete semantics." }

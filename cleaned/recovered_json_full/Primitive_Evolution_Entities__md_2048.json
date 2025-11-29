@@ -1,0 +1,1 @@
+{ "r1": { "id": "r1", "pattern\_in": "A", "pattern\_out": "B", "guard": "TRUE", "chi\_cost": "chi\_step" } }

@@ -1,0 +1,1 @@
+{ "intent": "Assign layer indices; create meta-hierarchy", "domain": "All Boxes and Operators", "codomain": "ℕ (layer index)" }

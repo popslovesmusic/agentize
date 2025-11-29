@@ -1,0 +1,1 @@
+{ "symbol": "A ⋆ B", "name": "Semantic Convolution", "definition": "(A ⋆ B)(X) \= ∫ A(Y) · B(X − Y) dμ(Y)", "domain": \["Operator", "Operator"\], "codomain": "Operator", "intent": "Semantic diffusion and mode-mixing operator.", "properties": { "integral\_operator": true, "mode\_mixing": true }, "notes": "Core of ψ-wave dynamics, semantic interference, and μ-weighted spreading." }

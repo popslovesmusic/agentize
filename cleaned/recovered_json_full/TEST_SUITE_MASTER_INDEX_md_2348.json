@@ -1,0 +1,1 @@
+{ id: 14, description: "Closure: Φ⊗Π remains in Π-evaluation subspace.", input: \["Φ⊗Π"\], expect\_nf: "NF\_Φ⊗Π", invariant: "closure", }

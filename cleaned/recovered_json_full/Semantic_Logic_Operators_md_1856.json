@@ -1,0 +1,1 @@
+{ "id": "SL-XNOR-EXPANSION", "name": "XNOR\_Expansion", "pattern": "XNOR(A, B)", "rewrite": "OR(AND(A, B), AND(NOT(A), NOT(B)))", "conditions": { "pi\_equivalence": true } }

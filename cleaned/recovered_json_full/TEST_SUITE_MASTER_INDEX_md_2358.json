@@ -1,0 +1,1 @@
+{ id: 24, description: "Commutativity: Tri-Unity 3-cycle δ→Φ→Π.", input: \["δΦΠ", "ΦΠδ"\], expect\_equal\_nf: "NF\_δΦΠ", invariant: "commutativity", }

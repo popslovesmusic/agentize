@@ -1,0 +1,1 @@
+{ id: "RW\_χNF\_FIX\_ALL", axiom\_id: "AX\_χ\_TRIUNITY\_FLOW", pattern: { violation: "any\_χ\_evolution\_violation" }, action: { apply\_sequence: \[ "RW\_χ\_INSERT\_TRIUNITY\_FLOW", "RW\_χ\_ENFORCE\_WAVE\_CONSTRAINT", "RW\_χ\_INSERT\_POLARITY\_EVENT" \] }, ensures: \[ "χNF\_TriUnityFlow", "χNF\_WaveConstrained", "χNF\_PolarityHistorySafe" \] }

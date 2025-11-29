@@ -1,0 +1,1 @@
+{ closure: 'Any composition built solely from δ, Φ, Π stays in the Tri-Unity algebra.', commutativity: 'All cube paths formed from δ, Φ, Π compositions commute at the NF level.', normal\_form: 'Every δ–Φ–Π expression reduces to a unique semantic Normal Form NF\_\*.', }

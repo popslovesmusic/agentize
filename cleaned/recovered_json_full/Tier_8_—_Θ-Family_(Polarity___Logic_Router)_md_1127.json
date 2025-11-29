@@ -1,0 +1,1 @@
+{ "id": "T35", "left": "ψ", "right": "Θ\_minus", "composition": "ψ(Θ\_minus B) \= \-ψ(Θ\_plus B)", "category": "phase\_rule", "signature": "Box \-\> Wave", "rule": "Negative polarity channel is a π phase shift of the positive channel in the linear regime.", "notes": "Phase inversion rule." }

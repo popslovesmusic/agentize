@@ -1,0 +1,1 @@
+{ id: 'TU-NF-14', invariant: 'closure', pattern: 'Φ⊗Π', rewrite: 'NF\_Φ⊗Π', conditions: { tensor\_semantics: true }, explanation: 'Tensor Φ⊗Π stays in the projected-evaluation subspace.', }

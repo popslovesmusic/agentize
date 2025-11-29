@@ -1,0 +1,1 @@
+{ id: 'TU-COMM-11', invariant: 'commutativity', pattern: \['δΦ', 'Πδ'\], rewrite: 'NF\_δΦΠ', // or treat as NF-equivalent class; here we map to a 3-op NF conditions: { cube\_edges: true }, explanation: 'Opposite edges δΦ and Πδ close on the same cube face NF.', }

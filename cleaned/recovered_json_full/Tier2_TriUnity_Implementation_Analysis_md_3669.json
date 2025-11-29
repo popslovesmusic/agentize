@@ -1,0 +1,6 @@
+{
+                'agent': self.critic,
+                'mode': 'validate',
+                'operator': 'Π',
+                'pipeline': 'Π-only'
+            }

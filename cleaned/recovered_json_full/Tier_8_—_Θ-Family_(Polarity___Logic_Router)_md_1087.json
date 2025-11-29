@@ -1,0 +1,1 @@
+{ "id": "Θ\_XOR\_n", "signature": "Polarity^n \-\> Bool", "polarity\_expression": "product\_i (-1)^{b\_i} where b\_i \= (p\_i \== \-1)", "truth\_expression": "Pi( product\_i (-1)^{b\_i} )", "comments": "Parity check over n polarities." }

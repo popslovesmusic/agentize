@@ -1,0 +1,1 @@
+{ "symbol": "A∘B", "definition": "Apply B, then A: A∘B(x) \= A(B(x)).", "intent": "Standard categorical composition of operators.", "normal\_form\_behavior": "Reduced to pairwise NF\_AB." }

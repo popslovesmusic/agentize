@@ -1,0 +1,6 @@
+{
+    "delta_mu_laplacian": "Delta_delta_mu[i] = sum_j W[i][j] * Delta[i][j] * (B[j] - B[i])",
+    "phi_potential": "V_phi[i] = -Phi(B)[i]",
+    "pi_potential": "V_pi[i] = Pi(B)[i]",
+    "psi_operator": "psi[i] = Delta_delta_mu[i] + V_phi[i] + V_pi[i]"
+  }

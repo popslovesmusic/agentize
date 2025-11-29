@@ -1,0 +1,1 @@
+{ "symbol": "ψ₀", "name": "Seed oscillation", "definition": "ψ₀ \= \[δ, Π\]", "role": "δ–Π resonance generator", "inputs": \["δ", "Π"\], "outputs": \["S"\], "properties": { "commutator": true, "order": 1 } }

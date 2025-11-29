@@ -1,0 +1,22 @@
+{
+    "id": "Tri-Unity+lambda-Cube",
+    "vertices": {
+      "B000": "B",
+      "B100": "δB",
+      "B010": "ΦB",
+      "B001": "ΠB",
+      "B111": "ΠΦδB (all paths agree by commutativity)"
+    },
+    "lambda_layer": {
+      "description": "λ acts as curvature/deformation on each vertex",
+      "naturality_conditions": [
+        "(λ→δ) ∘ λ(B000) = λ(B100)",
+        "(λ→Φ) ∘ λ(B000) = λ(B010)",
+        "(λ→Π) ∘ λ(B000) = λ(B001)"
+      ],
+      "face_curvature_constraints": [
+        "λ respects Φ∘δ = δ∘Φ up to modal curvature",
+        "λ_modal(face) = 0 implies λ(Φ∘δ) = λ(δ∘Φ)"
+      ]
+    }
+  }

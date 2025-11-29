@@ -1,0 +1,5 @@
+{
+            "research": lambda r: self._research_pattern(r),
+            "creative_loop": lambda r: self._creative_loop(r),
+            "decision_tree": lambda r: self._decision_tree(r)
+        }

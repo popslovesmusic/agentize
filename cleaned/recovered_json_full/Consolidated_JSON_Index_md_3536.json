@@ -1,0 +1,5 @@
+{
+          "from": { "type": "string" },
+          "to": { "type": "string" },
+          "operator": { "type": "string" }
+        }

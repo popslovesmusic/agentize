@@ -1,0 +1,6 @@
+{
+          "id": { "type": "string" },
+          "lhs": { "type": "string" },
+          "rhs": { "type": "string" },
+          "role": { "type": "string" }
+        }

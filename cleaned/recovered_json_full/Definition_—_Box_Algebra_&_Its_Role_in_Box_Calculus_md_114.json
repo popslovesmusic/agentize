@@ -1,0 +1,5 @@
+{`  
+      `"id": "LAW-6",`  
+      `"name": "Pi_terminal_idempotence",`  
+      `"schema": "Π(Π(B)) == Π(B)"`  
+    `}

@@ -1,0 +1,9 @@
+{
+      "id": "mu_to_sigma",
+      "dimension": 2,
+      "boundary": ["m_f", "sigB", "s_f", "sigA"],
+      "commutes": {
+        "equation": "Σ(f) ∘ σ_A = σ_B ∘ μ(f)",
+        "semantic_layer": "general"
+      }
+    }

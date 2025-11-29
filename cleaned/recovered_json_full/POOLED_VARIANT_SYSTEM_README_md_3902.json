@@ -1,0 +1,4 @@
+Selected Variant: flat_geometry
+Reason: On flat manifolds, curvature and deviation commute...
+Performance: {'note': 'Fastest - commutative simplification'}
+Fallback Chain: flat_geometry -> canonical_definition

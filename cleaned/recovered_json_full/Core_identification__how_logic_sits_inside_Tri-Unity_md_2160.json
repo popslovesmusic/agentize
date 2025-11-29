@@ -1,0 +1,1 @@
+{ "name": "idempotent\_ρ", "when": "ρ ∘ ρ", "then": "ρ", "intent": "Layer placement is canonical and does not stack." }

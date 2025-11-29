@@ -1,0 +1,1 @@
+{ "pattern": "Ξ(AxiomBox)", "rewrite": "Symmetry\_equivalent\_AxiomBox", "description": "Axiom Boxes are mapped to equivalent Axiom Boxes." }

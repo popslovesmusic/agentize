@@ -1,0 +1,1 @@
+{ id: "OP\_ΘNF\_NORMALIZE", name: "Theta-Normal Form Normalizer", family: "Theta-System", signature: "ThetaLogicNetwork \-\> ThetaLogicNetwork", description: "Repairs networks to enforce all Θ invariants (ΘNF).", }

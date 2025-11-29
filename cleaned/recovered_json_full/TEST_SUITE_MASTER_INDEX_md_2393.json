@@ -1,0 +1,1 @@
+{ id: 'TU-NF-07', invariant: 'closure', pattern: \['Φ', '⊤'\], rewrite: 'NF\_Φ', conditions: { argument\_is\_tautology: true }, explanation: 'Φ acting on tautology yields a pure projection NF\_Φ.', }

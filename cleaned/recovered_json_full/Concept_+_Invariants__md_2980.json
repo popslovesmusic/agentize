@@ -1,0 +1,1 @@
+{ "edges": \[ \["A", "B"\], \["B", "C"\] \], "truth\_values": { "A": 0.7, "B": 0.7, "C": 0.9 }, "invariants\_satisfied": \["PI-CO", "PI-TM"\], "in\_normal\_form": true }

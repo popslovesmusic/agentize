@@ -1,0 +1,1 @@
+{ "identity_tracking": { "state_id": "Persistent identifier across χ-steps.", "path_id": "Identifier for SemanticPathElement sequences.", "rewrite_trace": "Record of RewriteRuleAtoms applied." } }

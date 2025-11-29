@@ -1,0 +1,25 @@
+python
+from variant_aware_router import VariantAwareRouter, ExecutionContext
+
+# Initialize router
+router = VariantAwareRouter()
+
+# Option 1: Automatic context detection
+state = {
+    'λ': 0,
+    'flat_geometry_flag': True
+}
+context = router.detect_context(state)
+selection = router.select_variant(("λ", "δ"), context)
+
+# Option 2: Manual context specification
+from variant_aware_router import GeometryType, AbstractionLevel
+
+context = ExecutionContext(
+    geometry_type=GeometryType.FLAT,
+    abstraction_level=AbstractionLevel.BASE_OPERATOR
+)
+selection = router.select_variant(("λ", "δ"), context)
+
+# Option 3: Composition with automatic fallback
+result = router.compose_with_fallback("λ", "δ", state)

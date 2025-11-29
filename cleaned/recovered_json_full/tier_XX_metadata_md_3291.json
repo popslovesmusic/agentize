@@ -1,0 +1,1 @@
+{ "id": "RS\_NF\_Theorem", "name": "Unique Normal Form Under RS-Invariants", "statement": "If a rewrite system R satisfies AX1.1 (Termination), " \+ "AX2.1 (Local Confluence), and AX3.1 (Non-Expansion), then " \+ "for every term t there exists a unique normal form NF\_R(t), " \+ "and dim\_sem(NF\_R(t)) ≤ dim\_sem(t).", "dependencies": \["RS\_AX\_1", "RS\_AX\_2", "RS\_AX\_3"\] }

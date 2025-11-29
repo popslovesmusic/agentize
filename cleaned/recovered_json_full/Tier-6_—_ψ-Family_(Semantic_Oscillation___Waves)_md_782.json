@@ -1,0 +1,1 @@
+{ "linearity": "ψ(aB1 \+ bB2) \= aψ(B1) \+ bψ(B2)", "projection\_compatibility": "Φ(ψ(B)) \= ψ(Φ(B))", "evaluation\_periodicity": "Π(ψ(B)) \= Π(B) exp(i ω χ)", "semantic\_wave\_equation": "ψ\_{χχ} \= δ² ψ \+ Φ(ψ) \+ Π(ψ) \+ μψ \+ λψ" }

@@ -1,0 +1,70 @@
+{`  
+  `"mbc_version": "4.0",`  
+  `"module": "semantic_inference_rules",`  
+  `"sealed": true,`  
+  `"judgments": {`  
+    `"deduction": "⊢",`  
+    `"routing_implication": "⇒",`  
+    `"semantic_entailment": "|="`  
+  `},`  
+  `"operators_used": ["delta", "Phi", "Theta", "SigmaSigma_a", "Pi", "compose"],`  
+  `"rules": [`  
+    `{`  
+      `"id": "R-ID",`  
+      `"name": "Identity Rule",`  
+      `"schema": "Pi(B)==True => Gamma ⊢ B"`  
+    `},`  
+    `{`  
+      `"id": "R-DELTA-PROJ",`  
+      `"name": "δ-Projection Rule",`  
+      `"schema": "A ⊢ Phi(A)"`  
+    `},`  
+    `{`  
+      `"id": "R-THETA",`  
+      `"name": "Theta-Routing Rule",`  
+      `"schema": "Theta(A)->B => A ⊢ B"`  
+    `},`  
+    `{`  
+      `"id": "R-PI",`  
+      `"name": "Pi-Closure Rule",`  
+      `"schema": "(Gamma ⊢ B) => (Gamma ⊢ Pi(B))"`  
+    `},`  
+    `{`  
+      `"id": "R-AGG",`  
+      `"name": "Aggregation Rule",`  
+      `"schema": "(A ⊢ B && A ⊢ C) => (A ⊢ SigmaSigma_a(B,C))"`  
+    `},`  
+    `{`  
+      `"id": "R-COMP",`  
+      `"name": "Composition Rule",`  
+      `"schema": "(A ⊢ B && B ⊢ C) => (A ⊢ C)"`  
+    `},`  
+    `{`  
+      `"id": "R-SOUND",`  
+      `"name": "Semantic Stability",`  
+      `"schema": "(Gamma ⊢ B) => (Gamma |= B)"`  
+    `},`  
+    `{`  
+      `"id": "R-FED",`  
+      `"name": "Federated Inference Rule",`  
+      `"schema": "forall i: (Gamma_i ⊢ B) => (Union(Gamma_i) |= B)"`  
+    `},`  
+    `{`  
+      `"id": "R-POLARITY",`  
+      `"name": "Polarity-Weighted Deduction",`  
+      `"schema": "(Theta(A)>0 && A ⊢ B) => (A |= B)"`  
+    `},`  
+    `{`  
+      `"id": "R-DELTA-STABLE",`  
+      `"name": "δ-Stability Rule",`  
+      `"schema": "(delta(A) ~ delta(B)) => (A ⊢ B)"`  
+    `}`  
+  `],`  
+  `"soundness_condition": "Pi is idempotent and Theta is functorial",`  
+  `"completeness_condition": "Every Pi-stable truth is reachable by routed derivation",`  
+  `"validation_invariants": [`  
+    `"Pi(Pi(B))==Pi(B)",`  
+    `"Theta preserves composition",`  
+    `"SigmaSigma_a distributes over routing"`  
+  `]`  
+`}

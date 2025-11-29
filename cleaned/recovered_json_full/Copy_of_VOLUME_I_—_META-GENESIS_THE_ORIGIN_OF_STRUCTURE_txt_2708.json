@@ -1,0 +1,1 @@
+{ "lookup_method": "master_index.registry.axiom_boxes[box_name]", "validation_method": "compare SHA256(box.json) to stored hash field", "rewrite_method": "apply VolumeII_ModulePack.rewrite_system", "transition_method": "use TransitionPack.mapping_rules to route into Volume III" }

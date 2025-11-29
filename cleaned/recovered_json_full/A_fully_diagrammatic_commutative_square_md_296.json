@@ -1,0 +1,8 @@
+{
+          "id": { "type": "string" },
+          "label": { "type": "string" },
+          "kind": {
+            "type": "string",
+            "enum": ["δ", "Φ", "Π", "μ", "Σ", "Θ", "general"]
+          }
+        }

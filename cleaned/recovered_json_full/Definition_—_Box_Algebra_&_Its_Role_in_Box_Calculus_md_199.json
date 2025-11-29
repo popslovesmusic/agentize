@@ -1,0 +1,5 @@
+{`  
+        `"id": "INV-G-2",`  
+        `"name": "pi_fixpoint",`  
+        `"schema": "Gate outputs must satisfy Pi(Pi(Out)) == Pi(Out)."`  
+      `}

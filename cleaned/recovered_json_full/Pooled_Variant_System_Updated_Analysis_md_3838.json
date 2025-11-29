@@ -1,0 +1,8 @@
+λ(B) = λ_curv(B) + λ_mode(B) + λ_×(B)
+
+where:
+- λ_curv(B) = [∇₀,∇₀] = [δ,δ]        (intrinsic curvature)
+- λ_mode(B) = δ(M)(B) + [δ,M](B)     (linear modal)
+- λ_×(B) = M∧M(B)                     (cross-mode quadratic)
+
+M = M(ψ,Φ,Π,μ) is the mode field operator

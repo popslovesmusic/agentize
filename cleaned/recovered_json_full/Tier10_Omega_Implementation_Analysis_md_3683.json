@@ -1,0 +1,5 @@
+For any state s ∈ S:
+1. Ω(s) exists and is unique
+2. Ω(s) = s ⟺ s ∈ A
+3. K(Ω(s)) ≤ K(s)
+4. Ω(s) = lim_{t→∞} φ_t(s)  where  φ̇_t = -∇K(φ_t)

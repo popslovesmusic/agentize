@@ -1,0 +1,1 @@
+{ "id": "R-ρ-06", "name": "annotated\_operator\_under\_rho", "category": "normalization", "lhs": "(rho\_n ∘ A)\[k\]", "rhs": "A\[max(n,k)\]", "conditions": { "n\_in\_N": true, "k\_in\_N": true }, "notes": "Equivalent to first applying ρ\_n then restricting to k; result is max(n,k)." }

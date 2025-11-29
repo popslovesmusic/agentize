@@ -1,0 +1,8 @@
+{`  
+    `"id": "psi_tensor_form",`  
+    `"input_tensor_rank": 2,`  
+    `"output_tensor_rank": 2,`  
+    `"description": "ψ expects a BoxField rank-2 tensor; applies μ-weighted δ-Laplacian.",`  
+    `"supports_3layer_colormode": true,`  
+    `"supports_12x12_chromatic_grid": true`  
+  `}

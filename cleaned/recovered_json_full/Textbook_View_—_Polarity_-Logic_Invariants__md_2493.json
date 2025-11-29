@@ -1,0 +1,1 @@
+{ invariant\_violations: \["Θ\_INV\_CONSERVATION"\], rewrite\_applied: \["RW\_Θ\_CONSERVE\_INSERT\_ROUTER"\], nf: "ΘNF" }

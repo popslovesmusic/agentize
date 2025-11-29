@@ -1,0 +1,1 @@
+{ "Σ\_i": { "type": "index\_summation", "role": "Index contraction" }, "Σ⊗": { "type": "tensor\_contraction", "role": "Tensor contraction" }, "ΣδΦΠ": { "type": "tri-unity\_contraction", "role": "δ-Φ-Π summation" }, "ΣΘ": { "type": "polarity\_sum", "role": "Polarity summation" }, "Σ→NF": { "type": "normal\_form\_contraction", "role": "Σ to Σ-NF" } }

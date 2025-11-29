@@ -1,0 +1,1 @@
+{ "rho\_operators": \[ "RHO-BASE", "RHO-SEMANTIC", "RHO-META-N", "RHO-LIFT", "RHO-MERGE", "RHO-SPLIT", "RHO-LOCK-TRIUNITY", "RHO-ALIGN-CHI" \], "rho\_invariants": \[ "RHO-LAYER-IDENTITY", "RHO-HIERARCHY-PRESERVATION", "RHO-META-CLOSURE", "RHO-CROSS-LAYER-CONSISTENCY" \], "rho\_normal\_form": "rho-NF" }

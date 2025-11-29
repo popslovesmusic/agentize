@@ -1,0 +1,1 @@
+{ id: "Ω-CT1", chain: \["δ", "Φ", "Σ", "ψ", "Π"\], expected\_chain: \["δ\_NF", "Φ\_consistent", "Σ", "ψ\_norm", "Π"\], enforced\_by: "Ω\_normalize \+ Ω\_consistency", description: "Full δ-Φ-Σ-ψ-Π chain normalized under Ω." }

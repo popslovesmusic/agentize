@@ -1,0 +1,1 @@
+{ "id": "RULE\_ψ-NORM-ENFORCE", "pattern": { "state": "ψ", "condition": "‖ψ‖\_μ² ≠ 0 ∧ Ω\_domain.lossless \== true" }, "action": "ψ' \= NORM\_ψ(ψ); attach flag ψ'.nf\_flags.includes('normalized')", "target\_nf": "ψ\_state", "preserves\_invariants": \["ψ-AMP"\] }

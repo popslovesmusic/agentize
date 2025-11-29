@@ -1,0 +1,1 @@
+{ "name": "push\_Ω\_right", "when": "O ∘ Ω", "then": "Ω ∘ O", "conditions": \["O ∈ {χ, Π₂, Θ, Σ, ψ, λ, μ, Π₁, Φ, δ}"\], "intent": "Ω is always second-to-last operator (before ρ)." }

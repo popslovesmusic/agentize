@@ -1,0 +1,11 @@
+{
+      "step": 3,
+      "gate": "Θ-AND",
+      "quality_checks": [
+        "relevance_score > 0.7",
+        "passes_omega_consistency",
+        "has_provenance"
+      ],
+      "output": "filtered_results",
+      "logic": "ALL checks must pass (Θ₊)"
+    }

@@ -1,0 +1,1 @@
+{ "id": "D5\_delta\_tensor\_mu", "pattern": "δ⊗μ", "rewrite": "μδ", "comment": "Weighted deviation realized as μδ." }

@@ -1,0 +1,1 @@
+{ "symbol": "Σ→NF", "intent": "Final contraction to Tri-Unity Normal Form.", "domain": "Any operator expression in δ, Φ, Π, μ, λ, ψ, Θ.", "action": "Expression \-\> NF(B).", "properties": { "idempotent": true, "terminal": true, "eliminates\_redundancy": true } }

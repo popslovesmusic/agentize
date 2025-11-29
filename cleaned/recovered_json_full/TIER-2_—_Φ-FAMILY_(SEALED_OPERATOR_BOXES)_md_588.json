@@ -1,0 +1,1 @@
+{ "BoxName": "TriUnityBridge", "BoxIntent": "Bind δ–Φ–Π.", "Domain": { "Input": "B", "Output": "Tri-Unity propagated B" }, "Constraints": { "CommutativityCondition": "δΦ→Π \= Φδ→Π", "NormalFormPath": "Unique reduction", "Stability": "Requires vanishing commutators" }, "CrossLinks": { "δ": "Deviation", "Φ": "Projection", "Π": "Evaluation", "μ": "Metric" } }

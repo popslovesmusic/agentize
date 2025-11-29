@@ -1,0 +1,9 @@
+{
+      "id": "pi_to_mu",
+      "dimension": 2,
+      "boundary": ["p_f", "kapB", "m_f", "kapA"],
+      "commutes": {
+        "equation": "μ(f) ∘ κ_A = κ_B ∘ Π(f)",
+        "semantic_layer": "general"
+      }
+    }

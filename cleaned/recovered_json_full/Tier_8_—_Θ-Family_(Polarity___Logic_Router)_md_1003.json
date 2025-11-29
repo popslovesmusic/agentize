@@ -1,0 +1,1 @@
+{ "id": "T05", "left": "Θ", "right": "δ", "composition": "Θ⊕δ", "category": "sum\_composition", "signature": "(Box,Box) \-\> polarity\_sum", "rule": "Sum polarity-tagged deviations of two Boxes.", "notes": "Used in deviation error signals." }

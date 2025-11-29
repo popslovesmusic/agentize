@@ -1,0 +1,1 @@
+{ "name": "Ω\_before\_ρ", "when": "ρ ∘ Ω", "then": "Ω ∘ ρ", "intent": "Global constraints Ω apply before layering ρ." }

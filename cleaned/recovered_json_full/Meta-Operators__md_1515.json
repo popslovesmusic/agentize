@@ -1,0 +1,1 @@
+{ "left\_operator": "Φ", "right\_operator": "δ", "composition": "δ ∘ Φ", "commutator": "\[Φ,δ\]", "anticommutator": "{Φ,δ}", "constraints": \[ "\[Φ,δ\] \= \-\[δ,Φ\]" \], "links": { "meta\_commutator\_def": "../../03\_MetaOperators/commutator\_definitions.json" } }

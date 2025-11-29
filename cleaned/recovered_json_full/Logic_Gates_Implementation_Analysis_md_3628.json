@@ -1,0 +1,17 @@
+{
+      "gate": "Θ-AND",
+      "inputs": [
+        "has_provenance(data)",
+        "passes_delta_check(data)",
+        "omega_validates(data)"
+      ],
+      "action": {
+        "Θ₊": "ingest_to_knowledge_base",
+        "Θ₋": "reject_or_quarantine"
+      },
+      "implementation": {
+        "step_1": "Check all three conditions",
+        "step_2": "Θ-AND combines results",
+        "step_3": "If all Θ₊: ingest, else reject"
+      }
+    }

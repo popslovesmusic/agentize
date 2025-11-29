@@ -1,0 +1,1 @@
+{ name: "Ω-repair-ΦΠ-chain", pattern: { chain: \["Φ", "Π"\] }, replace\_with: { chain: \["Φ\_consistent", "Π"\] }, comment: "Φ must be rendered consistent before Π-evaluation." }

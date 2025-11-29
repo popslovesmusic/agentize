@@ -1,0 +1,1 @@
+{ "id": "RHO-AX2", "name": "Hierarchy Axiom", "statement": "The ρ-layer relation (L, ≼) is a finite, rooted, acyclic partial order, and every ρ-rewrite preserves (L, ≼) up to isomorphism.", "invariant\_ref": "RHO-HIERARCHY-PRESERVATION" }

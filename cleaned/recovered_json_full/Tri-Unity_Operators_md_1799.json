@@ -1,0 +1,1 @@
+{ "id": "L3\_lambda\_mu", "pattern": "λ∘μ", "rewrite": "NF\_λμ", "comment": "Curvature acting on weight." }

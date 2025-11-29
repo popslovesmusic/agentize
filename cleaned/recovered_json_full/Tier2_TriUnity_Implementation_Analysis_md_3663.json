@@ -1,0 +1,5 @@
+{
+  "gate": "Phi (Φ)",
+  "condition": "Is this a request to FIND existing data?",
+  "action": "Route to Librarian (Search/Retrieval)"
+}

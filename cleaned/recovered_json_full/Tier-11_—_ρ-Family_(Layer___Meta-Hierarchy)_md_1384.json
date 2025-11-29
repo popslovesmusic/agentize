@@ -1,0 +1,1 @@
+{ "id": "R-ρ-05", "name": "rho\_of\_annotated\_operator", "category": "normalization", "lhs": "rho\_n ∘ A\[k\]", "rhs": "A\[max(n,k)\]", "conditions": { "n\_in\_N": true, "k\_in\_N": true }, "notes": "ρ applied to an already layered operator lifts to the max layer." }

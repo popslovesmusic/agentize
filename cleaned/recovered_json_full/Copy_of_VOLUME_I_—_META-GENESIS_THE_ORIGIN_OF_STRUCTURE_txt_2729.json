@@ -1,0 +1,1 @@
+{ "atom_indecomposability": "None of these atoms can be factored into simpler logical units within this tier.", "Π_binding": "TruthAtoms are always evaluated via Π; no direct non-Π truth manipulation allowed.", "Θ_binding": "PolarityAtoms must be routed via Θ in all logic operations.", "Φ_binding": "SemanticClassAtoms must be projected via Φ in form calculations." }

@@ -1,0 +1,1 @@
+{ "type": "string", "pattern": "^T\[0-9\]{2,3}$", "description": "Unique identifier (e.g. T01, T57)" }

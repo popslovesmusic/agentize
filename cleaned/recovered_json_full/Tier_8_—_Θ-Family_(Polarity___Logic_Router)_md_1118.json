@@ -1,0 +1,1 @@
+{ "id": "T26", "left": "Θ", "right": "μ", "composition": "Θ⊗μ", "category": "tensor\_product", "signature": "Box \-\> Tensor", "rule": "Pair polarity with local μ at each point.", "notes": "Polarity-weighted metric tensor." }

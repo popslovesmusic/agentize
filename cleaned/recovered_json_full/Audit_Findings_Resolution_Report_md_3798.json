@@ -1,0 +1,16 @@
+python
+# Base level (non-commutative)
+state_base = {'working_with_raw_operators': True}
+context_base = router.detect_context(state_base)
+print(context_base.abstraction_level)
+# Output: AbstractionLevel.BASE_OPERATOR
+# Interpretation: [λ, δ] ≠ 0
+
+# ψ-layer (commutative)
+state_psi = {'all_operators_psi_transformed': True}
+context_psi = router.detect_context(state_psi)
+print(context_psi.abstraction_level)
+# Output: AbstractionLevel.PSI_LAYER
+# Interpretation: ψ(λ) ∘ ψ(δ) = ψ(δ) ∘ ψ(λ)
+
+# No conflict - different levels!

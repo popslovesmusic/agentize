@@ -1,0 +1,1 @@
+{ "name": "LIFT\_INDEX", "symbol": "LIFT(i)", "signature": "TensorIndex \-\> TensorIndex", "intent": "Raise an index according to current metric convention.", "delta\_action": "Uses δ-compatible metric structure." }

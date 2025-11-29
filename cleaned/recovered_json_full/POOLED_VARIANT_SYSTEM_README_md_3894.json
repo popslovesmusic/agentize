@@ -1,0 +1,10 @@
+python
+# Base level (raw operators)
+state_base = {'working_with_raw_operators': True}
+# Router detects: AbstractionLevel.BASE_OPERATOR
+# → Uses non-commutative variant
+
+# ψ-layer (wave-transformed)
+state_psi = {'all_operators_psi_transformed': True}
+# Router detects: AbstractionLevel.PSI_LAYER
+# → Uses commutative canonical definition

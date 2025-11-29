@@ -1,0 +1,1 @@
+{ "id": "T\_CHI\_013\_VARIABLE\_STEP\_UNBOUNDED", "description": "Variable-step evolution exceeds allowed bound.", "input\_trace": \[ { "state": "B0", "chi": 0 }, { "state": "B1", "chi": 10, "mode": "discrete", "bounded": true } \], "expected": { "is\_nf": false, "violations": \["INV\_CHI\_STEP\_GRANULARITY"\], "normalized\_trace": "reject\_large\_jump" } }

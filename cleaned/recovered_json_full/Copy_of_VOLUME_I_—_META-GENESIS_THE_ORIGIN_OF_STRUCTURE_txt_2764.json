@@ -1,0 +1,1 @@
+{ "[A,B]": "Semantic commutator", "{A,B}": "Semantic anticommutator", "A∘B": "Functor/operation composition", "A⊗B": "Tensor product", "A⊕B": "Semantic sum", "A⋆B": "Semantic convolution", "A⇒B": "Inference arrow", "A↦B": "Rewrite rule" }

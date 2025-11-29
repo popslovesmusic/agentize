@@ -1,0 +1,13 @@
+{
+      "gate_chain": "Π → Θ-MUX",
+      "flow": [
+        "validate_consistency(data)",
+        "Π→Θ (convert to routing signal)",
+        "Θ-MUX(Θ₊: accept, Θ₋: quarantine)"
+      ],
+      "implementation": {
+        "step_1": "Π validates against Ω-constraints",
+        "step_2": "Result converted to polarity",
+        "step_3": "Θ-MUX routes to accept or quarantine"
+      }
+    }

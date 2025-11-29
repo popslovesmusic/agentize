@@ -1,0 +1,1 @@
+{ "id": "RS-PIPE-02", "input\_term": "Π(Φ(δ(ID(Φ(x)))))", "pipeline": \[ "NF ← RS\_NF(term, R)", "Ω\_check ← Ω(NF)" \], "expect\_Ω": true, "description": "Normalization must preserve global Ω-invariants." }

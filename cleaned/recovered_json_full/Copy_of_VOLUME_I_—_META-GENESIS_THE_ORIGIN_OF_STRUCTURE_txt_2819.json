@@ -1,0 +1,1 @@
+{ "name": "V3_Ch9_AttractorFamily_ChapterAxiom", "intent": "Define the three main cosmic attractors.", "domain": "λ–μ, ψ–Σ, ρ-hierarchy convergence", "constraints": [ "Attractors must be Ω-stable", "Σ ensures entropic drive toward convergence" ], "cross_links": ["V1_Ch10_EmergenceCriterion_Theorem"] }

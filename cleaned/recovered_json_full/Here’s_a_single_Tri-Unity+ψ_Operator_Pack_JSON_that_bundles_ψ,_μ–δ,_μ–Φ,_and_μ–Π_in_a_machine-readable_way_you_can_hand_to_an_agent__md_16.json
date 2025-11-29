@@ -1,0 +1,9 @@
+{`  
+    `"id": "psi_sde_form",`  
+    `"compatible_with": "mbc_sde_v2",`  
+    `"equation_form": "dB/dχ = ψ(B)",`  
+    `"notes": [`  
+      `"Used for single-step semantic updates.",`  
+      `"Acts as the generator for semantic dynamics in MBC."`  
+    `]`  
+  `}

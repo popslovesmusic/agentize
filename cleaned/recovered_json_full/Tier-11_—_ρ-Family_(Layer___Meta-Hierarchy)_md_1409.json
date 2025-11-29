@@ -1,0 +1,1 @@
+{ "id": "R-ρ-30", "name": "psi\_delta\_layered", "category": "interaction", "lhs": "ψ\[k\] ∘ δ\[m\]", "rhs": "(ψ ∘ δ)\[max(k,m)\]", "conditions": { "composable": true }, "notes": "Wave-deviation interaction is performed in the maximal layer." }

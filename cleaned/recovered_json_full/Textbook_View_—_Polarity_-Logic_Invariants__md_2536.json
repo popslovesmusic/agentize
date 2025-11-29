@@ -1,0 +1,1 @@
+{ chi: 1.0, box: "B1", psi: { amplitude\_norm: 1.2 }, // renormalized theta: "+", omega\_energy: 1.2, rewrites\_applied: \[ "RW\_χ\_INSERT\_TRIUNITY\_FLOW", "RW\_χ\_ENFORCE\_WAVE\_CONSTRAINT" \] }

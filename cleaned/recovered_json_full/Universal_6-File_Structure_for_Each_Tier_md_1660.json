@@ -1,0 +1,1 @@
+{ "left": "δ", "right": "Φ", "meta": \[ { "meta\_operator\_name": "functor\_composition", "symbol": "Φ∘δ", "id": "XX\_int\_1" }, { "meta\_operator\_name": "semantic\_commutator", "symbol": "\[δ,Φ\]", "id": "XX\_int\_2" } \] }

@@ -1,0 +1,1 @@
+{ "modules": \[ "tier\_00\_metadata.json", "tier\_00\_operator\_pack.json", "tier\_00\_interaction\_table.json", "tier\_00\_axiom\_box.json", "tier\_00\_rewrite\_system.json" \], "export": { "primitive\_alphabet": \["δ", "Φ", "Π", "μ", "ψ", "λ", "Σ", "Θ", "χ", "ρ", "Ω"\] }, "notes": "Tier-00 establishes the atomic operator alphabet used by all higher-tier operator packs." }

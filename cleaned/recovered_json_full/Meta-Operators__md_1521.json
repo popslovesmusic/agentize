@@ -1,0 +1,1 @@
+{ "id": "DELTA\_NF\_003", "pattern": "δ ∘ δ", "replacement": "δ²", "justification": "Define the deviation Laplacian δ² as δ ∘ δ.", "direction": "left\_to\_right", "priority": 5, "links": { "operator\_pack": "../../02\_Tiers/Tier\_01\_delta/tier\_01\_delta\_operator\_pack.json" } }

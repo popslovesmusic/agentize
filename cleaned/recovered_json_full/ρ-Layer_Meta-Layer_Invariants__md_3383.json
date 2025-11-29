@@ -1,0 +1,1 @@
+{ "required\_tiers": \[ { "tier": 0, "name": "Primitive Structural Invariants" }, { "tier": 7, "name": "Σ-Family (Summation / Contraction)" }, { "tier": 8, "name": "Θ-Family (Polarity / Logic Router)" }, { "tier": 9, "name": "χ-Family (Evolution / Semantic Time)" }, { "tier": 10, "name": "Ω-Family (Global Constraints)" } \], "tri\_unity": \["δ", "Φ", "Π"\] }

@@ -1,0 +1,1 @@
+{ "id": "RHO-META-CLOSURE", "name": "Meta-Closure Invariant", "statement": "Each meta-layer ρ\_n is closed under its registered ρ-operations.", "level": "meta" }

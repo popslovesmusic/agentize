@@ -1,0 +1,1 @@
+{ class\_id: "tensor", payload: { rank: 2, shape: \[2, 2\], // agent may renormalize but must produce valid consistent tensor }, invariant\_ok: true }

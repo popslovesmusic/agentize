@@ -1,0 +1,1 @@
+{ "id": "R-ρ-35", "name": "omega\_eval\_layered", "category": "interaction", "lhs": "Ω\[k\] ∘ Π\[m\]", "rhs": "(Ω ∘ Π)\[max(k,m)\]", "conditions": { "composable": true }, "notes": "Constrainted evaluation under Ω happens at maximal layer." }

@@ -1,0 +1,1 @@
+{ "μ⊗∘Π (scalar-only)": "Undefined when Π outputs pure scalar and μ⊗ demands higher rank.", "δ∘μ\_ij (nonsmooth grids)": "Undefined if adjacency grid is not differentiable.", "μ∘Φ (non-normalized)": "Invalid unless Φ normalization rule applied." }

@@ -1,0 +1,11 @@
+{`  
+    `"type": "Box",`  
+    `"name": "B_out",`  
+    `"requirements": [`  
+      `"Valid δ-state",`  
+      `"Valid Φ-state",`  
+      `"Valid Θ-state",`  
+      `"Valid aggregated structure",`  
+      `"Evaluated Π fixed-point"`  
+    `]`  
+  `}

@@ -1,0 +1,24 @@
+{
+  "tier": 9,
+  "family": "chi",
+  "operators": {
+    "chi": {"type":"scalar","role":"evolution_parameter"},
+    "chiDelta": {"type":"operator","role":"discrete_step"},
+    "d_dchi": {"type":"operator","role":"semantic_derivative"},
+    "partial_chi": {"type":"operator","role":"partial_derivative"},
+    "chi_to_delta": {"type":"operator","role":"delta_evolution"},
+    "chi_to_phi": {"type":"operator","role":"phi_evolution"},
+    "chi_to_pi": {"type":"operator","role":"pi_evolution"},
+    "chi_to_psi": {"type":"operator","role":"psi_evolution"},
+    "chi_to_mu": {"type":"operator","role":"mu_evolution"},
+    "chi_to_lambda": {"type":"operator","role":"lambda_evolution"},
+    "chi_to_sigma": {"type":"operator","role":"sigma_evolution"},
+    "chi_to_theta": {"type":"operator","role":"theta_evolution"},
+    "chi_to_triUnity": {"type":"operator","role":"tri_unity_flow"}
+  },
+  "interaction_table": [
+    {"compose":"chiDelta o delta","result":"delta(chi+Δχ)"},
+    {"compose":"d_dchi o delta","result":"chi_to_delta"},
+    {"compose":"partial_chi o delta_i","result":"delta_i_chi"}
+  ]
+}

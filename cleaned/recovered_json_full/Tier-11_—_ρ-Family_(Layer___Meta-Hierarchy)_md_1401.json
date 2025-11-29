@@ -1,0 +1,1 @@
+{ "id": "R-ρ-22", "name": "mu\_layer\_restriction", "category": "interaction", "lhs": "rho\_k ∘ μ", "rhs": "μ\[k\]", "conditions": { "k\_in\_N": true }, "notes": "ρ\_k applied to μ yields layer-specific weight μ\[k\]." }

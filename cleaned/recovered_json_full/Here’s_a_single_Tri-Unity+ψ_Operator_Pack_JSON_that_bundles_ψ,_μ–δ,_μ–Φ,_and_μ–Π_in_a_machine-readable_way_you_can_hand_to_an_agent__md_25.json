@@ -1,0 +1,9 @@
+{`  
+    `"rows": ["δ", "Φ", "Π"],`  
+    `"cols": ["δ", "Φ", "Π"],`  
+    `"entries": [`  
+      `["δ∘δ : defined", "Φ∘δ", "Π∘δ : undefined"],`  
+      `["δ∘Φ", "Φ∘Φ : idempotent", "Π∘Φ : canonical"],`  
+      `["δ∘Π : undefined", "Φ∘Π : undefined", "Π∘Π : idempotent"]`  
+    `]`  
+  `}

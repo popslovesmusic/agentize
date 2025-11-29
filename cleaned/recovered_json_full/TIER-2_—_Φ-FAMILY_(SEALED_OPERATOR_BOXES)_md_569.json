@@ -1,0 +1,1 @@
+{ "BoxName": "Pi\_after\_Phi", "BoxIntent": "Canonical projection-to-evaluation pipeline.", "Domain": { "Input": "B", "Output": "Π(Φ(B))" }, "Constraints": { "Normalization": "Φ\_to\_Π preprocessing", "Functoriality": "Pipeline is functorial", "Uniqueness": "Only canonical path" }, "CrossLinks": { "Φ\_to\_Π": "Normalizer", "Φ\_s": "Semantic source", "Φ\_c": "Causal source" } }

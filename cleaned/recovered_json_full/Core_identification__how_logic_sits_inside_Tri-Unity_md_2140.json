@@ -1,0 +1,1 @@
+{ "name": "μ\_after\_Π₁", "when": "μ ∘ Π₁", "then": "Π₁ ∘ μ", "intent": "Pre-evaluation Π₁ occurs before μ-weighting." }

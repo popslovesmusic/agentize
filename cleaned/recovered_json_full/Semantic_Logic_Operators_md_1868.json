@@ -1,0 +1,1 @@
+{ "id": "SL-DOUBLE-NEGATION", "name": "Double\_Negation", "pattern": "NOT(NOT(A))", "rewrite": "A", "theta\_update": "t\_out \= theta\_not(theta\_not(t\_A));", "sigma\_update": "s\_out \= sigma\_not(sigma\_not(s\_A));", "pi\_update": "p\_out \= pi\_not(pi\_not(p\_A));", "goal": "Eliminate double negation (classical logic)." }

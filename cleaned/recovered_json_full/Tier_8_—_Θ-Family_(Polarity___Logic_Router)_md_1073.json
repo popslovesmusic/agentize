@@ -1,0 +1,1 @@
+{ "id": "T01", "left": "Θ", "right": "δ", "composition": "Θ ∘ δ", "category": "left\_composition", "signature": "Box \-\> Box\_polarized", "rule": "Apply δ then assign polarity from deviation sign.", "notes": "Fundamental polarity-gradient rule." }

@@ -1,0 +1,1 @@
+{ "name": "idempotent\_μ", "when": "μ ∘ μ", "then": "μ", "intent": "Re-applying the same local metric yields no change." }

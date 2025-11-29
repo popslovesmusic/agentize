@@ -1,0 +1,1 @@
+{ "name": "delta\_phi\_pair\_nf", "pattern": "δ∘Φ", "rewrite": "NF\_δΦ", "comment": "Defines the canonical pairwise δ→Φ composition." }

@@ -1,0 +1,1 @@
+{ "name": "Π₂\_after\_Θ", "when": "Θ ∘ Π₂", "then": "Θ ∘ Π₂", // explicit no-op, just a guard "intent": "Π₂ must not move left of Θ in NF." }

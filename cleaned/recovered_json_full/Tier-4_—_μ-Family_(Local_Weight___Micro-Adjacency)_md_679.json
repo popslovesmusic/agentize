@@ -1,0 +1,1 @@
+{ "μ→δ\_preferred": "Rewrite δ∘μ as μ→δ when possible.", "Φ∘μ\_preferred": "Projection acts after weighting when semantic form is intended.", "Π∘μ\_preferred": "Evaluation of weighted fields takes precedence over weighting the evaluated result.", "tensor\_ordering": "μ⊗ must be placed before δ⊗ or Φ⊗ for canonical form." }

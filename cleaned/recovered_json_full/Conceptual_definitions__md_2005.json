@@ -1,0 +1,1 @@
+{ "depends\_on": \["AX\_SEMANTIC\_NODE", "AX\_SEMANTIC\_EDGE", "AX\_THETA\_POLARITY"\], "enables": \["Θ-Logic-Gate Libraries"\], "related\_tiers": \["03\_domain\_structures", "08\_theta\_family"\] }

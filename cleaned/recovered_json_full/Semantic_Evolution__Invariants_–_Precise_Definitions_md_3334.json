@@ -1,0 +1,1 @@
+{ "id": "R\_CHI\_NEUTRAL\_01", "name": "Tag Neutral χ-Steps", "pattern": "STEP(B, χ2) after STEP(B, χ1) with χ2 \= χ1", "condition": "χ\_neutral\_allowed", "rewrite": "STEP(B, χ1) tagged\_with { chi\_neutral: true }", "preserves\_invariants": \[ "INV\_CHI\_FORWARD\_FLOW" \] }

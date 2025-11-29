@@ -1,0 +1,1 @@
+{ "id": "face\_delta\_phi\_high", "name": "δ-Φ face (Π applied)", "vertices": \["pi\_B", "delta\_pi\_B", "phi\_pi\_B", "delta\_phi\_pi\_B"\], "commutativity": { "unweighted": "δ ∘ Φ ∘ Π \~ Φ ∘ δ ∘ Π", "weighted": "μ→δ ∘ μ→Φ ∘ Π \~ μ→Φ ∘ μ→δ ∘ Π under μ-normalized Π" } }

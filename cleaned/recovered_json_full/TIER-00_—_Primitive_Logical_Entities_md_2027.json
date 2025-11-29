@@ -1,0 +1,1 @@
+{ "TruthAtom": { "$ref": "TruthAtom\_Axiom" }, "PolarityAtom": { "$ref": "PolarityAtom\_Axiom" }, "SemanticClassAtom": { "$ref": "SemanticClassAtom\_Axiom" }, "DeviationAtom": { "$ref": "DeviationAtom\_Axiom" } }

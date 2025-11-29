@@ -1,0 +1,8 @@
+{`  
+      `"name": "delta",`  
+      `"sealed": true,`  
+      `"kind": "unary_or_binary",`  
+      `"signature": "(Box | Box×Box) -> Box",`  
+      `"tier_effect": { "delta": "perturb_or_merge", "phi": "none", "theta": "none", "pi": "none" },`  
+      `"description": "Deviation/curvature generator and δ-merge."`  
+    `}

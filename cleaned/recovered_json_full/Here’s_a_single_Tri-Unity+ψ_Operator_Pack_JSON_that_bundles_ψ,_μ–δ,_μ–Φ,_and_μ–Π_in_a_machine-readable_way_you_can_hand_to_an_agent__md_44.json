@@ -1,0 +1,39 @@
+{`  
+  `"mbc_version": "4.0",`  
+  `"type": "module_pack",`  
+  `"pack_id": "canonical_axiom_pack",`  
+  `"pack_name": "Canonical Axiom Set",`
+
+  `"manifest": {`  
+    `"description": "Contains the IGSOA/MBC foundational Axiom Boxes (Monistic Consistency Axiom, δ-Genesis Axiom, IGSOA-Origin Axiom).",`  
+    `"tags": ["axioms", "foundations"]`  
+  `},`
+
+  `"dependencies": {`  
+    `"module_packs": []`  
+  `},`
+
+  `"objects": {`  
+    `"axiom_boxes": [`  
+      `"monistic_consistency_axiom",`  
+      `"delta_genesis_axiom",`  
+      `"origin_axiom"`  
+    `],`  
+    `"theorems": ["supreme_closure_theorem"],`  
+    `"layers": [],`  
+    `"diagrams": []`  
+  `},`
+
+  `"router": {`  
+    `"semantic_flows": ["Axiom → Constraint → RewriteSystem"]`  
+  `},`
+
+  `"export": {`  
+    `"axioms": [`  
+      `"monistic_consistency_axiom",`  
+      `"delta_genesis_axiom",`  
+      `"origin_axiom"`  
+    `],`  
+    `"theorems": ["supreme_closure_theorem"]`  
+  `}`  
+`}

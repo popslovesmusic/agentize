@@ -1,0 +1,1 @@
+{ "id": "T24", "left": "Θ", "right": "μ", "composition": "Θ ∘ μ", "category": "left\_composition", "signature": "Box \-\> Polarity", "rule": "Assign polarity from local metric density μ.", "notes": "Threshold-based sign." }

@@ -1,0 +1,1 @@
+{ "name": "V3_Ch3_FieldIdentity_StructureBox", "intent": "Store the structural identity of unified fields.", "domain": "Radiative, geometric, gauge-like fields", "constraints": [ "ψ provides oscillatory identity", "λ provides geometric identity", "μ provides coupling strength identity" ], "cross_links": ["V1_Ch6_LogicIdentity_TruthBox"] }

@@ -1,0 +1,1 @@
+{ "id": "SIGMA\_INV\_NULL\_MODE\_STABILITY", "name": "Null-Mode Stability Invariant", "summary": "Null components (semantic zero modes) remain null under Σ unless an explicit source term is present.", "informal": "Summing zeros cannot generate a nonzero semantic mode." }

@@ -1,0 +1,1 @@
+{ "id": "L5\_lambda\_sigma\_commutator", "pattern": "\[λ,Σ\]", "rewrite": "0", "comment": "Curvature and summation commute in NF\_12." }

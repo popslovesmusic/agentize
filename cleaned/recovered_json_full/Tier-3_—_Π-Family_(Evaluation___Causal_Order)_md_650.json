@@ -1,0 +1,1 @@
+{ "id": "rr\_semantic\_reduce\_1", "pattern": "Π\_s(Π(Φ(B)))", "normal\_form": "Π\_s(Φ(B))", "condition": "Π does not alter semantic form, only its status", "intent": "Semantic evaluation acts on form, not on final truth label." }

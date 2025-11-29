@@ -1,0 +1,14 @@
+{
+    "input_type": "Box",
+    "output_type": "Box",
+    "algorithm": "compute_deviation",
+    "parameters": {
+      "neighborhood": "local",
+      "metric": "semantic_distance"
+    },
+    "validation": {
+      "pre_conditions": ["Box is differentiable"],
+      "post_conditions": ["Output preserves structure"],
+      "omega_check": true
+    }
+  }

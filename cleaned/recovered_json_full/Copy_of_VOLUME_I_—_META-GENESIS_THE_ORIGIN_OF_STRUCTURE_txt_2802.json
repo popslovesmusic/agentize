@@ -1,0 +1,1 @@
+{ "name": "V3_Ch3_ForceLawEmergence_Theorem", "intent": "Prove physical force laws are Σ/Ω-normal forms.", "domain": "δ–ψ–μ–λ dynamics", "constraints": [ "No force law may violate Ω invariants", "Σ must stabilize local energy distributions" ], "cross_links": ["V2_Ch3_ForceFieldTheorem"] }

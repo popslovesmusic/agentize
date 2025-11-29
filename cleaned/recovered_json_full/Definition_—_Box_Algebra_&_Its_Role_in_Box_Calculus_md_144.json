@@ -1,0 +1,7 @@
+{`  
+          `"step": 2,`  
+          `"op": "negate_polarity",`  
+          `"input": ["T"],`  
+          `"output": "N",`  
+          `"params": { "mode": "polarity_flip" }`  
+        `}

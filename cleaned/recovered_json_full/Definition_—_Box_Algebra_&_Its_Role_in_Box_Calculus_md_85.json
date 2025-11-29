@@ -1,0 +1,1 @@
+{ "step": 4, "op": "SigmaSigma_a", "inputs": ["B_theta"], "output": "B_agg" }

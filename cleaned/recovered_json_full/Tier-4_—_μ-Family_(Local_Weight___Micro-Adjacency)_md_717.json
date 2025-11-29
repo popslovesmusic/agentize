@@ -1,0 +1,1 @@
+{ "mu\_delta": "\[μ, δ\](X) \= μ·δX \- δ(μ·X) \= \-(δμ)·X", "mu\_phi": "\[μ, Φ\](X) \= μ Φ(X) \- Φ(μ X)", "mu\_pi": "\[μ, Π\](X) \= μ Π(X) \- Π(μ X)", "note": "Edges decorated with μ→O inherit these commutators when edges are composed around faces." }

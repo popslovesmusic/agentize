@@ -1,0 +1,1 @@
+{ "name": "V3_Ch5_GalacticStructure_ChapterAxiom", "intent": "Define emergence of galactic architecture.", "domain": "λ, μ, ψ, ρ layered systems", "constraints": [ "μ-halo must follow Ω density rules", "ψ rotation preserved", "ρ defines component structure" ], "cross_links": ["V2_Ch10_ProtoGalaxy_ChapterAxiom"] }

@@ -1,0 +1,1 @@
+{ "informal": "First apply the family operator (e.g. δ, Φ, …), then fuse its output into the Xi meta-synthesis space.", "formal\_law": "∀ XiVar,∀ Family: XiVar ∘ Family \= XiVar(Family)." }

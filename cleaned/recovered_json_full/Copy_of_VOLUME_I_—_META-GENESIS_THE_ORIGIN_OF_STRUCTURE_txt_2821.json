@@ -1,0 +1,1 @@
+{ "name": "V3_Ch9_AttractorIdentity_StructureBox", "intent": "Define identity of attractor states.", "domain": "λ, μ, ψ, Σ, ρ fixed points", "constraints": [ "Identity preserved after convergence", "Ω ensures unique attractor mapping" ], "cross_links": ["V1_Ch8_BoxIdentity_InterfaceBox"] }

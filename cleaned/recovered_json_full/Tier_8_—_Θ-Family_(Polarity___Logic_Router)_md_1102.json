@@ -1,0 +1,1 @@
+{ "id": "T10", "left": "Φ", "right": "Θ", "composition": "Φ ∘ Θ", "category": "right\_composition", "signature": "Box \-\> Box", "rule": "Project each polarity channel separately.", "notes": "Maintains Θ\_plus / Θ\_minus separation." }

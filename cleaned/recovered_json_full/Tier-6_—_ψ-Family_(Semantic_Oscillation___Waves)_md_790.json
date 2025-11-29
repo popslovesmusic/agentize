@@ -1,0 +1,1 @@
+{"pattern": "O(A ⊗ B)", "rewrite": "(OA ⊗ B) ⊕ (A ⊗ OB)"}

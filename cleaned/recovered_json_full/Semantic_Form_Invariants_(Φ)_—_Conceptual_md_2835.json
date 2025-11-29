@@ -1,0 +1,1 @@
+{ domain: "Semantic Form / Projection Layer", carriers: \["Box", "SemanticClass", "TruthValue"\], references: \["tier\_00\_axiom\_box.json5", "tier\_01\_axiom\_box.json5"\], }

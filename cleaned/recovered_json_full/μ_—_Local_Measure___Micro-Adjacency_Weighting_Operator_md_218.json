@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MBC-4.0 ψ Semantic Wave Layer Schema",
+  "type": "object",
+  "required": ["mbc_version", "layer", "operators", "definitions", "constraints"],
+  "properties": {
+    "mbc_version": {
+      "type": "string",
+      "const": "4.0"
+    },
+    "layer": {
+      "type": "string",
+      "const": "psi-semantic-wave"
+    },
+    "operators": {
+      "type": "object",
+      "required": ["delta", "mu", "phi", "pi", "delta_mu_laplacian", "psi"],
+      "properties": {
+        "delta": { "type": "object" },
+        "mu": { "type": "object" },
+        "phi": { "type": "object" },
+        "pi": { "type": "object" },
+        "delta_mu_laplacian": { "type": "object" },
+        "psi": { "type": "object" }
+      }
+    },
+    "definitions": {
+      "type": "object",
+      "required": ["delta_mu_laplacian", "phi_potential", "pi_potential", "psi_operator"],
+      "properties": {
+        "delta_mu_laplacian": { "type": "string" },
+        "phi_potential": { "type": "string" },
+        "pi_potential": { "type": "string" },
+        "psi_operator": { "type": "string" }
+      }
+    },
+    "constraints": {
+      "type": "object",
+      "required": ["mu_normalization", "mu_nonnegativity", "delta_symmetry", "delta_zero_diagonal"],
+      "properties": {
+        "mu_normalization": { "type": "string" },
+        "mu_nonnegativity": { "type": "string" },
+        "delta_symmetry": { "type": "string" },
+        "delta_zero_diagonal": { "type": "string" },
+        "phi_linearity": { "type": "string" },
+        "pi_linearity": { "type": "string" },
+        "psi_linearity": { "type": "string" },
+        "psi_covariance": { "type": "string" }
+      }
+    },
+    "wave_equation": {
+      "type": "object"
+    },
+    "io_signatures": {
+      "type": "object"
+    },
+    "tests": {
+      "type": "object"
+    }
+  }
+}

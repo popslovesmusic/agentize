@@ -1,0 +1,19 @@
+mermaid
+flowchart TD
+    %% Bottom face objects
+    F_A["F(A)"] -->| "F(f)" | F_B["F(B)"]
+    G_A["G(A)"] -->| "G(f)" | G_B["G(B)"]
+    F_A -->| "η_A" | G_A
+    F_B -->| "η_B" | G_B
+
+    %% Top face objects (apply H)
+    HF_A["H(F(A))"] -->| "H(F(f))" | HF_B["H(F(B))"]
+    HG_A["H(G(A))"] -->| "H(G(f))" | HG_B["H(G(B))"]
+    HF_A -->| "H(η_A)" | HG_A
+    HF_B -->| "H(η_B)" | HG_B
+
+    %% Vertical edges: application of H
+    F_A -->| "H" | HF_A
+    F_B -->| "H" | HF_B
+    G_A -->| "H" | HG_A
+    G_B -->| "H" | HG_B

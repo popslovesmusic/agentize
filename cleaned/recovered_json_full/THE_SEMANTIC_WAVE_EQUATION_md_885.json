@@ -1,0 +1,1 @@
+{ "symbol": "Π", "name": "Evaluation operator", "tier": 2, "signature": "Π : S → S", "role": "Causal / truth evaluation", "properties": { "idempotent": true, "self\_adjoint": false, "type": "evaluation\_projector" }, "links": \["AXIOM\_BOX\_\_Pi\_Evaluation\_Operator"\] }

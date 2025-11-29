@@ -1,0 +1,1 @@
+{ "step": 1, "op": "delta", "inputs": ["B1", "B2"], "output": "B_delta" }

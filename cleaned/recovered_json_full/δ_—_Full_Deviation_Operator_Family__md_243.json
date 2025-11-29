@@ -1,0 +1,48 @@
+──────────────────────────────────────────────────────────────
+             DIAGRAM STACK: δ → Φ → Π
+──────────────────────────────────────────────────────────────
+
+                           δ-Layer
+                 (Deviation / Geometry / Curvature)
+──────────────────────────────────────────────────────────────
+
+     δ          δ²          δ*        Jδ       Δδ        Wδ
+   (1st)     (2nd)       (adj)    (Jac)    (Lapl)    (Weitz)
+
+   |────────────┬────────────┬──────────────┬──────────────|
+   | curvature   | smoothing  | deformation   diffusion     torsion
+   | initiation  | reversal   | structure     propagation   twisting
+   ▼             ▼            ▼              ▼              ▼
+
+──────────────────────────────────────────────────────────────
+                       Mixed Operators Layer
+              (Boundary between δ and Φ / Π semantics)
+──────────────────────────────────────────────────────────────
+
+             δ∘Φ         Φ∘δ          Π∘δ        δ⊗δ
+      (deviation of   (projection   (causal       (rank-2
+        projection)    of dev.)     dev.)         tensor)
+
+               │           │            │          │
+               ├───────────┴────────────┴──────────┘
+               ▼
+──────────────────────────────────────────────────────────────
+                           Φ-Layer
+                   (Semantic Projection / Form)
+──────────────────────────────────────────────────────────────
+
+                     Φ-structure
+           (shape, semantic frame, organization)
+
+                           │
+                           ▼
+
+──────────────────────────────────────────────────────────────
+                           Π-Layer
+                   (Causal Evaluation / Truth)
+──────────────────────────────────────────────────────────────
+
+                     Π-evaluation
+             (causality, truth, actuality)
+
+──────────────────────────────────────────────────────────────

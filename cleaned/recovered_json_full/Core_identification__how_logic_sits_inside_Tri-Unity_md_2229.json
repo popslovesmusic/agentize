@@ -1,0 +1,1 @@
+{ "id": "G-ADJ-INT", "statement": "Graph adjacency must remain a valid relation.", "formal": "If A is an adjacency relation on nodes V, then O·A must be a well-formed adjacency on V (no dangling references).", "violations\_map\_to": "⊥" }

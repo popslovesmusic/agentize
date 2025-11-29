@@ -1,0 +1,1 @@
+{ "type": "string", "enum": ["Theta", "SigmaSigma_a", "Pi", "select_branch", "negate_polarity"] }

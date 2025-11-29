@@ -1,0 +1,109 @@
+python
+class MBCLogicRouter:
+    """Router using Θ-logic gates for agent coordination"""
+
+    def __init__(self, logic_tier_json5):
+        self.gates = self.load_gates(logic_tier_json5)
+        self.rewrite_rules = self.load_rewrites(logic_tier_json5)
+
+    def theta_mux(self, control_signal, path_a, path_b):
+        """Θ-MUX: Conditional routing based on polarity"""
+        polarity = self.evaluate_polarity(control_signal)
+
+        if polarity == "Θ₊":
+            return self.execute_path(path_a)
+        else:
+            return self.execute_path(path_b)
+
+    def theta_and(self, *inputs):
+        """Θ-AND: All must be Θ₊"""
+        polarities = [self.evaluate_polarity(inp) for inp in inputs]
+
+        if all(p == "Θ₊" for p in polarities):
+            return "Θ₊"
+        else:
+            return "Θ₋"
+
+    def theta_or(self, *inputs):
+        """Θ-OR: Any can be Θ₊"""
+        polarities = [self.evaluate_polarity(inp) for inp in inputs]
+
+        if any(p == "Θ₊" for p in polarities):
+            return "Θ₊"
+        else:
+            return "Θ₋"
+
+    def pi_to_theta(self, truth_value):
+        """Π→Θ: Convert boolean to polarity"""
+        if truth_value in [1, True, "true", "success"]:
+            return "Θ₊"
+        else:
+            return "Θ₋"
+
+    def theta_to_pi(self, polarity):
+        """Θ→Π: Convert polarity to boolean"""
+        return 1 if polarity == "Θ₊" else 0
+
+    def route_request(self, user_request):
+        """Main routing logic with iterative loops"""
+        # Classify intent
+        intent = self.classify_intent(user_request)
+
+        # Example: Creative-Validation Loop
+        if "generate" in intent and "validate" in intent:
+            # δ → Π → Θ-MUX → (loop or done)
+            result = self.delta_gate(user_request)  # Generate
+            valid = self.pi_gate(result)             # Validate
+            polarity = self.pi_to_theta(valid)       # Convert to routing signal
+
+            return self.theta_mux(
+                control_signal=polarity,
+                path_a="return_result",               # If Θ₊
+                path_b=lambda: self.route_request(    # If Θ₋, loop
+                    "refine: " + user_request
+                )
+            )
+
+        # Simple routing
+        elif "search" in intent:
+            return self.phi_gate(user_request)
+        elif "validate" in intent:
+            return self.pi_gate(user_request)
+        else:
+            return self.delta_gate(user_request)
+
+    def execute_pattern(self, pattern_name, request):
+        """Execute predefined routing patterns"""
+        patterns = {
+            "research": lambda r: self._research_pattern(r),
+            "creative_loop": lambda r: self._creative_loop(r),
+            "decision_tree": lambda r: self._decision_tree(r)
+        }
+        return patterns[pattern_name](request)
+
+    def _research_pattern(self, request):
+        """Φ → Θ-OR → Σ → Π"""
+        # Parallel search
+        results = self.theta_or(
+            self.phi_gate(request, source="local"),
+            self.phi_gate(request, source="web"),
+            self.phi_gate(request, source="memory")
+        )
+        # Merge
+        merged = self.sigma_gate(results)
+        # Validate
+        return self.pi_gate(merged)
+
+    def _creative_loop(self, request, max_iterations=3):
+        """δ → Π → Θ-MUX loop"""
+        for i in range(max_iterations):
+            result = self.delta_gate(request)
+            valid = self.pi_gate(result)
+            polarity = self.pi_to_theta(valid)
+
+            if polarity == "Θ₊":
+                return result  # Success
+            else:
+                request = f"refine iteration {i+1}: {request}"
+
+        return result  # Return best attempt after max iterations

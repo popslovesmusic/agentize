@@ -1,0 +1,1 @@
+{ "id": "THETA-NONCONTRADICTION", "statement": "No Box can simultaneously carry both pure Θ+ and pure Θ- on the same semantic channel.", "formal": "If Θ\_c(B) \= Θ+ for channel c, then Θ\_c(B) ≠ Θ-; mixed states must be explicitly represented and reduced by Σ/Θ-NF.", "dependencies": \["SIGMA-LINEARITY"\] }

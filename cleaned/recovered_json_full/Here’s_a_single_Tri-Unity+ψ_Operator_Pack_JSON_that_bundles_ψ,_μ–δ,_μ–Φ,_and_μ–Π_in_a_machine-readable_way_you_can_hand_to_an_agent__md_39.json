@@ -1,0 +1,48 @@
+{`  
+  `"mbc_version": "4.0",`  
+  `"type": "module_pack",`  
+  `"pack_id": "tri_unity_core_pack",`  
+  `"pack_name": "Tri-Unity Core Operators",`
+
+  `"manifest": {`  
+    `"description": "Core δ–Φ–Π operator interactions, canonical signatures, and composition tables.",`  
+    `"tags": ["delta", "phi", "pi", "tri-unity"]`  
+  `},`
+
+  `"dependencies": {`  
+    `"module_packs": [],`  
+    `"layers": [],`  
+    `"axioms": [],`  
+    `"operators": ["δ", "Φ", "Π"]`  
+  `},`
+
+  `"objects": {`  
+    `"theorems": ["tri_unity_normal_form", "pi_connector_theorem"],`  
+    `"layers": [],`  
+    `"axiom_boxes": ["delta_axiom", "phi_axiom", "pi_axiom"],`  
+    `"tri_unity_signatures": ["tri_unity_core"],`  
+    `"diagrams": ["tri_unity_cube_diagram"]`  
+  `},`
+
+  `"router": {`  
+    `"operator_chains": ["δ→Φ→Π"],`  
+    `"tri_unity_extensions": [],`  
+    `"psi_mu_links": [],`  
+    `"semantic_flows": ["Box → SemanticForm → CausalOrder"]`  
+  `},`
+
+  `"rewrite_rules": [`  
+    `{`  
+      `"pattern": "Π(δ(B))",`  
+      `"rewrite": "undefined",`  
+      `"note": "Evaluation is terminal; no deviation back-propagation."`  
+    `}`  
+  `],`
+
+  `"export": {`  
+    `"operators": ["δ", "Φ", "Π"],`  
+    `"layers": [],`  
+    `"axioms": ["delta_axiom", "phi_axiom", "pi_axiom"],`  
+    `"theorems": ["tri_unity_normal_form"]`  
+  `}`  
+`}

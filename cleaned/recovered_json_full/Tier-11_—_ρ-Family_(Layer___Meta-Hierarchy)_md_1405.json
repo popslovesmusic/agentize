@@ -1,0 +1,1 @@
+{ "id": "R-ρ-26", "name": "theta\_layer\_restriction", "category": "interaction", "lhs": "rho\_k ∘ Θ", "rhs": "Θ\[k\]", "conditions": { "k\_in\_N": true }, "notes": "ρ\_k applied to Θ yields layer-specific polarity router Θ\[k\]." }

@@ -1,0 +1,1 @@
+{ // δ² \= δ ∘ δ (Laplacian form) delta2: { type: 'laplacian', domain: 'semantic-geometry', }, }

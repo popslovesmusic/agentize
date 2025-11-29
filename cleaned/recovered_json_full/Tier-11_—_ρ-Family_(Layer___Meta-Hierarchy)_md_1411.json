@@ -1,0 +1,1 @@
+{ "id": "R-ρ-32", "name": "sigma\_triunity\_layered", "category": "interaction", "lhs": "Σ\[k\] ∘ (δ\[m\] ∘ Φ\[n\] ∘ Π\[r\])", "rhs": "(Σ ∘ δ ∘ Φ ∘ Π)\[max(k,m,n,r)\]", "conditions": { "composable": true }, "notes": "Tri-Unity contraction with Σ is executed at the maximal layer of all components." }

@@ -1,0 +1,1 @@
+{ "collapse_conditions": { "curvature": "λ > λ_collapse", "density": "μ > μ_collapse", "oscillation": "ψ_coherence > ψ_c" }, "collapse_inequality": "λ μ ψ > Ξ_c", "stages": ["compression", "resonant_lock", "Σ_stabilization", "ρ_fixation"] }

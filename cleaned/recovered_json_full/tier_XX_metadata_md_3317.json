@@ -1,0 +1,1 @@
+{ "id": "RS-META-01", "test": "introduce rule that increases dimension", "rule": { "lhs": "Φ(x)", "rhs": "Φ(δ(x))" }, "expect": { "RS\_CHECK\_NEXP": "false", "RS\_CHECK": "error" }, "description": "Dimensional expansion MUST be rejected." }

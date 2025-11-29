@@ -1,0 +1,1 @@
+{ "identity": { "name": "ID", "action": "Return primitive unchanged.", "domain": "Primitive", "codomain": "Primitive" }, "undefined\_operators": \[ "δ", "Φ", "Π", "μ", "ψ", "λ", "Σ", "Θ", "χ", "Ω", "ρ" \] }

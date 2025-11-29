@@ -1,0 +1,1 @@
+{ "id": "rr\_causal\_order\_1", "pattern": "Π\_ca(δ(B1), δ(B2))", "normal\_form": "Π\_ca(B1, B2)", "condition": "δ preserves causal adjacency type", "intent": "Causal order independent of small geometric deviations." }

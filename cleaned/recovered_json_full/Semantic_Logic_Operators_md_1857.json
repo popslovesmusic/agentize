@@ -1,0 +1,1 @@
+{ "default\_order": \[ "SL-IMPLIES-ELIM", "SL-DEMORGAN-AND", "SL-DEMORGAN-OR", "SL-DOUBLE-NEGATION", "SL-FORALL-EXISTS-DUAL", "SL-NEC-POSS-DUAL", "SL-XNOR-EXPANSION" \], "normalization\_goal": "Eliminate IMPLIES, NECESSITY, XNOR; push NOT inward; normalize quantifiers." }

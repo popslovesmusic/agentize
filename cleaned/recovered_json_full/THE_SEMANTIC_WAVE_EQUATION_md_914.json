@@ -1,0 +1,1 @@
+{ "omega": { "symbol": "ω", "value": 1.0, "role": "δ-frequency weight" }, "eta": { "symbol": "η", "value": 0.5, "role": "projection weight" }, "kappa": { "symbol": "κ", "value": 0.7, "role": "evaluation weight" } }

@@ -1,0 +1,17 @@
+python
+# Ω-enhanced variant selection
+def select_variant_with_omega_check(operator_pair, context):
+    """Select variant with Ω-consistency validation."""
+    selection = router.select_variant(operator_pair, context)
+
+    # Ω-constraint check
+    if not omega_enforcer.validate_selection(selection, context):
+        # Try fallback chain
+        for fallback_id in selection.fallback_chain[1:]:
+            fallback_selection = router._get_variant_formulation(
+                operator_pair, fallback_id
+            )
+            if omega_enforcer.validate_selection(fallback_selection, context):
+                return fallback_selection
+
+    return selection

@@ -1,0 +1,1 @@
+{ "symbol": "{A,B}", "name": "Semantic Anticommutator", "definition": "{A,B} \= A ∘ B \+ B ∘ A", "domain": \["Operator", "Operator"\], "codomain": "Operator", "intent": "Captures symmetric interaction channel between operators.", "properties": { "bilinear": true, "symmetric": true }, "notes": "Used for Φ–Π cycles, χ-evolution smoothing, and mixed δ-Φ projections." }

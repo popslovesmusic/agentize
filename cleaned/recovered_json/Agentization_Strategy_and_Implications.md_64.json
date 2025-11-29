@@ -1,0 +1,57 @@
+{
+  "operation": "compose",
+  "operators": ["δ", "Φ", "Π"],
+  "input": {
+    "type": "Box",
+    "id": "Box_A",
+    "content": {
+      "structure": "semantic_graph",
+      "nodes": 100,
+      "edges": 250
+    }
+  },
+  "execution_trace": [
+    {
+      "step": 1,
+      "operator": "δ",
+      "pre_validation": "passed",
+      "execution": {
+        "grounding": "graph_laplacian",
+        "result": "deviation_field"
+      },
+      "post_validation": "passed",
+      "omega_check": "passed"
+    },
+    {
+      "step": 2,
+      "operator": "Φ",
+      "input": "deviation_field",
+      "pre_validation": "passed",
+      "execution": {
+        "grounding": "spectral_projection",
+        "result": "projected_subspace"
+      },
+      "post_validation": "passed",
+      "omega_check": "passed"
+    },
+    {
+      "step": 3,
+      "operator": "Π",
+      "input": "projected_subspace",
+      "pre_validation": "passed",
+      "execution": {
+        "grounding": "evaluation_function",
+        "result": "truth_value"
+      },
+      "post_validation": "passed",
+      "omega_check": "passed"
+    }
+  ],
+  "final_result": {
+    "type": "EvaluatedBox",
+    "truth_value": 0.87,
+    "validation_status": "globally_consistent",
+    "normal_form": "canonical_triunity_result"
+  },
+  "provenance": "full_trace_above"
+}

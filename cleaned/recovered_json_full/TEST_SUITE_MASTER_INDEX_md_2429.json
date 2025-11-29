@@ -1,0 +1,1 @@
+{ id: 'TU-NF-31', invariant: 'normal\_form', pattern: 'δ⊗Φ⊗Π', rewrite: 'NF\_δ⊗Φ⊗Π', conditions: { tensor\_semantics: true }, explanation: 'Tensor chain δ⊗Φ⊗Π becomes NF\_δ⊗Φ⊗Π.', }

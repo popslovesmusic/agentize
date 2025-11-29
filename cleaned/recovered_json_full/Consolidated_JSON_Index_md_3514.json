@@ -1,0 +1,14 @@
+{
+  "name": "Tri-Unity+μ Commutative Cube",
+  "tier": 4,
+  "family": "Tri-Unity+μ",
+  "intent": "3D operator cube with δ, Φ, Π on axes and μ as a weight field decorating all paths.",
+  "description": "A commutative cube whose edges carry δ, Φ, Π actions on a Box. μ acts as a local weight field that can be lifted onto any edge as μ→δ, μ→Φ, μ→Π, defining a μ-weighted Tri-Unity system.",
+  "dependencies": {
+    "primitive_operators": ["δ", "Φ", "Π", "μ"],
+    "mu_family": ["μ", "μ→δ", "μ→Φ", "μ→Π"],
+    "delta_family": ["δ", "δ^2", "δ^J"],
+    "projection_family": ["Φ", "Φ→Π"],
+    "evaluation_family": ["Π"]
+  }
+}

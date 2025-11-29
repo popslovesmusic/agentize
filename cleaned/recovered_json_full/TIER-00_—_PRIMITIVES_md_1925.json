@@ -1,0 +1,1 @@
+{ "symbol": "∞", "name": "Unbounded Semantic Extent", "file": "00\_\_Primitive\_Infinite\_Box.json", "sha256": "\<to-be-filled\>", "properties": { "role": "semantic-unbounded", "idempotent": true, "requires\_Omega": true } }

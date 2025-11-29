@@ -1,0 +1,4 @@
+python
+validation_passed = critic_agent.validate(code)  # Returns boolean
+polarity = pi_to_theta(validation_passed)        # Converts to Θ₊ or Θ₋
+next_agent = theta_mux(polarity, success_path, retry_path)

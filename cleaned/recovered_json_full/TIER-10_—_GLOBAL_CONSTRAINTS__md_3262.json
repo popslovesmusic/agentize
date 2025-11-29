@@ -1,0 +1,1 @@
+{ id: "Ω-N3", input\_state: { δ: "δ\_raw", ψ: "ψ\_unbounded", Φ: "Φ\_class\_raw" }, expected\_state: { δ: "δ\_NF", ψ: "ψ\_norm", Φ: "Φ\_consistent" }, enforced\_by: "Ω", description: "Full-state normalization pipeline test." }

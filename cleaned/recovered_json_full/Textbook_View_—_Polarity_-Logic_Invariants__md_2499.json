@@ -1,0 +1,1 @@
+{ nodes: \[ { id: "g1", type: "OR", inputs: \["a", "b"\], output: "out" } \], wires: \[ { from: "input\_a", to: "g1.a", polarity: "+", truth: true }, { from: "input\_b", to: "g1.b", polarity: "-", truth: false }, { from: "g1.out", to: "output", polarity: "0", truth: true } \] }

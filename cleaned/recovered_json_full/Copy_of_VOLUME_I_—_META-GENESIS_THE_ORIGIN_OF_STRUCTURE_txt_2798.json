@@ -1,0 +1,1 @@
+{ "name": "V3_Ch2_StellarIgnition_ChapterAxiom", "intent": "Define ignition conditions for physical stars.", "domain": "ψ-modes, μ-density, λ-core depth", "constraints": [ "Core μ>μ_crit", "ψ coherence > ψ_min", "λ curvature deep enough for confinement" ], "cross_links": ["V2_Ch9_ProtoStar_DefinitionBox"] }

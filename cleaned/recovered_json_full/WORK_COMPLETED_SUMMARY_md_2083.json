@@ -1,0 +1,6 @@
+bash
+cd reports/
+cat Library_Expansion_Analysis.md     # What's new
+cat MBC_Framework_Gap_Analysis.md     # What's missing
+cat Consolidated_JSON_Index.md        # All JSON extracted
+cat Pointer_System_Summary.md         # How system works

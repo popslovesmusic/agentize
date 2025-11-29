@@ -1,0 +1,1 @@
+{ "id": "DELTA\_NF\_002", "pattern": "Π ∘ δ", "replacement": "δ ∘ Π \+ \[Π,δ\]", "justification": "Expand Π ∘ δ using commutator \[Π,δ\].", "direction": "left\_to\_right", "priority": 10, "links": { "commutator\_def": "../../03\_MetaOperators/commutator\_definitions.json" } }

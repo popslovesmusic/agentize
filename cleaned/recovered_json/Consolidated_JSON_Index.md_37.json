@@ -1,0 +1,21 @@
+{
+  "pack_type": "OperatorPack",
+  "schema_version": "MBC-4.0",
+  "pack_name": "Tri-Unity+psi_Operator_Pack",
+  "pack_id": "OP_PACK__TriUnity_plus_psi",
+  "tier": 6,
+  "family": "psi",
+  "description": "Unified operator pack for the ψ-layer and Semantic Wave Equation in Tri-Unity+μ+ψ geometry.",
+  "core_equation_box": "AXIOM_BOX__Semantic_Wave_Equation",
+  "primitives": {
+    "delta": {
+      "symbol": "δ",
+      "name": "Deviation operator",
+      "tier": 1,
+      "signature": "δ : S → T*S",
+      "role": "Semantic gradient / deviation",
+      "properties": { "linearity": true, "order": 1, "type": "first_order_differential", "adjoint_defined": true },
+      "links": ["AXIOM_BOX__Delta_Operator_Family"]
+    }
+  }
+}

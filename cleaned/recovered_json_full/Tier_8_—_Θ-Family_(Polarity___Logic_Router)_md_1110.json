@@ -1,0 +1,1 @@
+{ "id": "T18", "left": "Π", "right": "Θ", "composition": "Π ∘ Θ", "category": "right\_composition", "signature": "Box \-\> Bool", "rule": "Evaluate truth from a polarity channel.", "notes": "Implements polarity → truth via Π." }

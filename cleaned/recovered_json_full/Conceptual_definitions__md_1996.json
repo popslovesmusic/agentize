@@ -1,0 +1,1 @@
+{ "id": "INT\_06", "lhs\_structure": "D\_TENSOR", "rhs\_operator": "Φ", "relation": "PROJECTION", "result": "PROJECTED\_DOMAIN", "constraints": \[ "Φ(D) extracts semantic subdomains (modes, polarities, layers)." \] }

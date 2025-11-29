@@ -1,0 +1,1 @@
+{ "arity": 2, "θ-aware": true, "definition": "OR with polarity dominance", "rule": "If any Θ₊ present → Θ₊" }

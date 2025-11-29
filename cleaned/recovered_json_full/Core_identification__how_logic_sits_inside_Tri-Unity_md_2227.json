@@ -1,0 +1,1 @@
+{ "id": "G-BOX-INT", "statement": "Every Box must retain internally consistent δ, Φ, Π fields and well-typed μ, λ, ψ, Σ, Θ, χ, Ω, ρ tags.", "formal": "For any Box B, fields {δ(B), Φ(B), Π(B)} are total and defined on the same underlying domain; all additional fields are optional but, if present, must be type-consistent.", "violations\_map\_to": "⊥" }

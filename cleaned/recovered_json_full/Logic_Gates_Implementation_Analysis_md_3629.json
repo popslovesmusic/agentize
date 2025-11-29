@@ -1,0 +1,16 @@
+{
+      "gate": "Θ-OR",
+      "parallel_searches": [
+        "search_local_index(query)",
+        "search_vector_db(query)",
+        "search_full_text(query)"
+      ],
+      "merge": "Θ-Σ (polarity-weighted ranking)",
+      "output": "ranked_results",
+      "implementation": {
+        "step_1": "Execute all searches in parallel",
+        "step_2": "Each returns Θ₊ if found, Θ₋ if not",
+        "step_3": "Θ-OR: success if ANY search succeeds",
+        "step_4": "Θ-Σ: merge and rank by polarity weight"
+      }
+    }

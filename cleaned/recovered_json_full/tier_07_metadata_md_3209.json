@@ -1,0 +1,1 @@
+{ "id": "CHK\_SIGMA\_POLARITY\_CONSISTENCY", "kind": "invariant\_checker", "invariant": "SIGMA\_INV\_POLARITY\_CONSISTENT\_CONTRACTION", "signature": "ContractionPlan × ThetaLabels \-\> Bool", "description": "Returns true iff all contracted indices respect Θ routing without illegal channel mixing." }

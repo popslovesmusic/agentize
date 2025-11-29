@@ -1,0 +1,18 @@
+{
+  "tier": 9,
+  "family": "chi",
+  "intent": "Semantic evolution / semantic time",
+  "operators": {
+    "chi": {"type": "scalar", "role": "evolution_parameter"},
+    "chiDelta": {"type": "operator", "role": "discrete_step"},
+    "d_dchi": {"type": "operator", "role": "semantic_derivative"},
+    "partial_chi": {"type": "operator", "role": "partial_derivative"},
+    "chi_to_delta": {"type": "operator", "role": "deviation_evolution"},
+    "chi_to_psi": {"type": "operator", "role": "wave_evolution"},
+    "chi_to_tri": {"type": "operator", "role": "tri_unity_flow"}
+  },
+  "interaction_table": [],
+  "rewrite_rules": [],
+  "axioms": [],
+  "notes": "Populate tables from Tier-9 χ-interaction data"
+}

@@ -1,0 +1,1 @@
+{ id: "RW\_χ\_INSERT\_TRIUNITY\_FLOW", axiom\_id: "AX\_χ\_TRIUNITY\_FLOW", pattern: { violation: "evolution\_without\_triunity\_factorization" }, action: { insert: "explicit Tri-Unity flow node", description: "Wrap raw χ-step into Π∘Φ∘δ factorization.", transform: "B(χ+Δχ) := Π∘Φ∘δ(B(χ))" }, ensures: \["χNF\_TriUnityFlow"\] }

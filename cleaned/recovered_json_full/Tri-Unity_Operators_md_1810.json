@@ -1,0 +1,1 @@
+{ "id": "T4\_theta\_implies\_pi", "pattern": "Θ⇒Π", "rewrite": "NF\_Θ⇒Π", "comment": "Polarity-based logic gate implies evaluation." }

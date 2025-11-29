@@ -1,0 +1,1 @@
+{ base\_nf: 'NF\_Π', compound\_nf\_examples: \[ { pattern: \['Φ', 'Π'\], nf: 'NF\_ΦΠ', comment: 'Evaluation after projection stays in Tri-Unity NF\_ΦΠ.', }, { pattern: \['Π', 'δ'\], nf: 'NF\_Πδ', comment: 'Π∘δ reduces to NF\_Πδ by closure.', }, \], }

@@ -1,0 +1,1 @@
+{ "description": "Logic network with Θ-annotated gates and wires.", "fields": { "nodes": "Array of logic gates", "wires": "Array of connections carrying (Π, Θ)", "metadata": "Arbitrary auxiliary information" } }

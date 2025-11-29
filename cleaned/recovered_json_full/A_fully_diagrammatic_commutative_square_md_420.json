@@ -1,0 +1,9 @@
+{
+      "id": "pi_to_sigma_composite",
+      "dimension": 2,
+      "boundary": ["p_f", "sigB", "s_f", "kapA"],
+      "commutes": {
+        "equation": "Σ(f) ∘ (σ_A ∘ κ_A) = (σ_B ∘ κ_B) ∘ Π(f)",
+        "semantic_layer": "Σ"
+      }
+    }

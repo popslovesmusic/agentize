@@ -1,0 +1,1 @@
+{ "id": "INT\_07", "lhs\_structure": "D\_TENSOR", "rhs\_operator": "Π", "relation": "EVALUATION", "result": "EVALUATED\_STATE", "constraints": \[ "Π(D) provides a truth/consistency/eigenvalue-like evaluation of states encoded in D." \] }

@@ -1,0 +1,1 @@
+{ "id": "RHO-R2-MERGE-SIBLINGS", "name": "Merge Sibling Layers", "pattern": "ρ\_i, ρ\_j with same parent and equivalent Ω-signature", "rewrite": "MERGE\_LAYERS(ρ\_i, ρ\_j) \-\> ρ\_k", "kind": "structural", "invariants\_preserved": \[ "RHO-LAYER-IDENTITY", "RHO-HIERARCHY-PRESERVATION", "RHO-META-CLOSURE", "RHO-CROSS-LAYER-CONSISTENCY" \] }

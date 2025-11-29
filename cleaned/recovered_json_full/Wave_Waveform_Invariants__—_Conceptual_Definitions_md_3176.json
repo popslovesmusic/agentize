@@ -1,0 +1,1 @@
+{ "id": "OP\_ψ-NORMALIZE", "symbol": "NORM\_ψ", "kind": "normalization", "signature": "(ψ, μ) \-\> ψ", "description": "Normalize ψ to unit μ-norm if nonzero.", "definition": "NORM\_ψ(ψ)\_i \= ψ\_i / √(‖ψ‖\_μ²) unless ‖ψ‖\_μ² \= 0", "invariant": "ψ-AMP" }

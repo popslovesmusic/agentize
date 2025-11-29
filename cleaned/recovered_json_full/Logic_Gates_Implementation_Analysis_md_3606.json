@@ -1,0 +1,36 @@
+{
+  "agent_id": "creative_v1",
+  "role": "Content Generation & Creation",
+  "gates_handled": ["δ"],
+
+  "model_backend": "gemini-pro",
+  "system_prompt": "You are a creative generation agent specialized in producing novel content...",
+
+  "mbc_operators": {
+    "primary": "δ (Deviation/Generation)",
+    "secondary": ["Φ (context search)", "μ (quality scoring)"]
+  },
+
+  "omega_constraints": [
+    "originality_threshold > 0.8",
+    "coherence_score > 0.9",
+    "no_plagiarism"
+  ],
+
+  "capabilities": [
+    "code_generation",
+    "content_writing",
+    "design_generation",
+    "creative_problem_solving"
+  ],
+
+  "inputs": {
+    "required": ["specification", "context"],
+    "optional": ["style_guide", "constraints"]
+  },
+
+  "outputs": {
+    "primary": "generated_content",
+    "metadata": ["confidence_score", "novelty_score"]
+  }
+}

@@ -1,0 +1,1 @@
+{ "Σ_boundary": "Cloud boundary stabilized by Σ", "finite_extent_or_decay": "Cloud must have finite extent or exponential decay", "adjacency_integrity": "Clustering cannot violate adjacency relations", "omega_comp": "Cloud configuration must satisfy Ω-global consistency" }

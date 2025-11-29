@@ -1,0 +1,1 @@
+{ "id": "RHO-HIERARCHY-PRESERVATION", "name": "Hierarchy Preservation Invariant", "statement": "The parent/child partial order over layers is preserved by all ρ-operations.", "level": "structural" }

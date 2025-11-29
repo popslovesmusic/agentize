@@ -1,0 +1,1 @@
+{ "weight_definition": "w_ij = ||F_ij||", "adjacency_requirement": "Edges exist only if adjacency relation is valid", "rank_preservation": "Force networks cannot change tensor rank", "omega_integrity": "Network must satisfy Ω invariants" }

@@ -1,0 +1,1 @@
+{ "normalization": "Phi\_mu may require renormalization after action.", "positivity": "mu \>= 0 for valid metric density.", "smoothness": "mu, delta(mu) must be differentiable for PDE to be valid." }

@@ -1,0 +1,1 @@
+{ "symbol": "μ", "name": "Local metric weight", "tier": 4, "signature": "μ : B → ℝ⁺", "role": "Micro-adjacency density", "properties": { "positive": true, "measurable": true, "type": "weight\_field" }, "links": \["AXIOM\_BOX\_\_Mu\_Local\_Weight"\] }

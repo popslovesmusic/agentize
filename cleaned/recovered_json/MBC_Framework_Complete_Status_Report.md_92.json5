@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "objective": "Transform MBC into executable ISA for AI agents",
+    "core_mechanism": "Semantic Virtual Machine",
+    "primary_format": "JSON5"
+  },
+
+  "mbc_router_config": {
+    "logic_gates": [
+      {
+        "gate": "Delta (δ)",
+        "condition": "Is this NEW generation?",
+        "action": "Route to Creative/Reasoning Agent"
+      },
+      {
+        "gate": "Phi (Φ)",
+        "condition": "Is this FIND existing data?",
+        "action": "Route to Librarian (Search/Retrieval)"
+      },
+      {
+        "gate": "Pi (Π)",
+        "condition": "Is this VALIDATE/CHECK work?",
+        "action": "Route to Critic/Validation Tool"
+      }
+    ]
+  },
+
+  "librarian_manifesto": {
+    "omega_constraint": {
+      "enforce_consistency": true,
+      "action_on_contradiction": "quarantine_new_entry"
+    },
+    "protocols": {
+      "ingestion_protocol": {
+        "duplicate_reject": 0.99,
+        "noise_flag": 0.05
+      }
+    }
+  }
+}

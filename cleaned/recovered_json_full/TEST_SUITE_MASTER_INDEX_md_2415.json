@@ -1,0 +1,1 @@
+{ id: 'TU-COMM-09', invariant: 'commutativity', pattern: \['(δ∘Φ)∘Π', 'δ∘(Φ∘Π)'\], rewrite: 'NF\_δΦΠ', conditions: { associativity: true }, explanation: 'Associative rebracketing on this face of the cube is NF-equal.', }

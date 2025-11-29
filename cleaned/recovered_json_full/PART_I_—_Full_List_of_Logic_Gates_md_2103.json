@@ -1,0 +1,1 @@
+{ "definition": "map polarity to truth", "rule": "Θ₊→1 ; Θ₋→0" }

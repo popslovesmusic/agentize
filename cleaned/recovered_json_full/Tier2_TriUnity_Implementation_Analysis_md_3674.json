@@ -1,0 +1,9 @@
+{
+            'novelty_detected': has_novelty,
+            'semantic_form': semantic_form,
+            'causal_structure': causal_form,
+            'semantic_valid': semantic_valid,
+            'causal_valid': causal_valid,
+            'overall_valid': semantic_valid and causal_valid,
+            'pipeline': 'Π∘Φ∘δ (canonical)'
+        }

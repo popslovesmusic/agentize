@@ -1,0 +1,1 @@
+{ "description": "Each ψ component may carry a mode index k and frequency ω\_k used by MODE\_STEP.", "fields": \["mode\_index", "ω\_k"\] }

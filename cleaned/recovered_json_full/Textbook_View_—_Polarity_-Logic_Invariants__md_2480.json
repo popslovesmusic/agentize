@@ -1,0 +1,1 @@
+{ fields: { truth\_values: "Map\<string,bool\>", polarity: "Map\<string,'+'|'-'\>", bridge\_mode: "string", // describes Θ↔Π relation mapping }, }

@@ -1,0 +1,1 @@
+{ invariant\_checked: "PHI\_INV\_02\_PROJ\_EVAL\_CONSISTENCY", before\_rewrite: { pi\_raw: "NF\_vector\_sum(6)", pi\_after\_phi: "NF\_vector\_sum(6)" }, satisfied: true, applied\_rule\_if\_needed: "PHI\_RW\_02\_PHI\_PI\_NF", final\_normal\_form: "NF\_vector\_sum(6)" }

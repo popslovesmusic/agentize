@@ -1,0 +1,1 @@
+{ id: "BR-λ-04", name: "LambdaRespectsPhiPiMuClass", pattern: "Π(Φ(λᶜᵘʳᵛ(μ)))", condition: "ΦΠ classification inconsistent with μ-sign/+class", action: "apply REPAIR\_CLASS\_STRUCTURE", preserves: \["A5\_PhiPiCompatibility"\] }

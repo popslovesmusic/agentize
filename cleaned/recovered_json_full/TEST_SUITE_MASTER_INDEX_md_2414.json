@@ -1,0 +1,1 @@
+{ id: 'TU-COMM-08', invariant: 'commutativity', pattern: \['δ⋆Φ', 'Φ⋆δ'\], rewrite: 'NF\_δΦ', conditions: { convolution\_semantics: true }, explanation: 'Convolution δ⋆Φ equals Φ⋆δ in NF.', }

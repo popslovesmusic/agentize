@@ -1,0 +1,1 @@
+{ name: "Ω-federate-rho", pattern: { operator: "ρ" }, replace\_with: { operator: "ρ\_federated" }, comment: "Guarantee layer-hierarchy coherence." }

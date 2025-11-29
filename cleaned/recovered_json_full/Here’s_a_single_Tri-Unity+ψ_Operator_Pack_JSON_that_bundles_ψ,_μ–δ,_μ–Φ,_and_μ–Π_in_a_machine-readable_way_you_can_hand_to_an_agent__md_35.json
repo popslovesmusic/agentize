@@ -1,0 +1,21 @@
+{`  
+        `"mbc_version": "4.0",`  
+        `"type": "axiom_box",`  
+        `"id": f"axiom_{re.sub(r'[^A-Za-z0-9]+','_',item['name']).lower()}",`  
+        `"name": item["name"],`  
+        `"intent": guess_intent(item["context"]),`  
+        `"domain": {"objects": [], "operators": [], "layers": []},`  
+        `"constraints": {`  
+            `"positivity": False,`  
+            `"idempotence": False,`  
+            `"termination": False,`  
+            `"monotonicity": False,`  
+            `"custom": []`  
+        `},`  
+        `"cross_links": {`  
+            `"implies": [],`  
+            `"required_by": [],`  
+            `"supports": [],`  
+            `"conflicts_with": []`  
+        `}`  
+    `}

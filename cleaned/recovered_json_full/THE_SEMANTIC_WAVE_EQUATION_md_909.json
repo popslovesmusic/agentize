@@ -1,0 +1,1 @@
+{ "name": "klein\_gordon\_like\_limit", "conditions": { "psi\_squared\_equals\_delta\_mu\_squared\_plus\_mass": true }, "comment": "ψ² S \= (δ\_μ² \+ m²) S gives a Klein–Gordon-like form." }

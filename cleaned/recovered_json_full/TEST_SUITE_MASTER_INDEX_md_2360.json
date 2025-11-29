@@ -1,0 +1,1 @@
+{ id: 26, description: "Commutativity: δΦ chain equals Φδ chain.", input: \[\["δ","Φ"\], \["Φ","δ"\]\], expect\_nf\_equal: true, invariant: "commutativity", }

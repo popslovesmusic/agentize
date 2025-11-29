@@ -1,0 +1,1 @@
+{ "tier": 1, "invariants": \[ { "id": "DELTA-GEOM-CONS", "statement": "Deviation operators preserve underlying topological support.", "formal": "δ(B) does not alter the base point set of B's domain tensor.", "dependencies": \["G-DOM-RANK", "G-ADJ-INT"\] }, { "id": "DELTA-LINEARITY", "statement": "δ is linear.", "formal": "δ(aX \+ bY) \= a δX \+ b δY.", "dependencies": \[\] } \] }

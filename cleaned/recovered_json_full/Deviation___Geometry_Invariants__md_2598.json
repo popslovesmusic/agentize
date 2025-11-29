@@ -1,0 +1,1 @@
+{ "id": "T03\_TR\_03", "name": "Catastrophic Rank Jump (Topology Event)", "invariant": "WEITZENBOECK-TORSION-RANK", "initial\_state": { "torsion\_rank": 2, "Ω": "active" }, "operators": \[ "simulate\_singularity", "frame\_collapse" // illegal in TIER-03 \], "expected": { "status": "catastrophic\_violation", "flag": "TOPOLOGY\_CHANGE" } }

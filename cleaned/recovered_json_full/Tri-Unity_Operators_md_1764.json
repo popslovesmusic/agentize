@@ -1,0 +1,1 @@
+{ "id": "R3\_commutator\_elimination", "pattern": "\[A,B\]", "rewrite": "0", "comment": "All 2D faces in the 12D hypercube commute in NF\_12." }

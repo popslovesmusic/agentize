@@ -1,0 +1,1 @@
+{ "name": "generic\_pair\_nf", "pattern": "A∘B", "rewrite": "NF\_AB", "comment": "Template for any pair of operators A,B ∈ O." }

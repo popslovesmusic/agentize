@@ -1,0 +1,1 @@
+{ "polarity\_domain": { "type": "enum", "values": \["+1", "-1"\] }, "truth\_map": { "name": "Theta\_to\_Pi", "signature": "Polarity \-\> Bool", "definition": "(1 \+ p) / 2", "notes": "Maps polarity (+1/-1) to Boolean (1/0)." }, "negation": { "signature": "Polarity \-\> Polarity", "definition": "-p", "notes": "Logical NOT is implemented as sign flip." } }

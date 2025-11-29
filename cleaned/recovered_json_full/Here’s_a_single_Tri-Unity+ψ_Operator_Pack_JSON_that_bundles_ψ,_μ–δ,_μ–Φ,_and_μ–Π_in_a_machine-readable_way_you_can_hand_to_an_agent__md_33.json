@@ -1,0 +1,7 @@
+{`  
+        `"theorems": theorems,`  
+        `"axioms": axioms,`  
+        `"layers": layers,`  
+        `"operators": operators,`  
+        `"diagrams": diagrams`  
+    `}

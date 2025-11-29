@@ -1,0 +1,1 @@
+{ id: 23, description: "Commutativity: ΦΠ \= ΠΦ.", input: \["Φ∘Π", "Π∘Φ"\], expect\_equal: true, invariant: "commutativity", }

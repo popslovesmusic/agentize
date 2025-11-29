@@ -1,0 +1,1 @@
+{ "global_consistency": "Ω(Σ(X_1,...,X_n)) = Ω(X_i) for all i", "truth_consistency": "Π(Σ(X)) = Π(X)", "rank_preservation": "Σ does not alter tensor rank", "metric_integrity": "Σ must preserve μ-positivity", "admissibility": "Σ must produce admissible Φ-forms" }

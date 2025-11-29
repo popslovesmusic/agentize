@@ -1,0 +1,34 @@
+{`  
+  `"mbc_version": "4.0",`  
+  `"type": "module_pack",`  
+  `"pack_id": "rho_meta_layer_pack",`  
+  `"pack_name": "ρ-Layer Structural Pack",`
+
+  `"manifest": {`  
+    `"description": "Provides the template and rules for creating new operator layers (ρ, μ, ψ, Θ, Σ).",`  
+    `"tags": ["rho", "layer", "meta"]`  
+  `},`
+
+  `"dependencies": {`  
+    `"module_packs": [],`  
+    `"operators": [],`  
+    `"layers": []`  
+  `},`
+
+  `"objects": {`  
+    `"theorems": ["layer_composition_theorem"],`  
+    `"layers": ["rho_layer_template"],`  
+    `"axiom_boxes": ["layer_axiom"],`  
+    `"diagrams": []`  
+  `},`
+
+  `"router": {`  
+    `"operator_chains": ["ρ → δ", "ρ → Φ"],`  
+    `"semantic_flows": ["Box → ρ → Box"]`  
+  `},`
+
+  `"export": {`  
+    `"layers": ["rho_layer_template"],`  
+    `"theorems": ["layer_composition_theorem"]`  
+  `}`  
+`}

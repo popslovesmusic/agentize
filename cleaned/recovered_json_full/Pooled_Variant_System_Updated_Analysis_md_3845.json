@@ -1,0 +1,11 @@
+python
+# Future integration
+def detect_context_with_polarity(state, theta_signal):
+    """Enhance context detection with Θ-polarity signals."""
+    context = router.detect_context(state)
+
+    # Θ-polarity can indicate numerical_mode
+    if theta_signal == "Θ₋":  # Negative polarity
+        context.numerical_mode = NumericalMode.STABILITY_CRITICAL
+
+    return context

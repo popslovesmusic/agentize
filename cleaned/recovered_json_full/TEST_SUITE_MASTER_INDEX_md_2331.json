@@ -1,0 +1,1 @@
+{ require\_test\_id: true, require\_description: true, require\_inputs: true, require\_expected\_outputs: true, allow\_symbolic\_input: true, // e.g. δ ∘ Φ require\_nf\_check: true, require\_invariant\_checks: true }

@@ -1,0 +1,1 @@
+{ "input": "Semantic state at scale n", "output": "Semantic state at scale n+1", "mapping": "σ\_scale: S\_n \-\> S\_{n+1}" }

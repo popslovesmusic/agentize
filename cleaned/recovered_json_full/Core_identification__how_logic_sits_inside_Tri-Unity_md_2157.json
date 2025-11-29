@@ -1,0 +1,1 @@
+{ "name": "idempotent\_Σ", "when": "Σ ∘ Σ", "then": "Σ", "intent": "Summation of already-summed channel is unchanged in NF." }

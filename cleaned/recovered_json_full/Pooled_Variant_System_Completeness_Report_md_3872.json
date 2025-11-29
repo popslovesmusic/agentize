@@ -1,0 +1,4 @@
+{
+    "lambda_delta_composition": { /* priority-based selection */ },
+    "psi_commutativity": { /* level-aware selection */ }
+  }

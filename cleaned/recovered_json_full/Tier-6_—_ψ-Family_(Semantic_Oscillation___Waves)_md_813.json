@@ -1,0 +1,1 @@
+{ "pattern": "ψ(A⊗B)", "rewrite": "(ψA ⊗ B) ⊕ (A ⊗ ψB)" }

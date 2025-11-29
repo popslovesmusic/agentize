@@ -1,0 +1,1 @@
+{ require\_normal\_form: true, require\_pattern\_field: true, require\_rewrite\_field: true, require\_conditions\_field: true, require\_explanation: true, // comment describing math justification allow\_symbolic\_patterns: true, // δ ∘ Φ allow\_symbolic\_rewrites: true, // NF\_δΦ allow\_multi\_step: true, // δ→Φ→Π→χ enforce\_nf\_suffix: "NF", // require normal forms end in NF }

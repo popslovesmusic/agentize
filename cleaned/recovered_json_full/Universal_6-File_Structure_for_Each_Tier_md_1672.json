@@ -1,0 +1,1 @@
+{ "id": "RW\_01", "lhs": "δ∘Φ", "rhs": "NF\_δΦ", "arrow": "↦", "meta\_operator": { "meta\_operator\_name": "rewrite\_arrow", "symbol": "δ∘Φ ↦ NF\_δΦ" }, "conditions": "NF\_δΦ is the Tier-0 canonical normal form for the δ∘Φ composition.", "priority": 1, "notes": "Illustrates a normalization step for Tri-Unity operators." }

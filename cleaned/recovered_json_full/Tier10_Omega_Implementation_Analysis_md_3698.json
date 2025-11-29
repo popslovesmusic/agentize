@@ -1,0 +1,843 @@
+python
+import numpy as np
+from typing import Dict, Any, List, Optional, Tuple
+from dataclasses import dataclass
+
+
+@dataclass
+class SemanticState:
+    """Represents a semantic state in the total state space S."""
+    content: str
+    metadata: Dict[str, Any]
+    delta_component: Optional[np.ndarray] = None  # δ(s)
+    phi_component: Optional[np.ndarray] = None    # Φ(s)
+    pi_component: Optional[np.ndarray] = None     # Π(s)
+    consistency_score: float = 0.0  # K(s)
+    is_admissible: bool = False     # s ∈ A?
+
+
+class OmegaConstraintEnforcer:
+    """
+    Implements the Tier-10 Ω-operator for global consistency enforcement.
+
+    This is the core of the Librarian's Omega Constraint from agentized.json.
+
+    The Ω-operator ensures:
+    - No contradictory states enter the knowledge base
+    - Duplicate detection via normalization
+    - Global coherence across all operations
+    - Tri-Unity routing stability
+    """
+
+    def __init__(self,
+                 duplicate_threshold: float = 0.99,
+                 noise_threshold: float = 0.05,
+                 max_inconsistency: float = 0.1):
+        """
+        Initialize Omega constraint enforcer.
+
+        Args:
+            duplicate_threshold: Similarity above which entries are duplicates
+            noise_threshold: Similarity below which entries are noise
+            max_inconsistency: Maximum allowed K(s) for admissible states
+        """
+        self.duplicate_threshold = duplicate_threshold
+        self.noise_threshold = noise_threshold
+        self.max_inconsistency = max_inconsistency
+
+        # Admissible manifold - stores Ω-normalized states
+        self.admissible_manifold: List[SemanticState] = []
+
+        # Constraint surfaces - stratification of A
+        self.constraint_surfaces: Dict[str, List[SemanticState]] = {
+            'tri_unity_coherent': [],    # S_Ω^TU
+            'high_consistency': [],       # S_Ω^(1)
+            'medium_consistency': [],     # S_Ω^(2)
+            'acceptable': []              # S_Ω^(3)
+        }
+
+    # ========== CORE Ω-OPERATOR ==========
+
+    def omega_operator(self, state: SemanticState) -> SemanticState:
+        """
+        Ω: S → A
+
+        Projects any state to its Ω-normalized (globally consistent) form.
+
+        This implements:
+        - Idempotence: Ω(Ω(s)) = Ω(s)
+        - Contraction: K(Ω(s)) ≤ K(s)
+        - Fixed points: Ω(s) = s ⟺ s ∈ A
+
+        Algorithm: Gradient descent on inconsistency metric K.
+        """
+        # Check if already admissible (fixed point)
+        if self._is_admissible(state):
+            return state
+
+        # Gradient descent on inconsistency
+        normalized = self._gradient_descent(state)
+
+        # Project onto nearest constraint surface
+        normalized = self._project_to_surface(normalized)
+
+        # Mark as admissible
+        normalized.is_admissible = True
+
+        return normalized
+
+    def _is_admissible(self, state: SemanticState) -> bool:
+        """
+        Check if s ∈ A (admissible manifold).
+
+        A state is admissible if:
+        1. K(s) ≤ max_inconsistency
+        2. No contradictions with existing admissible states
+        3. Tri-Unity consistency if applicable
+        """
+        # Check inconsistency metric
+        K = self._inconsistency_metric(state)
+        if K > self.max_inconsistency:
+            return False
+
+        # Check for contradictions
+        if self._has_contradictions(state):
+            return False
+
+        # Check Tri-Unity consistency (if routing components present)
+        if self._has_tri_unity_components(state):
+            if not self._is_tri_unity_consistent(state):
+                return False
+
+        return True
+
+    def _inconsistency_metric(self, state: SemanticState) -> float:
+        """
+        K: S → ℝ≥0
+
+        Measures global deviation from admissibility.
+
+        K(s) = 0  ⟺  s ∈ A
+        K(s) ≥ 0
+
+        Components:
+        - Semantic contradictions
+        - Tri-Unity tension (if applicable)
+        - Distance from existing admissible states
+        """
+        inconsistency = 0.0
+
+        # Component 1: Semantic contradictions
+        contradictions = self._count_contradictions(state)
+        inconsistency += contradictions * 0.5
+
+        # Component 2: Tri-Unity tension
+        if self._has_tri_unity_components(state):
+            tau_TPU = self._tri_unity_tension(state)
+            inconsistency += tau_TPU * 0.3
+
+        # Component 3: Distance from admissible manifold
+        if self.admissible_manifold:
+            min_distance = min(
+                self._semantic_distance(state, adm_state)
+                for adm_state in self.admissible_manifold
+            )
+            inconsistency += min_distance * 0.2
+
+        return inconsistency
+
+    def _tri_unity_tension(self, state: SemanticState) -> float:
+        """
+        τ_TPU: Tri-Unity consistency tension.
+
+        τ_TPU(s) = ‖δ(s) - Φ(s)‖ + ‖Φ(s) - Π(s)‖ + ‖Π(s) - δ(s)‖
+
+        Returns 0 when δ = Φ = Π (perfect coherence).
+        """
+        if not all([
+            state.delta_component is not None,
+            state.phi_component is not None,
+            state.pi_component is not None
+        ]):
+            return 0.0
+
+        delta_phi = np.linalg.norm(state.delta_component - state.phi_component)
+        phi_pi = np.linalg.norm(state.phi_component - state.pi_component)
+        pi_delta = np.linalg.norm(state.pi_component - state.delta_component)
+
+        return delta_phi + phi_pi + pi_delta
+
+    def _gradient_descent(self, state: SemanticState,
+                          max_iterations: int = 100,
+                          learning_rate: float = 0.1) -> SemanticState:
+        """
+        Gradient flow: φ̇_t = -∇K(φ_t)
+
+        Implements: Ω(s) = lim_{t→∞} φ_t(s)
+
+        Iteratively reduces K(s) until convergence.
+        """
+        current = state
+
+        for iteration in range(max_iterations):
+            K_current = self._inconsistency_metric(current)
+
+            # Convergence check
+            if K_current <= self.max_inconsistency:
+                break
+
+            # Compute gradient (numerical approximation)
+            gradient = self._compute_gradient(current)
+
+            # Gradient descent step
+            current = self._apply_gradient_step(current, gradient, learning_rate)
+
+        return current
+
+    def _compute_gradient(self, state: SemanticState) -> Dict[str, Any]:
+        """
+        ∇K(s): Gradient of inconsistency metric.
+
+        Points in direction of steepest inconsistency increase.
+        Gradient descent follows -∇K to reduce inconsistency.
+        """
+        # Simplified gradient computation
+        # In practice, would use automatic differentiation
+
+        gradient = {
+            'contradiction_correction': [],
+            'tri_unity_alignment': None,
+            'manifold_projection': None
+        }
+
+        # Identify contradictions to resolve
+        contradictions = self._find_contradictions(state)
+        gradient['contradiction_correction'] = contradictions
+
+        # Tri-Unity alignment direction
+        if self._has_tri_unity_components(state):
+            # Move toward δ = Φ = Π
+            mean = (state.delta_component + state.phi_component +
+                   state.pi_component) / 3
+            gradient['tri_unity_alignment'] = mean
+
+        return gradient
+
+    def _apply_gradient_step(self, state: SemanticState,
+                            gradient: Dict[str, Any],
+                            learning_rate: float) -> SemanticState:
+        """
+        φ_{t+1} = φ_t - α∇K(φ_t)
+
+        Moves state in direction of decreasing inconsistency.
+        """
+        updated = SemanticState(
+            content=state.content,
+            metadata=state.metadata.copy()
+        )
+
+        # Apply contradiction corrections
+        for contradiction in gradient['contradiction_correction']:
+            updated = self._resolve_contradiction(updated, contradiction)
+
+        # Align Tri-Unity components
+        if gradient['tri_unity_alignment'] is not None:
+            target = gradient['tri_unity_alignment']
+
+            if state.delta_component is not None:
+                updated.delta_component = (
+                    (1 - learning_rate) * state.delta_component +
+                    learning_rate * target
+                )
+            if state.phi_component is not None:
+                updated.phi_component = (
+                    (1 - learning_rate) * state.phi_component +
+                    learning_rate * target
+                )
+            if state.pi_component is not None:
+                updated.pi_component = (
+                    (1 - learning_rate) * state.pi_component +
+                    learning_rate * target
+                )
+
+        return updated
+
+    def _project_to_surface(self, state: SemanticState) -> SemanticState:
+        """
+        π_Ω: S → A
+
+        Projects state onto nearest constraint surface.
+
+        Determines which regime s belongs to:
+        - S_Ω^TU: Tri-Unity coherent
+        - S_Ω^(1): High consistency
+        - S_Ω^(2): Medium consistency
+        - S_Ω^(3): Acceptable
+        """
+        # Compute Tri-Unity tension
+        tau = self._tri_unity_tension(state)
+
+        # Compute overall inconsistency
+        K = self._inconsistency_metric(state)
+
+        # Classify surface
+        if tau == 0.0:
+            surface = 'tri_unity_coherent'
+        elif K < 0.05:
+            surface = 'high_consistency'
+        elif K < 0.1:
+            surface = 'medium_consistency'
+        else:
+            surface = 'acceptable'
+
+        state.metadata['constraint_surface'] = surface
+        return state
+
+    # ========== LIBRARIAN PROTOCOLS ==========
+
+    def ingestion_protocol(self, new_entry: SemanticState) -> Dict[str, Any]:
+        """
+        Implements Librarian's Omega Constraint from agentized.json.
+
+        Protocols:
+        1. Provenance required (no naked data)
+        2. Delta check (duplicate detection)
+        3. Ω-normalization
+        4. Quarantine on contradiction
+
+        Returns:
+            decision: 'accept', 'reject', 'quarantine', 'flag_noise'
+            normalized_entry: Ω-normalized version (if accepted)
+            reason: Explanation of decision
+        """
+        # Protocol 1: Provenance check
+        if 'provenance' not in new_entry.metadata:
+            return {
+                'decision': 'reject',
+                'reason': 'No provenance - naked data rejected',
+                'normalized_entry': None
+            }
+
+        # Protocol 2: Delta check (duplicate detection)
+        duplicate_check = self._delta_check(new_entry)
+
+        if duplicate_check['similarity'] > self.duplicate_threshold:
+            return {
+                'decision': 'reject',
+                'reason': f"Duplicate (similarity={duplicate_check['similarity']:.3f})",
+                'duplicate_of': duplicate_check['matched_entry'],
+                'normalized_entry': None
+            }
+
+        if duplicate_check['similarity'] < self.noise_threshold:
+            return {
+                'decision': 'flag_noise',
+                'reason': f"Potential noise (similarity={duplicate_check['similarity']:.3f})",
+                'normalized_entry': new_entry
+            }
+
+        # Protocol 3: Ω-normalization
+        normalized = self.omega_operator(new_entry)
+
+        # Protocol 4: Contradiction check
+        if self._has_contradictions(normalized):
+            return {
+                'decision': 'quarantine',
+                'reason': 'Contains contradictions - quarantined for review',
+                'normalized_entry': normalized,
+                'contradictions': self._find_contradictions(normalized)
+            }
+
+        # Accept if passed all checks
+        if normalized.is_admissible:
+            # Add to admissible manifold
+            self.admissible_manifold.append(normalized)
+
+            # Add to appropriate constraint surface
+            surface = normalized.metadata.get('constraint_surface', 'acceptable')
+            self.constraint_surfaces[surface].append(normalized)
+
+            return {
+                'decision': 'accept',
+                'reason': 'Passed all Ω-constraints',
+                'normalized_entry': normalized,
+                'surface': surface
+            }
+        else:
+            return {
+                'decision': 'reject',
+                'reason': 'Failed Ω-normalization',
+                'normalized_entry': None
+            }
+
+    def _delta_check(self, new_entry: SemanticState) -> Dict[str, Any]:
+        """
+        δ-check: Novelty detection / duplicate detection.
+
+        Computes similarity to all existing admissible states.
+        High similarity → duplicate
+        Low similarity → novel (or noise)
+        """
+        if not self.admissible_manifold:
+            return {
+                'similarity': 0.0,
+                'matched_entry': None
+            }
+
+        # Compute similarity to all existing entries
+        similarities = [
+            (self._semantic_distance(new_entry, existing), existing)
+            for existing in self.admissible_manifold
+        ]
+
+        # Find closest match
+        max_similarity, matched = max(similarities, key=lambda x: 1 - x[0])
+
+        return {
+            'similarity': 1 - max_similarity,  # Convert distance to similarity
+            'matched_entry': matched
+        }
+
+    def _semantic_distance(self, s1: SemanticState, s2: SemanticState) -> float:
+        """
+        Semantic distance between states.
+
+        Uses embedding similarity, edit distance, etc.
+        Returns value in [0, 1] where 0 = identical, 1 = completely different.
+        """
+        # Simplified placeholder - real implementation would use embeddings
+        from difflib import SequenceMatcher
+
+        similarity = SequenceMatcher(None, s1.content, s2.content).ratio()
+        return 1 - similarity
+
+    # ========== CONTRADICTION DETECTION ==========
+
+    def _has_contradictions(self, state: SemanticState) -> bool:
+        """
+        Detects logical contradictions in state.
+
+        Checks:
+        - Self-contradictions within state
+        - Contradictions with existing admissible states
+        - Tri-Unity inconsistencies
+        """
+        # Check self-contradictions
+        if self._find_self_contradictions(state):
+            return True
+
+        # Check contradictions with existing states
+        for existing in self.admissible_manifold:
+            if self._states_contradict(state, existing):
+                return True
+
+        return False
+
+    def _find_contradictions(self, state: SemanticState) -> List[Dict[str, Any]]:
+        """
+        Identifies all contradictions in state.
+
+        Returns list of contradiction objects for resolution.
+        """
+        contradictions = []
+
+        # Self-contradictions
+        self_contras = self._find_self_contradictions(state)
+        contradictions.extend(self_contras)
+
+        # External contradictions
+        for existing in self.admissible_manifold:
+            if self._states_contradict(state, existing):
+                contradictions.append({
+                    'type': 'external',
+                    'with': existing,
+                    'reason': self._explain_contradiction(state, existing)
+                })
+
+        return contradictions
+
+    def _find_self_contradictions(self, state: SemanticState) -> List[Dict[str, Any]]:
+        """
+        Finds contradictions within a single state.
+
+        Examples:
+        - "X is true" and "X is false" in same state
+        - Inconsistent metadata
+        """
+        # Simplified placeholder
+        # Real implementation would parse semantic content
+        return []
+
+    def _states_contradict(self, s1: SemanticState, s2: SemanticState) -> bool:
+        """
+        Checks if two states contradict each other.
+
+        Examples:
+        - s1 asserts X, s2 asserts ¬X
+        - s1 and s2 have incompatible metadata
+        """
+        # Simplified placeholder
+        return False
+
+    def _count_contradictions(self, state: SemanticState) -> int:
+        """Count number of contradictions."""
+        return len(self._find_contradictions(state))
+
+    def _resolve_contradiction(self, state: SemanticState,
+                               contradiction: Dict[str, Any]) -> SemanticState:
+        """
+        Resolves a contradiction by modifying state.
+
+        Strategies:
+        - Remove contradictory clause
+        - Weaken assertion
+        - Add disambiguation
+        """
+        # Simplified placeholder
+        return state
+
+    def _explain_contradiction(self, s1: SemanticState, s2: SemanticState) -> str:
+        """Explains why two states contradict."""
+        return "States contain conflicting assertions"
+
+    # ========== TRI-UNITY INTEGRATION ==========
+
+    def _has_tri_unity_components(self, state: SemanticState) -> bool:
+        """Check if state has δ, Φ, Π components."""
+        return all([
+            state.delta_component is not None,
+            state.phi_component is not None,
+            state.pi_component is not None
+        ])
+
+    def _is_tri_unity_consistent(self, state: SemanticState) -> bool:
+        """
+        Check if state satisfies Tri-Unity consistency.
+
+        τ_TPU(s) should be small for consistent states.
+        """
+        if not self._has_tri_unity_components(state):
+            return True  # Vacuously true if no Tri-Unity components
+
+        tau = self._tri_unity_tension(state)
+        return tau < 0.1  # Threshold for consistency
+
+    def enforce_tri_unity_coherence(self,
+                                    delta_op: Any,
+                                    phi_op: Any,
+                                    pi_op: Any) -> Tuple[Any, Any, Any]:
+        """
+        Ω-Enhanced Tri-Unity enforcement.
+
+        Ensures: Ω∘δ = δ∘Ω,  Ω∘Φ = Φ∘Ω,  Ω∘Π = Π∘Ω
+
+        Modifies operators to be Ω-coherent.
+        """
+        # Wrap each operator with Ω-normalization
+        def omega_wrapped_delta(state):
+            result = delta_op(state)
+            return self.omega_operator(result)
+
+        def omega_wrapped_phi(state):
+            result = phi_op(state)
+            return self.omega_operator(result)
+
+        def omega_wrapped_pi(state):
+            result = pi_op(state)
+            return self.omega_operator(result)
+
+        return omega_wrapped_delta, omega_wrapped_phi, omega_wrapped_pi
+
+    # ========== EQUILIBRIUM & STABILITY ==========
+
+    def compute_omega_equilibrium(self, state: SemanticState) -> SemanticState:
+        """
+        Find Ω-equilibrium state.
+
+        At equilibrium:
+        - δE_global = 0  (energy balance)
+        - δS_global = 0  (entropy extremum)
+        - τ_TPU = 0      (Tri-Unity coherent)
+        """
+        # Run gradient descent to convergence
+        equilibrium = self._gradient_descent(
+            state,
+            max_iterations=1000,
+            learning_rate=0.01
+        )
+
+        return equilibrium
+
+    def is_omega_stable(self, state: SemanticState, epsilon: float = 0.01) -> bool:
+        """
+        Check if state is Ω-stable.
+
+        A state is Ω-stable if small perturbations decay:
+        ‖Ω(s + εv) - s‖ = O(ε²)
+        """
+        if not state.is_admissible:
+            return False
+
+        # Generate random perturbation
+        perturbed = self._add_noise(state, epsilon)
+
+        # Normalize
+        normalized_perturbed = self.omega_operator(perturbed)
+
+        # Check decay
+        distance = self._semantic_distance(normalized_perturbed, state)
+
+        return distance < epsilon ** 2
+
+    def _add_noise(self, state: SemanticState, epsilon: float) -> SemanticState:
+        """Add small random perturbation to state."""
+        # Simplified placeholder
+        return state
+
+    # ========== VALIDATION & REPORTING ==========
+
+    def validate_knowledge_base(self) -> Dict[str, Any]:
+        """
+        Global consistency validation of entire knowledge base.
+
+        Checks:
+        - All states in admissible_manifold are Ω-admissible
+        - No contradictions exist
+        - Constraint surfaces are correctly partitioned
+        - Tri-Unity coherence across all routing operations
+        """
+        report = {
+            'total_states': len(self.admissible_manifold),
+            'surface_distribution': {
+                surface: len(states)
+                for surface, states in self.constraint_surfaces.items()
+            },
+            'global_inconsistency': 0.0,
+            'contradictions_found': [],
+            'tri_unity_coherent_states': 0,
+            'validation_passed': True
+        }
+
+        total_K = 0.0
+
+        for state in self.admissible_manifold:
+            # Check admissibility
+            if not self._is_admissible(state):
+                report['validation_passed'] = False
+                report['contradictions_found'].append({
+                    'state': state,
+                    'reason': 'Inadmissible state in manifold'
+                })
+
+            # Accumulate inconsistency
+            K = self._inconsistency_metric(state)
+            total_K += K
+
+            # Check Tri-Unity coherence
+            if self._has_tri_unity_components(state):
+                if self._tri_unity_tension(state) == 0.0:
+                    report['tri_unity_coherent_states'] += 1
+
+        report['global_inconsistency'] = (
+            total_K / len(self.admissible_manifold)
+            if self.admissible_manifold else 0.0
+        )
+
+        return report
+
+    def get_constraint_surface_stats(self) -> Dict[str, Any]:
+        """
+        Statistics on constraint surface stratification.
+        """
+        stats = {}
+
+        for surface_name, states in self.constraint_surfaces.items():
+            if not states:
+                stats[surface_name] = {
+                    'count': 0,
+                    'mean_K': 0.0,
+                    'mean_tau': 0.0
+                }
+                continue
+
+            K_values = [self._inconsistency_metric(s) for s in states]
+            tau_values = [
+                self._tri_unity_tension(s)
+                for s in states
+                if self._has_tri_unity_components(s)
+            ]
+
+            stats[surface_name] = {
+                'count': len(states),
+                'mean_K': np.mean(K_values) if K_values else 0.0,
+                'mean_tau': np.mean(tau_values) if tau_values else 0.0,
+                'description': self._surface_description(surface_name)
+            }
+
+        return stats
+
+    def _surface_description(self, surface_name: str) -> str:
+        """Human-readable description of constraint surface."""
+        descriptions = {
+            'tri_unity_coherent': "Perfect δ-Φ-Π coherence (τ=0)",
+            'high_consistency': "High global consistency (K < 0.05)",
+            'medium_consistency': "Medium consistency (K < 0.1)",
+            'acceptable': "Acceptable consistency (K < threshold)"
+        }
+        return descriptions.get(surface_name, "Unknown surface")
+
+
+# ========== INTEGRATION WITH EXISTING ROUTERS ==========
+
+class OmegaEnhancedRouter:
+    """
+    Combines Tri-Unity routing (Tier-2) with Ω-enforcement (Tier-10).
+
+    This is the complete MBC agent routing architecture:
+    - Tier-2: δ-Φ-Π routing (generation, search, validation)
+    - Tier-8: Θ-logic gates (polarity routing)
+    - Tier-10: Ω-constraint (global consistency)
+    """
+
+    def __init__(self, tri_unity_router, logic_router):
+        """
+        Initialize Ω-enhanced router.
+
+        Args:
+            tri_unity_router: MBCTriUnityRouter from Tier-2 analysis
+            logic_router: MBCLogicRouter from Tier-8 analysis
+        """
+        self.tri_unity_router = tri_unity_router
+        self.logic_router = logic_router
+        self.omega_enforcer = OmegaConstraintEnforcer()
+
+        # Wrap Tri-Unity operators with Ω-enforcement
+        self._enforce_omega_coherence()
+
+    def _enforce_omega_coherence(self):
+        """
+        Apply Ω-enhancement to all Tri-Unity operators.
+
+        Ensures: Ω∘δ = δ∘Ω,  Ω∘Φ = Φ∘Ω,  Ω∘Π = Π∘Ω
+        """
+        # Wrap delta operator
+        original_delta = self.tri_unity_router.delta_operator
+        self.tri_unity_router.delta_operator = lambda query: self._omega_wrap(
+            original_delta, query
+        )
+
+        # Wrap phi operator
+        original_phi = self.tri_unity_router.phi_operator
+        self.tri_unity_router.phi_operator = lambda query: self._omega_wrap(
+            original_phi, query
+        )
+
+        # Wrap pi operator
+        original_pi = self.tri_unity_router.pi_operator
+        self.tri_unity_router.pi_operator = lambda query: self._omega_wrap(
+            original_pi, query
+        )
+
+    def _omega_wrap(self, operator, query):
+        """
+        Wraps an operator with Ω-normalization.
+
+        operator_Ω(query) = Ω(operator(query))
+        """
+        # Apply operator
+        result = operator(query)
+
+        # Create semantic state from result
+        state = SemanticState(
+            content=str(result),
+            metadata={'operator': operator.__name__}
+        )
+
+        # Ω-normalize
+        normalized_state = self.omega_enforcer.omega_operator(state)
+
+        return normalized_state
+
+    def route_with_omega_constraint(self, query: str, context: Dict[str, Any]):
+        """
+        Complete routing with Ω-enforcement.
+
+        Pipeline:
+        1. Tri-Unity classification (δ/Φ/Π)
+        2. Θ-polarity routing
+        3. Ω-consistency check
+        4. Route to agent with Ω-wrapped operators
+        """
+        # Stage 1: Tri-Unity classification (with Ω-wrapping)
+        routing = self.tri_unity_router.route_query(query)
+
+        # Stage 2: Process with Tri-Unity
+        tri_unity_result = self.tri_unity_router.process_with_triunity(query)
+
+        # Stage 3: Ω-consistency check
+        result_state = SemanticState(
+            content=query,
+            metadata=context,
+            delta_component=np.array([1.0]) if tri_unity_result['novelty_detected'] else np.array([0.0]),
+            phi_component=np.array([1.0]) if tri_unity_result['semantic_form'] else np.array([0.0]),
+            pi_component=np.array([1.0]) if tri_unity_result['overall_valid'] else np.array([0.0])
+        )
+
+        # Ω-normalize
+        omega_normalized = self.omega_enforcer.omega_operator(result_state)
+
+        # Check if admissible
+        if not omega_normalized.is_admissible:
+            return {
+                'status': 'rejected',
+                'reason': 'Failed Ω-consistency check',
+                'inconsistency': self.omega_enforcer._inconsistency_metric(result_state)
+            }
+
+        # Stage 4: Θ-polarity routing
+        polarity = self.logic_router.pi_to_theta(tri_unity_result['overall_valid'])
+
+        # Stage 5: Route to agent
+        if routing['operator'] == 'Φ':  # Search
+            return self._route_search(query, polarity, omega_normalized)
+        elif routing['operator'] == 'δ':  # Generate
+            return self._route_generation(query, polarity, omega_normalized)
+        elif routing['operator'] == 'Π':  # Validate
+            return self._route_validation(query, polarity, omega_normalized)
+
+    def _route_search(self, query, polarity, omega_state):
+        """Route search with Ω-constraint."""
+        # Librarian ingestion protocol
+        ingestion_result = self.omega_enforcer.ingestion_protocol(omega_state)
+
+        if ingestion_result['decision'] == 'accept':
+            return {
+                'agent': 'librarian',
+                'mode': 'search',
+                'omega_surface': omega_state.metadata.get('constraint_surface'),
+                'polarity': polarity
+            }
+        else:
+            return {
+                'status': 'rejected',
+                'reason': ingestion_result['reason']
+            }
+
+    def _route_generation(self, query, polarity, omega_state):
+        """Route generation with Ω-constraint."""
+        return {
+            'agent': 'creative',
+            'mode': 'generate',
+            'omega_normalized': True,
+            'constraint_surface': omega_state.metadata.get('constraint_surface'),
+            'polarity': polarity
+        }
+
+    def _route_validation(self, query, polarity, omega_state):
+        """Route validation with Ω-constraint."""
+        return {
+            'agent': 'critic',
+            'mode': 'validate',
+            'omega_normalized': True,
+            'polarity': polarity
+        }

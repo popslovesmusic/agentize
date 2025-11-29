@@ -1,0 +1,32 @@
+{
+    "(beginner, simple)": {
+      "polarity": "Θ₊₊",
+      "route_to": "simple_explanation_agent",
+      "style": "ELI5 with examples"
+    },
+    "(beginner, complex)": {
+      "polarity": "Θ₊₋",
+      "route_to": "breakdown_and_simplify_agent",
+      "style": "Break into steps, teach concepts first"
+    },
+    "(intermediate, simple)": {
+      "polarity": "Θ₋₊",
+      "route_to": "concise_answer_agent",
+      "style": "Direct answer, skip basics"
+    },
+    "(intermediate, complex)": {
+      "polarity": "Θ₋₋",
+      "route_to": "detailed_technical_agent",
+      "style": "Technical depth with context"
+    },
+    "(expert, simple)": {
+      "polarity": "Θ₋₊",
+      "route_to": "terse_reference_agent",
+      "style": "Just the facts, no fluff"
+    },
+    "(expert, complex)": {
+      "polarity": "Θ₋₋",
+      "route_to": "deep_research_agent",
+      "style": "Full analysis, edge cases, proofs"
+    }
+  }

@@ -1,0 +1,1 @@
+{ id: "BR-λ-02", name: "LambdaCannotAlterAdjacency", pattern: "λᶜᵘʳᵛ(Adj) \-\> Adj'", condition: "Adj' \!= Adj", action: "Adj' := Adj; emit\_error('A2\_MicroAdjacencyConservation')?", preserves: \["A2\_MicroAdjacencyConservation"\] }

@@ -1,0 +1,1 @@
+{ "Left": "Π", "Right": "Π", "CompositeName": "Pi\_idempotent", "Expression": "Π ∘ Π", "DefinedAtTier2": true, "DefinitionMode": "primitive\_from\_Pi\_family", "Intent": "Idempotent evaluation: Π∘Π \= Π.", "Law": "Π(Π(B)) \= Π(B)" }

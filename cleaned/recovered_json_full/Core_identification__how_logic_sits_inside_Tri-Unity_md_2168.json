@@ -1,0 +1,1 @@
+{ "name": "Π₂\_after\_Σ", "when": "Π₂ ∘ Σ", "then": "Σ ∘ Θ ∘ Π₂", "intent": "If Π₂ appears too early, Σ and Θ must be inserted to contract and polarize first." }

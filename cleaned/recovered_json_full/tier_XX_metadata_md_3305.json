@@ -1,0 +1,1 @@
+{ "id": "RS-INV-04", "name": "Non-Expansion", "call": "RS\_CHECK\_NEXP(R)", "expect": { "status": "true" }, "description": "Dimension sem(r.rhs) ≤ dim\_sem(r.lhs) for every rule." }

@@ -1,0 +1,1 @@
+{ "name": "V3_Ch6_CosmicWeb_ChapterAxiom", "intent": "Define semantic origin of cosmic web.", "domain": "λ, μ, ψ, ρ adjacency graph", "constraints": [ "Adjacency must preserve Volume I invariants", "Filament continuity must satisfy Σ-flow" ], "cross_links": ["V2_Ch8_Clustering_ChapterAxiom"] }

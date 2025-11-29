@@ -1,0 +1,1 @@
+{ name: "Ω-NF-psi", pattern: { operator: "ψ" }, replace\_with: { operator: "ψ\_norm" }, comment: "Waves normalized in amplitude and phase." }

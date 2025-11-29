@@ -1,0 +1,1 @@
+{ "id": "OP\_SIGMA\_TENSOR", "symbol": "Σ⊗", "kind": "tensor\_contraction", "signature": "Tensor(D\_{i j ...}) × Metric(g^{i j}) \-\> Tensor(D\_{...})", "description": "General tensor contraction using an implicit or explicit metric or pairing tensor.", "constraints": \[ "Enforce SIGMA\_INV\_INDEX\_PRESERVATION", "Enforce SIGMA\_INV\_NULL\_MODE\_STABILITY" \] }

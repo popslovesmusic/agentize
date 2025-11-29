@@ -1,0 +1,9 @@
+{
+      "id": "naturality_square",
+      "dimension": 2,
+      "boundary": ["delta_f", "eta_B", "phi_f", "eta_A"],
+      "commutes": {
+        "equation": "Φ(f) ∘ η_A = η_B ∘ δ(f)",
+        "semantic_layer": "general"
+      }
+    }

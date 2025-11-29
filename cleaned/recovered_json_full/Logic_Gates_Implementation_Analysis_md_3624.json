@@ -1,0 +1,9 @@
+{
+      "signature": "Θ-ROUTER(polarity_field, options_map) → selected_path",
+      "algorithm": {
+        "step_1": "Evaluate polarity_field (can be multi-dimensional)",
+        "step_2": "Select path with matching polarity signature",
+        "step_3": "Execute selected path"
+      },
+      "use_case": "Multi-way routing based on semantic signature"
+    }

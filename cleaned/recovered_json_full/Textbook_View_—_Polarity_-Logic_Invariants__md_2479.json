@@ -1,0 +1,1 @@
+{ fields: { shape: "int\[\]", components: "float\[\]", signs: "Array\<+1|-1\>", }, }

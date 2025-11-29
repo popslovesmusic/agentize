@@ -1,0 +1,9 @@
+{
+      "id": "eta",
+      "from_functor": "delta",
+      "to_functor": "phi",
+      "components": [
+        { "object": "A", "morphism": "eta_A" },
+        { "object": "B", "morphism": "eta_B" }
+      ]
+    }

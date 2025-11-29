@@ -1,0 +1,5 @@
+{
+      "semantic_base": "B",
+      "semantic_field_space": "S : B → ℳ",
+      "measure_space": "⟨B, μ dV⟩"
+    }

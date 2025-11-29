@@ -1,0 +1,1 @@
+{ id: 50, description: "NF: arbitrary 5-step chain reduces uniquely.", input: \["δΦΠΦδ"\], expect\_nf: "NF\_δΦΠ", invariant: "normal\_form", // explanation: collapsing to 3-step NF is mandatory }

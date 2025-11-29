@@ -1,0 +1,7 @@
+{`  
+            `"step": 3,`  
+            `"op": "SigmaSigma_a",`  
+            `"input": ["TA", "TC"],`  
+            `"output": "M",`  
+            `"params": { "mode": "implication_bias" }`  
+          `}

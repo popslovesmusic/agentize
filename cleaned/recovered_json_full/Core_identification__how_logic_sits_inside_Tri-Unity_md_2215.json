@@ -1,0 +1,1 @@
+{ "Π\_eval": { "type": "evaluation", "role": "Truth/Value evaluation" }, "Π\*": { "type": "adjoint\_evaluation", "role": "Adjoint Π" } }

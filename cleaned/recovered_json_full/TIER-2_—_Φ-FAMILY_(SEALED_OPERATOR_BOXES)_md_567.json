@@ -1,0 +1,1 @@
+{ "BoxName": "Π\_c", "BoxIntent": "Causal-order evaluator.", "Domain": { "Input": "Φ\_c(B)", "Output": "Π\_c(B)" }, "Constraints": { "OrderPreservation": "Preserves causal order", "CausalFiltering": "Removes non-causal pieces", "ShiftInvariance": "Invariant under χ reparam" }, "CrossLinks": { "Φ\_c": "Source", "δ": "Directional basis", "χ": "Temporal ordering" } }

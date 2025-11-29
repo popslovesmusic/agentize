@@ -1,0 +1,9 @@
+{
+      "id": "top_face",
+      "dimension": 2,
+      "boundary": ["P_delta_f", "P_eta_B", "P_phi_f", "P_eta_A"],
+      "commutes": {
+        "equation": "ΠΦ(f) ∘ Π(η_A) = Π(η_B) ∘ Πδ(f)",
+        "semantic_layer": "Π"
+      }
+    }

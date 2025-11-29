@@ -1,0 +1,1 @@
+{ "id": "PI\_NORMALIZE", "symbol": "NF\_Π", "role": "normal\_form\_reduction", "signature": "(EvalState) \-\> EvalState", "description": "Reduce an EvalState to Π-CE-NF using the Tier-03 rewrite system.", "invariant\_guards": \["PI-CO", "PI-TM", "PI-CT"\], "nf\_target": "PI-CE-NF" }

@@ -1,0 +1,7 @@
+Assume: ψ-transformation ψ: Op → ψ(Op)
+Base level: [λ, δ] = c ≠ 0
+Apply ψ: ψ([λ, δ]) = ψ(c)
+Linearity: ψ(λ∘δ - δ∘λ) = ψ(λ∘δ) - ψ(δ∘λ)
+If ψ linearizes: = ψ(λ)∘ψ(δ) - ψ(δ)∘ψ(λ)
+If ψ-operators commute: = 0
+Conclusion: Base non-commutativity transforms into ψ-layer structure

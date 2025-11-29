@@ -1,0 +1,1 @@
+{ "EventId": "string", // symbolic event / Box identifier "TruthValue": "number", // or lattice element index "CausalGraph": "object", // adjacency-list representation "EvalState": "object" // { graph, valuation, justification } }

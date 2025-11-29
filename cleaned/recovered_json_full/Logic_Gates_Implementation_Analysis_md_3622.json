@@ -1,0 +1,10 @@
+{
+      "signature": "Θ-AND(A, B) → Θ",
+      "algorithm": {
+        "step_1": "Evaluate A to polarity Θ_A",
+        "step_2": "Evaluate B to polarity Θ_B",
+        "step_3": "If both Θ₊: return Θ₊",
+        "step_4": "Else: return Θ₋"
+      },
+      "use_case": "Quality gate - both conditions must be positive"
+    }

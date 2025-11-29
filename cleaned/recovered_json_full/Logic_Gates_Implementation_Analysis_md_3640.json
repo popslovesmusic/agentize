@@ -1,0 +1,19 @@
+{
+    "parallel_search": {
+      "local": "Θ₊ (found 10 results)",
+      "web": "Θ₋ (no results)",
+      "vector": "Θ₊ (found 5 results)",
+      "Θ-OR_result": "Θ₊ (at least one succeeded)"
+    },
+    "merge": {
+      "deduplicated": "12 unique results",
+      "ranked": "by polarity weight + relevance"
+    },
+    "quality_gate": {
+      "relevance": "Θ₊ (8/12 above threshold)",
+      "consistency": "Θ₊ (all consistent)",
+      "provenance": "Θ₊ (all have sources)",
+      "Θ-AND_result": "Θ₊ (all passed)",
+      "output": "8 high-quality results"
+    }
+  }

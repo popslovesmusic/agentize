@@ -1,0 +1,1 @@
+{ "constraints": \[ "All Σ-operators produce contractions.", "No Σ-expansion is permitted (monotonic collapse).", "Polarity-aware contraction must preserve Θ-structure.", "Σ→NF is terminal and cannot be undone." \] }

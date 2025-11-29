@@ -1,0 +1,1 @@
+{ "id": "RHO-LAYER-IDENTITY", "name": "Layer-Identity Invariant", "statement": "Layer identifiers ρ\_k are immutable under all admissible intra-layer operations.", "level": "structural" }

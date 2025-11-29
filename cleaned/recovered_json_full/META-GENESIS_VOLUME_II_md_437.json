@@ -1,0 +1,1 @@
+{ "input": "R (representations)", "output": "TruthLabels (e.g. {TRUE, FALSE, NEUTRAL})", "mapping": "Π\_truth(r) \= label determined by asymptotic behavior of G on Π(r)" }

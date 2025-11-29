@@ -1,0 +1,89 @@
+python
+class AgentSystemLoader:
+    """Load entire agent system from JSON5 configs"""
+
+    def load_system(self, config_dir):
+        """Main loading function"""
+        # Load router configuration
+        router_config = self.load_json5(f"{config_dir}/router_config.json5")
+
+        # Load librarian
+        librarian_config = self.load_json5(f"{config_dir}/librarian_manifesto.json5")
+
+        # Load logic gates tier
+        logic_gates = self.load_json5(f"{config_dir}/tier_logic_module_pack.json5")
+
+        # Load all agent definitions
+        agents = {}
+        agent_files = glob.glob(f"{config_dir}/agents/*.json5")
+        for agent_file in agent_files:
+            agent_config = self.load_json5(agent_file)
+            agent = self.instantiate_agent(agent_config)
+            agents[agent_config["agent_id"]] = agent
+
+        # Build router
+        router = CompleteMBCRouter(router_config, logic_gates, agents)
+
+        # Build librarian
+        librarian = Librarian(librarian_config)
+
+        # Wire everything together
+        system = AgentSystem(router, librarian, agents)
+
+        return system
+
+    def instantiate_agent(self, config):
+        """Create agent from JSON5 config"""
+        # Compile system prompt
+        system_prompt = self.compile_system_prompt(config)
+
+        # Initialize model backend
+        model = self.init_model(
+            backend=config["model_backend"],
+            system_prompt=system_prompt
+        )
+
+        # Create agent wrapper
+        agent = Agent(
+            agent_id=config["agent_id"],
+            model=model,
+            config=config
+        )
+
+        return agent
+
+    def compile_system_prompt(self, config):
+        """Convert JSON5 config to natural language prompt"""
+        prompt = f"""
+You are {config['role']}.
+
+Your primary MBC operators: {', '.join(config['mbc_operators']['primary'])}
+
+Capabilities:
+{self.format_list(config['capabilities'])}
+
+Constraints (Ω-layer):
+{self.format_list(config.get('omega_constraints', []))}
+
+When processing requests:
+1. Apply your primary operator ({config['mbc_operators']['primary']})
+2. Validate against Ω-constraints
+3. Return results in specified format
+
+Output format:
+{config['outputs']}
+"""
+        return prompt
+
+    def run(self, user_request):
+        """Execute user request through system"""
+        # Route request
+        routed = self.system.router.route(user_request)
+
+        # Execute
+        result = self.system.execute(routed)
+
+        # Validate through librarian
+        validated = self.system.librarian.validate(result)
+
+        return validated

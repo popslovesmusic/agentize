@@ -1,0 +1,1 @@
+{ id: 'TU-COMM-03', invariant: 'commutativity', pattern: \['Φ∘Π', 'Π∘Φ'\], rewrite: 'NF\_ΦΠ', conditions: { pairwise: true }, explanation: 'Φ∘Π and Π∘Φ both normalize to NF\_ΦΠ.', }

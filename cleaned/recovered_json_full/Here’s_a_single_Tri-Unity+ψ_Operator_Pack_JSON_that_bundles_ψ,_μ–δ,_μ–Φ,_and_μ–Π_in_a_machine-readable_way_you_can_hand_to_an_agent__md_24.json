@@ -1,0 +1,21 @@
+{`  
+    `"delta_phi": {`  
+      `"defined": true,`  
+      `"rule": "Φ∘δ = semantic_form_of_deviation"`  
+    `},`  
+    `"phi_delta": {`  
+      `"defined": true,`  
+      `"rule": "δ∘Φ = projected_curvature"`  
+    `},`  
+    `"phi_phi": {`  
+      `"idempotent": true`  
+    `},`  
+    `"pi_phi": {`  
+      `"defined": true,`  
+      `"rule": "Π∘Φ = canonical_evaluation"`  
+    `},`  
+    `"delta_pi": {`  
+      `"defined": false,`  
+      `"note": "Evaluation is terminal; no δ-back-action"`  
+    `}`  
+  `}

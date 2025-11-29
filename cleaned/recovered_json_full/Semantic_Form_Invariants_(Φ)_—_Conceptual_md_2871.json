@@ -1,0 +1,1 @@
+{ id: "B\_prop\_1", class\_id: "proposition", payload: { formula: "P ∧ Q", vars: \["P", "Q"\] } }

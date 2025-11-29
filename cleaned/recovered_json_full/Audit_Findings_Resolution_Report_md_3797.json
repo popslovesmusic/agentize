@@ -1,0 +1,17 @@
+python
+from variant_aware_router import VariantAwareRouter
+
+router = VariantAwareRouter()
+
+# Flat geometry state
+state = {'λ': 0, 'flat_geometry_flag': True}
+
+# Automatic detection and selection
+context = router.detect_context(state)
+selection = router.select_variant(("λ", "δ"), context)
+
+print(f"Selected: {selection.variant_id}")
+# Output: flat_geometry
+
+print(f"Performance: {selection.performance}")
+# Output: {'note': 'Fastest - commutative simplification'}

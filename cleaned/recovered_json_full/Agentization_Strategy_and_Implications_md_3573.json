@@ -1,0 +1,21 @@
+python
+class MBCExecutor:
+    def execute(self, operator_json, input_box):
+        op = self.load_operator(operator_json)
+
+        # Validate pre-conditions
+        if not self.check_preconditions(op, input_box):
+            return Error
+
+        # Execute grounded operation
+        result = self.apply_grounding(op, input_box)
+
+        # Validate post-conditions
+        if not self.check_postconditions(op, result):
+            return Error
+
+        # Check Ω-constraints
+        if not self.omega_validate(result):
+            result = self.omega_project(result)
+
+        return result

@@ -1,0 +1,1 @@
+{ "id": "RS-DEMO-NE1", "input\_term": "Π(Φ(δ(δ(ID(Φ(Φ(x)))))))", "call": "dim\_sem(RS\_NF(term, RS\_DEMO))", "expect": "≤ dim\_sem(term)", "description": "Semantic dimension does not increase under normalization." }

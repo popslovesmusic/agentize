@@ -1,0 +1,16 @@
+{
+  "context_detectors": {
+    "geometry_type": { ... },
+    "abstraction_level": { ... },
+    "numerical_mode": { ... },
+    "safety_mode": { ... }
+  },
+  "operator_selection_rules": {
+    "lambda_delta_composition": {
+      "selection_logic": { ... },
+      "fallback_chain": [ ... ]
+    },
+    "psi_commutativity": { ... }
+  },
+  "performance_profiles": { ... }
+}

@@ -1,0 +1,1 @@
+{ "tensor": "D\_{i}", "plan": { "operator": "Σ", "indices\_to\_contract": \["j"\] } }

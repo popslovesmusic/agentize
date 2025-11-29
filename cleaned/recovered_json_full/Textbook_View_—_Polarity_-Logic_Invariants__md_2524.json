@@ -1,0 +1,1 @@
+{ fields: { box: "Box", // underlying IGSOA Box chi: "float", // current χ meta: "any" } }

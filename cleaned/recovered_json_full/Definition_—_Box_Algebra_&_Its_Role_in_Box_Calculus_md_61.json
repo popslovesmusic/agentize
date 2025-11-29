@@ -1,0 +1,5 @@
+{`  
+              `"type": "array",`  
+              `"description": "Local δ-curvature data (rank implementation-defined).",`  
+              `"items": { "type": "number" }`  
+            `}

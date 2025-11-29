@@ -1,0 +1,1 @@
+{ "id": "T07", "left": "δ", "right": "Θ\_minus", "composition": "δ ∘ Θ\_minus", "category": "channel\_composition", "signature": "Box \-\> Box", "rule": "Deviation restricted to the negative polarity channel.", "notes": "Defines δ\_minus." }

@@ -1,0 +1,1 @@
+{ "id": "AX\_ψ-AMP", "name": "Amplitude Conservation Axiom", "formal": "∀χ,Δχ: Ω\_domain.lossless ∧ no\_dissipative\_terms ⇒ ‖ψ(χ+Δχ)‖\_μ² \= ‖ψ(χ)‖\_μ².", "narrative": "In a lossless domain, the μ-weighted norm of ψ is constant under χ-evolution." }

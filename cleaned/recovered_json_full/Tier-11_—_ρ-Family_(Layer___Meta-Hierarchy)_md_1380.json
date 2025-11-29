@@ -1,0 +1,1 @@
+{ "id": "R-ρ-01", "name": "rho\_to\_index\_annotation", "category": "structural", "lhs": "rho\_k ∘ A", "rhs": "A\[k\]", "conditions": { "k\_in\_N": true }, "notes": "ρ\_k acting on A produces A restricted to layer k." }

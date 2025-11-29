@@ -1,0 +1,1 @@
+{ "id": "RN\_02", "statement": "Θ\_ROUTE(R\_Θ, E\_in) produces a finite set of outgoing edges {E\_out} whose polarities and weights are computed from Θ, Σ, and Π evaluations at R\_Θ.", "type": "operational" }

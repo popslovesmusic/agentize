@@ -1,0 +1,10 @@
+{
+          "id": { "type": "string" },
+          "label": { "type": "string" },
+          "semantic_role": {
+            "type": "string",
+            "enum": ["state", "box", "operator-output",
+                     "δ-layer", "Φ-layer", "Π-layer", "μ-layer",
+                     "arbitrary"]
+          }
+        }

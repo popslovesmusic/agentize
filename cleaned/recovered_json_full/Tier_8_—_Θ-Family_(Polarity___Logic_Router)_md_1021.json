@@ -1,0 +1,1 @@
+{ "id": "T23", "left": "Θ", "right": "Pi", "composition": "Θ⊕Π", "category": "sum\_composition", "signature": "(Box,Box) \-\> polarity\_sum", "rule": "Polarity sum in truth space; XOR-like behavior.", "notes": "Used in semantic disagreement detection." }

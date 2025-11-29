@@ -1,0 +1,1 @@
+{ "Θ+": { "type": "polarity\_positive" }, "Θ-": { "type": "polarity\_negative" }, "Θ\_LG": { "type": "logic\_gate\_generator", "role": "Generates logic gates" }, "Θ⊕": { "type": "polarity\_sum\_gate", "role": "Polarity sum" }, "Θ⊗": { "type": "polarity\_tensor\_gate", "role": "Tensor polarity" }, "Θ→Π": { "type": "polarity\_to\_truth", "role": "Map polarity to truth" } }

@@ -1,0 +1,19 @@
+{
+  "conflict_resolution": {
+    "apparent_conflict": "ψ-file says operators commute, but λ-file says [λ, δ] ≠ 0",
+    "resolution": "NO ACTUAL CONFLICT - Different abstraction levels",
+    "explanation": {
+      "level_1_base": {
+        "operators": "Raw λ, δ (pre-transformation)",
+        "commutativity": "[λ, δ] ≠ 0",
+        "context": "Direct geometric/semantic operations"
+      },
+      "level_2_psi_layer": {
+        "operators": "ψ(λ), ψ(δ) (wave-transformed)",
+        "commutativity": "ψ(λ) ∘ ψ(δ) = ψ(δ) ∘ ψ(λ)",
+        "context": "Wave space / modal decomposition"
+      }
+    },
+    "key_insight": "ψ-transformation is like going from Schrödinger to Heisenberg picture. Commutativity properties can change under such transformations."
+  }
+}

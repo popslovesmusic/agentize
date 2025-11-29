@@ -1,0 +1,8 @@
+[λ,δ]=λ→δ
+
+- λ produces deviation from curvature.
+- If modes are off:
+  λ_mode=λ_×=0  ⇒  λ→δ=λ_curv
+
+- Under active modes:
+  λ→δ=λ_curv+λ_mode+λ_×

@@ -1,0 +1,1 @@
+{ "pattern": "UnboxedAxiomObject", "rewrite": "AxiomBoxTemplate instance", "description": "Any free-form axiom JSON is rewritten into the canonical Axiom Box schema." }

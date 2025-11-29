@@ -1,0 +1,1 @@
+{ "auto\_apply\_rewrites": true, "require\_normal\_form": true, "abort\_on\_catastrophic\_violation": true, "trace\_mode": "detailed" }

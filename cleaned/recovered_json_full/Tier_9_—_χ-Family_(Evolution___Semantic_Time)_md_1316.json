@@ -1,0 +1,1 @@
+{ "type": "operator", "role": "derivative\_of\_global\_constraint", "definition": "d/dchi(Omega(B))" }

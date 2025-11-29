@@ -1,0 +1,23 @@
+{`  
+    `"sealed": true,`  
+    `"delta_adjacency_required": true,`  
+    `"interface_alignment_required": true,`  
+    `"rules": [`  
+      `{`  
+        `"id": "CR-1",`  
+        `"name": "delta_adjacency_compatibility",`  
+        `"schema": "adjacency_match(delta(B1), delta(B2)) == true",`  
+        `"description": "δ-states must have compatible adjacency/curvature structure."`  
+      `},`  
+      `{`  
+        `"id": "CR-2",`  
+        `"name": "interface_port_alignment",`  
+        `"schema": "output_ports(B1) ⟶ input_ports(B2)",`  
+        `"description": "Type/port alignment required for semantic-flow validity."`  
+      `}`  
+    `],`  
+    `"failure_modes": {`  
+      `"incompatible_delta": "ERR::COMPOSE::DELTA_MISMATCH",`  
+      `"misaligned_interfaces": "ERR::COMPOSE::TYPE_MISMATCH"`  
+    `}`  
+  `}

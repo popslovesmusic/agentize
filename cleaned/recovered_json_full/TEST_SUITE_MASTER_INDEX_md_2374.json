@@ -1,0 +1,1 @@
+{ id: 40, description: "NF: ΠδΦ reduces to NF\_ΠδΦ.", input: \["ΠδΦ"\], expect\_nf: "NF\_ΠδΦ", invariant: "normal\_form", }

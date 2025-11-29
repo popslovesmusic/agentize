@@ -1,0 +1,1 @@
+{ "input": "Initial representation r\_0 ∈ R", "output": "Set of mode coefficients and eigenmodes", "mapping": "Mode\_ψ(r\_0) \= { (λ\_k, v\_k, a\_k) } such that r(t) \= Σ\_k a\_k e^{λ\_k t} v\_k" }

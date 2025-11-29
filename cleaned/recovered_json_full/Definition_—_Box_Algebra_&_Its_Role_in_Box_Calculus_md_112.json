@@ -1,0 +1,5 @@
+{`  
+      `"id": "LAW-4",`  
+      `"name": "Theta_functoriality",`  
+      `"schema": "Θ(B2 ∘ B1) == Θ(B2) ∘ Θ(B1)"`  
+    `}

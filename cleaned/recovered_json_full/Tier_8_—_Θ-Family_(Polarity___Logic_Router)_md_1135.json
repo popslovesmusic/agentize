@@ -1,0 +1,1 @@
+{ "id": "T43", "left": "Θ", "right": "Σ", "composition": "Θ ∘ Σ", "category": "left\_composition", "signature": "Box^N \-\> Polarity", "rule": "Assign net polarity to the total sum of Boxes.", "notes": "Global sign decision after summation." }

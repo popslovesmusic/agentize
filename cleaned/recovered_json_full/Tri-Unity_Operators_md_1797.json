@@ -1,0 +1,1 @@
+{ "id": "L1\_lambda\_squared", "pattern": "λ∘λ", "rewrite": "λ²", "comment": "Curvature self-composition." }

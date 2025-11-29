@@ -1,0 +1,1 @@
+{ "name": "V3_Ch8_FeedbackIdentity_StructureBox", "intent": "Define identity of feedback loops in IGSOA.", "domain": "Star, AGN, cluster, web feedback", "constraints": [ "Feedback identity preserved across layers", "Ω prevents runaway cycles" ], "cross_links": ["V2_Ch4_FieldInteraction_Box"] }

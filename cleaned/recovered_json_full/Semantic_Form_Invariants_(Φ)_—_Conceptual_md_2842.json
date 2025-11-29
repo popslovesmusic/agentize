@@ -1,0 +1,1 @@
+{ pipeline: \[ "load tier\_02\_operator\_pack", "load tier\_02\_axiom\_box", "load tier\_02\_rewrite\_system", "run test\_suites on sample Boxes", \], notes: "This pack can be used as a Φ-layer guardrail for any higher-tier Box-processing agent.", }

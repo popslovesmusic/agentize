@@ -1,0 +1,1 @@
+{ "name": "Ω\_pass", "when": "Ω(B) with invariant\_violation \= false", "then": "B\_Ω", "intent": "Box passes global checks and is tagged as Ω-normalized." }

@@ -1,0 +1,1 @@
+{ "id": "T48", "left": "Σ", "right": "λ", "composition": "Σ(p\_i κ\_i)", "category": "weighted\_sum", "signature": "Box^N \-\> Real", "rule": "Curvature-weighted polarity summation.", "notes": "Topological sign signature." }

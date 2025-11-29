@@ -1,0 +1,28 @@
+MBC_Framework_v4/
+├── README.md                           # System documentation
+├── mbc_framework_index.json            # Master index (CREATED)
+├── 00_Meta/                            # Framework metadata
+│   ├── framework_metadata.pointer.json
+│   └── tier00_primitives.pointer.json
+├── 01_Primitives/                      # Tier-0 operators
+│   ├── delta_primitive.pointer.json
+│   ├── phi_primitive.pointer.json
+│   ├── pi_primitive.pointer.json
+│   ├── mu_primitive.pointer.json
+│   └── tier0_operators.pointer.json
+├── 02_Tiers/
+│   └── Tier_01_delta/
+│       └── tier_01_metadata.pointer.json
+├── 03_MetaOperators/                   # Universal algebra
+│   └── meta_operator_pack.pointer.json
+├── 04_InteractionTables/
+├── 05_RewriteSystems/
+├── 06_AxiomBoxes/
+├── 07_Diagrams/
+│   ├── squares/
+│   ├── cubes/
+│   ├── hypercubes/
+│   └── pentacubes/
+├── 08_ModulePacks/
+├── 09_CrossLinks/
+└── 10_Validation/

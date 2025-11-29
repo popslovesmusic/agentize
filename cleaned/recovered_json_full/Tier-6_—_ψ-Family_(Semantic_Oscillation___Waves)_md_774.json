@@ -1,0 +1,1 @@
+{ "name": "ψΠ", "intent": "Evaluation-space wave", "domain": "Π-evaluation", "action": "Oscillation defined on Π-evaluated causal states", "dependencies": \["Π", "Π∗"\], "outputs": "ψ\_Π(B)" }

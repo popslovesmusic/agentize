@@ -1,0 +1,2 @@
+φ̇_t = -∇K(φ_t)    (Gradient descent on inconsistency)
+Ω(s) = lim_{t→∞} φ_t(s)    (Ω is the attractor)

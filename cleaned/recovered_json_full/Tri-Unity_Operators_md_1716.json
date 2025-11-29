@@ -1,0 +1,1 @@
+{ "symbol": "string", "name": "string", "role": "string", "lifts": { "weighted": "optional\<string\>", "modal": "optional\<string\>", "weighted\_modal": "optional\<string\>" }, "adjoint": "optional\<string\>", "notes": "optional\<string\>" }

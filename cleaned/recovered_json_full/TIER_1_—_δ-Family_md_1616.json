@@ -1,0 +1,1 @@
+{ "pattern": "Ξ\_fractal(X)", "rewrite": "fractal\_tower(X)", "description": "Replace X by an indexed tower {X\_k} with self-similar structure at multiple scales." }

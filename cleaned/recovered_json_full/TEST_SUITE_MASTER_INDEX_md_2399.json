@@ -1,0 +1,1 @@
+{ id: 'TU-NF-13', invariant: 'closure', pattern: 'δ⊗Φ', rewrite: 'NF\_δ⊗Φ', conditions: { tensor\_semantics: true }, explanation: 'Tensor δ⊗Φ remains in Tri-Unity tensor subspace.', }

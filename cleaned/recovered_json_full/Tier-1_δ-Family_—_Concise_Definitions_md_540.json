@@ -1,0 +1,1 @@
+{ "B\[i,j\]": "i \+ j", "mu\[i,j\]": "1 \+ 0.1\*i", "delta\_i\_B\[i,j\]": "B\[i+1,j\] \- B\[i,j\] for i\<11, else 0", "delta\_mu\[i,j\]": "mu\[i,j\] \* delta\_i\_B\[i,j\]" }

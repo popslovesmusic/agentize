@@ -1,0 +1,1 @@
+{ id: "T2-PHI-040", invariant: "PHI\_INV\_01\_CLASS\_PRESERVATION", category: "meta\_test", description: "Meta-test: ensure none of the tests rely on final class\_id='undefined' as NF.", meta\_check: { scan: "all\_tests", forbidden\_final\_class: "undefined" }, expected: { suite\_consistency: "no\_final\_undefined\_class", invariant\_ok: true } }

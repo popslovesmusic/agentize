@@ -1,0 +1,1 @@
+{ "name": "Polarity Logic Invariant Axiom Box", "intent": "Collect and seal the core polarity logic invariants of the Θ-system.", "domain": "Θ-annotated logic networks with Π-evaluation", "cross\_links": \[ "tier\_08\_theta\_family\_axioms", "tier\_07\_sigma\_axiom\_box", "tier\_02\_semantic\_logic\_axioms" \] }

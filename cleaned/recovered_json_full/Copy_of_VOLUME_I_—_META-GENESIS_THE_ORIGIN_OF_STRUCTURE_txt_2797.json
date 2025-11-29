@@ -1,0 +1,1 @@
+{ "name": "V3_Ch1_PhysicalGalaxy_StructureBox", "intent": "Define structure of physical galaxies derived from semantic scaffolds.", "domain": "Disk, halo, bulge, rotation structure", "constraints": [ "ψ-rotation preserved", "μ-halo retained", "ρ layering consistent across mapping" ], "cross_links": ["V2_Ch10_Morphology_Box"] }

@@ -1,0 +1,6 @@
+{
+      "ingestion_protocol": {
+        "duplicate_reject": 0.99,  // >99% similarity = Reject
+        "noise_flag": 0.05         // <5% similarity = Flag
+      }
+    }

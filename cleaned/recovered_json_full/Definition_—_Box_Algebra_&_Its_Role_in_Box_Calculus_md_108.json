@@ -1,0 +1,8 @@
+{`  
+      `"step": 5,`  
+      `"op": "evaluation",`  
+      `"formal_op": "Π",`  
+      `"input": ["B_agg"],`  
+      `"output": "B_out",`  
+      `"description": "Collapse meaning into evaluated causal truth; end of pipeline."`  
+    `}

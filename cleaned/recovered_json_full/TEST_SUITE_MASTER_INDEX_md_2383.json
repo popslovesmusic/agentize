@@ -1,0 +1,1 @@
+{ id: 49, description: "NF: functor chain (Π∘δ∘Φ) reduces to NF\_ΠδΦ.", input: \["Π∘δ∘Φ"\], expect\_nf: "NF\_ΠδΦ", invariant: "normal\_form", }

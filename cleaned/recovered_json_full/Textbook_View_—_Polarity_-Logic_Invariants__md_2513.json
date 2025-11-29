@@ -1,0 +1,1 @@
+{ id: "Θψ\_03\_implicit\_flip\_violation", condition: "phase\_inversion=false AND phase=π", violation: "Θ\_INV\_TENSOR\_SIGN" }

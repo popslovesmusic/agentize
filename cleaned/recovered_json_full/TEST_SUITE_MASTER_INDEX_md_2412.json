@@ -1,0 +1,1 @@
+{ id: 'TU-COMM-06', invariant: 'commutativity', pattern: \['δ⊗Φ', 'Φ⊗δ'\], rewrite: 'NF\_δ⊗Φ', conditions: { tensor\_semantics: true }, explanation: 'Order of δ,Φ is irrelevant inside the tensor NF.', }

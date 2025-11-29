@@ -1,0 +1,24 @@
+python
+# Step 1: Detect validation request (Π)
+is_validation = pi_operator(query)  # True
+
+# Step 2: Project to semantic form (Φ)
+implementation = phi_operator(extract_code_from_query(query))
+
+# Step 3: Bridge to evaluation (Φ→Π)
+pi_ready = phi_to_pi_bridge(implementation)
+
+# Step 4: Validate (Π_c + Πₜ)
+validation = {
+    'causal_valid': pi_c_operator(pi_ready),
+    'semantic_valid': pi_t_operator(pi_ready)
+}
+
+# Step 5: Convert to polarity (Π→Θ)
+polarity = pi_to_theta(validation)
+
+# Step 6: Θ-MUX routing
+if polarity == "Θ₊":
+    response = "Implementation is correct ✓"
+else:
+    response = critic.generate_detailed_feedback(validation)

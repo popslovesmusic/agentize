@@ -1,0 +1,1 @@
+{ "id": "L2\_lambda\_psi", "pattern": "λ∘ψ", "rewrite": "NF\_λψ", "comment": "Curvature acting on wave." }

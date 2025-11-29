@@ -1,0 +1,1 @@
+{ "From": "V001", "To": "V101", "Operator": "δ", "Name": "delta\_on\_evaluation", "DomainCondition": "Requires Π→Φ or Π\* lift" }

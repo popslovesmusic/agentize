@@ -1,0 +1,1 @@
+{ "group_non_overlap": "Each operator belongs to at least one functional group, but no group may be defined as a simple union of other groups alone.", "role_stability": "Operator semantic roles remain invariant across volumes; only compositions change.", "ω_sanity": "Any expansion of operator semantics must pass Ω checks." }

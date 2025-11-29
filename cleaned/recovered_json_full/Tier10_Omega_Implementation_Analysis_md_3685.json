@@ -1,0 +1,2 @@
+For any lawful operators O₁, O₂:
+  Ω(O₁ ∘ O₂) = Ω(O₁) ∘ Ω(O₂)

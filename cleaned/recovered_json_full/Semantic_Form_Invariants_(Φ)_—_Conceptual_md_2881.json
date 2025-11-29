@@ -1,0 +1,1 @@
+{ id: "B\_matrix\_break\_1", class\_id: "matrix", payload: { shape: \[2, 3\], // says 2x3 values: \[\[1, 2\], \[3, 4\]\] // actually 2x2 } }

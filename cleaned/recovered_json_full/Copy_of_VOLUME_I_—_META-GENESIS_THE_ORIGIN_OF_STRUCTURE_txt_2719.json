@@ -1,0 +1,1 @@
+{ "operators": ["δ", "Φ", "Π"], "basic_compositions": ["δ∘Φ", "Φ∘Π", "Π∘δ", "δ∘Φ∘Π"], "evaluation_space": "Semantic states S on which δ, Φ, Π act." }

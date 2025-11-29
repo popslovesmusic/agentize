@@ -1,0 +1,1 @@
+{ "\[μ, δ\]": { "definition": "Commutator of μ and δ on X.", "rule": "\[μ, δ\](X) \= μ·δX \- δ(μ·X) \= \-(δμ)·X", "status": "defined" }, "\[μ, δ^2\]": { "definition": "Commutator of μ with the δ-Laplacian.", "rule": "\[μ, δ^2\](X) \= μ δ^2 X \- δ^2(μ X)", "status": "defined\_conditionally", "note": "Expands into terms with δμ and δ^2 μ." } }

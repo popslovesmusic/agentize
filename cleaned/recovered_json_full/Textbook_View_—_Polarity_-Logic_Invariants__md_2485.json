@@ -1,0 +1,1 @@
+{ id: "RW\_Θ\_CONSERVE\_INSERT\_ROUTER", invariant\_id: "Θ\_INV\_CONSERVATION", pattern: { violation: "missing\_output\_polarity" }, action: { insert: "Θ\_ROUTER node", compute\_polarity: "Θ(out) \= Σ Θ(inputs) (mod aggregation\_mode)", }, ensures: \[ "Θ\_INV\_CONSERVATION" \], nf\_target: "ΘNF\_PolarityConserved", }

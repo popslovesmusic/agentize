@@ -1,0 +1,1 @@
+{ "id": "R-ρ-03", "name": "nested\_rho\_collapse", "category": "normalization", "lhs": "rho\_k ∘ rho\_m ∘ A", "rhs": "rho\_max(k,m) ∘ A", "conditions": { "k\_in\_N": true, "m\_in\_N": true }, "notes": "Multiple ρ applications collapse to a single layer with max index." }

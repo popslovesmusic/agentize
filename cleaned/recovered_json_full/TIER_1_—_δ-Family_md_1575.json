@@ -1,0 +1,1 @@
+{ "pattern": "Σ(δ\_i δ\_i)", "rewrite": "δL", "description": "Contraction producing Laplacian." }

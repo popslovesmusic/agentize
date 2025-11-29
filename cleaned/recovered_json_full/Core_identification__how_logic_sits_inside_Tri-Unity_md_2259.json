@@ -1,0 +1,1 @@
+{ "name": "push\_ρ\_right", "when": "O ∘ ρ", "then": "ρ ∘ O", "conditions": \["O ∈ {Ω, χ, Π₂, Θ, Σ, ψ, λ, μ, Π₁, Φ, δ}"\], "intent": "ρ outermost." }

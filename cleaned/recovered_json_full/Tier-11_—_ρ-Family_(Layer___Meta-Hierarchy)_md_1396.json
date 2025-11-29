@@ -1,0 +1,1 @@
+{ "id": "R-ρ-17", "name": "triunity\_layer\_lock", "category": "interaction", "lhs": "δ ∘ Φ ∘ Π", "rhs": "(δ ∘ Φ ∘ Π)\[max(ρ(δ), ρ(Φ), ρ(Π))\]", "conditions": { "triunity": true }, "notes": "Tri-Unity composition locks to the maximal layer of δ, Φ, Π." }

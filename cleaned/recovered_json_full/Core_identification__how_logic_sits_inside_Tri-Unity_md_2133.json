@@ -1,0 +1,1 @@
+{ "classical": "existential quantifier over {p\_i}", "theta\_formula": "Θ\_out \= max\_i Θ(p\_i)", "pi\_formula": "Π\_out \= 1 if Θ\_out \= Θ\_+ else 0", "tri\_unity\_form": "EXISTS \= Π ∘ Φ\_logic ∘ Θ\_max^n", "notes": "n-ary OR across the family." }

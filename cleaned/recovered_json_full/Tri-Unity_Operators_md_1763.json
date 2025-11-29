@@ -1,0 +1,1 @@
+{ "id": "R2\_chain\_composition", "pattern": "A1∘A2∘...∘An", "rewrite": "NF\_12", "comment": "Any finite composition chain reduces to the global normal form." }

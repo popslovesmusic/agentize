@@ -1,0 +1,1 @@
+{ "operator": "NORMALIZE", "maps": "Ω", "constraints": \["global\_sum\_zero", "symmetry\_constraints"\] }

@@ -1,0 +1,1 @@
+{ "box_integrity": "All box operators must preserve internal δ, Φ, Π fields.", "Ω_safety": "NORMALIZE(B) must always produce an Ω-admissible box.", "type_safety": "Each operator’s input/output type must match Box schema." }

@@ -1,0 +1,1 @@
+{ "id": "T47", "left": "Σ", "right": "ψ", "composition": "Σ(p\_i ψ\_i)", "category": "weighted\_sum", "signature": "Box^N \-\> Wave", "rule": "Wave-weighted polarity sum over Boxes.", "notes": "Global interference with sign." }

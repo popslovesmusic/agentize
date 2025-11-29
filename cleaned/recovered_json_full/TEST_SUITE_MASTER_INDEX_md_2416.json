@@ -1,0 +1,1 @@
+{ id: 'TU-COMM-10', invariant: 'commutativity', pattern: \['(Π∘δ)∘Φ', 'Π∘(δ∘Φ)'\], rewrite: 'NF\_ΠδΦ', conditions: { associativity: true }, explanation: 'Opposite face of the cube also commutes to NF\_ΠδΦ.', }

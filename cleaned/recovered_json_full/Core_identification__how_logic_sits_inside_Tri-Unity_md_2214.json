@@ -1,0 +1,1 @@
+{ "Φ\_s": { "type": "projection", "role": "Semantic form projection" }, "Φ\_c": { "type": "causal\_projection", "role": "Causal projection" }, "Φ\*": { "type": "adjoint\_projection", "role": "Adjoint Φ" }, "Φ⊕": { "type": "composite\_projection", "role": "Composite form projection" } }

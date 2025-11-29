@@ -1,0 +1,1 @@
+{ "step\_index": 1, "path\_element": "e1", "input\_state": "S0", "action": "RewriteRule r1 (Θ+ constructive polarity)", "result\_state": "S1", "psi": { "phase": 0.0, "frequency": 1.0 }, "mu": { "weight": 1.0 }, "lambda": { "curvature": 0.01 }, "chi\_increment": 1, "chi\_total": 1 }

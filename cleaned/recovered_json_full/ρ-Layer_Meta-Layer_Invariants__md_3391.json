@@ -1,0 +1,1 @@
+{ "id": "RHO-AX4", "name": "Cross-Layer Consistency Axiom", "statement": "For any semantic family F, the diagram F ∘ ρ\_k and ρ\_k ∘ F commutes up to Ω-approved normalization.", "invariant\_ref": "RHO-CROSS-LAYER-CONSISTENCY" }

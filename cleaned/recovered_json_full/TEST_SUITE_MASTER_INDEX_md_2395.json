@@ -1,0 +1,1 @@
+{ id: 'TU-NF-09', invariant: 'closure', pattern: \['δ', 'δ'\], rewrite: 'NF\_δ2', conditions: { composed\_as: 'δ²' }, explanation: 'δ∘δ is δ² (Laplacian-like deviation) with NF\_δ2.', }

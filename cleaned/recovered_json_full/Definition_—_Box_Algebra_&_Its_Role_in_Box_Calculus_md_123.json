@@ -1,0 +1,1 @@
+{ "type": "string", "enum": ["derived_binary", "derived_unary", "macro"] }

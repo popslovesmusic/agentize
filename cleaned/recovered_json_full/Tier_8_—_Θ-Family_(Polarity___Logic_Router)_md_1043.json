@@ -1,0 +1,1 @@
+{ "id": "T45", "left": "Θ\_to\_Sigma", "right": "Θ", "composition": "Θ→Σ({p\_i})", "category": "primitive\_map", "signature": "Polarity^N \-\> Int", "rule": "Sum of polarity values Σ p\_i.", "notes": "Majority vote of signs." }

@@ -1,0 +1,1 @@
+{ "id": "TEST\_SIGMA\_POLARITY\_VIOLATION", "description": "Naive Σ over mixed Θ channels gets rewritten to channel-wise ΣΘ.", "input": "EX\_SIGMA\_MINIMAL\_POLARITY\_CONTRACTION.tensor\_before", "plan": "EX\_SIGMA\_MINIMAL\_POLARITY\_CONTRACTION.naive\_contraction\_plan", "expected": { "applied\_rules": \["R\_SIGMA\_SPLIT\_POLARITY\_CHANNELS"\], "nf\_tag": "NF\_SIGMA\_THETA" } }

@@ -1,0 +1,6 @@
+{`  
+      `"id": "LAW-3",`  
+      `"name": "Phi_distribution",`  
+      `"schema": "Φ(δ(B1,B2)) == Φ(B1) ∘ Φ(B2)",`  
+      `"conditions": "Must satisfy CR-1 (δ-compatibility)."`  
+    `}

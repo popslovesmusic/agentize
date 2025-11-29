@@ -1,0 +1,1 @@
+{ "name": "ADDRESS", "symbol": "ADDR(i1, i2, ...)", "signature": "(TensorIndex...) \-\> TensorAddress", "intent": "Construct a tensor address for locating components associated with primitives.", "pi\_action": "Π(ADDR(...)) selects tensor component." }

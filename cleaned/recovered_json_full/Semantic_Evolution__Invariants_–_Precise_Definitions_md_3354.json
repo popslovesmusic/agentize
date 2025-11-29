@@ -1,0 +1,1 @@
+{ "id": "T\_CHI\_007\_DISCONTINUITY\_TAGGED", "description": "Jump at χ=1 is tagged as discrete and allowed.", "input\_trace": \[ { "state": "B0", "chi": 0 }, { "state": "B1", "chi": 1.0 }, { "state": "B2", "chi": 1.0, "mode": "discrete" } \], "expected": { "is\_nf": true, "violations": \[\], "normalized\_trace": "same" } }

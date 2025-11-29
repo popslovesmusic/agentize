@@ -1,0 +1,1 @@
+{ "symbol": "χ", "name": "Semantic time operator", "tier": 0, "signature": "χ : S → S", "role": "Generates semantic evolution parameter", "properties": { "type": "first\_order\_semantic\_time\_derivative", "square\_type": "second\_order\_time" } }

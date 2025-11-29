@@ -1,0 +1,1 @@
+{ "id": "RS-DEMO-T1", "term": "δ(δ(δ(x)))", "call": "RS\_NF(term, RS\_DEMO)", "expect\_nf": "δ(x)", "checks": \["termination"\] }

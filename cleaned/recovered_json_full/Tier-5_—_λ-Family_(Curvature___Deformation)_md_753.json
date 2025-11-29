@@ -1,0 +1,1 @@
+{ "id": "face\_xz\_y0", "vertices": \["B000", "B100", "B101", "B001"\], "operators\_along\_edges": { "B000-\>B100": "δ", "B100-\>B101": "Π", "B000-\>B001": "Π", "B001-\>B101": "δ" }, "commutativity": "Π ∘ δ \= δ ∘ Π on B000" }

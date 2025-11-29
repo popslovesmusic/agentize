@@ -1,0 +1,1 @@
+{ "input": \["delta\_state", "Phi\_state", "Pi\_state"\], "output": \["delta\_state\_shifted", "shadow\_pair"\] }

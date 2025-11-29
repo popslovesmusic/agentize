@@ -1,0 +1,1 @@
+{ "symbol": "⊕", "arity": 2, "category": "boolean", "definition": { "theta\_rule": "Θ\_out \= Θ⁺ iff exactly one input is Θ⁺.", "sigma\_rule": "Σ\_out emphasizes differential evidence between inputs.", "pi\_rule": "Π\_out \= (Π\_in1 ∨ Π\_in2) ∧ ¬(Π\_in1 ∧ Π\_in2)." }, "commutative": true, "associative": false }

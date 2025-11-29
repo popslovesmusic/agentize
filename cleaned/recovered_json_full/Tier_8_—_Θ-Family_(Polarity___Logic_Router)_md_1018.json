@@ -1,0 +1,1 @@
+{ "id": "T20", "left": "Θ\_LG", "right": "Pi", "composition": "Θ\_LG(Π1, Π2)", "category": "logic\_gate", "signature": "(Bool,Bool) \-\> Bool", "rule": "Generate logic gates (AND, OR, XOR, IMPLIES) from evaluations.", "notes": "Gate selection is a parameter." }

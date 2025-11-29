@@ -1,0 +1,1 @@
+{ "statement": "", "meta\_operator\_usage": \[ { "meta\_operator\_name": "semantic\_commutator", "symbol": "\[A,B\]", "notes": "Measures failure of A and B to commute in this axiom." } \] }

@@ -1,0 +1,1 @@
+{ "id": "T39", "left": "Θ", "right": "λ", "composition": "Θ⊗λ", "category": "tensor\_product", "signature": "Box \-\> Tensor", "rule": "Polarity-tagged curvature tensor.", "notes": "Semantic bending with sign." }

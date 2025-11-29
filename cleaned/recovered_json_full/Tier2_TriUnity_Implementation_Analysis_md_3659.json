@@ -1,0 +1,14 @@
+python
+# Step 1: Generate code (δ)
+code = creative_agent.generate_sort_function()
+
+# Step 2: Extract semantic properties (Φₛ)
+properties = phi_s_operator("sorts a list correctly")
+
+# Step 3: Validate (Πₜ + Π_c)
+validation = critic.validate_code(code, properties)
+
+# Step 4: Iterate if invalid
+if validation['polarity'] == "Θ₋":
+    # Π→δ loop: validation failure → regeneration
+    code = creative_agent.regenerate_with_feedback(validation['errors'])

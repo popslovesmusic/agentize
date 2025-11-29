@@ -1,0 +1,11 @@
+{`  
+    `"required": false,`  
+    `"elements": [`  
+      `{`  
+        `"id": "diag1",`  
+        `"label": "Diagram description",`  
+        `"type": "mermaid|tikz|ascii",`  
+        `"content": ""`  
+      `}`  
+    `]`  
+  `}

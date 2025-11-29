@@ -1,0 +1,1 @@
+{ "DeltaEnhancedPhiLayer": \[ "delta\_after\_phi", "phi\_after\_delta", "delta\_phi\_commutator", "delta\_phi\_anticommutator", "delta\_phi\_jacobian" \], "PhiFamily": \[ "Φ\_s", "Φ\_c", "Φ\*", "Φ\_to\_Π", "Φ⊕" \], "PiFamily": \[ "Π\_t", "Π\_c", "Π\*", "Π⊕" \], "TriUnityBridge": "Global structural law binding δ–Φ–Π" }

@@ -1,0 +1,1 @@
+{ "symbol": "A ∘ B", "name": "Functor Composition", "definition": "(A ∘ B)(X) \= A(B(X))", "domain": \["Operator", "Operator"\], "codomain": "Operator", "intent": "Sequential semantic transformation; primary morphism composition in MBC.", "properties": { "associative": true }, "notes": "Core composition structure in the operator category. Basis of Tri-Unity chaining." }

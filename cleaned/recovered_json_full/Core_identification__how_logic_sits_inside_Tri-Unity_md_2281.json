@@ -1,0 +1,1 @@
+{ "name": "Ω\_consistency", "when": "Ω(B) with invariant\_violation \= true", "then": "⊥", "intent": "Global invariant violation → contradiction." }

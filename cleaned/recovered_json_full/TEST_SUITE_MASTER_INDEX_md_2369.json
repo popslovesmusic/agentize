@@ -1,0 +1,1 @@
+{ id: 35, description: "Commutativity: symmetric 3-edge closure.", input: \["δ∘Φ∘Π", "Π∘Φ∘δ"\], expect\_nf\_equal: true, invariant: "commutativity", }

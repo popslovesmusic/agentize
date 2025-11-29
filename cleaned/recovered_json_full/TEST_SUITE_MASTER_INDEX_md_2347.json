@@ -1,0 +1,1 @@
+{ id: 13, description: "Closure: δ⊗Φ stays in Tri-Unity tensor space.", input: \["δ⊗Φ"\], expect\_nf: "NF\_δ⊗Φ", invariant: "closure", }

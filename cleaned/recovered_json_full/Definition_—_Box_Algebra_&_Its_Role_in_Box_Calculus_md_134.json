@@ -1,0 +1,5 @@
+{`  
+                  `"a": { "type": ["integer", "boolean"] },`  
+                  `"b": { "type": ["integer", "boolean"] },`  
+                  `"out": { "type": ["integer", "boolean"] }`  
+                `}

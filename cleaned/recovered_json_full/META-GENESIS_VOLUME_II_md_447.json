@@ -1,0 +1,1 @@
+{ "input": "K\_n (concept at scale n)", "output": "K\_{n+1} (higher-scale concept)", "mapping": "α\_{n-\>n+1}: K\_n \-\> K\_{n+1}" }

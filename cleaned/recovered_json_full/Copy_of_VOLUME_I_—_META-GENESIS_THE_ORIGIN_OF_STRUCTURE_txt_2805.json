@@ -1,0 +1,1 @@
+{ "name": "V3_Ch4_EntropyArrow_Theorem", "intent": "Prove arrow of time from χ→t mapping.", "domain": "χ evolution under Ω", "constraints": [ "Σ microstate reduction monotonic", "Π evaluations irreversible" ], "cross_links": ["V1_Ch5_PathRewrite_ConsistencyBox"] }

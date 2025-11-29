@@ -1,0 +1,1 @@
+{ "id": "L4\_lambda\_theta", "pattern": "λ∘Θ", "rewrite": "NF\_λΘ", "comment": "Curvature acting on polarity router." }

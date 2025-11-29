@@ -1,0 +1,1 @@
+{ "step\_index": 1, "path\_element": "e1", "input\_state": "S0", "action": "RewriteRule r1 applied", "result\_state": "S1", "chi\_increment": 1, "chi\_total": 1 }

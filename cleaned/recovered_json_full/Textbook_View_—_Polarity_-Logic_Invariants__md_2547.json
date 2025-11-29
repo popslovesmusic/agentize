@@ -1,0 +1,1 @@
+{ id: "T9\_07\_polarity\_jump\_illegal", description: "Θ polarity flips but no NOT/phase/event is present.", theta: { before: "+", after\_raw: "-" }, expected: { invariant\_violations: \["χ\_PR\_POLARITY\_HISTORY"\], rewrite\_applied: \["RW\_χ\_INSERT\_POLARITY\_EVENT"\], nf: "χNF" } }

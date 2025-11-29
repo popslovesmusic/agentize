@@ -1,0 +1,1 @@
+{ "type": "duality\_operator", "intent": "Map operators, layers, and structures into their dual (e.g., δ↔δ\*, Φ↔Φ\*, Π↔Π\*, μ↔μ^{-1}, etc.).", "domain": "Operators / layers", "codomain": "Dual operators / dual layers" }

@@ -1,0 +1,1 @@
+{ "id": "T27", "left": "μ", "right": "Θ", "composition": "μ⊗Θ", "category": "tensor\_product", "signature": "Box \-\> Tensor(metric,polarity)", "rule": "Metric-first ordering.", "notes": "Convenient for PDE discretizations." }

@@ -1,0 +1,1 @@
+{ "id": "T1\_theta\_idempotent", "pattern": "Θ∘Θ", "rewrite": "Θ", "comment": "Polarity routing is idempotent." }

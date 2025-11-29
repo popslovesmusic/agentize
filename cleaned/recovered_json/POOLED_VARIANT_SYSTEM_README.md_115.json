@@ -1,0 +1,5 @@
+{
+  "statement": "ψ-transformed operator compositions commute",
+  "formula": "ψ(A) ∘ ψ(B) = ψ(B) ∘ ψ(A)",
+  "level": "ψ-abstracted (wave-transformed)"
+}

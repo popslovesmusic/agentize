@@ -1,0 +1,1 @@
+{ "symbol": "χ→ψ", "name": "χ to Waveform Flow", "arity": 1, "domain": "Box", "codomain": "Box", "description": "Induces ψ-wave evolution (e.g., oscillatory behaviour) along χ.", "invariants\_respected": \[ "INV\_CHI\_TRIUNITY\_COMPAT", "INV\_CHI\_CONTINUITY" \] }

@@ -1,0 +1,17 @@
+JSON Instruction
+    ↓
+Parse & Validate
+    ↓
+Load Operator(s)
+    ↓
+Check Pre-conditions
+    ↓
+Execute Grounded Operation
+    ↓
+Validate Result
+    ↓
+Apply Ω-Constraints
+    ↓
+Normalize (Rewrite)
+    ↓
+Return Result + Trace

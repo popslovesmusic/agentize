@@ -1,0 +1,1 @@
+{ "name": "V3_Ch9_ConvergenceFlow_Theorem", "intent": "Prove long-term evolution flows into attractor states.", "domain": "δ evolution under Ω", "constraints": [ "ψ local must decay", "μ gradients must smooth" ], "cross_links": ["V2_Ch7_Geodesic_Theorem"] }

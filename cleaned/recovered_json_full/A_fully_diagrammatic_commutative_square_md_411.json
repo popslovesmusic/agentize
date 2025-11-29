@@ -1,0 +1,9 @@
+{
+      "id": "delta_to_phi",
+      "dimension": 2,
+      "boundary": ["d_f", "etaB", "f_f", "etaA"],
+      "commutes": {
+        "equation": "Φ(f) ∘ η_A = η_B ∘ δ(f)",
+        "semantic_layer": "general"
+      }
+    }

@@ -1,0 +1,6 @@
+{
+                'agent': self.librarian,
+                'mode': 'search',
+                'operator': 'Φ',
+                'pipeline': 'phi_only'
+            }

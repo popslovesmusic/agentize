@@ -1,0 +1,4 @@
+{
+            'similarity': 1 - max_similarity,  # Convert distance to similarity
+            'matched_entry': matched
+        }

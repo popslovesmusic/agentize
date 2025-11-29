@@ -1,0 +1,1 @@
+{ id: 'TU-NF-06', invariant: 'closure', pattern: \['δ', '1'\], rewrite: 'NF\_δ', conditions: { right\_identity: true }, explanation: 'δ∘1 collapses to δ; identity acts neutrally in Tri-Unity.', }

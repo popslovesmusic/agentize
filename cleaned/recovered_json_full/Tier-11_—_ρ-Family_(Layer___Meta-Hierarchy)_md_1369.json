@@ -1,0 +1,1 @@
+{ "description": "General nth meta-layer", "definition": "ρ\_n \= Meta(ρ\_{n-1})", "recursive": true }

@@ -1,0 +1,1 @@
+{ "symbol": "⊥", "name": "Contradiction", "file": "00\_\_Primitive\_Contradiction\_Box.json", "sha256": "\<to-be-filled\>", "properties": { "absorbing": true, "inconsistency\_boundary": true, "paraconsistent": true } }

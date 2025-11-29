@@ -1,0 +1,25 @@
+{`  
+      `"id": "psi",`  
+      `"symbol": "ψ",`  
+      `"name": "Semantic Wave Operator",`  
+      `"role": "semantic_wave",`  
+      `"arity": 1,`  
+      `"domain": "BoxField",`  
+      `"codomain": "BoxField",`  
+      `"locality": "local_plus_near_nonlocal",`  
+      `"linearity": "linear",`  
+      `"properties": [`  
+        `"wave_like",`  
+        `"built_from_delta_and_mu",`  
+        `"couples_to_phi_and_pi"`  
+      `],`  
+      `"definition_sketch": {`  
+        `"depends_on": [`  
+          `"delta",`  
+          `"mu",`  
+          `"phi",`  
+          `"pi"`  
+        `],`  
+        `"formal_shape_hint": "ψ ≈ μ-weighted δ-Laplacian + Φ / Π correction terms"`  
+      `}`  
+    `}

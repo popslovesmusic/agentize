@@ -1,0 +1,1 @@
+{ desc: "Enforce adjacency conservation for all λ actions.", input: \["MuAdjState"\], output: "MuAdjState", guarantees: \["A2\_MicroAdjacencyConservation"\] }

@@ -1,0 +1,1 @@
+{ "BoxName": "delta\_phi\_jacobian", "BoxIntent": "Jacobian of δ acting through Φ.", "Domain": { "Input": "B", "Output": "Jacobian" }, "Constraints": { "JacobianLaw": "δΦ \- Φδ \+ μ-term", "CurvatureSensitivity": "λ-curvature dependent", "WaveCondition": "Forms basis of ψ" }, "CrossLinks": { "ψ": "Wave eq", "λ": "Curvature", "Π": "Eval gradients" } }

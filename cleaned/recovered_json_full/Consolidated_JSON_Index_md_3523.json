@@ -1,0 +1,16 @@
+{
+    "box_id": "B1",
+    "box_name": "Minimal_Semantic_Box",
+    "coordinates": {
+      "domain": "B ⊂ ℝⁿ",
+      "variables": ["x1", "x2"],
+      "semantic_time": "χ"
+    },
+    "fields": [{
+      "field_id": "S",
+      "field_name": "Semantic_Field",
+      "type": "scalar_semantic_field",
+      "mapping": "S : (χ, x) → ℳ",
+      "regularity": "C2"
+    }]
+  }

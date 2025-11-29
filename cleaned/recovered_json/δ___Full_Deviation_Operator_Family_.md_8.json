@@ -1,0 +1,17 @@
+{
+  "pi_evaluation": {
+    "symbol": "Π",
+    "type": "functor",
+    "domain": "Box",
+    "codomain": "CausalOrder",
+    "description": "Canonical evaluation and causal order functor. Assigns each Box a causally realizable outcome while preserving order and dependency.",
+    "axioms": {
+      "functoriality": "Π(g∘f) = Π(g) ∘ Π(f)",
+      "identity": "Π(id_B) = id_{Π(B)}",
+      "order_preservation": "A ≺ B implies Π(A) ≤ Π(B)",
+      "delta_compatibility": "Π(δB) returns the causally relevant deviation",
+      "phi_compatibility": "Π(Φ(B)) evaluates the projected semantic form",
+      "collapse_free": "Evaluation does not erase structure"
+    }
+  }
+}

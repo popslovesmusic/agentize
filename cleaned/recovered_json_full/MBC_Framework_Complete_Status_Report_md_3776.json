@@ -1,0 +1,19 @@
+{
+    "logic_gates": [
+      {
+        "gate": "Delta (δ)",
+        "condition": "Is this NEW generation?",
+        "action": "Route to Creative/Reasoning Agent"
+      },
+      {
+        "gate": "Phi (Φ)",
+        "condition": "Is this FIND existing data?",
+        "action": "Route to Librarian (Search/Retrieval)"
+      },
+      {
+        "gate": "Pi (Π)",
+        "condition": "Is this VALIDATE/CHECK work?",
+        "action": "Route to Critic/Validation Tool"
+      }
+    ]
+  }

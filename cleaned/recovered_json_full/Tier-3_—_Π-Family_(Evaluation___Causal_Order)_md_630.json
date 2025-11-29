@@ -1,0 +1,1 @@
+{ "box\_type": "Operator", "tier": 3, "name": "Π∘δ", "intent": "Composite operator: apply δ then evaluate.", "domain": "Boxes with δ-state.", "codomain": "Evaluation-state of deviation geometry.", "action": "Π(δ(B))", "constraints": { "composition": \["δ", "Π"\], "requires\_deviation\_first": true }, "cross\_links": \["δ", "Π", "Π\_ca"\] }

@@ -1,0 +1,1 @@
+{ "left\_operator": "Π", "right\_operator": "δ", "composition": "δ ∘ Π", "commutator": "\[Π,δ\]", "anticommutator": "{Π,δ}", "constraints": \[ "δ ∘ Π encodes deviation after evaluation; in general \[Π,δ\] ≠ 0." \], "links": {} }

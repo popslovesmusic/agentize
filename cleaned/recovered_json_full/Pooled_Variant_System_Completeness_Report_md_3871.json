@@ -1,0 +1,6 @@
+{
+    "geometry_type": { /* flat/curved detection */ },
+    "abstraction_level": { /* base/ψ/mixed detection */ },
+    "numerical_mode": { /* precision/stability/analytical */ },
+    "safety_mode": { /* conservative/exploratory */ }
+  }

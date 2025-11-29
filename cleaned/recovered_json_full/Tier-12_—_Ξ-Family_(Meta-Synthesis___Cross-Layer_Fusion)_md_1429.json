@@ -1,0 +1,1 @@
+{ "informal": "Collapse any valid composition into its Xi-normal form.", "formal\_law": "Ξ-\>NF ∘ Expr \= NF\_Ξ(Expr), with NF\_Ξ(Expr) unique up to axiomatic equivalence." }

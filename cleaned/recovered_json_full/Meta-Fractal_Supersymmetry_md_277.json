@@ -1,0 +1,1 @@
+{ "objects": "delta\_n for all n in R", "morphisms": "adjacency\_shifts Delta\_{n-\>m}", "functors": { "Phi": "C\_delta \-\> C\_Phi", "Pi": "C\_delta \-\> C\_Pi" }, "natural\_transformations": { "Q\_delta": "Phi \=\> Pi", "Q\_delta\_dag": "Pi \=\> Phi", "Pi\_delta": "Id\_C\_delta \=\> Pi" } }

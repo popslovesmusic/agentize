@@ -1,0 +1,1 @@
+{ "id": "m3", "name": "Critical Pair Completion", "pattern": { "lhs": "pair(rule\_i, rule\_j)", "condition": "overlap( rule\_i.lhs, rule\_j.lhs ) \= peak(t₁ ← t → t₂)" }, "action": "introduce\_join\_rule(t₁, t₂) OR mark('non\_confluent')", "comment": "New rule added to join a local peak; otherwise flag system." }

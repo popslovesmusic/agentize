@@ -1,0 +1,1 @@
+{ "operators": \["δ", "Φ", "Π", "μ", "ψ"\], "dimension": 4, "vertices": "2^5 \= 32", "edges": "5 \* 2^4 \= 80", "faces": "10 \* 2^3 \= 80", "cubes": "10 \* 2 \= 20", "hypercubes": 1, "commutativity\_constraints": "All 3D faces satisfy ψμ-weighted Tri-Unity commutativity", "normal\_forms": { "global": "NF\_TriUnity\_psimu", "local\_faces": \["NF\_δΦΠ", "NF\_ψμ"\] } }

@@ -1,0 +1,6 @@
+{`  
+    `"functorial": true,`  
+    `"schema": "Θ respects composition and preserves polarity ordering",`  
+    `"polarity_range": [-1.0, 1.0],`  
+    `"confidence_range": [0.0, 1.0]`  
+  `}

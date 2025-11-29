@@ -1,0 +1,9 @@
+{
+      "id": "phi_to_mu_composite",
+      "dimension": 2,
+      "boundary": ["f_f", "kapB", "m_f", "tauA"],
+      "commutes": {
+        "equation": "μ(f) ∘ (κ_A ∘ τ_A) = (κ_B ∘ τ_B) ∘ Φ(f)",
+        "semantic_layer": "μ"
+      }
+    }

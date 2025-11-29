@@ -1,0 +1,1 @@
+{ "fsm_to_attractor": "FSM → Attractor if stability_conditions_met", "attractor_to_protoparticle": "Attractor → P if identity_stabilized", "particle_to_matter": "set(P_i) → ProtoMatter", "cloud_formation": "ProtoMatter_set → Cloud if (∇λ<0 ∧ ∇μ<0)", "collapse_rule": "Cloud_core → ProtoStar if λμψ > Ξ_c", "galaxy_rule": "ProtoStar_cluster + halo_field → ProtoGalaxy" }

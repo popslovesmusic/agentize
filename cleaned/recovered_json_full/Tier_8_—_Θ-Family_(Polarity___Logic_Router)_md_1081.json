@@ -1,0 +1,1 @@
+{ "id": "Θ\_XNOR", "signature": "(Polarity,Polarity) \-\> Bool", "polarity\_expression": "p1 ⊗ p2", "truth\_expression": "Pi(p1 ⊗ p2)", "simplified\_truth\_table": { "+1,+1": 1, "+1,-1": 0, "-1,+1": 0, "-1,-1": 1 }, "comments": "True iff the polarities are the same. Equivalent to NOT(XOR)." }

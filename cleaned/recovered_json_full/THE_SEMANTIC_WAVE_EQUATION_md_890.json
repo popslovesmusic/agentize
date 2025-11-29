@@ -1,0 +1,1 @@
+{ "symbol": "δ\_μ", "name": "μ-weighted deviation", "definition": "δ\_μ S \= μ⁻¹ δ( μ S )", "order": 1, "role": "Deviation with respect to μ-weighted adjacency", "inputs": \["δ", "μ"\], "outputs": \["S"\], "properties": { "linear\_in\_S": true, "nonlinear\_in\_μ": true } }

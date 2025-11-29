@@ -1,0 +1,1 @@
+{ "id": "T06", "left": "δ", "right": "Θ\_plus", "composition": "δ ∘ Θ\_plus", "category": "channel\_composition", "signature": "Box \-\> Box", "rule": "Deviation restricted to positive polarity channel.", "notes": "Defines δ\_plus." }

@@ -1,0 +1,1 @@
+{ "regularity": "S is at least C² on B with respect to the semantic coordinates.", "adjointness": "δ has μ-weighted adjoint δ\* such that ⟨δS, T⟩\_μ \= \-⟨S, δ\* T⟩\_μ.", "idempotents": \[ { "operator": "Φ", "property": "Φ² \= Φ" }, { "operator": "Π", "property": "Π² \= Π" } \] }

@@ -1,0 +1,1 @@
+{ "requires\_all\_files\_present": true, "requires\_unique\_primitives": true, "requires\_sha256\_verification": true, "notes": "Agent should regenerate SHA256 hashes on any change." }

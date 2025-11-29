@@ -1,0 +1,1 @@
+{ "classical": "material implication p → q", "theta\_formula": "Θ\_not\_p \= \-Θ\_p; Θ\_out \= max(Θ\_not\_p, Θ\_q)", "pi\_formula": "Π\_out \= 1 if Θ\_out \= Θ\_+ else 0", "tri\_unity\_form": "IMPLIES(p,q) \= OR(NOT(p), q)", "notes": "Only false when Θ\_p \= Θ\_+ and Θ\_q \= Θ\_-." }

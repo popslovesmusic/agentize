@@ -1,0 +1,1 @@
+{ "linearity": "⊕ and ⋆ are linear in each argument where defined.", "associativity": "∘ and ⊗ are associative on admissible operators.", "inference_soundness": "A⇒B must reflect Π-sound entailment.", "rewrite_totality": "A↦B must be well-typed and Ω-bounded." }

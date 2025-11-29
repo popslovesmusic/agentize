@@ -1,0 +1,1 @@
+{ "id": "T02", "left": "δ", "right": "Θ", "composition": "δ ∘ Θ", "category": "right\_composition", "signature": "Box \-\> Tensor", "rule": "Take deviation on each polarity channel separately.", "notes": "Defines δ\_plus and δ\_minus." }

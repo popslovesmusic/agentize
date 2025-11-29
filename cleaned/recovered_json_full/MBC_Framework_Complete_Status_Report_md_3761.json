@@ -1,0 +1,18 @@
+python
+class MBCTriUnityRouter:
+    """δ-Φ-Π routing for agent classification"""
+
+    def delta_operator(self, query):
+        """δ: Detect generation requests"""
+
+    def phi_operator(self, query):
+        """Φ: Detect search requests"""
+
+    def pi_operator(self, query):
+        """Π: Detect validation requests"""
+
+    def route_query(self, query):
+        """Main routing logic"""
+
+    def process_with_triunity(self, query):
+        """Full Π∘Φ∘δ pipeline"""

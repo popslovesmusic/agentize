@@ -1,0 +1,5 @@
+{`  
+              `"type": "array",`  
+              `"description": "Branch weights produced by Θ-router.",`  
+              `"items": { "type": "number" }`  
+            `}

@@ -1,0 +1,1 @@
+{ "type": "array", "items": { "type": "string" }, "description": "Names of operators, propositions, or patterns used as arguments." }

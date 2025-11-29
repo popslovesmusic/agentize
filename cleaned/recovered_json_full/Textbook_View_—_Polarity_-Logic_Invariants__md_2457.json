@@ -1,0 +1,1 @@
+{ "description": "Joint (Π, Θ) description of logic wires.", "fields": { "truth\_values": "Map\<String, Bool\>", "polarity": "Map\<String, String\>", "bridge\_mode": "String" } }

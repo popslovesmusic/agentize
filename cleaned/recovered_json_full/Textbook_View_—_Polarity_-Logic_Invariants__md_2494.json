@@ -1,0 +1,1 @@
+{ id: "T8\_02\_tensor\_implicit\_flip", description: "Implicit sign-flip must be replaced with explicit NOT.", tensor: { shape: \[2\], signs: \["+", "-"\], // Unexpected flip not declared components: \[1.0, 1.0\] }, expected: { invariant\_violations: \["Θ\_INV\_TENSOR\_SIGN"\], rewrite\_applied: \["RW\_Θ\_TENSOR\_SIGN\_WRAP\_NOT"\], nf: "ΘNF" } }

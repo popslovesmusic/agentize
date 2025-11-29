@@ -1,0 +1,6 @@
+{`  
+              `"type": "number",`  
+              `"minimum": -1.0,`  
+              `"maximum": 1.0,`  
+              `"description": "Objective polarity scale."`  
+            `}

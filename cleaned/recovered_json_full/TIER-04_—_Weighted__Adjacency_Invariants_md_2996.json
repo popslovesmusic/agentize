@@ -1,0 +1,1 @@
+{ tier: "04", name: "Weighted / Adjacency Invariants", symbols: \["μ", "Adj", "μ\_ij"\], invariants: \[ "LocalWeightPositivity", "MicroAdjacencyConservation", "WeightedAdjacencyCompatibility", "DeltaStability", "PhiPiCompatibility" \], normal\_form: "NF\_μAdj", description: "Defines invariant-preserving weighted adjacency structure for μ-family operators." }

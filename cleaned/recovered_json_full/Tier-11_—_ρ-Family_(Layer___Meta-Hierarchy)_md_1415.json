@@ -1,0 +1,1 @@
+{ "id": "R-ρ-36", "name": "rho\_layer\_flattening", "category": "normal\_form", "lhs": "rho\_k ∘ A\[m\]", "rhs": "A\[max(k,m)\]", "conditions": { "k\_in\_N": true, "m\_in\_N": true }, "notes": "Flattens nested layer information into a single max index." }

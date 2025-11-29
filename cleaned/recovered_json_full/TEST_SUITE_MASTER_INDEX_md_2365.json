@@ -1,0 +1,1 @@
+{ id: 31, description: "Commutativity: symmetric NF — δΦΠ \= ΠΦδ.", input: \["δΦΠ", "ΠΦδ"\], expect\_nf\_equal: true, invariant: "commutativity", }

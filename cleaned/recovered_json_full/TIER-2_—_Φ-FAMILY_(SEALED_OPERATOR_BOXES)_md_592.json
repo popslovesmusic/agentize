@@ -1,0 +1,1 @@
+{ "Left": "δ", "Right": "δ", "CompositeName": "delta\_squared", "Expression": "δ ∘ δ", "DefinedAtTier2": true, "DefinitionMode": "primitive\_from\_delta\_family", "Intent": "Second deviation operator (δ²), source of Laplacian-like curvature.", "SealedBoxRef": "delta\_Laplacian\_or\_delta2" }

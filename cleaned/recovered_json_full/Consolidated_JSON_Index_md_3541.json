@@ -1,0 +1,6 @@
+{
+    "m1": { "from": "B", "to": "delta_B", "operator": "δ" },
+    "m2": { "from": "B", "to": "phi_B", "operator": "Φ" },
+    "m3": { "from": "delta_B", "to": "pi_phi_delta_B", "operator": "ΦΠ" },
+    "m4": { "from": "phi_B", "to": "pi_phi_delta_B", "operator": "Πδ" }
+  }

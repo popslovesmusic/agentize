@@ -1,0 +1,1 @@
+{ "id": "RS\_STEP", "signature": "Term × Rule → Term", "description": "Apply a single rewrite rule to a term at a chosen redex.", "preserves\_invariants": \["RS-I1", "RS-I2", "RS-I3"\], "notes": "Assumes the rule set has already been certified by RS\_CHECK." }

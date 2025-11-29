@@ -1,0 +1,11 @@
+{`  
+    `"outline": "High-level structure of the argument.",`  
+    `"steps": [`  
+      `{`  
+        `"id": "step1",`  
+        `"text": "First step of the proof.",`  
+        `"uses": []`  
+      `}`  
+    `],`  
+    `"completion_status": "incomplete"`  
+  `}

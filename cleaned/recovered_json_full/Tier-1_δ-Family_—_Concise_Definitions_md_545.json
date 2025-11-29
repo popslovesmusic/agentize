@@ -1,0 +1,1 @@
+{ "δ": { "symbol": "Πδ", "intent": "Evaluation of deviation", "defined": true }, "Φ": { "symbol": "ΠΦ", "intent": "Evaluation of a projection", "defined": true }, "Π": { "symbol": "Π", "intent": "Idempotent evaluation", "defined": true }, "Σ": { "symbol": "ΠΣ", "intent": "Evaluation of aggregate", "defined": true, "constraints": \["Σ output is evaluable (scalar-like)"\] } }

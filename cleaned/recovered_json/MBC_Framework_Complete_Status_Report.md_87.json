@@ -1,0 +1,8 @@
+{
+  "Π": "Primitive evaluator",
+  "Πₜ": "Truth evaluator",
+  "Π_c": "Causal-order evaluator",
+  "Π*": "Adjoint evaluator",
+  "Π∘Φ": "Pipeline operator",
+  "Π⊕": "Composite evaluator"
+}

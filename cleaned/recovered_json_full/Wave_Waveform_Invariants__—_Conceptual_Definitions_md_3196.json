@@ -1,0 +1,1 @@
+{ theta: 0.73, psi\_phase\_shifted: "exp(i\*0.73) \* psi\_after\_step", semantic\_equivalence: "WAVE\_SEMANTIC\_PROJECT(psi\_phase\_shifted) \== WAVE\_SEMANTIC\_PROJECT(psi\_after\_step)", invariant: "ψ-PHASE holds" }

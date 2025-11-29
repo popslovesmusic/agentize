@@ -1,0 +1,1 @@
+{ "id": "NF5", "lhs": "Ξ-\>NF ∘ E", "rhs": "NF\_Ξ(E)", "conditions": \["Base case; E irreducible under NF1–NF4"\], "priority": 1 }

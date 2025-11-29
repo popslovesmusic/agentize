@@ -1,0 +1,5 @@
+{
+                'decision': 'reject',
+                'reason': 'Failed Ω-normalization',
+                'normalized_entry': None
+            }

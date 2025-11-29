@@ -1,0 +1,4 @@
+{`  
+            `"name": m.group("name").strip(),`  
+            `"context": text[max(m.start()-300,0): m.end()+300]`  
+        `}

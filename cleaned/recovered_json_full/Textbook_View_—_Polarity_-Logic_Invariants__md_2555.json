@@ -1,0 +1,1 @@
+{ id: "T9\_14\_projection\_wave\_mismatch", description: "Φ projection frame incompatible with ψ wave basis after χ-step.", frames: { before: "frame\_A", after\_raw: "frame\_B" }, psi\_basis: { allowed\_frames: \["frame\_A"\] }, expected: { invariant\_violations: \["χ\_PR\_WAVE\_CONSTRAINT"\], rewrite\_applied: \["RW\_χ\_ENFORCE\_WAVE\_CONSTRAINT"\], nf: "χNF" } }

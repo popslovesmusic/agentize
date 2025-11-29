@@ -1,0 +1,1 @@
+{ id: "T9\_15\_commutator\_violation", description: "\[χ,δ\], \[χ,Φ\], \[χ,Π\] produce illegal jump in final χ state.", commutators: { chi\_delta\_raw: 5.0, chi\_phi\_raw: \-3.1, chi\_pi\_raw: 9.0 }, expected: { invariant\_violations: \["χ\_PR\_TRIUNITY\_FLOW"\], rewrite\_applied: \["RW\_χ\_INSERT\_TRIUNITY\_FLOW"\], nf: "χNF" } }

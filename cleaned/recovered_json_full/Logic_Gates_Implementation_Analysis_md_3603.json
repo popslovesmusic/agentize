@@ -1,0 +1,57 @@
+{
+  "use_case": "context_aware_routing",
+  "agent_flow": "Θ-ROUTER (multi-path)",
+
+  "polarity_field": {
+    "dimensions": ["user_expertise", "query_complexity"],
+    "values": {
+      "user_expertise": ["beginner", "intermediate", "expert"],
+      "query_complexity": ["simple", "moderate", "complex"]
+    }
+  },
+
+  "routing_table": {
+    "(beginner, simple)": {
+      "polarity": "Θ₊₊",
+      "route_to": "simple_explanation_agent",
+      "style": "ELI5 with examples"
+    },
+    "(beginner, complex)": {
+      "polarity": "Θ₊₋",
+      "route_to": "breakdown_and_simplify_agent",
+      "style": "Break into steps, teach concepts first"
+    },
+    "(intermediate, simple)": {
+      "polarity": "Θ₋₊",
+      "route_to": "concise_answer_agent",
+      "style": "Direct answer, skip basics"
+    },
+    "(intermediate, complex)": {
+      "polarity": "Θ₋₋",
+      "route_to": "detailed_technical_agent",
+      "style": "Technical depth with context"
+    },
+    "(expert, simple)": {
+      "polarity": "Θ₋₊",
+      "route_to": "terse_reference_agent",
+      "style": "Just the facts, no fluff"
+    },
+    "(expert, complex)": {
+      "polarity": "Θ₋₋",
+      "route_to": "deep_research_agent",
+      "style": "Full analysis, edge cases, proofs"
+    }
+  },
+
+  "example": {
+    "user_profile": {
+      "expertise": "beginner",
+      "detected_from": "previous_interactions"
+    },
+    "query": "How does quantum entanglement work?",
+    "complexity_analysis": "complex",
+    "polarity_signature": "(beginner, complex) = Θ₊₋",
+    "routed_to": "breakdown_and_simplify_agent",
+    "output_style": "Start with classical analogy, build to quantum, use visualizations"
+  }
+}

@@ -1,0 +1,1 @@
+{ "id": "R-ρ-10", "name": "composition\_layer\_max\_rule", "category": "core", "lhs": "A\[k\] ∘ B\[m\]", "rhs": "(A ∘ B)\[max(k,m)\]", "conditions": { "composable": true }, "notes": "Layer of composition is the maximum of input layers (ρ-Axiom Theorem)." }

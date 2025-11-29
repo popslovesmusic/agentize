@@ -1,0 +1,1 @@
+{ "id": "R6\_semantic\_sum\_normalization", "pattern": "A⊕B", "rewrite": "NF\_{A⊕B}", "comment": "Semantic sum normalized to the canonical combined action." }

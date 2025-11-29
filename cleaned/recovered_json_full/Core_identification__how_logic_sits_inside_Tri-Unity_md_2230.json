@@ -1,0 +1,1 @@
+{ "id": "G-LAYER-CONS", "statement": "ρ-layer relationships cannot violate parent–child hierarchy or create cycles.", "formal": "The layer meta-graph is acyclic and respects parent-child partial order.", "violations\_map\_to": "⊥" }

@@ -1,0 +1,13 @@
+python
+# Step 1: Semantic projection (Φₛ)
+semantic_query = phi_s_operator("operator composition")
+
+# Step 2: Search (Φ)
+results = librarian.search_all_sources(semantic_query)
+
+# Step 3: Causal projection (Φᶜ)
+# Extract dependencies between results
+causal_structure = phi_c_operator(results)
+
+# Step 4: Evaluate & rank (Π)
+ranked = pi_operator_on_results(results)

@@ -1,0 +1,1 @@
+{ "Left": "δ", "Right": "Φ", "CompositeName": "phi\_after\_delta", "Expression": "Φ ∘ δ", "DefinedAtTier2": true, "DefinitionMode": "primitive\_Tier2\_deltaEnhancedPhi", "Intent": "Project deviation output into semantic-form space.", "SealedBoxRef": "phi\_after\_delta" }

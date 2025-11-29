@@ -1,0 +1,1 @@
+{ "symbol": "Θ", "name": "Polarity router", "tier": 5, "signature": "Θ : S → S", "role": "Polarity / Φ–Π interference router", "properties": { "type": "polarity\_router" }, "links": \["AXIOM\_BOX\_\_Theta\_Polarity\_Router"\] }

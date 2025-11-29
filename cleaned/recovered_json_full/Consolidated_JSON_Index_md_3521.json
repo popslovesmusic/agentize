@@ -1,0 +1,9 @@
+{
+      "symbol": "δ",
+      "name": "Deviation operator",
+      "tier": 1,
+      "signature": "δ : S → T*S",
+      "role": "Semantic gradient / deviation",
+      "properties": { "linearity": true, "order": 1, "type": "first_order_differential", "adjoint_defined": true },
+      "links": ["AXIOM_BOX__Delta_Operator_Family"]
+    }

@@ -1,0 +1,1 @@
+{ "id": "R-ρ-37", "name": "rho\_nf\_projection", "category": "normal\_form", "lhs": "rho\_k ∘ (A ∘ B ∘ C)", "rhs": "(A ∘ B ∘ C)\[max(k, ρ(A), ρ(B), ρ(C))\]", "conditions": { "composable": true }, "notes": "ρ-normal form for a ternary composite." }

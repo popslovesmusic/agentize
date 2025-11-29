@@ -1,0 +1,1 @@
+{ id: 'TU-NF-12', invariant: 'closure', pattern: 'δ⊕Φ', rewrite: 'NF\_δΦ', conditions: { sum\_semantics: true }, explanation: 'Semantic sum δ⊕Φ collapses to the same NF as δΦ.', }

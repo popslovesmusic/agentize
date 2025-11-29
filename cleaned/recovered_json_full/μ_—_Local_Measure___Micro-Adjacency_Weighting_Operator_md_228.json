@@ -1,0 +1,11 @@
+{
+      "id": "ψ",
+      "type": "semantic_wave_operator",
+      "definition": "ψ(B)[i] = Δ_{δ,μ} B[i] - Φ(B)[i] + Π(B)[i]",
+      "dependencies": ["Δ_{δ,μ}", "Φ", "Π"],
+      "order": 2,
+      "linearity": {
+        "in_B": true,
+        "in_parameters": true
+      }
+    }

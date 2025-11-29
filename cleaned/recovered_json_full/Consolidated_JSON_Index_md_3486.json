@@ -1,0 +1,21 @@
+{
+  "operator": "Π",
+  "tier": 0,
+  "name": "Evaluation",
+  "intent": "Evaluates causal-truth outcome of a Box; semantic assertion.",
+  "domain": "Any Box B with δ, Φ structure",
+  "codomain": "Evaluation state",
+  "action_type": "reduction",
+  "classification": ["primitive", "idempotent"],
+  "constraints": {
+    "idempotency": "Π ∘ Π = Π",
+    "causal_monotonicity": true
+  },
+  "inputs": ["B"],
+  "outputs": ["Π(B)"],
+  "cross_links": {
+    "bridge": "Φ→Π",
+    "composed_with": ["δ", "Φ", "μ"],
+    "family": "Π-Family (Tier-3)"
+  }
+}

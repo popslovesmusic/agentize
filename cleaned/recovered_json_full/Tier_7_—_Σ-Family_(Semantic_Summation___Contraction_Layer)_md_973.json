@@ -1,0 +1,1 @@
+{ "commutation": \[ "δΦ \= Φδ", "δΠ \= Πδ", "ΦΠ \= ΠΦ" \], "idempotence": \[ "ΦΦ \= Φ", "ΠΠ \= Π", "ΣΣ \= Σ" \], "terminal": "Σ(anything) \= NF", "tri\_unity\_closure": "ΣδΦΠ → NF" }

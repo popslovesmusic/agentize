@@ -1,0 +1,1 @@
+{ "base\_edge": { "from": "B000", "to": "B001", "operator": "Π" }, "curved\_operator": "λ→Π", "naturality\_condition": " (λ→Π) ∘ λ(B000) \= λ(B001) " }

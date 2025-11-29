@@ -1,0 +1,1 @@
+{ "left": "Ξ-\>NF", "right": "{Expr}", "expression": "Ξ-\>NF ∘ {Expr}", "result": "NF\_Ξ({Expr})", "result\_role": "Xi\_normal\_form", "constraints": \[ "Expr is any well-typed composition over {δ, Φ, Π, μ, λ, ψ, Σ, Θ, χ, Ω, ρ, Ξ} and Xi-variants.", "NF\_Ξ is unique (Xi-Normal-Form Theorem)." \] }

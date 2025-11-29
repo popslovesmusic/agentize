@@ -1,0 +1,1 @@
+{ "id": "T56", "left": "Θ\_to\_logic", "right": "Θ", "composition": "Θ→IMPLIES(p1,p2)", "category": "logic\_gate", "signature": "(Polarity,Polarity) \-\> Bool", "rule": "False only when p1 is positive and p2 is negative.", "notes": "Material implication in polarity form." }

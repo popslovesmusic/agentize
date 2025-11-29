@@ -1,0 +1,8 @@
+{`  
+      `"name": "Pi",`  
+      `"sealed": true,`  
+      `"kind": "unary",`  
+      `"signature": "Box -> Box",`  
+      `"tier_effect": { "delta": "none", "phi": "none", "theta": "none", "pi": "evaluate" },`  
+      `"description": "Causal/evaluative closure."`  
+    `}

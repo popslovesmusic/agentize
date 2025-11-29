@@ -1,0 +1,1 @@
+{ "id": "T04", "left": "δ", "right": "Θ", "composition": "δ⊗Θ", "category": "tensor\_product", "signature": "Box \-\> Tensor", "rule": "Pair gradient components with polarities with gradient-first ordering.", "notes": "Same data as Θ⊗δ, different ordering." }

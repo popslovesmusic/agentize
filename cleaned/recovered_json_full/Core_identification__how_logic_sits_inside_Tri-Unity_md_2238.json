@@ -1,0 +1,1 @@
+{ "id": "THETA-COMPLETENESS", "statement": "Every evaluable Box has a well-defined polarity.", "formal": "Θ(B) defined for any B in domain of Π; Θ→Π(Θ(B)) ∈ {0,1}.", "dependencies": \["PI-TOTALITY"\] }

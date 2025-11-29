@@ -1,0 +1,1 @@
+{ id: 'TU-NF-22', invariant: 'normal\_form', pattern: 'ΠΦδ', rewrite: 'NF\_ΠΦδ', conditions: { chain\_length: 3 }, explanation: 'Direct NF assignment for ΠΦδ.', }

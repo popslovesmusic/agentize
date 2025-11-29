@@ -1,0 +1,1 @@
+{ "id": "T42", "left": "λ", "right": "Θ", "composition": "Θ^λ \= λ^{-1} ∘ Θ ∘ λ", "category": "conjugation", "signature": "Box \-\> Polarity", "rule": "Curvature-conjugated polarity router in a curved frame.", "notes": "Frame-changed polarity." }

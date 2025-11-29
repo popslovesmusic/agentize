@@ -1,0 +1,1 @@
+{ "name": "V3_Ch10_FinalState_ChapterAxiom", "intent": "Define the asymptotic state of the universe.", "domain": "IFC (IGSOA Fixed-Constraint state)", "constraints": [ "χ→∞ must converge", "ψ local→0, ψ global nonzero", "ρ layers reduce" ], "cross_links": ["V1_Ch1_TriUnity_ChapterAxiom"] }

@@ -1,0 +1,1 @@
+{ "BoxName": "delta\_phi\_commutator", "BoxIntent": "Commutator \[δ, Φ\].", "Domain": { "Input": "B", "Output": "\[δ, Φ\](B)" }, "Constraints": { "SemanticCurvature": "Measures δ–Φ curvature", "TriUnityCondition": "Zero only in Tri-Unity-flat states", "Linearity": "Linear operator" }, "CrossLinks": { "Π": "Eval structure", "μ": "Metric", "λ": "Curvature" } }

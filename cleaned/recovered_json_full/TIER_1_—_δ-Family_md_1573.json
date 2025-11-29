@@ -1,0 +1,1 @@
+{ "pattern": "Σ\_i T\_{i i}", "rewrite": "Trace(T)", "description": "Index contraction rules." }

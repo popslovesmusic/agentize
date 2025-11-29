@@ -1,0 +1,1 @@
+{ "symbol": "A⋆B", "definition": "Integral or discrete convolution of A with B over a Box domain.", "intent": "Spreads the action of A by the kernel B.", "normal\_form\_behavior": "Reduced to NF\_{A⋆B} respecting convolution algebra rules." }

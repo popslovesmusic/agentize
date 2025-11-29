@@ -1,0 +1,1 @@
+{ "symbol": "χ→δ", "name": "χ to Deviation Flow", "arity": 1, "domain": "Box", "codomain": "Box", "description": "Induces δ-geometry evolution driven by χ.", "invariants\_respected": \[ "INV\_CHI\_TRIUNITY\_COMPAT" \] }

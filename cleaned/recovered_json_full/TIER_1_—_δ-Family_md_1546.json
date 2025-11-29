@@ -1,0 +1,1 @@
+{ "pattern": "ModuleLikeBundle", "rewrite": "ModuleTemplate instance", "description": "Any bundle describing metadata, operators, tables, axioms, rewrites is normalized to ModuleTemplate." }

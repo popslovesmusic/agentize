@@ -1,0 +1,37 @@
+{
+    "delta": {
+      "delta": "delta^2",
+      "phi": "delta_phi",
+      "pi": "delta_pi",
+      "mu": "delta_mu",
+      "sigma": "delta_sigma"
+    },
+    "phi": {
+      "delta": "phi_delta",
+      "phi": "phi",
+      "pi": "phi_pi",
+      "mu": "phi_mu",
+      "sigma": "phi_sigma"
+    },
+    "pi": {
+      "delta": "pi_delta",
+      "phi": "pi_phi",
+      "pi": "pi",
+      "mu": "pi_mu",
+      "sigma": "pi_sigma"
+    },
+    "mu": {
+      "delta": "mu_delta",
+      "phi": "mu_phi",
+      "pi": "mu_pi",
+      "mu": "mu",
+      "sigma": "mu_sigma"
+    },
+    "sigma": {
+      "delta": "sigma_delta",
+      "phi": "sigma_phi",
+      "pi": "sigma_pi",
+      "mu": "sigma_mu",
+      "sigma": "sigma"
+    }
+  }

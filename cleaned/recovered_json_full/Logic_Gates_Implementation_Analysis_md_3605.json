@@ -1,0 +1,98 @@
+python
+class CompleteMBCRouter:
+    """Complete router with all gate types"""
+
+    def __init__(self, config_dir):
+        # Load all components
+        self.logic_gates = self.load_logic_tier(
+            f"{config_dir}/tier_logic_module_pack.json5"
+        )
+        self.librarian = Librarian(
+            f"{config_dir}/librarian_manifesto.json5"
+        )
+        self.agents = self.load_agents(f"{config_dir}/agents/")
+        self.patterns = self.load_patterns(f"{config_dir}/routing_patterns.json5")
+
+    # Core gates
+    def theta_mux(self, control, path_a, path_b):
+        """Conditional routing"""
+        polarity = self.evaluate_polarity(control)
+        return self.execute_path(path_a if polarity == "Θ₊" else path_b)
+
+    def theta_and(self, *inputs):
+        """All must succeed"""
+        polarities = [self.evaluate_polarity(i) for i in inputs]
+        return "Θ₊" if all(p == "Θ₊" for p in polarities) else "Θ₋"
+
+    def theta_or(self, *inputs):
+        """Any can succeed"""
+        polarities = [self.evaluate_polarity(i) for i in inputs]
+        return "Θ₊" if any(p == "Θ₊" for p in polarities) else "Θ₋"
+
+    def theta_router(self, polarity_signature, routing_table):
+        """Multi-way routing"""
+        path = routing_table.get(polarity_signature)
+        return self.execute_path(path)
+
+    # Bridge operators
+    def pi_to_theta(self, truth_value):
+        """Boolean → Polarity"""
+        return "Θ₊" if truth_value else "Θ₋"
+
+    def theta_to_pi(self, polarity):
+        """Polarity → Boolean"""
+        return polarity == "Θ₊"
+
+    # Operator gates
+    def delta_gate(self, request):
+        """Generation/Creation gate"""
+        return self.agents["creative"].execute(request)
+
+    def phi_gate(self, request, **kwargs):
+        """Search/Retrieval gate"""
+        return self.librarian.search(request, **kwargs)
+
+    def pi_gate(self, data):
+        """Validation gate"""
+        return self.agents["critic"].validate(data)
+
+    def mu_gate(self, options):
+        """Ranking/Weighting gate"""
+        return sorted(options, key=lambda x: self.score(x), reverse=True)
+
+    def sigma_gate(self, results, mode="weighted_sum"):
+        """Merge/Aggregation gate"""
+        if mode == "weighted_sum":
+            return self.weighted_merge(results)
+        elif mode == "consensus":
+            return self.consensus_merge(results)
+        elif mode == "best_of":
+            return max(results, key=lambda x: self.score(x))
+
+    # Routing patterns
+    def execute_pattern(self, pattern_name, request):
+        """Execute predefined routing pattern"""
+        pattern = self.patterns[pattern_name]
+
+        result = request
+        for gate_spec in pattern["flow"]:
+            gate_name = gate_spec["gate"]
+            gate_method = getattr(self, gate_name)
+            result = gate_method(result, **gate_spec.get("params", {}))
+
+        return result
+
+    # Main routing
+    def route(self, user_request):
+        """Main entry point"""
+        # Classify intent
+        intent = self.classify_intent(user_request)
+
+        # Select appropriate pattern
+        if self.is_complex_workflow(intent):
+            pattern = self.select_pattern(intent)
+            return self.execute_pattern(pattern, user_request)
+        else:
+            # Simple direct routing
+            gate = self.select_gate(intent)
+            return getattr(self, gate)(user_request)

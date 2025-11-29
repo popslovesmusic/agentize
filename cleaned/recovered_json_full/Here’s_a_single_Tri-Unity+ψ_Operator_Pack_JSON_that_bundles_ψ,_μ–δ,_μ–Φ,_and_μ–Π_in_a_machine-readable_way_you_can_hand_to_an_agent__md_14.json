@@ -1,0 +1,16 @@
+{`  
+    `"id": "psi_pde",`  
+    `"label": "ψ Semantic Wave Equation",`  
+    `"eq_type": "second_order_semantic_pde",`
+
+    `"canonical_form": "∂²B/∂χ² = ψ(B)",`
+
+    `"expanded_form":`   
+      `"∂²B/∂χ² = μ·Δ_δ(B) + Φ_feedback(B) + Π_feedback(B)",`
+
+    `"boundary_conditions": {`  
+      `"initial_state": "B(χ=0) = B₀",`  
+      `"first_derivative": "∂B/∂χ |χ=0 = Ḃ₀",`  
+      `"pi_constraints": "Π(B) enforces causal admissibility"`  
+    `}`  
+  `}

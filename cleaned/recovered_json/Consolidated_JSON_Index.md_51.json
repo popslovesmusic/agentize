@@ -1,0 +1,12 @@
+{
+  "example_type": "12x12_grid",
+  "mu_field": "μ[i,j] = 1 + 0.1*i",
+  "base_field": "B[i,j] = i + j",
+  "delta_result": "δᵢB[i,j] = 1 for i<11, else 0",
+  "mu_weighted_delta": "δ_μ[i,j] = μ[i,j] for i<11, else 0",
+  "sample_values": {
+    "row_0": { "mu": 1.0, "delta_mu": 1.0 },
+    "row_5": { "mu": 1.5, "delta_mu": 1.5 },
+    "row_11": { "mu": 2.1, "delta_mu": 0.0 }
+  }
+}

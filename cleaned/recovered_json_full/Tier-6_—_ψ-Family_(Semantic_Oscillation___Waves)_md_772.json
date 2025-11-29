@@ -1,0 +1,1 @@
+{ "name": "ψδ", "intent": "δ-driven oscillation", "domain": "δ-geometry", "action": "Oscillation generated from δ-gradients and δ-Laplacian terms", "dependencies": \["δ", "δ²", "δᴶ"\], "outputs": "ψ\_δ(B)" }

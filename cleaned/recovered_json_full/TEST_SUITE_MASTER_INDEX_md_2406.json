@@ -1,0 +1,1 @@
+{ id: 'TU-NF-20', invariant: 'closure', pattern: 'δ⊕Φ⊕Π', rewrite: 'NF\_δΦΠ', conditions: { sum\_semantics: true }, explanation: 'Semantic sum δ⊕Φ⊕Π collapses to Tri-Unity NF\_δΦΠ.', }

@@ -1,0 +1,9 @@
+{
+      "id": "front_left",
+      "dimension": 2,
+      "boundary": ["FA", "PFA", "PGA", "GA"],
+      "commutes": {
+        "equation": "Π(δ(A)) = Π(Φ(A)) ∘ η_A",
+        "semantic_layer": "general"
+      }
+    }

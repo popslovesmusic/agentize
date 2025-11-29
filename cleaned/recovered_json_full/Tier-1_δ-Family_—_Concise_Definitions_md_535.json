@@ -1,0 +1,1 @@
+{ "name": "Back\_TriUnity\_Square\_Weighted", "vertices": \["MuB", "MuPhiB", "MuPiB", "MuPiPhiB"\], "relations": \[ "Π ∘ Φ (MuB) \= Π(Φ(μB))", "Φ ∘ Π (MuB) \= Φ(Π(μB))", "Π(Φ(μB)) \= Φ(Π(μB))" \], "commutes": true }

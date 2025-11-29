@@ -1,0 +1,1 @@
+{ "id": "rr\_tri\_unity\_normal\_form\_1", "pattern": "Π(Φ(δ(B)))", "normal\_form": "Π(δ(B))", "condition": "delta\_dominates\_semantic\_curvature", "intent": "In δ-dominant regimes, evaluation after δ overshadows intermediate Φ." }

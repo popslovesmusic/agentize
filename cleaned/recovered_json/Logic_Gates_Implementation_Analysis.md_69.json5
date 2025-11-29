@@ -1,0 +1,89 @@
+{
+  "mbc_router_v2": {
+    "logic_layer": "tier_logic_module_pack.json5",
+
+    "routing_gates": {
+      // Simple gates (from agentized.json)
+      "δ_gate": {
+        "condition": "generative_intent",
+        "polarity": "Θ₊",
+        "routes_to": "creative_agent"
+      },
+
+      "Φ_gate": {
+        "condition": "search_intent",
+        "polarity": "Θ₊",
+        "routes_to": "librarian"
+      },
+
+      "Π_gate": {
+        "condition": "validation_intent",
+        "polarity": "Θ₊",
+        "routes_to": "critic_agent"
+      },
+
+      // COMPOSITE GATES (using logic tier)
+      "conditional_routing": {
+        "operator": "Θ-MUX",
+        "control": "validation_result",
+        "paths": {
+          "Θ₊": "success_path",
+          "Θ₋": "failure_path"
+        },
+        "example": "If validation fails, route to δ for fix"
+      },
+
+      "parallel_search": {
+        "operator": "Θ-OR",
+        "inputs": ["search_local", "search_web", "search_memory"],
+        "merge": "Θ-Σ",
+        "example": "Search multiple sources, merge with polarity-sum"
+      },
+
+      "quality_filter": {
+        "operator": "Θ-AND",
+        "inputs": ["passes_validation", "meets_quality_threshold"],
+        "polarity_weight": true,
+        "example": "Both must be Θ₊ to proceed"
+      },
+
+      "iterative_refinement": {
+        "operator": "Θ-XOR",
+        "condition": "current_output != desired_output",
+        "action": "flip_to_refinement_mode",
+        "example": "If mismatch, iterate"
+      }
+    },
+
+    // ROUTING PATTERNS (composed gates)
+    "routing_patterns": {
+      "research_pattern": {
+        "flow": "Φ → Θ-OR → Σ → Π",
+        "gates": [
+          "Φ_gate (search)",
+          "Θ-OR (parallel sources)",
+          "Σ (merge results)",
+          "Π_gate (validate synthesis)"
+        ]
+      },
+
+      "creative_validation_loop": {
+        "flow": "δ → Π → Θ-MUX → (δ or done)",
+        "gates": [
+          "δ_gate (generate)",
+          "Π_gate (validate)",
+          "Θ-MUX (if Θ₋: loop to δ, if Θ₊: done)"
+        ]
+      },
+
+      "decision_tree": {
+        "flow": "Φ → μ → Θ-ROUTER → execution",
+        "gates": [
+          "Φ_gate (gather options)",
+          "μ_gate (score each)",
+          "Θ-ROUTER (route to best option)"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{ "id": "R-ρ-14", "name": "pull\_rho\_to\_front\_right", "category": "normal\_form", "lhs": "A ∘ B\[m\]", "rhs": "(A ∘ B)\[max(ρ(A), m)\]", "conditions": { "composable": true }, "notes": "Right-side annotation is propagated to the outermost composite." }

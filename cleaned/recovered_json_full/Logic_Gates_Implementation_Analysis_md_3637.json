@@ -1,0 +1,8 @@
+{
+      "step": 1,
+      "gate": "Θ-OR",
+      "action": "parallel_search",
+      "sources": ["local_docs", "web_search", "vector_db"],
+      "output": "raw_results[]",
+      "logic": "Success if ANY source returns results"
+    }

@@ -1,0 +1,1 @@
+{ "nf1": "Σ→NF(X) \= Σ(X)", "nf2": "Σ→NF(Σ→NF(X)) \= Σ→NF(X)", "nf3": "All δ/Φ/Π/μ/λ/ψ/Θ must be resolved before Σ→NF" }

@@ -1,0 +1,9 @@
+{
+      "id": "mu_lift_delta_phi",
+      "dimension": 2,
+      "boundary": ["mu_delta_f", "mu_etaB", "mu_phi_f", "mu_etaA"],
+      "commutes": {
+        "equation": "μφ(f) ∘ μ(η_A) = μ(η_B) ∘ μδ(f)",
+        "semantic_layer": "μ"
+      }
+    }

@@ -1,0 +1,9 @@
+{
+      "id": "front_right",
+      "dimension": 2,
+      "boundary": ["FB", "PFB", "PGB", "GB"],
+      "commutes": {
+        "equation": "Π(δ(B)) = Π(Φ(B)) ∘ η_B",
+        "semantic_layer": "general"
+      }
+    }

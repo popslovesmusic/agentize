@@ -1,0 +1,7 @@
+{`  
+        `"inputs": [`  
+          `{ "name": "Antecedent", "polarity_range": [-1, 1] },`  
+          `{ "name": "Consequent", "polarity_range": [-1, 1] }`  
+        `],`  
+        `"routing_rule": "Θ performs conditional routing: TRUE unless antecedent is positive and consequent negative."`  
+      `}

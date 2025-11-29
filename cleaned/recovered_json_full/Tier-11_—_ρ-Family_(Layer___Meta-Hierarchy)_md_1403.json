@@ -1,0 +1,1 @@
+{ "id": "R-ρ-24", "name": "psi\_layer\_restriction", "category": "interaction", "lhs": "rho\_k ∘ ψ", "rhs": "ψ\[k\]", "conditions": { "k\_in\_N": true }, "notes": "ρ\_k applied to ψ yields wave operator ψ\[k\] at layer k." }

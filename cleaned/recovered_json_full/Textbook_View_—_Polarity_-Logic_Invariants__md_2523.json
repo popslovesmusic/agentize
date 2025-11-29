@@ -1,0 +1,1 @@
+{ id: "OP\_χΘ\_HISTORY", name: "Chi-Polarity History Tracker", family: "Chi-Family", signature: "ThetaHistory(χ) × Step \-\> ThetaHistory(χ+Δχ)", description: "Tracks Θ-polarity across χ; detects illegal polarity jumps." }

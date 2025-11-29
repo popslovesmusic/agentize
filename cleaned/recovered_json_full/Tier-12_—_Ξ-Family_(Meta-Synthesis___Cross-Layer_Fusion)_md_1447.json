@@ -1,0 +1,1 @@
+{ "name": "Ξ", "type": "endofunctor", "category": "Box", "action\_on\_objects": "B ↦ Ξ(B)", "action\_on\_morphisms": "f : B→B' ↦ Ξ(f) : Ξ(B)→Ξ(B')", "laws": \[ "Ξ(id\_B) \= id\_Ξ(B)", "Ξ(f ∘ g) \= Ξ(f) ∘ Ξ(g)" \] }

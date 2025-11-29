@@ -1,0 +1,1 @@
+{ "operators\_param": { "name": "operators", "type": "list\<string\>", "description": "Chosen operator symbols, e.g. \[\\"δ\\", \\"Φ\\", \\"Π\\", \\"μ\\", \\"ψ\\"\]." }, "dimension\_k\_param": { "name": "k", "type": "integer", "description": "Number of operators; dimension of the hypercube (k \= len(operators))." } }

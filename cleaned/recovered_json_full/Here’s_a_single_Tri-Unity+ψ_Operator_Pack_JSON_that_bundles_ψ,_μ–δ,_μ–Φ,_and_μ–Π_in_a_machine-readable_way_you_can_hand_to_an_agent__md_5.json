@@ -1,0 +1,16 @@
+{`  
+      `"id": "mu",`  
+      `"symbol": "μ",`  
+      `"name": "Local Measure / Micro-Adjacency Weight",`  
+      `"role": "local_weighting",`  
+      `"arity": 1,`  
+      `"domain": "AdjacencyField",`  
+      `"codomain": "WeightField",`  
+      `"locality": "ultra_local",`  
+      `"linearity": "positive_linear",`  
+      `"properties": [`  
+        `"nonnegative",`  
+        `"locally_normalized",`  
+        `"defines_metric_density"`  
+      `]`  
+    `}

@@ -1,0 +1,1 @@
+{ "symbol": "λ", "name": "Curvature operator", "tier": 5, "signature": "λ : S → S", "role": "Curvature and mode deformation", "properties": { "type": "curvature", "generated\_by\_commutator": "\[δ, Φ\]" }, "links": \["AXIOM\_BOX\_\_Lambda\_Curvature\_Operator"\] }

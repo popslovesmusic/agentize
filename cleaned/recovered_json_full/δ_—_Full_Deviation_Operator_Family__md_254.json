@@ -1,0 +1,11 @@
+{
+    "name": "Π Connector Theorem",
+    "description": "Π is the unique functor from Box to CausalOrder that preserves causal adjacency, commutes with semantic projection Φ, and extracts the causally-relevant component of deviation δ.",
+    "conditions": {
+      "causal_preservation": "A ≺ B implies Π(A) ≤ Π(B)",
+      "phi_compatibility": "Π(Φ(B)) = Π(B)",
+      "delta_compatibility": "Π(δB) gives causally relevant effect",
+      "pipeline_commutation": "Π∘Φ∘δ = Π∘δ and Π∘Φ = Π",
+      "uniqueness": "no other functor satisfies these conditions"
+    }
+  }

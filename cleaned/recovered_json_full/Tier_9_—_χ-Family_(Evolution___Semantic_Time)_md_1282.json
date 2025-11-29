@@ -1,0 +1,1 @@
+{ "type": "operator", "role": "global\_normalization", "signature": "B \-\> B / ||B||\_Omega", "description": "Normalizes Box using Ω-semantic norm determined by Tri-Unity \+ μ-density \+ Θ-polarity.", "properties": \["idempotent", "scaling"\] }

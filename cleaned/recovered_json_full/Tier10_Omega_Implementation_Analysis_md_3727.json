@@ -1,0 +1,6 @@
+{
+                'count': len(states),
+                'mean_K': np.mean(K_values) if K_values else 0.0,
+                'mean_tau': np.mean(tau_values) if tau_values else 0.0,
+                'description': self._surface_description(surface_name)
+            }

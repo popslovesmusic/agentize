@@ -1,0 +1,1 @@
+{ "id": "T23", "left": "Θ", "right": "Π", "composition": "Θ⊕Π", "category": "sum\_composition", "signature": "(Box,Box) \-\> Polarity", "rule": "Polarity sum in truth space combining two evaluated Boxes.", "notes": "XOR-like behavior on truth via polarity." }

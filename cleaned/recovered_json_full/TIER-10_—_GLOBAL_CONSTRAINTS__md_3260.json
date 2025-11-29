@@ -1,0 +1,1 @@
+{ id: "Ω-N1", input\_operator: "δ", expected\_operator: "δ\_NF", enforced\_by: "Ω\_normalize", description: "δ must always be globally normalized." }

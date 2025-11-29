@@ -1,0 +1,1 @@
+{ id: "OP\_χ\_TRIUNITY\_FLOW", name: "Chi Tri-Unity Flow", family: "Chi-Family", signature: "Box(χ) \-\> Box(χ+Δχ)", description: "Evolves a Box by applying δ, Φ, Π in χ-ordered sequence (Tri-Unity flow)." }

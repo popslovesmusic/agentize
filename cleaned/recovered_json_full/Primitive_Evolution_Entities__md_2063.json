@@ -1,0 +1,1 @@
+{ "id": "e3", "id\_alias": "final\_step", "state\_in": "S2", "state\_out": "S3", "chi\_step": "chi\_step", "description": "Manual transition C ⇒ D", "psi": { "phase": 1.0, "frequency": 1.0, "mode\_label": "ψ₁" }, "mu": { "weight": 0.85, "adjacency\_factor": 0.88 }, "lambda": { "curvature": 0.05, "deformation\_mode": "λᵐᵒᵈᵉ" } }

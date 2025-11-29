@@ -1,0 +1,5 @@
+{
+            'semantic_content': phi_output,
+            'evaluation_ready': True,
+            'ambiguities_resolved': True
+        }

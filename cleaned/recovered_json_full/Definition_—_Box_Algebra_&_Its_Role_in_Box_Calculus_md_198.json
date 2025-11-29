@@ -1,0 +1,5 @@
+{`  
+        `"id": "INV-G-1",`  
+        `"name": "basis_purity",`  
+        `"schema": "Every gate construction uses only {Theta, SigmaSigma_a, Pi, select_branch, negate_polarity}."`  
+      `}

@@ -1,0 +1,1 @@
+{ "no_adjacency_break": "δ may not delete all adjacency; at least one valid adjacency must remain for non-null structures.", "rank_preservation": "δ may not change tensor rank assigned to a Box at this tier.", "Ω_bounded_deformation": "All δ-actions must remain within Ω-permitted deformation bounds." }

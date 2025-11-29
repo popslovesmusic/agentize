@@ -1,0 +1,1 @@
+{ "id": "INT\_03", "lhs\_structure": "SEM\_NODE", "rhs\_structure": "LAYER\_ELEMENT", "relation": "ASSIGNED\_TO\_LAYER", "result": "LAYERED\_NODE", "constraints": \[ "Every SEM\_NODE must be assigned to at least one LAYER\_ELEMENT.", "ρ\_LIFT(N) \= ℓ\_ρ(N) defines the primary layer assignment." \] }

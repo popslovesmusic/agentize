@@ -1,0 +1,6 @@
+{
+      "ingestion_protocol": {
+        "duplicate_reject": 0.99,
+        "noise_flag": 0.05
+      }
+    }

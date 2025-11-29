@@ -1,0 +1,1 @@
+{ "arity": 1, "definition": "Polarity inversion", "rule": "Θ₊→Θ₋ ; Θ₋→Θ₊" }

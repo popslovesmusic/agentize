@@ -1,0 +1,1 @@
+{ "tier": { "type": "integer", "const": 8 }, "family": { "type": "string", "const": "Theta" }, "version": { "type": "string" }, "description": { "type": "string" } }

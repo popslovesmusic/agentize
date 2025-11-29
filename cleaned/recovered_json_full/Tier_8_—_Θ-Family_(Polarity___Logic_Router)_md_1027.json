@@ -1,0 +1,1 @@
+{ "id": "T29", "left": "Pi", "right": "μΘ", "composition": "Π(Θ(μ(B)))", "category": "evaluation\_composition", "signature": "Box \-\> Bool", "rule": "Truth determined jointly by local weight and polarity.", "notes": "Threshold logic model." }

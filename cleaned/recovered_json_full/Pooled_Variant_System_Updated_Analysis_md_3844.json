@@ -1,0 +1,18 @@
+{
+  "variant_id": "perturbative_expansion",
+  "expression": "δ∘λ + [δ, λ] + O([δ, [δ, λ]])",
+  "expansion_structure": {
+    "zeroth_order": "δ∘λ",
+    "first_order": "[δ, λ] = λ_mode + λ_×",
+    "second_order": "[δ, [δ, λ]]",
+    "full_series": "Σ (1/n!) ad^n_δ(λ)"
+  },
+  "convergence_condition": "||[λ, δ]|| < radius (small modal curvature)",
+  "use_when": [
+    "Analytical calculations",
+    "Symbolic computation",
+    "Small curvature perturbation",
+    "Power series needed"
+  ],
+  "tier_5_connection": "Expands modal terms λ_mode, λ_× as perturbation series"
+}

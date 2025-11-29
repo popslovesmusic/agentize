@@ -1,0 +1,1 @@
+{ X \\mid S \\prec\_\\Pi X,\\ \\nexists Y : S\\prec\_\\Pi Y\\prec\_\\Pi X \\}

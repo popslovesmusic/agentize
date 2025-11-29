@@ -1,0 +1,1 @@
+{ "Name": "delta\_phi\_commutator", "Expression": "\[δ, Φ\] \= δΦ \- Φδ", "Intent": "Measure semantic curvature of projection relative to deviation.", "SealedBoxRef": "delta\_phi\_commutator" }

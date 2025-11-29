@@ -1,0 +1,5 @@
+{
+    "objective": "Transform MBC into executable ISA for AI agents",
+    "core_mechanism": "Semantic Virtual Machine",
+    "primary_format": "JSON5"
+  }

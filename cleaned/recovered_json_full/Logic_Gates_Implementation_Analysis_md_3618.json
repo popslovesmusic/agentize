@@ -1,0 +1,6 @@
+{
+        "operator": "Θ-AND",
+        "inputs": ["passes_validation", "meets_quality_threshold"],
+        "polarity_weight": true,
+        "example": "Both must be Θ₊ to proceed"
+      }

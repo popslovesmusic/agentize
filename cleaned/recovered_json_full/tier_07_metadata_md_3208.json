@@ -1,0 +1,1 @@
+{ "id": "CHK\_SIGMA\_INDEX\_PRESERVATION", "kind": "invariant\_checker", "invariant": "SIGMA\_INV\_INDEX\_PRESERVATION", "signature": "ContractionPlan \-\> Bool", "description": "Returns true iff the contraction removes only paired indices and leaves remaining free indices unchanged." }

@@ -1,0 +1,1 @@
+{ "symbol": "\[A,B\]", "definition": "A∘B \- B∘A", "intent": "Measures residual non-commutativity between A and B in a given hypercube slice.", "normal\_form\_behavior": "In a fully commuting slice, \[A,B\]↦0." }

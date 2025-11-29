@@ -1,0 +1,1 @@
+{ description: 'δ followed by Φ then Π (full Tri-Unity sweep).', chain: \['δ', 'Φ', 'Π'\], expected\_nf: 'NF\_δΦΠ', }

@@ -1,0 +1,1 @@
+{ "id": "SL-IMPLIES-ELIM", "name": "Implication\_Elimination", "pattern": "IMPLIES(A, B)", "rewrite": "OR(NOT(A), B)", "conditions": { "theta\_alignment": "Use Θ\_NOT and Θ\_OR definitions from operator pack.", "pi\_equivalence": true } }

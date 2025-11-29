@@ -1,0 +1,1 @@
+{ "rules": \[ {"rule": "x → x", "condition": "x is primitive"}, {"rule": "⊥ ⊗ x → ⊥"}, {"rule": "⊤ ⊗ x → x"}, {"rule": "∞ ⊗ ∞ → ∞"}, {"rule": "0 ⊗ x → 0", "except": \["⊥"\]}, {"rule": "1 ⊗ x → x"}, {"rule": "± ⊗ ± → ⊤"} \], "normal\_form": "Primitive symbols are already in irreducible form." }

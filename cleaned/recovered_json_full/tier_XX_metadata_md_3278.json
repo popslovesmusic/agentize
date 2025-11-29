@@ -1,0 +1,1 @@
+{ "prerequisites": \[ "tier\_00\_Primitive\_Structural\_Invariants", "tier\_XX\_Tri-Unity\_Invariants", "tier\_XX\_Omega\_Global\_Constraints" \], "provides\_contract\_for": \[ "ALL\_tier\_YY\_rewrite\_systems" \] }

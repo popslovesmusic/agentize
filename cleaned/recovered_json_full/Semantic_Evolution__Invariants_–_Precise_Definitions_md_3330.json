@@ -1,0 +1,1 @@
+{ "symbol": "χ→TriUnity", "name": "Tri-Unity χ Flow", "arity": 1, "domain": "Box", "codomain": "Box", "description": "Simultaneously evolves δ, Φ, Π along χ, enforcing Tri-Unity coherence.", "invariants\_respected": \[ "INV\_CHI\_TRIUNITY\_COMPAT", "INV\_CHI\_NF\_STABILITY" \] }

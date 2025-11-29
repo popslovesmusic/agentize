@@ -1,0 +1,1 @@
+{ "classical": "universal quantifier over {p\_i}", "theta\_formula": "Θ\_out \= min\_i Θ(p\_i)", "pi\_formula": "Π\_out \= 1 if Θ\_out \= Θ\_+ else 0", "tri\_unity\_form": "FORALL \= Π ∘ Φ\_logic ∘ Θ\_min^n", "notes": "n-ary AND across the family." }

@@ -1,0 +1,1 @@
+{ "id": "T31", "left": "ψ", "right": "Θ", "composition": "ψ ∘ Θ", "category": "right\_composition", "signature": "Box \-\> Wave\_on\_channels", "rule": "Wave evolution on separate polarity channels.", "notes": "Two coupled waveguides." }

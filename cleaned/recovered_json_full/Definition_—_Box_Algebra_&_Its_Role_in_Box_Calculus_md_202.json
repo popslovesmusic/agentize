@@ -1,0 +1,31 @@
+{`  
+  `"mbc_version": "4.0",`  
+  `"module": "federated_reasoning_theorem",`  
+  `"sealed": true,`  
+  `"entities": {`  
+    `"nodes": "Categories C_i",`  
+    `"local_functors": "Pi_i : C_i -> Truth",`  
+    `"transports": "T_ij : C_i -> C_j",`  
+    `"naturality": "eta_ij : Pi_i => Pi_j ∘ T_ij"`  
+  `},`  
+  `"commutation_condition": {`  
+    `"schema": "Pi_j ∘ T_ij == Pi_i",`  
+    `"type": "functor_equality"`  
+  `},`  
+  `"global_reasoner": {`  
+    `"exists": true,`  
+    `"object": "Pi_star",`  
+    `"type": "limit",`  
+    `"schema": "Pi_star = Pi_i ∘ p_i"`  
+  `},`  
+  `"theorem": {`  
+    `"name": "Federated Reasoning Theorem",`  
+    `"statement": "If all Pi-natural transformations commute across the diagram, the diagram Pi: C -> Truth has a unique limit Pi_star yielding global semantic entailment.",`  
+    `"consequences": [`  
+      `"soundness",`  
+      `"completeness",`  
+      `"coherence",`  
+      `"local_autonomy_preserved"`  
+    `]`  
+  `}`  
+`}

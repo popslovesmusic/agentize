@@ -1,0 +1,1 @@
+{ base\_nf: 'NF\_Φ', compound\_nf\_examples: \[ { pattern: \['Φ', 'Π'\], nf: 'NF\_ΦΠ', comment: 'Projection followed by evaluation.', }, { pattern: \['Π', 'Φ'\], nf: 'NF\_ΦΠ', comment: 'By commutativity, Π∘Φ shares NF with Φ∘Π.', }, \], }

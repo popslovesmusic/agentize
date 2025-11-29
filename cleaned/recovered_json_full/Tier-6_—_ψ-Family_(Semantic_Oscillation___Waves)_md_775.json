@@ -1,0 +1,1 @@
+{ "name": "ψ⊗", "intent": "Tensor composite wave", "domain": "Tensor-product Box systems", "action": "Generates oscillation across multi-mode tensor Boxes", "parameters": { "rank": "tensor rank" }, "outputs": "ψ⊗(B1 ⊗ B2 ⊗ ...)" }

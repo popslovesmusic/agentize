@@ -1,0 +1,1 @@
+{ "type": "logic\_gate\_generator", "action": "compose polarity and Π-evaluation into logic gates", "gates\_supported": \["AND", "OR", "XOR", "IMPLIES", "NAND", "NOR"\] }

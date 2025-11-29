@@ -1,0 +1,1 @@
+{ "name": "V3_Ch7_TransformIdentity_StructureBox", "intent": "Record post-merger structural identity.", "domain": "Resulting λ, μ, ψ, ρ structure", "constraints": [ "Identity must map to new layer", "Ω must approve topology change" ], "cross_links": ["V2_Ch6_InteractionStructure_Box"] }

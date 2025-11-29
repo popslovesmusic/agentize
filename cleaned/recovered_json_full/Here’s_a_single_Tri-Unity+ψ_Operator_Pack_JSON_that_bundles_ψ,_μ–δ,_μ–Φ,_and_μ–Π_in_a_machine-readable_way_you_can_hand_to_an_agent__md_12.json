@@ -1,0 +1,9 @@
+{`  
+      `"requires": ["delta", "mu", "phi", "pi"],`  
+      `"dependency_type": {`  
+        `"delta": "differential_geometry",`  
+        `"mu": "local_metric_density",`  
+        `"phi": "projection_feedback",`  
+        `"pi": "causal_boundary_feedback"`  
+      `}`  
+    `}

@@ -1,0 +1,1 @@
+{ id: "T9\_04\_truth\_history\_flip", description: "Π truth changes across χ without δ/ψ/Θ event.", truth\_history: { chi\_0: true, chi\_1\_raw: false }, expected: { invariant\_violations: \["χ\_PR\_TRIUNITY\_FLOW"\], rewrite\_applied: \["RW\_χ\_INSERT\_TRIUNITY\_FLOW"\], nf: "χNF" } }

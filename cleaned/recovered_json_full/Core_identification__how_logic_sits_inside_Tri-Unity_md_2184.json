@@ -1,0 +1,1 @@
+{ "ψ\_ω": { "type": "frequency\_mode", "role": "Wave frequency" }, "ψ\_δ": { "type": "δ-driven\_wave", "role": "Deviation-driven oscillation" }, "ψ\_Φ": { "type": "projection\_oscillation", "role": "Φ-driven oscillation" }, "ψ\_Π": { "type": "evaluated\_wave", "role": "Π-driven oscillation" }, "ψ⊗": { "type": "tensor\_wave", "role": "Tensorial wave operator" } }

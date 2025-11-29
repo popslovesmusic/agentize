@@ -1,0 +1,1 @@
+{ id: "T9\_09\_sigma\_summed\_violation", description: "Σ over χ steps includes illegal intermediate values.", sigma\_over\_chi: { chi\_points: \[0,1,2,3\], raw\_values: \[1.0, 1.0, 9.0, 1.0\] // spike at χ=2 invalidates Ω }, expected: { invariant\_violations: \["χ\_PR\_WAVE\_CONSTRAINT"\], rewrite\_applied: \["RW\_χ\_ENFORCE\_WAVE\_CONSTRAINT"\], nf: "χNF" } }

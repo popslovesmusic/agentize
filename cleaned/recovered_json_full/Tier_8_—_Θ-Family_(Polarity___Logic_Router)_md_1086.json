@@ -1,0 +1,1 @@
+{ "id": "Θ\_OR\_n", "signature": "Polarity^n \-\> Bool", "polarity\_expression": "sum\_i p\_i \- product\_i p\_i", "truth\_expression": "Pi(sum\_i p\_i \- product\_i p\_i)", "comments": "Generalized OR: true if any polarity positive." }

@@ -1,0 +1,1 @@
+{ id: 6, description: "Closure: Identity preservation under δ.", input: \[δ, 1\], expect\_nf: "NF\_δ", invariant: "closure", }

@@ -1,0 +1,1 @@
+{ "BoxName": "phi\_after\_delta", "BoxIntent": "Projection after deviation.", "Domain": { "Input": "δ(B)", "Output": "Φ(δ(B))" }, "Constraints": { "GradientFiltering": "Φ removes irregularities", "CommutationFailure": "Φδ ≠ δΦ in general", "SemanticClosure": "Maps into Φ\_s" }, "CrossLinks": { "δ": "Gradient source", "Π": "Evaluation", "Θ": "Polarity" } }

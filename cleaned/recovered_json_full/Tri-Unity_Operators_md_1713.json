@@ -1,0 +1,1 @@
+{ "vertices": "2^k", "edges": "k \* 2^(k-1)", "square\_faces": "C(k,2) \* 2^(k-2)", "cubic\_cells": "C(k,3) \* 2^(k-3)", "hypercells": "2^k \- 1 (all non-empty faces)" }

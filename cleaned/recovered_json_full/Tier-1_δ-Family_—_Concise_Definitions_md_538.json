@@ -1,0 +1,1 @@
+{ "name": "Bottom\_Mu\_Naturality\_Phi", "vertices": \["B", "PhiB", "MuB", "MuPhiB"\], "relations": \[ "μ ∘ Φ (B) \= μ(Φ(B))", "Φ ∘ μ (B) \= Φ(μ(B))", "μ(Φ(B)) \= Φ(μ(B))" \], "commutes": true }

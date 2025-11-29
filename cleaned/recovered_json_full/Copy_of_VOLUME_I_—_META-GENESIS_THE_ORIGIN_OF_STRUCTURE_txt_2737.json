@@ -1,0 +1,1 @@
+{ "operator": "δ", "arguments": ["Point", "Edge", "Face", "Box"], "actions": { "δ(Point)": "Displacement to neighboring Point.", "δ(Edge)": "Perturbation of adjacency.", "δ(Face)": "Local deformation of surface.", "δ(Box)": "Internal state displacement." } }

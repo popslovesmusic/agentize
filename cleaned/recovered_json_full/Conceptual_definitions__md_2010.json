@@ -1,0 +1,1 @@
+{ "depends\_on": \["AX\_DOMAINTENSOR", "AX\_OMEGA\_CONSTRAINTS"\], "enables": \["ρ-Family meta-hierarchy"\], "related\_tiers": \["03\_domain\_structures", "10\_omega\_family", "11\_rho\_family"\] }

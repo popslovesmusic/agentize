@@ -1,0 +1,1 @@
+{ "id": "T\_CHI\_006\_CONTINUOUS\_GOOD", "description": "Smooth χ-evolution (C1).", "input\_trace": \[ { "state": "B0", "chi": 0 }, { "state": "B1", "chi": 0.25 }, { "state": "B2", "chi": 0.5 }, { "state": "B3", "chi": 1.0 } \], "expected": { "is\_nf": true, "violations": \[\], "normalized\_trace": "same" } }

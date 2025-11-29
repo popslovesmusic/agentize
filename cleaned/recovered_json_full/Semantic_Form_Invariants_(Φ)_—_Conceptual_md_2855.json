@@ -1,0 +1,1 @@
+{ operator: "Φ", input: "B1", // Φ attempts to project but finds illegal class → undefined class output\_raw: { id: "Φ(B1)", class\_id: "undefined", payload: null }, invariant\_violation: "PHI\_INV\_01\_CLASS\_PRESERVATION" }

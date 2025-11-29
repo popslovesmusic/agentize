@@ -1,0 +1,6 @@
+{
+        "operator": "Θ-XOR",
+        "condition": "current_output != desired_output",
+        "action": "flip_to_refinement_mode",
+        "example": "If mismatch, iterate"
+      }

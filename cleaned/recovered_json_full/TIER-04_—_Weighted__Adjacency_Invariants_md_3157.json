@@ -1,0 +1,1 @@
+{ desc: "One χ-step of μ under λ-curvature flow.", input: \["MuAdjState", "LambdaProfile", "Δχ"\], output: "MuAdjState", equation: "μ\_{t+Δχ} \= μ\_t \+ Δχ \* F\_λ\[μ\_t\]", comment: "F\_λ must preserve invariants A1–A3." }

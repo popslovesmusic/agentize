@@ -1,0 +1,1 @@
+{ "name": "μ\_identity", "when": "μ\_identity ∘ δ", "then": "δ", "intent": "If μ is the identity metric, it is erased in NF." }

@@ -1,0 +1,1 @@
+{ truth\_values: { x: true }, polarity: { x: "+" }, omega\_constraints: \["no\_true\_positive\_allowed"\] // artificial test rule }

@@ -1,0 +1,5 @@
+{  
+  "timeout": 5000,  
+  "server": "http://example.com",  
+  "retries": 3  
+}

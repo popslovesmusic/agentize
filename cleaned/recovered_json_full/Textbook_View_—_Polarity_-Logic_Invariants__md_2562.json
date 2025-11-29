@@ -1,0 +1,1 @@
+{ chi\_points: \[0,1,2,3\], states: \[ { chi: 0, theta: "+", psi\_amp: 1.0, omega\_energy: 1.0 }, { chi: 1, theta: "+", psi\_amp: 1.1, omega\_energy: 1.1 }, { chi: 2, theta: "+", psi\_amp: 1.0, omega\_energy: 1.0 }, { chi: 3, theta: "+", psi\_amp: 1.0, omega\_energy: 1.0 } \] }

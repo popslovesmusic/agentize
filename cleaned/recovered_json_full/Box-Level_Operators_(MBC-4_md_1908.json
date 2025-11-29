@@ -1,0 +1,1 @@
+{ "tier": "00", "entrypoint": "Box-Level Operator Module", "includes": \[ "tier\_00\_metadata.json", "tier\_00\_operator\_pack.json", "tier\_00\_interaction\_table.json", "tier\_00\_axiom\_box.json", "tier\_00\_rewrite\_system.json" \], "export": "Tier\_00\_Box\_Level\_Pack", "integrity": { "hash\_algorithm": "SHA256", "files\_hashed": 6 } }

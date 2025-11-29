@@ -1,0 +1,1 @@
+{ invariant\_violations: \["Θ\_INV\_TRUTH\_BRIDGE"\], rewrite\_applied: \["RW\_Θ\_TRUTH\_BRIDGE\_INSERT\_NOT"\], nf: "ΘNF" }

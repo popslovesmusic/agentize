@@ -1,0 +1,1 @@
+{ "network": "N = (V, E, w)", "nodes": "V = {proto-particles, proto-matter bodies}", "edges": "E = active proto-interactions", "force_fields": ["F_λ", "F_ψ", "F_μ", "F_Σ", "F_ρ"] }

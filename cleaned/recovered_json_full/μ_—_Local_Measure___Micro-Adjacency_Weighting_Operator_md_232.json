@@ -1,0 +1,12 @@
+{
+    "input_box": {
+      "shape": "N",
+      "datatype": "float64 or higher",
+      "description": "Box-valued field B[i] over micro-states i."
+    },
+    "output_box": {
+      "shape": "N",
+      "datatype": "float64 or higher",
+      "description": "ψ(B)[i], semantic wave operator applied to B."
+    }
+  }

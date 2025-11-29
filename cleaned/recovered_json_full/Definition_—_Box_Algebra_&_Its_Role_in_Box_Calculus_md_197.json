@@ -1,0 +1,6 @@
+{`  
+    `"sealed": true,`  
+    `"basis_gate": "NAND",`  
+    `"statement": "All semantic logic gates in this layer are definable via NAND macros composed only of Θ + ΣΣₐ + Π.",`  
+    `"macro_rule": "Any Gate G can be expanded into a DAG over {NAND} with polarity negation realized by Θ+Π."`  
+  `}

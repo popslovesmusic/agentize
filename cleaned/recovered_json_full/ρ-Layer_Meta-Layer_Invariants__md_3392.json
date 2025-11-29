@@ -1,0 +1,1 @@
+{ "id": "RHO-NF-THM", "name": "ρ-Normal Form Theorem", "statement": "Every finite ρ-hierarchy of Boxes admits a unique ρ-normal form modulo isomorphic renaming of layer IDs, such that: (i) hierarchy is transitively reduced, (ii) all redundant layers are merged, (iii) cross-layer Ω-constraints are satisfied.", "depends\_on": \["RHO-AX1", "RHO-AX2", "RHO-AX3", "RHO-AX4"\] }

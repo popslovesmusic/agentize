@@ -1,0 +1,1 @@
+{ id: 'TU-NF-03', invariant: 'closure', pattern: \['Π', 'δ'\], rewrite: 'NF\_Πδ', conditions: {}, explanation: 'Composition Π∘δ remains within evaluation/deviation space.', }

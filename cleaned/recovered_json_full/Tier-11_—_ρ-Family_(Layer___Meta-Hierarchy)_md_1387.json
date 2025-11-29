@@ -1,0 +1,1 @@
+{ "id": "R-ρ-08", "name": "rho\_functoriality\_composition", "category": "functorial", "lhs": "rho(A ∘ B)", "rhs": "rho(A) ∘ rho(B)", "conditions": { "composable": true }, "notes": "ρ is a functor on the operator category." }

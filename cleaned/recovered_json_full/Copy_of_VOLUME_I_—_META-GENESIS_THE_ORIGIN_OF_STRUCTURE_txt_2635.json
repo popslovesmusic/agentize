@@ -1,0 +1,1 @@
+{ "truth_invariance": "Π(FSM) = Π*", "omega_compatibility": "FSM must satisfy Ω global admissibility.", "normalization_fixed_point": "Σ(FSM) = FSM", "finite_energy": "∫|Ψ|^2 < ∞" }

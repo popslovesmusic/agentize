@@ -1,0 +1,1 @@
+{ "id": "T25", "left": "μ", "right": "Θ", "composition": "μ ∘ Θ", "category": "right\_composition", "signature": "Box \-\> WeightedChannels", "rule": "Apply local weights to each polarity channel separately.", "notes": "Defines μ-weighted Θ\_plus and Θ\_minus channels." }

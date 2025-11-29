@@ -1,0 +1,4 @@
+{
+        "box": { "type": "string", "description": "Output Box type" },
+        "rank": { "type": "string" }
+      }

@@ -1,0 +1,1 @@
+{ "id": "NF4", "lhs": "Ξ-\>NF ∘ (ρ ∘ Ω ∘ E)", "rhs": "NF\_Ξ(ρ(Ω(E)))", "conditions": \["E well\_typed"\], "priority": 8 }

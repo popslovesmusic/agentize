@@ -1,0 +1,1 @@
+{ "id": "R-ρ-25", "name": "sigma\_layer\_restriction", "category": "interaction", "lhs": "rho\_k ∘ Σ", "rhs": "Σ\[k\]", "conditions": { "k\_in\_N": true }, "notes": "ρ\_k applied to Σ yields layer-specific summation Σ\[k\]." }

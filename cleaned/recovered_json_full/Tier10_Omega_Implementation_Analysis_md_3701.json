@@ -1,0 +1,19 @@
+python
+# Create state with inconsistent Tri-Unity components
+inconsistent = SemanticState(
+    content="Generated response",
+    metadata={},
+    delta_component=np.array([1.0, 0.0]),  # High novelty
+    phi_component=np.array([0.0, 1.0]),    # Semantic form
+    pi_component=np.array([0.5, 0.5])      # Mixed validation
+)
+
+# Compute Tri-Unity tension
+tau = omega._tri_unity_tension(inconsistent)
+print(f"Tri-Unity tension: {tau}")  # > 0 (inconsistent)
+
+# Ω-normalize to enforce coherence
+normalized = omega.omega_operator(inconsistent)
+
+tau_after = omega._tri_unity_tension(normalized)
+print(f"Tension after Ω: {tau_after}")  # ≈ 0 (coherent)

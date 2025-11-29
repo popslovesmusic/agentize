@@ -1,0 +1,1 @@
+{ "id": "T22", "left": "Θ", "right": "Pi", "composition": "Θ⊗Π", "category": "tensor\_product", "signature": "Box \-\> (Polarity,Bool)", "rule": "Polarity indexed primary, truth secondary.", "notes": "Routing uses polarity first." }

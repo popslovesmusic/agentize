@@ -1,0 +1,1 @@
+{ "name": "INCIDENT\_EDGES", "symbol": "INCIDENT(P, E)", "signature": "(Point, Edge) \-\> IncidenceRelation", "intent": "Declare Point incident to Edge.", "constraints": \[ "P is endpoint of E", "E has exactly two endpoint Points in simple complexes" \] }

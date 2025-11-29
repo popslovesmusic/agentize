@@ -1,0 +1,19 @@
+mermaid
+flowchart TD
+    %% Bottom layer: δ → Φ
+    deltaA["δ(A)"] -->| "δ(f)" | deltaB["δ(B)"]
+    phiA["Φ(A)"] -->| "Φ(f)" | phiB["Φ(B)"]
+    deltaA -->| "η_A (δ→Φ)" | phiA
+    deltaB -->| "η_B (δ→Φ)" | phiB
+
+    %% Top layer: Π∘δ → Π∘Φ
+    PdeltaA["Πδ(A)"] -->| "Πδ(f)" | PdeltaB["Πδ(B)"]
+    PphiA["ΠΦ(A)" ] -->| "ΠΦ(f)" | PphiB["ΠΦ(B)"]
+    PdeltaA -->| "Π(η_A)" | PphiA
+    PdeltaB -->| "Π(η_B)" | PphiB
+
+    %% Vertical lifting
+    deltaA -->| "Π" | PdeltaA
+    deltaB -->| "Π" | PdeltaB
+    phiA -->| "Π" | PphiA
+    phiB -->| "Π" | PphiB

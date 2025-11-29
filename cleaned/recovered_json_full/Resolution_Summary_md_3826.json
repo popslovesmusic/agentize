@@ -1,0 +1,11 @@
+operators/
+├── variant_aware_router.py           # Core router (712 lines)
+├── canonical/
+│   ├── lambda_delta_composition.json # Finding #1 resolution
+│   └── psi_commutativity.json       # Finding #3 resolution
+├── selection/
+│   └── context_selection_guide.json # Selection rules (379 lines)
+├── validation/
+│   └── variant_consistency_tests.py # 11 tests (100% pass)
+└── examples/
+    └── pooled_variant_examples.py   # 10 demonstration scenarios

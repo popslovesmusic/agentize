@@ -1,0 +1,1 @@
+{ "ρ0": { "type": "layer\_base", "role": "base layer" }, "ρ1": { "type": "layer\_semantic", "role": "semantic layer" }, "ρ2": { "type": "layer\_causal", "role": "causal layer" }, "ρn": { "type": "layer\_n", "role": "nth meta-layer" }, "ρ→TriUnity": { "type": "linkage", "role": "fix δ-Φ-Π relationships" } }

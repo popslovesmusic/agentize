@@ -1,0 +1,1 @@
+{ rewrite\_rule: "δ(μ) producing μ\<0 → CLAMP\_TO\_ZERO", mu: { "1-2": 0.0 }, errors: \[\] }

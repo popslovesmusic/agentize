@@ -1,0 +1,6 @@
+{
+                'decision': 'quarantine',
+                'reason': 'Contains contradictions - quarantined for review',
+                'normalized_entry': normalized,
+                'contradictions': self._find_contradictions(normalized)
+            }

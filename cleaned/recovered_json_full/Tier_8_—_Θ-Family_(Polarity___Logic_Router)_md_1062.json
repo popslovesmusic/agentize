@@ -1,0 +1,1 @@
+{ "type": "string", "description": "Category of Θ-interaction", "enum": \[ "left\_composition", "right\_composition", "tensor\_product", "sum\_composition", "primitive\_map", "logic\_gate", "evaluation\_composition", "weighted\_sum", "channel\_composition", "projector\_relation", "conjugation", "self\_composition", "phase\_rule", "polarity\_algebra" \] }

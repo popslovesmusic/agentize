@@ -1,0 +1,22 @@
+python
+# Initialize Omega enforcer
+omega = OmegaConstraintEnforcer(duplicate_threshold=0.99)
+
+# Existing entry
+existing = SemanticState(
+    content="The Eiffel Tower is 330 meters tall",
+    metadata={'provenance': 'Wikipedia', 'timestamp': '2025-01-01'}
+)
+omega.admissible_manifold.append(existing)
+
+# New entry (very similar)
+new_entry = SemanticState(
+    content="The Eiffel Tower is 330m in height",
+    metadata={'provenance': 'User submission', 'timestamp': '2025-11-28'}
+)
+
+# Ingestion protocol
+result = omega.ingestion_protocol(new_entry)
+
+print(result['decision'])  # 'reject'
+print(result['reason'])    # 'Duplicate (similarity=0.95)'

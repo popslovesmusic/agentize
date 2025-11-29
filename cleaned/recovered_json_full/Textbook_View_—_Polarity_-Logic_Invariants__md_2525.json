@@ -1,0 +1,1 @@
+{ fields: { amplitude: "tensor", phase: "tensor", chi: "float", psi\_modes: "any" } }

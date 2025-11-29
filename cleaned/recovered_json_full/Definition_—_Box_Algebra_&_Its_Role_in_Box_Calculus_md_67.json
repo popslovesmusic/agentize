@@ -1,0 +1,6 @@
+{`  
+              `"type": "number",`  
+              `"minimum": 0.0,`  
+              `"maximum": 1.0,`  
+              `"description": "Strength of polarity assignment."`  
+            `}

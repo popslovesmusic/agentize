@@ -1,0 +1,1 @@
+{ linear: true, differential\_like: true, metric\_sensitive: true, idempotent: false, nilpotent: false, key\_identities: \[ 'δ∘1 \= δ', 'δ∘δ \= δ² (Laplacian-like deviation)', \], }

@@ -1,0 +1,19 @@
+{
+  "variant_id": "canonical_definition",
+  "commutator": "[λ, δ] = λ→δ ≠ 0",
+  "mathematical_form": "λ→δ = λ_curv + λ_mode + λ_×",
+  "decomposition": {
+    "intrinsic": "λ_curv = [δ,δ]",
+    "linear_modal": "λ_mode = δ(M) + [δ,M]",
+    "cross_modal": "λ_× = M∧M"
+  },
+  "mode_field_status": "M ≠ 0 (active modes: ψ, Φ, Π, μ)",
+  "use_when": [
+    "General curved geometry",
+    "Active modal fields",
+    "High-precision requirements",
+    "Default case"
+  ],
+  "tier_5_ref": "Lines 238-246: Canonical λ-Theorem decomposition",
+  "theorem_support": "Canonical λ-Theorem (Tier-5, lines 191-501)"
+}

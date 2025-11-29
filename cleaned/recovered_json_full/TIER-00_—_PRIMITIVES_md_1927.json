@@ -1,0 +1,1 @@
+{ "symbol": "⊤", "name": "Tautology", "file": "00\_\_Primitive\_Tautology\_Box.json", "sha256": "\<to-be-filled\>", "properties": { "max\_consistency": true, "normalization\_attractor": true, "neutral": true } }

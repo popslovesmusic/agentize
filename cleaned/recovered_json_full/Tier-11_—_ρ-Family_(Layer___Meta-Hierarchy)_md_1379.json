@@ -1,0 +1,1 @@
+{ "id": "R-ρ-00", "name": "default\_layer\_assignment", "category": "structural", "lhs": "A", "rhs": "A\[0\]", "conditions": { "if\_not\_layer\_annotated": true }, "notes": "Any operator without explicit layer index is assigned to base layer 0." }

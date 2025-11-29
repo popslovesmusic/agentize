@@ -1,0 +1,1 @@
+{ "name": "MAKE\_MODE", "symbol": "MODE(label)", "signature": "Label \-\> Mode", "intent": "Construct a Mode (atomic semantic excitation) with a given label (e.g. frequency, polarization).", "psi\_action": "ψ uses Mode to determine oscillation pattern.", "lambda\_action": "λ deforms Mode under curvature." }

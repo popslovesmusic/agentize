@@ -1,0 +1,1 @@
+{ "injectivity_on_cores": "Core semantic content of primitives must inject into Volume II structures without loss.", "Ω_consistency_across_volumes": "Ω invariants remain valid across the volume boundary.", "index_preservation": "IDs and indices must be carried or traceable across the transition." }

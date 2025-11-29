@@ -1,0 +1,1 @@
+{ "operator": "BOX", "input": "raw\_data", "output": "canonical\_box", "rules": \["instantiate\_all\_fields", "validate\_minimal\_schema"\] }

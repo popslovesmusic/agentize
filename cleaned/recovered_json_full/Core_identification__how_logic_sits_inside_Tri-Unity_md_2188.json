@@ -1,0 +1,1 @@
+{ "Ω\_norm": { "type": "normalization", "role": "global normalization" }, "Ω\_cons": { "type": "constraint", "role": "global consistency" }, "Ω\_energy": { "type": "meta\_energy", "role": "global invariant energy" }, "Ω\_action": { "type": "action", "role": "global action functional" } }

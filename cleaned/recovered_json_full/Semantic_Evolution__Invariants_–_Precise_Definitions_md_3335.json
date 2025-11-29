@@ -1,0 +1,1 @@
+{ "id": "R\_CHI\_CONTINUITY\_01", "name": "Enforce Continuity Tag", "pattern": "B(χ+) \- B(χ-) discontinuity without χ\_mode tag", "condition": "detected\_jump\_in\_state", "rewrite": "insert\_tag χ\_mode='discrete' and apply discrete\_consistency\_checks", "preserves\_invariants": \[ "INV\_CHI\_CONTINUITY", "INV\_CHI\_STEP\_GRANULARITY" \] }

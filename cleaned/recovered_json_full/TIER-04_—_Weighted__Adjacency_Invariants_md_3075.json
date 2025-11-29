@@ -1,0 +1,1 @@
+{ nodes: \[1, 2\], adj: \[\[1,2\]\], // undirected represented once mu: { "1-2": 1.0 } }

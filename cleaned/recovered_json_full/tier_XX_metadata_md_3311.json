@@ -1,0 +1,1 @@
+{ "id": "RS-NF-01", "term": "Π(Φ(δ(ID(Φ(x)))))", "call": "RS\_NF(term, R)", "compare\_to": \[ "NF\_outer(term, R)", "NF\_inner(term, R)", "NF\_rand(term, R, seed=7)" \], "expect\_all\_equal": true, "description": "Checks Church–Rosser uniqueness of NF." }

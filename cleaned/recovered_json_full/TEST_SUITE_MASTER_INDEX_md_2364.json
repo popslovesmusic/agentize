@@ -1,0 +1,1 @@
+{ id: 30, description: "Commutativity: Functor composition δ∘Φ vs Φ∘δ.", input: \["δ∘Φ", "Φ∘δ"\], expect\_equal: true, invariant: "commutativity", }

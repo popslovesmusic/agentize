@@ -1,0 +1,1 @@
+{ description: 'Apply Φ inside Tri-Unity chain with δ and Π.', chain: \['δ', 'Φ', 'Π'\], expected\_nf: 'NF\_δΦΠ', }

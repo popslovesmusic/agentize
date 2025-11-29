@@ -1,0 +1,1 @@
+{ "TriUnityConsistency": "All defined compositions must be consistent with the Tri-Unity bridge laws and previously sealed δ, Φ, Π boxes.", "IdempotenceEncoding": "Idempotent operators (Φ, Π) are explicitly marked and enforced: Φ∘Φ \= Φ, Π∘Π \= Π.", "CommutatorEncoding": "Non-commutativity of δ and Φ is encoded via \[δ, Φ\], {δ, Φ}, and δΦ-Jacobian entries." }

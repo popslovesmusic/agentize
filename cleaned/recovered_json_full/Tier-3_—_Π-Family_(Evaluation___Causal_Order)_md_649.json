@@ -1,0 +1,1 @@
+{ "id": "rr\_truth\_reduce\_1", "pattern": "Π\_t(Π(B))", "normal\_form": "Π\_t(B)", "condition": "Π(B) encodes same propositional content as B", "intent": "Truth evaluation contracts through Π." }

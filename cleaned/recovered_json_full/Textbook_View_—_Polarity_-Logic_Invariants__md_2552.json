@@ -1,0 +1,1 @@
+{ id: "T9\_11\_wave\_polarity\_conflict", description: "ψ wave’s phase inversion implicitly flips polarity (requires χ rewrite event).", psi\_state: { phase: "π" }, theta\_state\_raw: "-", declared\_events: \[\], expected: { invariant\_violations: \["χ\_PR\_POLARITY\_HISTORY"\], rewrite\_applied: \["RW\_χ\_INSERT\_POLARITY\_EVENT"\], nf: "χNF" } }

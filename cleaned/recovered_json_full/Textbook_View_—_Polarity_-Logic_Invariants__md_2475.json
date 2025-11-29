@@ -1,0 +1,1 @@
+{ id: "OP\_Θ\_TENSOR\_SIGN\_CHECK", name: "Polarity Tensor-Sign Checker", family: "Theta-System", invariant\_id: "Θ\_INV\_TENSOR\_SIGN", signature: "PolarityTensor \-\> InvariantReport", description: "Ensures tensor contractions preserve sign structure.", }

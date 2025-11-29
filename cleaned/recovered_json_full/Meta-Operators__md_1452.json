@@ -1,0 +1,1 @@
+{ "symbol": "\[A,B\]", "name": "Semantic Commutator", "definition": "\[A,B\] \= A ∘ B − B ∘ A", "intent": "Measure semantic non-commutativity between operators.", "constraints": \["Bilinear", "Antisymmetric", "Zero iff A and B commute"\], "notes": "Used in δ–λ curvature relations and Θ polarity inversion analysis." }

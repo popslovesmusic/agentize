@@ -1,0 +1,1 @@
+{ "name": "semantic\_sum\_delta\_phi\_nf", "pattern": "δ⊕Φ", "rewrite": "NF\_δ⊕Φ", "comment": "Canonical normal form for combined deviation+projection." }

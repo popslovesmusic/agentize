@@ -1,0 +1,1 @@
+{ "truth_values": ["⊥", "⊤"], "atoms": ["TruthAtom", "PolarityAtom"], "operators": ["Π", "Θ"] }

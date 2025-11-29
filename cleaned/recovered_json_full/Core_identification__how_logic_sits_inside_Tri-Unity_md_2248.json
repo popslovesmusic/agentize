@@ -1,0 +1,1 @@
+{ "name": "move\_δ\_left\_general", "when": "O ∘ δ", "then": "δ ∘ O", "conditions": \["O ∈ {Φ, Π₁, μ, λ, ψ, Σ, Θ, Π₂, χ, Ω, ρ}"\], "intent": "Bubble δ to far left." }

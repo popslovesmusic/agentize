@@ -1,0 +1,21 @@
+{
+      "operator": "χ (Evolution/Time)",
+      "definition": "Temporal sequencing and planning gate",
+      "signature": "χ(steps[]) → ordered_execution_plan",
+      "use_case": "Multi-step planning and sequential execution",
+      "implementation": {
+        "step_1": "Define goal state",
+        "step_2": "Generate step sequence",
+        "step_3": "Execute in order with checkpoints"
+      },
+      "example": {
+        "goal": "Deploy application to production",
+        "sequence": [
+          "run_tests (Π)",
+          "build_artifacts (δ)",
+          "validate_build (Π)",
+          "deploy (execution)",
+          "health_check (Π)"
+        ]
+      }
+    }

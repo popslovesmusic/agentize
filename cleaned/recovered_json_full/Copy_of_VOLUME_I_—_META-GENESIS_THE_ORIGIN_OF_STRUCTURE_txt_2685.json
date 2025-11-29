@@ -1,0 +1,1 @@
+{ "ProtoElliptical": { "ψ_rotation": "low", "λ": "isotropic & deep", "μ": "high central concentration" }, "ProtoDisk": { "ψ_rotation": "high", "λ": "flattened", "ρ": "layered symmetry" }, "ProtoIrregular": { "ψ": "chaotic", "λ": "fragmented", "μ": "inhomogeneous" } }

@@ -1,0 +1,1 @@
+{ "id": "T60", "left": "Θ", "right": "Θ", "composition": "Θ\_to\_Pi ∘ Θ", "category": "evaluation\_composition", "signature": "Box \-\> Bool", "rule": "Evaluate a Box by first routing to polarity via Θ then mapping to truth via Θ\_to\_Pi.", "notes": "Canonical Θ-evaluation shortcut." }

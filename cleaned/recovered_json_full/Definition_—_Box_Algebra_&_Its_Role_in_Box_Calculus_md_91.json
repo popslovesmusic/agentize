@@ -1,0 +1,5 @@
+{`  
+        `"name": "Aggregation_distributivity",`  
+        `"schema": "SigmaSigma_a(compose(B2, B1)) == compose(SigmaSigma_a(B2), SigmaSigma_a(B1))",`  
+        `"condition": "aggregation inputs are polarity-aligned"`  
+      `}

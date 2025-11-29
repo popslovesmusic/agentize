@@ -1,0 +1,1 @@
+{ "name": "V3_Ch7_ViolentRelaxation_Theorem", "intent": "Show violent relaxation is ψ-decoherence + Σ-normalization.", "domain": "Post-merger dynamics", "constraints": [ "No Π-reversible states allowed", "ρ hierarchy must re-stabilize" ], "cross_links": ["V1_Ch5_ChiEvolution_IdentityBox"] }

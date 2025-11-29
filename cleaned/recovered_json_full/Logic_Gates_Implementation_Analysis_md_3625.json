@@ -1,0 +1,9 @@
+{
+      "signature": "Π→Θ(truth_value) → Θ",
+      "algorithm": {
+        "step_1": "If truth_value == 1 or true: return Θ₊",
+        "step_2": "If truth_value == 0 or false: return Θ₋",
+        "step_3": "If probabilistic: map [0.5, 1] → Θ₊, [0, 0.5) → Θ₋"
+      },
+      "use_case": "Convert validation result to routing signal"
+    }

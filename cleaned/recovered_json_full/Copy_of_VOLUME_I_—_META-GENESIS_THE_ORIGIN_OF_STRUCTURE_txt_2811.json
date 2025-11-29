@@ -1,0 +1,1 @@
+{ "name": "V3_Ch6_WebFormation_Theorem", "intent": "Prove cosmic web arises from λ–μ–ψ–ρ graph projection.", "domain": "Semantic → physical adjacency mapping", "constraints": [ "Ω ensures web topology preserved", "Σ gradients stabilize filaments" ], "cross_links": ["V1_Ch8_BoxRewriteSystem_Box"] }

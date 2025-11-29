@@ -1,0 +1,1 @@
+{ "id": "C2\_sigma\_tensor\_theta", "pattern": "Σ⊗Θ", "rewrite": "NF\_Σ⊗Θ", "comment": "Tensor interaction of summation and polarity." }

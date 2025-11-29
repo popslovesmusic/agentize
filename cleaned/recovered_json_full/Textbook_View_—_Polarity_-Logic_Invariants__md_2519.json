@@ -1,0 +1,1 @@
+{ id: "OP\_χ\_DERIV", name: "Chi-Derivative", family: "Chi-Family", signature: "State(χ) \-\> dState/dχ", description: "Computes χ-derivative of the state (semantic time derivative)." }

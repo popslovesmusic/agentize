@@ -1,0 +1,1 @@
+{ "name": "V3_Ch3_FieldUnification_ChapterAxiom", "intent": "Define unified origin of fields under IGSOA.", "domain": "ψ, μ, λ, Σ under Ω", "constraints": [ "ψ must be Σ-reducible to field equations", "λ must define geometric force sector", "μ must define mass-energy sector" ], "cross_links": ["V1_Ch7_OperatorAlgebra_Theorem"] }

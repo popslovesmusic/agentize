@@ -1,0 +1,9 @@
+{
+    "type": "Box",
+    "id": "Box_A",
+    "content": {
+      "structure": "semantic_graph",
+      "nodes": 100,
+      "edges": 250
+    }
+  }

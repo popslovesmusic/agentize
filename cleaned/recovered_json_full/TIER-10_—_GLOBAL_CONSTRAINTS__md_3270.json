@@ -1,0 +1,1 @@
+{ id: "Ω-CT3", chain: \["ρ1\_unstable", "Φ", "Θ\_flip", "Π"\], expected\_chain: \["ρ1\_federated", "Φ\_consistent", "blocked", "Π"\], description: "Federation \+ consistency \+ polarity integrity test." }

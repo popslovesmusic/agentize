@@ -1,0 +1,1 @@
+{ "type": "unspecified\_generic", "examples": \[ "Dirichlet: S|\_{∂B} \= S₀", "Neumann: (n · ∇S)|\_{∂B} \= J₀", "Mixed: α S \+ β (n · ∇S) \= g on ∂B" \] }

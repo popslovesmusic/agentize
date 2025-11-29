@@ -1,0 +1,13 @@
+python
+# Boolean routing (limited)
+if is_valid:
+    use_result()
+else:
+    regenerate()
+
+# Polarity routing (adaptive)
+polarity = pi_to_theta(validation)
+if polarity == "Θ₊":
+    use_cached_result()  # High confidence
+else:
+    deep_regeneration()  # Low confidence

@@ -1,0 +1,10 @@
+{
+    "mu_normalization": "forall i: abs(sum_j W[i][j] - 1.0) < 1e-12",
+    "mu_nonnegativity": "forall i,j: W[i][j] >= 0",
+    "delta_symmetry": "forall i,j: Delta[i][j] = Delta[j][i]",
+    "delta_zero_diagonal": "forall i: Delta[i][i] = 0",
+    "phi_linearity": "Phi is linear over Box-space",
+    "pi_linearity": "Pi is linear over Box-space or piecewise-linear by region",
+    "psi_linearity": "psi is linear as composition of linear operators",
+    "psi_covariance": "psi commutes with δ, Φ, Π, μ under Tri-Unity+μ axioms"
+  }

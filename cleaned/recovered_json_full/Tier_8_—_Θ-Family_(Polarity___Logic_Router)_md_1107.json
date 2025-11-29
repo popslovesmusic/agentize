@@ -1,0 +1,1 @@
+{ "id": "T15", "left": "Φ", "right": "Θ\_plus", "composition": "Φ ∘ Θ\_plus", "category": "channel\_composition", "signature": "Box \-\> Box", "rule": "Projection restricted to the positive polarity channel.", "notes": "Defines Φ\_plus." }

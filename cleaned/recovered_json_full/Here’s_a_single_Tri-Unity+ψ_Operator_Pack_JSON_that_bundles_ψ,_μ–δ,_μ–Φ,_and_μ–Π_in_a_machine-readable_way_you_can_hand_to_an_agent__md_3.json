@@ -1,0 +1,15 @@
+{`  
+      `"id": "phi",`  
+      `"symbol": "Φ",`  
+      `"name": "Projection Operator",`  
+      `"role": "semantic_projection",`  
+      `"arity": 1,`  
+      `"domain": "BoxField",`  
+      `"codomain": "SemanticFormField",`  
+      `"locality": "local",`  
+      `"linearity": "affine",`  
+      `"properties": [`  
+        `"idempotent_on_projected_subspace",`  
+        `"compatible_with_delta"`  
+      `]`  
+    `}

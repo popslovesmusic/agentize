@@ -1,0 +1,1 @@
+{ id: 4, description: "Closure: full 3-step δ→Φ→Π.", input: \[δ, Φ, Π\], expect\_nf: "NF\_δΦΠ", invariant: "closure", }

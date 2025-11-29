@@ -1,0 +1,1 @@
+{ "id": "THETA-COMPLETENESS", "statement": "Polarity space is complete: every evaluable Box has a well-defined polarity in {Θ+, Θ-} or a signed generalization.", "formal": "Θ(B) is defined for any B in the domain of Π, and Θ→Π(Θ(B)) ∈ {0,1}.", "dependencies": \["PI-TOTALITY"\] }

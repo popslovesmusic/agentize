@@ -1,0 +1,1 @@
+{ "id": "LG2", "pattern": "Theta\_LG($p1,$p2,'OR')", "replacement": "Theta\_to\_logic.OR($p1,$p2)", "category": "gate\_rewrite" }

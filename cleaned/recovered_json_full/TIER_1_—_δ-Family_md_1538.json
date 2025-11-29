@@ -1,0 +1,1 @@
+{ "type": "structural\_template", "intent": "Canonical 5-field Axiom Box form.", "schema": { "name": "string", "intent": "string", "domain": "string", "constraints": "list\<string\>", "cross\_links": "object", "tier": "integer", "diagram": "string | diagram\_ref" } }

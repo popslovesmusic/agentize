@@ -1,0 +1,49 @@
+{`  
+      `"id": "tri_unity_plus_psi_grid",`  
+      `"operators": [`  
+        `"delta",`  
+        `"phi",`  
+        `"pi",`  
+        `"psi"`  
+      `],`  
+      `"matrix_form": {`  
+        `"rows": [`  
+          `"δ",`  
+          `"Φ",`  
+          `"Π",`  
+          `"ψ"`  
+        `],`  
+        `"cols": [`  
+          `"δ",`  
+          `"Φ",`  
+          `"Π",`  
+          `"ψ"`  
+        `],`  
+        `"entries": [`  
+          `[`  
+            `"δ∘δ : defined_formally",`  
+            `"Φ∘δ : defined",`  
+            `"Π∘δ : undefined_direct (needs Φ)",`  
+            `"ψ∘δ : defined_wave"`  
+          `],`  
+          `[`  
+            `"δ∘Φ : defined_on_projected",`  
+            `"Φ∘Φ : idempotent",`  
+            `"Π∘Φ : canonical",`  
+            `"ψ∘Φ : projection_coupled_wave"`  
+          `],`  
+          `[`  
+            `"δ∘Π : undefined_direct (back-reaction only)",`  
+            `"Φ∘Π : undefined_direct (evaluation is terminal)",`  
+            `"Π∘Π : idempotent_on_order",`  
+            `"ψ∘Π : boundary_condition_on_wave"`  
+          `],`  
+          `[`  
+            `"δ∘ψ : curvature_of_wave",`  
+            `"Φ∘ψ : observed_modes_of_wave",`  
+            `"Π∘ψ : evaluated_wave_state",`  
+            `"ψ∘ψ : nonlinear_or_multiwave_composition"`  
+          `]`  
+        `]`  
+      `}`  
+    `}

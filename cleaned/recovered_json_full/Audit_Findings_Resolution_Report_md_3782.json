@@ -1,0 +1,6 @@
+{
+  "variant_id": "symmetric_approximation",
+  "expression": "(λ∘δ + δ∘λ) / 2",
+  "use_when": ["Numerical stability needed", "Convergence issues"],
+  "performance": "Medium - improves numerical stability"
+}

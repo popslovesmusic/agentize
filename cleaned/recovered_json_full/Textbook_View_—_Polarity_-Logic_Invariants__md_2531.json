@@ -1,0 +1,1 @@
+{ id: "RW\_χ\_INSERT\_POLARITY\_EVENT", axiom\_id: "AX\_χ\_POLARITY\_HISTORY", pattern: { violation: "polarity\_jump\_without\_event" }, action: { insert: "explicit Θ-event node (e.g. NOT, interaction, phase flip)", update\_history: true }, ensures: \["χNF\_PolarityHistorySafe"\] }

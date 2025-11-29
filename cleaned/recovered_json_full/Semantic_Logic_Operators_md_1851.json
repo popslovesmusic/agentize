@@ -1,0 +1,1 @@
+{ "id": "SL-DEMORGAN-OR", "name": "DeMorgan\_OR", "pattern": "NOT(OR(A, B))", "rewrite": "AND(NOT(A), NOT(B))", "conditions": { "pi\_equivalence": true } }

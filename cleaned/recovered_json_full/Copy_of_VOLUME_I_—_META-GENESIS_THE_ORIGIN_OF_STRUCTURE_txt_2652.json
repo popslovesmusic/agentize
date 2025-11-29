@@ -1,0 +1,1 @@
+{ "objects": [ "Proto-Matter M", "Proto-Particles P_i", "Fields: ψ, λ, μ, Σ, ρ" ], "definitions": { "proto_matter": "M = Σ(P_1, P_2, ..., P_n)", "proto_mass": "m_proto(M) = ∫_R μ(x) dV" }, "conditions": [ "μ-density gradient convergence", "λ-curvature confinement", "ψ-mode coherence", "Σ-stability", "ρ-layer consistency" ] }

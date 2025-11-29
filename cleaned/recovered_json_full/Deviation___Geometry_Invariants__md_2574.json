@@ -1,0 +1,1 @@
+{ "id": "RW\_02\_δ\_NORM\_RENORMALIZE", "name": "δ-Norm Renormalization via μ", "pattern": { "state\_predicates": \[ "CHECK\_δ\_NORM(state).status \== 'violation'" \] }, "action": \[ "state := RENORMALIZE\_δ\_NORM(state)" \], "target\_nf": "NF\_δ\_norm", "guarantees": \["δ-NORM"\] }

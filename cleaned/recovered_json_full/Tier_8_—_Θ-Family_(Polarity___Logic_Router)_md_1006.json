@@ -1,0 +1,1 @@
+{ "id": "T08", "left": "Θ\_LG", "right": "δ", "composition": "Θ\_LG(sign(δ), sign(δ'))", "category": "logic\_gate", "signature": "Box \-\> LogicGateState", "rule": "Use deviation sign and its derivative sign as logic inputs.", "notes": "Edge and trend detection." }

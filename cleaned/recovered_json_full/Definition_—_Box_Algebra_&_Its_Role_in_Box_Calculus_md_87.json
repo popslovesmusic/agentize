@@ -1,0 +1,5 @@
+{`  
+        `"name": "associativity",`  
+        `"schema": "compose(B3, compose(B2, B1)) == compose(compose(B3, B2), B1)",`  
+        `"condition": "all intermediate δ-compatibilities hold"`  
+      `}

@@ -1,0 +1,1 @@
+{ "μ\_i": { "type": "local\_weight", "role": "Local metric component" }, "μ-δ-Jacobian": { "type": "weighted\_jacobian", "role": "μ-weighted δ-Jacobian" }, "μ-δ-Laplacian": { "type": "weighted\_laplacian", "role": "μ-weighted δ-Laplacian" }, "μ-Weitzenbock": { "type": "weighted\_torsion", "role": "Weighted torsion tensor" } }

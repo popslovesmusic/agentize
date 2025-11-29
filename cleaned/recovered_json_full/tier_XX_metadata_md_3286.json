@@ -1,0 +1,1 @@
+{ "id": "RS\_CHECK", "signature": "RuleSet → {status, report}", "description": "Aggregate termination, confluence, and non-expansion checks.", "pipeline": \[ "RS\_CHECK\_TERM", "RS\_CHECK\_LCONF", "RS\_CHECK\_CONF", "RS\_CHECK\_NEXP" \] }

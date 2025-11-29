@@ -1,0 +1,1 @@
+{ "events": \["A", "B", "C", "D"\], "edges": \[ \["A", "B"\], \["B", "C"\], \["C", "D"\] \], "truth\_values": { "A": 0.6, "B": 0.6, "C": 0.6, "D": 0.6 }, "invariants\_satisfied": \["PI-CO", "PI-TM", "PI-CT"\], "in\_normal\_form": true, "omega\_constraints\_satisfied": true }

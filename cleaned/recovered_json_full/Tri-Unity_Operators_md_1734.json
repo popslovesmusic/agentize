@@ -1,0 +1,1 @@
+{ "name": "phi\_pi\_pair\_nf", "pattern": "Φ∘Π", "rewrite": "NF\_ΦΠ", "comment": "Defines the canonical pairwise Φ→Π composition." }

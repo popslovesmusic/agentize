@@ -1,0 +1,1 @@
+{ "discreteness": "χ-steps are discrete at this tier.", "path_minimality": "SemanticPathElements cannot be decomposed further into shorter valid paths.", "rewrite_atomicity": "RewriteRuleAtoms are irreducible rewrite units." }

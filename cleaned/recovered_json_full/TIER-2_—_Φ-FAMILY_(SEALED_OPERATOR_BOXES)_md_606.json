@@ -1,0 +1,1 @@
+{ "Name": "Phi\_plus", "Expression": "Φ⊕(B) \= Φ\_s(B) ⊕ Φ\_c(B)", "Intent": "Composite projection combining semantic and causal components.", "SealedBoxRef": "Phi\_plus" }

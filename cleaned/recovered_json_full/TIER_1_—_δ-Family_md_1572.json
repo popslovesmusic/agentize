@@ -1,0 +1,1 @@
+{ "pattern": "Σ(a \+ b)", "rewrite": "Σ(a) \+ Σ(b)" }

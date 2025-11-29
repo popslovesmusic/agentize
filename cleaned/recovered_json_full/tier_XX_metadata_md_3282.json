@@ -1,0 +1,1 @@
+{ "id": "RS\_CHECK\_TERM", "signature": "RuleSet → {true, false, unknown}", "description": "Attempt to certify termination of R via μ\_term. " \+ "Tries to synthesize a well-founded measure such that " \+ "μ\_term(r.rhs) \< μ\_term(r.lhs) for all rules r.", "related\_invariant": "RS-I1" }

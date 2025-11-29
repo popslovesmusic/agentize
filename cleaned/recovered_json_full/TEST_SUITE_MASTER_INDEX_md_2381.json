@@ -1,0 +1,1 @@
+{ id: 47, description: "NF: Convolution δ⋆Φ⋆Π reduces to NF.", input: \["δ⋆Φ⋆Π"\], expect\_nf: "NF\_δ⋆Φ⋆Π", invariant: "normal\_form", }

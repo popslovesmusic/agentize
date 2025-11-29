@@ -1,0 +1,1 @@
+{ "name": "schrodinger\_like\_limit", "conditions": { "Phi\_zero": true, "Pi\_nonzero": true, "mu\_constant": true }, "comment": "After appropriate identification of χ with i∂\_t and Π with potential, a Schrödinger-like equation emerges." }

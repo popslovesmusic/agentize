@@ -1,0 +1,9 @@
+{
+      "id": "phi_to_pi",
+      "dimension": 2,
+      "boundary": ["phi_f", "thetaB", "pi_f", "thetaA"],
+      "commutes": {
+        "equation": "Π(f) ∘ τ_A = τ_B ∘ Φ(f)",
+        "semantic_layer": "general"
+      }
+    }

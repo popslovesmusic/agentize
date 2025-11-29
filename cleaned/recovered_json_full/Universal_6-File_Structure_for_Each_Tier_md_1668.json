@@ -1,0 +1,1 @@
+{ "left": "δ", "right": "Φ", "meta": \[ { "meta\_operator\_name": "functor\_composition", "symbol": "δ∘Φ", "id": "IT\_01" }, { "meta\_operator\_name": "semantic\_commutator", "symbol": "\[δ,Φ\]", "id": "IT\_02" } \], "defined": true, "notes": "Deviation after projection plus the semantic commutator." }

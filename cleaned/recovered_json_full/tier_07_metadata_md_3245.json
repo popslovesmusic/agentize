@@ -1,0 +1,1 @@
+{ "SigmaLeft": { "δ": "INT\_SIGMA\_DELTA\_LEFT", "Φ": "INT\_SIGMA\_PHI\_LEFT", "Π": "INT\_SIGMA\_PI\_LEFT", "ψ": "INT\_SIGMA\_PSI\_LEFT", "Θ": "INT\_SIGMA\_THETA\_LEFT" }, "SigmaRight": { "δ": "INT\_SIGMA\_DELTA\_RIGHT", "Φ": "INT\_SIGMA\_PHI\_RIGHT", "Π": "INT\_SIGMA\_PI\_RIGHT", "ψ": "INT\_SIGMA\_PSI\_RIGHT", "Θ": "INT\_SIGMA\_THETA\_RIGHT" } }

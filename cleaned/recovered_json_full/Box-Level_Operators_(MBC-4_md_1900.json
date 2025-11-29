@@ -1,0 +1,1 @@
+{ "axiom\_box": { "name": "Box-Level Consistency Axiom", "intent": "Every operator preserves box-validity", "domain": "All Box operators", "constraints": \[ "BOX(B) yields canonical B", "NORMALIZE(B) enforces Ω(B)=0", "Operator composition closed under Box algebra" \], "links": \["Tier-0 Primitive Axioms"\] } }

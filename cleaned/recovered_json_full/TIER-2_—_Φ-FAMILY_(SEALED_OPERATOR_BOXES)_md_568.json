@@ -1,0 +1,1 @@
+{ "BoxName": "Π\*", "BoxIntent": "Adjoint evaluation operator.", "Domain": { "Input": "B", "Output": "Π\*(B)" }, "Constraints": { "AdjointLaw": "⟨Π(B1), B2⟩ \= ⟨B1, Π\*(B2)⟩", "Duality": "Π\*Π projection", "MetricDependence": "μ-weighted definition" }, "CrossLinks": { "μ": "Metric", "Φ\_c": "Causal layer", "Σ": "Contraction rules" } }

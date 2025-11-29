@@ -1,0 +1,11 @@
+operators/
+├── canonical/                     # Primary definitions with variants
+│   ├── lambda_delta_composition.json
+│   └── psi_commutativity.json
+├── selection/                     # Context detection rules
+│   └── context_selection_guide.json
+├── validation/                    # Consistency tests
+│   └── variant_consistency_tests.py
+├── examples/                      # Demonstration queries
+│   └── pooled_variant_examples.py
+└── variant_aware_router.py       # Automatic variant selection

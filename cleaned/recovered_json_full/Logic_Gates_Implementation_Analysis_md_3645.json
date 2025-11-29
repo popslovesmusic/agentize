@@ -1,0 +1,16 @@
+{
+      "operator": "λ (Curvature/Adaptation)",
+      "definition": "Adaptive routing based on context curvature",
+      "signature": "λ(context) → routing_adjustment",
+      "use_case": "Context-sensitive routing that adapts to conversation flow",
+      "implementation": {
+        "step_1": "Analyze context trajectory",
+        "step_2": "Compute semantic curvature",
+        "step_3": "Adjust routing based on curvature"
+      },
+      "example": {
+        "context": "User frustrated after 3 failed attempts",
+        "curvature": "high (rapid polarity change)",
+        "adjustment": "route_to_simpler_agent"
+      }
+    }

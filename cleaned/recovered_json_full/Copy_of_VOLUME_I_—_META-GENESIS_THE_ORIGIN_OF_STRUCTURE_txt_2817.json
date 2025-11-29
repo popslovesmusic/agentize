@@ -1,0 +1,1 @@
+{ "name": "V3_Ch8_Regulation_Theorem", "intent": "Prove cosmic stability emerges from Ω-governed feedback.", "domain": "Regulatory cycles", "constraints": [ "δ minimal evolution must be respected", "Feedback loops converge to Σ-stable states" ], "cross_links": ["V2_Ch6_ForceComposition_Theorem"] }

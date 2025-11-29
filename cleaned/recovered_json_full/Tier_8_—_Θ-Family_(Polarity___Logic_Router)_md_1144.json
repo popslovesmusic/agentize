@@ -1,0 +1,1 @@
+{ "id": "T52", "left": "Θ\_LG", "right": "Θ", "composition": "Θ\_LG(p1, p2)", "category": "logic\_gate", "signature": "(Polarity,Polarity) \-\> Bool", "rule": "Apply a chosen logic gate to polarity inputs.", "notes": "Gate type specified externally." }

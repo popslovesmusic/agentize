@@ -1,0 +1,1 @@
+{ rewrite\_rule: "ADJ\_DELETE → BLOCKED", errors: \["A2\_MicroAdjacencyConservation"\] }

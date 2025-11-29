@@ -1,0 +1,1 @@
+{ "is\_nf": true, "violations": \[\], "normalized\_trace": \[ { "state": "B\_nf", "chi": 0, "nf": true }, { "state": "B\_nf", "chi": 1, "nf": true } \] }

@@ -1,0 +1,5 @@
+{
+  "gate": "Pi (Π)",
+  "condition": "Is this a request to VALIDATE/CHECK work?",
+  "action": "Route to Critic/Validation Tool"
+}

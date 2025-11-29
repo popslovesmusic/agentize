@@ -1,0 +1,1 @@
+{ "intent": "Map μ-density to mass-energy density.", "rule": "μ(x) → ρ_mass(x)", "constraints": "∫μ must equal ∫ρ_mass via Ω-budget" }

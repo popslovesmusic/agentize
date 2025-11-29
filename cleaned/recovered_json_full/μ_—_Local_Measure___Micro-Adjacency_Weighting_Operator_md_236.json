@@ -1,0 +1,8 @@
+{
+        "delta": { "type": "object" },
+        "mu": { "type": "object" },
+        "phi": { "type": "object" },
+        "pi": { "type": "object" },
+        "delta_mu_laplacian": { "type": "object" },
+        "psi": { "type": "object" }
+      }

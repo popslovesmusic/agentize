@@ -1,0 +1,16 @@
+{
+    "Omega": {
+      "type": "operator",
+      "role": "global_constraint",
+      "signature": "B -> B_valid",
+      "description": "Projects any Box or operator stack into a globally admissible semantic state.",
+      "properties": ["idempotent", "normalizing", "consistency_enforcing"]
+    },
+    "Omega_norm": {
+      "type": "operator",
+      "role": "global_normalization",
+      "signature": "B -> B / ||B||_Omega",
+      "description": "Normalizes Box using Ω-semantic norm determined by Tri-Unity + μ-density + Θ-polarity.",
+      "properties": ["idempotent", "scaling"]
+    }
+  }

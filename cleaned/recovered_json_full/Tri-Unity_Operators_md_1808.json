@@ -1,0 +1,1 @@
+{ "id": "T2\_theta\_sigma", "pattern": "Θ∘Σ", "rewrite": "NF\_ΘΣ", "comment": "Polarity acting on summation." }

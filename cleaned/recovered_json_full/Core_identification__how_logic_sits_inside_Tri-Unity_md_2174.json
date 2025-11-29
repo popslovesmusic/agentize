@@ -1,0 +1,1 @@
+{ "name": "ρ\_layer\_assignment", "when": "ρ(B\_Ω)", "then": "B\_Ω^{(ρ\_k)}", "intent": "Place Ω-normalized Box into a specific ρ-layer k." }

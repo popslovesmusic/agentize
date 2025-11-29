@@ -1,0 +1,1 @@
+{ "pattern": "UnboxedTheoremObject", "rewrite": "TheoremTemplate instance", "description": "Any free-form theorem JSON is rewritten into the canonical TheoremTemplate schema." }

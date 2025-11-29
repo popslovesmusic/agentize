@@ -1,0 +1,47 @@
+┌─────────────────────────────────────────────────────┐
+│  USER QUERY                                         │
+└────────────────┬────────────────────────────────────┘
+                 │
+                 ↓
+┌─────────────────────────────────────────────────────┐
+│  TIER-10: Ω-CONSTRAINT LAYER                        │
+│  - Global consistency enforcement                   │
+│  - Contradiction detection & quarantine             │
+│  - Ω-normalization: S → A (raw → admissible)       │
+│  - Librarian ingestion protocol                     │
+└────────────────┬────────────────────────────────────┘
+                 │
+                 ↓
+┌─────────────────────────────────────────────────────┐
+│  TIER-2: TRI-UNITY ROUTING (δ-Φ-Π)                 │
+│  - δ operator: Generation detection                 │
+│  - Φ operator: Search/retrieval detection           │
+│  - Π operator: Validation detection                 │
+│  - Canonical pipeline: Π∘Φ∘δ                        │
+└────────────────┬────────────────────────────────────┘
+                 │
+                 ↓
+┌─────────────────────────────────────────────────────┐
+│  TIER-8: Θ-LOGIC GATES (Polarity Routing)          │
+│  - Π→Θ bridge: validation → polarity signal         │
+│  - Θ→Π bridge: polarity → truth value               │
+│  - Θ-MUX: conditional routing (Θ₊/Θ₋)              │
+│  - 23 gates: 11 classical + 12 Θ-extended           │
+└────────────────┬────────────────────────────────────┘
+                 │
+         ┌───────┴─────────┬──────────────┐
+         │                 │              │
+         ↓                 ↓              ↓
+┌──────────────┐  ┌──────────────┐  ┌──────────────┐
+│  CREATIVE    │  │  LIBRARIAN   │  │  CRITIC      │
+│  AGENT       │  │  AGENT       │  │  AGENT       │
+│  (δ-handler) │  │  (Φ-handler) │  │  (Π-handler) │
+└──────────────┘  └──────────────┘  └──────────────┘
+         │                 │              │
+         └───────┬─────────┴──────────────┘
+                 │
+                 ↓
+         ┌──────────────────┐
+         │  Ω-VALIDATED     │
+         │  RESPONSE        │
+         └──────────────────┘

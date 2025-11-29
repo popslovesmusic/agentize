@@ -1,0 +1,1 @@
+{ id: "Ω-N2", input\_operator: "ψ", expected\_operator: "ψ\_norm", enforced\_by: "Ω\_normalize", description: "ψ-waves must be normalized in mode \+ amplitude." }

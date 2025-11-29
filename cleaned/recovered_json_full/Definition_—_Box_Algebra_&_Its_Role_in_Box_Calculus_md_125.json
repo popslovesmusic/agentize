@@ -1,0 +1,4 @@
+{`  
+              `"type": "array",`  
+              `"items": { "type": "string", "enum": ["Theta", "SigmaSigma_a", "Pi"] }`  
+            `}

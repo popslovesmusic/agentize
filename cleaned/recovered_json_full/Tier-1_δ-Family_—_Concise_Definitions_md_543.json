@@ -1,0 +1,1 @@
+{ "δ": { "symbol": "δ²", "intent": "Second-order deviation", "defined": true }, "Φ": { "symbol": "δΦ", "intent": "Deviation of projection", "defined": true }, "Π": { "symbol": "δΠ", "intent": "Deviation of evaluation", "defined": true }, "Σ": { "symbol": "δΣ", "intent": "Deviation of aggregated state", "defined": true, "constraints": \["Σ output must be differentiable"\] } }

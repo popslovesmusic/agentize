@@ -1,0 +1,1 @@
+{ description: 'Apply δ to a semantic field S anchored at reference S₀.', pseudo\_math: 'δS := S \- S₀', pseudo\_json5: { op: 'δ', input: 'S', reference: 'S0', }, }

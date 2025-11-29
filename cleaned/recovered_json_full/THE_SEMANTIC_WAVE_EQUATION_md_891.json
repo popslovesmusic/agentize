@@ -1,0 +1,1 @@
+{ "symbol": "δ\_μ²", "name": "μ-weighted δ-Laplacian", "definition": "δ\_μ² S \= μ⁻¹ ∇·( μ ∇S )", "order": 2, "role": "Second-order semantic curvature in μ-geometry", "inputs": \["δ", "μ"\], "outputs": \["S"\], "properties": { "elliptic\_type": true, "self\_adjoint\_in\_μ": true } }

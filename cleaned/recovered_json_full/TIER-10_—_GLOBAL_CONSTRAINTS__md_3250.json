@@ -1,0 +1,1 @@
+{ name: "Ω-block-contradiction", pattern: { state: "⊥" }, replace\_with: { error: "Illegal-State-Under-Ω" }, comment: "No chain may reduce to contradiction." }

@@ -1,0 +1,12 @@
+{
+  "table_type": "OperatorInteractionTable",
+  "schema_version": "MBC-4.0",
+  "table_name": "psi_Interaction_Table_v2",
+  "family": "psi",
+  "tier": 6,
+  "description": "Full 52-entry ψ-layer interaction table across δ, Φ, Π, μ, λ, Θ, χ and ψ-modes.",
+  "entries": [
+    { "id": "PSI_INT_01", "lhs": "ψω ∘ δ", "rhs": "ω δ²", "role": "frequency-scaled deviation", "type": "second_order", "order": 2 },
+    { "id": "PSI_INT_02", "lhs": "ψω ∘ Φ", "rhs": "ω (δΦ)", "role": "deviation of projection", "type": "mixed_curvature", "order": 1 }
+  ]
+}

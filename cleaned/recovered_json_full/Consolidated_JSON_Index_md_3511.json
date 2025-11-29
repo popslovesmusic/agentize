@@ -1,0 +1,16 @@
+{
+      "id": "Pi",
+      "symbol": "Π",
+      "role": "base_evaluator",
+      "tier": 3,
+      "domain": "Box",
+      "codomain": "EvaluationState",
+      "depends_on": ["δ-state", "Φ-state"],
+      "intent": "Canonical evaluator returning the causal-truth state of a Box.",
+      "signature": { "input": ["Box"], "output": ["EvaluationState"], "expression": "Π(B)" },
+      "properties": {
+        "linearity": false,
+        "causal_monotonicity": true,
+        "idempotent_on_evaluation_state": true
+      }
+    }

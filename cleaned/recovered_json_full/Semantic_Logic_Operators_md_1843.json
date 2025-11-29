@@ -1,0 +1,1 @@
+{ "symbol": "≡", "arity": 2, "category": "boolean", "definition": { "theta\_rule": "Θ\_out \= Θ⁺ if Θ\_in1 and Θ\_in2 share polarity; Θ⁻ otherwise.", "sigma\_rule": "Σ\_out amplifies shared support; Σ\_out small if support distributions differ.", "pi\_rule": "Π\_out \= (Π\_in1 ∧ Π\_in2) ∨ (¬Π\_in1 ∧ ¬Π\_in2)." }, "aliases": \["equivalence"\] }

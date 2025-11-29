@@ -1,0 +1,1 @@
+{ desc: "Apply λ-curvature to μ-field while preserving A1–A3.", input: \["MuAdjState", "LambdaProfile"\], output: "MuAdjState", constraints: \[ "μ(x) \>= 0 for unsigned weights (A1)", "Adj grid unchanged (A2)", "Each adj edge has weight after operation (A3)" \] }

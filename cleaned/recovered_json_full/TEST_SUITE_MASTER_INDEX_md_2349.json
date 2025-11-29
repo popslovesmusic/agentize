@@ -1,0 +1,1 @@
+{ id: 15, description: "Closure: δ⋆Π (semantic convolution) remains defined.", input: \["δ⋆Π"\], expect\_nf: "NF\_δ⋆Π", invariant: "closure", }

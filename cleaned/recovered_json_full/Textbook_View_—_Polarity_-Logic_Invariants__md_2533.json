@@ -1,0 +1,1 @@
+{ id: "MOD\_χ\_BRIDGE\_CORE", name: "Core Chi-Evolution Bridge Module", files: \[ "tier\_09\_metadata.json5", "tier\_09\_operator\_pack.json5", "tier\_09\_interaction\_table.json5", "tier\_09\_axiom\_box.json5", "tier\_09\_rewrite\_system.json5" \] }

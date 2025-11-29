@@ -1,0 +1,5 @@
+Tri-Unity Router → Determines operator family
+      ↓
+Variant Router → Selects optimal formulation within family
+      ↓
+Execution → Applies selected variant

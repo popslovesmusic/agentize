@@ -1,0 +1,1 @@
+{ id: 'TU-NF-02', invariant: 'closure', pattern: \['Φ', 'Π'\], rewrite: 'NF\_ΦΠ', conditions: {}, explanation: 'Composition Φ∘Π is a valid Tri-Unity chain with NF\_ΦΠ.', }

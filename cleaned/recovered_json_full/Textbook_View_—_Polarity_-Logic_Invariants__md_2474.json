@@ -1,0 +1,1 @@
+{ id: "OP\_Θ\_CONSERVE\_CHECK", name: "Polarity Conservation Checker", family: "Theta-System", invariant\_id: "Θ\_INV\_CONSERVATION", // signature: PolarityState → InvariantReport signature: "PolarityState \-\> InvariantReport", description: "Checks that no polarity is created/destroyed across network boundaries.", }

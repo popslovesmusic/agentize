@@ -1,0 +1,1 @@
+{ "uniqueness": "box_id must be unique across the library.", "Π_stability": "pi_state must be consistent under evaluation.", "Σ_merge": "Merging boxes must produce a new box_id with Ω-recorded provenance." }

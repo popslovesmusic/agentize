@@ -1,0 +1,1 @@
+{ "description": "Single propositional variable p as a Tri-Unity Box.", "box\_form": "B\_p \= { δ(p), Φ\_logic(p), Θ(p), Π(p) }", "theta\_values": \["Θ\_+", "Θ\_-"\], "pi\_rule": "Π(p) \= 1 if Θ(p) \= Θ\_+ else 0" }

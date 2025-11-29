@@ -1,0 +1,1 @@
+{ "id": "T40", "left": "λ", "right": "Θ", "composition": "λ⊗Θ", "category": "tensor\_product", "signature": "Box \-\> Tensor", "rule": "Curvature-first tensor pairing.", "notes": "Useful for Ricci-like contractions." }

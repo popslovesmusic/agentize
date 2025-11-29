@@ -1,0 +1,1 @@
+{ "target": "tier\_cross\_rewrite\_system.json5", "role": "Enforces NF\_cross\_semantic via rewrite rules consistent with these invariants." }

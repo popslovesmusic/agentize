@@ -1,0 +1,46 @@
+{`  
+  `"mbc_version": "4.0",`  
+  `"type": "module_pack",`  
+  `"pack_id": "psi_wave_pack",`  
+  `"pack_name": "Semantic Wave Operator Pack",`
+
+  `"manifest": {`  
+    `"description": "Defines ψ, its μ-weighted δ curvature base, Φ/Π feedback, and the semantic wave equation.",`  
+    `"tags": ["psi", "mu", "semantic-wave"]`  
+  `},`
+
+  `"dependencies": {`  
+    `"module_packs": ["tri_unity_core_pack"],`  
+    `"layers": ["psi_layer_v1"],`  
+    `"axioms": [],`  
+    `"operators": ["ψ", "μ"]`  
+  `},`
+
+  `"objects": {`  
+    `"theorems": ["psi_wave_equation_theorem"],`  
+    `"layers": ["psi_layer_v1"],`  
+    `"axiom_boxes": ["mu_axiom", "psi_axiom"],`  
+    `"tri_unity_signatures": [],`  
+    `"diagrams": ["psi_wave_diagram"]`  
+  `},`
+
+  `"router": {`  
+    `"operator_chains": ["δ → ψ → Φ → Π"],`  
+    `"psi_mu_links": ["μ·Δ_δ"],`  
+    `"semantic_flows": ["Box → ψ → Box"]`  
+  `},`
+
+  `"rewrite_rules": [`  
+    `{`  
+      `"pattern": "ψ(ψ(B))",`  
+      `"rewrite": "ψ(B) + nonlinear_interaction(ψ,B)",`  
+      `"note": "Multi-wave interference mechanism."`  
+    `}`  
+  `],`
+
+  `"export": {`  
+    `"operators": ["ψ", "μ"],`  
+    `"layers": ["psi_layer_v1"],`  
+    `"theorems": ["psi_wave_equation_theorem"]`  
+  `}`  
+`}

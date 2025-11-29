@@ -1,0 +1,1 @@
+{ "id": "T13", "left": "Θ", "right": "Φ", "composition": "Θ⊕Φ", "category": "sum\_composition", "signature": "(Box,Box) \-\> polarity\_sum", "rule": "Polarity sum of projected forms.", "notes": "Semantic voting across projections." }

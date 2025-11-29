@@ -1,0 +1,1 @@
+{ id: "B0", class\_id: "vector", payload: { dim: \-3, // violates primitive constraints: dimension must be \>= 1 values: \[2, 4\] // length mismatch with invalid dimension } }

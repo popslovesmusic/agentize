@@ -1,0 +1,9 @@
+{
+  "layer": "psi",
+  "tier": 6,
+  "role": "semantic_oscillation_and_waves",
+  "operators": ["ψ", "ψω", "ψΦ", "ψΠ", "ψ⊗", "ψ→SE"],
+  "governing_equation": "Semantic Wave Equation",
+  "dependencies": ["δ", "Φ", "Π", "μ", "λ", "Θ", "χ"],
+  "output": "Semantic wave propagation and modal resonance"
+}

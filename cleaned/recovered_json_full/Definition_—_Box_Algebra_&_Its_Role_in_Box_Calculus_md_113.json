@@ -1,0 +1,6 @@
+{`  
+      `"id": "LAW-5",`  
+      `"name": "aggregation_distributivity",`  
+      `"schema": "ΣΣₐ(B2 ∘ B1) == ΣΣₐ(B2) ∘ ΣΣₐ(B1)",`  
+      `"conditions": "Polarity alignment required."`  
+    `}

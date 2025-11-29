@@ -1,0 +1,5 @@
+{`  
+        `"name": "Phi_distributes_over_delta_merge",`  
+        `"schema": "Phi(delta(B1, B2)) == compose(Phi(B1), Phi(B2))",`  
+        `"condition": "δ-compatibility holds"`  
+      `}

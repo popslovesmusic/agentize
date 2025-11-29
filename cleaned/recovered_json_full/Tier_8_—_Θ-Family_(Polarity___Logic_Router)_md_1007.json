@@ -1,0 +1,1 @@
+{ "id": "T09", "left": "Θ", "right": "Φ", "composition": "Θ ∘ Φ", "category": "left\_composition", "signature": "Box \-\> Box\_polarized", "rule": "Assign polarity after projection into semantic form.", "notes": "Form-dependent polarity." }

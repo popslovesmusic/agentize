@@ -1,0 +1,1 @@
+{ "id": "face\_delta\_pi\_low", "name": "δ-Π face (Φ \= 0)", "vertices": \["B", "delta\_B", "pi\_B", "delta\_pi\_B"\], "commutativity": { "unweighted": "δ ∘ Π vs Π ∘ δ (Tri-Unity may treat this as a governed rewrite, not strict commutativity).", "weighted": "\[μ→δ, Π\] encodes μ-weighted causal deformation." } }

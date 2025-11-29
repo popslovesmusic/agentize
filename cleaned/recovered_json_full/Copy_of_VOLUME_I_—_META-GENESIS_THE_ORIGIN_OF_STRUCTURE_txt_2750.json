@@ -1,0 +1,1 @@
+{ "unique_ids": "All node_id, edge_id, router_id must be unique.", "signature_consistency": "Tensor signature remains invariant under allowed rewrites.", "Π_stability": "Identity attributes evaluate to stable truth under Π." }

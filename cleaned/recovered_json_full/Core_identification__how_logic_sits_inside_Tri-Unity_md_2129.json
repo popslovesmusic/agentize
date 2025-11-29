@@ -1,0 +1,1 @@
+{ "classical": "logical equivalence", "theta\_formula": "Θ\_out \= Θ\_p \* Θ\_q", "pi\_formula": "Π\_out \= 1 if Θ\_out \= Θ\_+ else 0", "tri\_unity\_form": "XNOR \= NOT ∘ XOR", "notes": "True when polarities match." }

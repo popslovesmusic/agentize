@@ -1,0 +1,1 @@
+{ "name": "ATTACH\_MODE", "symbol": "ATTACH(m, X)", "signature": "(Mode, PrimitiveEntity) \-\> ModeAssignment", "intent": "Attach Mode m to primitive entity X (Point, Edge, Face, Box).", "constraints": \[ "X.supports\_modes \== true" \] }

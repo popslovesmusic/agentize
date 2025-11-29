@@ -1,0 +1,1 @@
+{ "Π_totality": "Π maps all admissible states into {⊥, ⊤} or composite truth states consistent with Ω.", "Θ_polarity_integrity": "Θ+ and Θ- must never both be assigned simultaneously to a single PolarityAtom.", "no_spontaneous_contradiction": "No sequence of allowed operations may map ⊤ to ⊥ without explicit contradiction input." }

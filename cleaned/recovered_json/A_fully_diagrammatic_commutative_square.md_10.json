@@ -1,0 +1,16 @@
+{
+  "commutative_cube": {
+    "functors": ["F", "G", "H"],
+    "natural_transformation": "eta: F ⇒ G",
+    "objects": ["A", "B"],
+    "morphisms": ["f: A → B"],
+    "faces_commute": {
+      "bottom":  "G(f) ∘ η_A = η_B ∘ F(f)",
+      "top":     "H(G(f)) ∘ H(η_A) = H(η_B) ∘ H(F(f)",
+      "left":    "...",
+      "right":   "...",
+      "front":   "...",
+      "back":    "..."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{`  
+        `"mbc_version": "4.0",`  
+        `"type": "layer",`  
+        `"id": f"layer_{re.sub(r'[^A-Za-z0-9]+','_',item['name']).lower()}",`  
+        `"layer_name": item["name"],`  
+        `"layer_symbol": "ρ",`  
+        `"meta": {"description": "Auto-extracted layer", "tags": []},`  
+        `"structure": {`  
+            `"domain": "BoxField",`  
+            `"codomain": "BoxField",`  
+            `"arity": 1,`  
+            `"locality": "local",`  
+            `"linearity": "linear"`  
+        `},`  
+        `"components": [],`  
+        `"dependencies": {"operators": [], "layers": [], "axioms": []},`  
+        `"rewrite_rules": [],`  
+        `"tensor_hooks": {`  
+            `"input_rank": None,`  
+            `"output_rank": None,`  
+            `"supports_chromatic_12x12": False`  
+        `}`  
+    `}

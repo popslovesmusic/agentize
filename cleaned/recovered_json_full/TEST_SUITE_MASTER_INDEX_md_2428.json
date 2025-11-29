@@ -1,0 +1,1 @@
+{ id: 'TU-NF-30', invariant: 'normal\_form', pattern: 'δ⊕Φ⊕Π', rewrite: 'NF\_δΦΠ', conditions: { sum\_semantics: true }, explanation: 'Semantic sum δ⊕Φ⊕Π normalizes to 3-step NF\_δΦΠ.', }

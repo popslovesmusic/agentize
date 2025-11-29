@@ -1,0 +1,1 @@
+{ "id": "Evolution.Primitive.ChiStep", "name": "χ-step", "kind": "primitive\_evolution\_entity", "summary": "Atomic semantic time increment.", "properties": { "delta\_chi": "R+ (strictly positive minimal unit)", "label": "string (optional human-readable name)", "atomic": true } }

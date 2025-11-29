@@ -1,0 +1,1 @@
+{ id: "PHI\_RW\_01\_CLASS\_REPAIR", pattern: "B \-\> Φ(B)", precondition: "C(B) ≠ ⊥ ∧ C(Φ(B)) \= ⊥", action: " SUBSTITUTE C(Φ(B)) with nearest-valid class in L\_semantic\_classes or flag Box as INVALID\_CLASS\_ERROR if no such class exists. ", ensures: "C(Φ(B')) ≠ ⊥" }

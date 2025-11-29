@@ -1,0 +1,13 @@
+{
+      "gate": "Θ-XOR",
+      "condition": "new_data XOR existing_data",
+      "action": {
+        "match": "Θ₋ (reject duplicate)",
+        "mismatch": "Θ₊ (novel, ingest)"
+      },
+      "implementation": {
+        "step_1": "Compare new_data with existing",
+        "step_2": "If identical: Θ-XOR → Θ₋ (reject)",
+        "step_3": "If different: Θ-XOR → Θ₊ (accept)"
+      }
+    }

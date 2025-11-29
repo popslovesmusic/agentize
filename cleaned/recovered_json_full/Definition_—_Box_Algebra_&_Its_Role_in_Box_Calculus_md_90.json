@@ -1,0 +1,4 @@
+{`  
+        `"name": "Theta_functoriality",`  
+        `"schema": "Theta(compose(B2, B1)) == compose(Theta(B2), Theta(B1))"`  
+      `}

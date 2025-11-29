@@ -1,0 +1,20 @@
+python
+from variant_aware_router import VariantAwareRouter
+
+router = VariantAwareRouter()
+
+# Flat geometry → automatic optimization
+state_flat = {'λ': 0, 'flat_geometry_flag': True}
+selection = router.select_variant(("λ", "δ"),
+                                  router.detect_context(state_flat))
+# → Selects: flat_geometry (fastest)
+
+# ψ-layer → commutative formulation
+state_psi = {'all_operators_psi_transformed': True}
+context = router.detect_context(state_psi)
+# → AbstractionLevel.PSI_LAYER (operators commute)
+
+# Base level → non-commutative formulation
+state_base = {'working_with_raw_operators': True}
+context = router.detect_context(state_base)
+# → AbstractionLevel.BASE_OPERATOR (operators don't commute)

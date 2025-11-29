@@ -1,0 +1,19 @@
+python
+# Existing fact
+existing = SemanticState(
+    content="Paris is the capital of France",
+    metadata={'provenance': 'Geography textbook'}
+)
+omega.admissible_manifold.append(existing)
+
+# Contradictory submission
+contradictory = SemanticState(
+    content="Lyon is the capital of France",
+    metadata={'provenance': 'User claim'}
+)
+
+# Ingestion
+result = omega.ingestion_protocol(contradictory)
+
+print(result['decision'])  # 'quarantine'
+print(result['reason'])    # 'Contains contradictions - quarantined for review'

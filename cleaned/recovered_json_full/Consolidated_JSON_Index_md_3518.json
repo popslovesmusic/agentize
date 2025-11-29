@@ -1,0 +1,10 @@
+{
+      "B000": { "label": "B", "meaning": "Base Box (no Tri-Unity operator applied)." },
+      "B100": { "label": "δB", "meaning": "Deviation of B." },
+      "B010": { "label": "ΦB", "meaning": "Projection of B." },
+      "B001": { "label": "ΠB", "meaning": "Evaluation of B." },
+      "B110": { "label": "ΦδB", "meaning": "Projection of δB or deviation of ΦB (commuting)." },
+      "B101": { "label": "ΠδB", "meaning": "Evaluation of δB or deviation along evaluated path." },
+      "B011": { "label": "ΠΦB", "meaning": "Evaluation of ΦB or projected evaluation." },
+      "B111": { "label": "ΠΦδB", "meaning": "All three applied; all paths agree by commutativity." }
+    }

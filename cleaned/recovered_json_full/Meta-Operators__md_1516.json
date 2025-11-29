@@ -1,0 +1,1 @@
+{ "left\_operator": "δ", "right\_operator": "Π", "composition": "Π ∘ δ", "commutator": "\[δ,Π\]", "anticommutator": "{δ,Π}", "constraints": \[ "Π ∘ δ encodes evaluation of deviation before causal ordering." \], "links": { "triunity\_grid": "../../04\_InteractionTables/triunity\_grid.json" } }

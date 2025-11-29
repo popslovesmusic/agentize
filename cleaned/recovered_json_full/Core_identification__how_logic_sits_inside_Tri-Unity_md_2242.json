@@ -1,0 +1,1 @@
+{ "tier": 11, "invariants": \[ { "id": "RHO-DAG", "statement": "ρ-layers form a DAG.", "formal": "Layer meta-graph is acyclic.", "dependencies": \["G-LAYER-CONS"\] }, { "id": "RHO-UNIQUENESS", "statement": "Each Box has a canonical ρ-layer in NF.", "formal": "There exists a unique ρ\_k tagging B in NF\_cross\_semantic.", "dependencies": \[\] } \] }

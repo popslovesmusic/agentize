@@ -1,0 +1,1 @@
+{ "id": "RHO-AX3", "name": "Meta-Closure Axiom", "statement": "For each n, the class of configurations built from layers {ρ\_i | i ≤ n} is closed under all operations registered in the ρ-operator pack with meta-level ≤ n.", "invariant\_ref": "RHO-META-CLOSURE" }

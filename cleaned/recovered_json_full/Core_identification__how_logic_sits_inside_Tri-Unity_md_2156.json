@@ -1,0 +1,1 @@
+{ "name": "idempotent\_ψ", "when": "ψ ∘ ψ", "then": "ψ", "intent": "Canonical wave operator ψ is normalized to single application." }

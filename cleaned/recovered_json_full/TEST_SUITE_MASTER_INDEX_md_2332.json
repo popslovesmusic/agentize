@@ -1,0 +1,1 @@
+{ always\_pretty\_print: true, sort\_keys: false, // preserve semantic order comment\_density: "high", // rich commentary encouraged include\_examples: "minimal", expand\_symbols: false }

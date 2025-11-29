@@ -1,0 +1,1 @@
+{ "symbol": "A⊗B", "definition": "Parallel action of A and B on a product Box space.", "intent": "Encodes independent but simultaneous transformations.", "normal\_form\_behavior": "Normal form NF\_{A⊗B} for tensorized states." }

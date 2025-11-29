@@ -1,0 +1,1 @@
+{ "id": "R2\_MERGE\_SYMMETRIC", "name": "Antisymmetry Merge", "invariants\_preserved": \["PI-CO"\], "when": { "pattern": "events a, b with a ≼\_Π b and b ≼\_Π a and a \!= b" }, "action": { "strategy": "merge\_nodes", "replacement": "new\_event c with Π(c) \= max(Π(a), Π(b)) and unified incident edges" }, "result": "antisymmetry enforced by merging indistinguishable events" }

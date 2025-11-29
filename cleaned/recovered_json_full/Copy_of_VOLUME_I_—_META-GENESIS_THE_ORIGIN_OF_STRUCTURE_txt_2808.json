@@ -1,0 +1,1 @@
+{ "name": "V3_Ch5_RotationCurve_Theorem", "intent": "Prove flat rotation curves from μ-halo distributions.", "domain": "μ→ρ_halo mapping", "constraints": [ "λ must preserve halo curvature gradient", "Σ ensures stable orbital velocities" ], "cross_links": ["V2_Ch8_FilamentWell_StructureBox"] }

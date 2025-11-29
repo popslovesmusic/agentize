@@ -1,0 +1,1 @@
+{ "symbol": "Φ", "name": "Projection operator", "tier": 2, "signature": "Φ : S → S", "role": "Semantic form / mode projection", "properties": { "idempotent": true, "self\_adjoint": true, "type": "projector" }, "links": \["AXIOM\_BOX\_\_Phi\_Projection\_Operator"\] }

@@ -1,0 +1,1 @@
+{ // C : Box \-\> SemanticClass ∪ {⊥} for\_all: "B ∈ Box", require: "C(B) ≠ ⊥", assert: "C(Φ(B)) ≠ ⊥ ∧ C(Φ(B)) ∈ L\_semantic\_classes", }

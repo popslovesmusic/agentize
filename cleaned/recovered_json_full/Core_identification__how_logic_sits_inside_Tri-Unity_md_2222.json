@@ -1,0 +1,1 @@
+{ "χΔ": { "type": "step\_evolution", "role": "Discrete χ-step" }, "d/dχ": { "type": "semantic\_derivative", "role": "χ-derivative" }, "∂\_χ": { "type": "partial\_evolution", "role": "Partial χ" }, "χ→δ": { "type": "flow\_bridge", "role": "Evolution→Deviation" }, "χ→ψ": { "type": "flow\_bridge", "role": "Evolution→Wave" } }

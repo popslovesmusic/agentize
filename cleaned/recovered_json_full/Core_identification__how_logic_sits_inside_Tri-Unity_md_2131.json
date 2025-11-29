@@ -1,0 +1,1 @@
+{ "classical": "p ↛ q (not implies)", "theta\_formula": "Θ\_out \= \-max(-Θ\_p, Θ\_q)", "pi\_formula": "Π\_out \= 1 if Θ\_out \= Θ\_+ else 0", "tri\_unity\_form": "NIMPLIES \= NOT ∘ IMPLIES", "notes": "True exactly when p is true and q is false." }

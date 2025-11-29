@@ -1,0 +1,1 @@
+{ "Q\_delta(delta\[n\])": "delta\[n+0.5\]", "{Q\_delta, Q\_delta\_dag}": "Pi(delta)", "commutator(Q\_delta, Phi)": "Pi", "commutator(Q\_delta, Pi)": "Phi" }

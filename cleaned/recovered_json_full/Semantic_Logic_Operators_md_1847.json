@@ -1,0 +1,1 @@
+{ "symbol": "◇", "arity": 1, "scope": "set\_of\_worlds", "category": "modal", "definition": { "theta\_rule": "Θ\_out \= Θ⁺ iff input Box is Θ⁺ in at least one admissible world.", "sigma\_rule": "Σ\_out \= supremum over world-wise supports.", "pi\_rule": "Π\_out \= 1 iff Π\_in(w) \= 1 for some w in the modal frame." } }

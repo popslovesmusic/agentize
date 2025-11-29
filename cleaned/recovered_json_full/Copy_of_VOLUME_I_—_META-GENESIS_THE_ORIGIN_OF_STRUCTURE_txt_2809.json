@@ -1,0 +1,1 @@
+{ "name": "V3_Ch5_HaloIdentity_StructureBox", "intent": "Store dark-matter analogue identity.", "domain": "μ-distribution residuals", "constraints": [ "Halo must be Ω-stable", "ψ-coupling allowed only at large radii" ], "cross_links": ["V1_Ch4_DomainStructure_IdentityBox"] }

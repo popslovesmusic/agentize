@@ -1,0 +1,1 @@
+{ "name": "ψω", "intent": "Frequency mode extractor", "domain": "ψ-space of oscillatory modes", "action": "Selects or enforces oscillation with angular frequency ω", "parameters": { "ω": "frequency parameter" }, "outputs": "ψ\_ω(B)" }

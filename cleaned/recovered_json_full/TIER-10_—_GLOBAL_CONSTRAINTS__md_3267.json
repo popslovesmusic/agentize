@@ -1,0 +1,1 @@
+{ id: "Ω-X2", input\_chain: \["Φ", "δ", "Π", "⊥"\], expected\_output: "Illegal-State-Under-Ω", enforced\_by: "Ω\_guard", description: "Reaching ⊥ invalidates entire computation." }

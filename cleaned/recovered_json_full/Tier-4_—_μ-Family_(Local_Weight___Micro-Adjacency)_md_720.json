@@ -1,0 +1,1 @@
+{ "canonical\_form": "psi\_chi\_chi \= Delta\_mu(psi) \+ Phi\_mu(psi)", "expanded\_form": "psi\_chi\_chi \= mu \* delta^2(psi) \+ (delta mu) \* (delta psi) \+ Phi(mu \* psi)", "operator\_form": "psi\_chi\_chi \= (mu-\>delta)(delta(psi)) \+ (mu-\>Phi)(psi)" }

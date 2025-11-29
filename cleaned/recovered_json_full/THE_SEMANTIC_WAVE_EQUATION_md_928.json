@@ -1,0 +1,1 @@
+{ "type": "sum", "terms": \[ { "coefficient": "ω", "operator": "δ", "operand": "S" }, { "coefficient": "η", "operator": "Φ", "operand": "S" }, { "coefficient": "κ", "operator": "Π", "operand": "S" } \] }

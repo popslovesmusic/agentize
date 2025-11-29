@@ -1,0 +1,1 @@
+{ "type": "string", "enum": \["scalar", "vector", "tensor", "operator"\] }

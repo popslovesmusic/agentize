@@ -1,0 +1,1 @@
+{ "id": "T27", "left": "μ", "right": "Θ", "composition": "μ⊗Θ", "category": "tensor\_product", "signature": "Box \-\> Tensor", "rule": "Metric-first tensor pairing of μ with polarity.", "notes": "Convenient for PDE discretizations." }

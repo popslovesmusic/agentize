@@ -1,0 +1,1 @@
+{ class\_id: "proposition", payload: { formula: "P", // repaired to simplest valid proposition vars: \["P"\] }, invariant\_ok: true }

@@ -1,0 +1,1 @@
+{ "id": "T\_CHI\_008\_DISCONTINUITY\_UNTAGGED", "description": "Jump at χ=1 NOT tagged as discrete → violation.", "input\_trace": \[ { "state": "B0", "chi": 0 }, { "state": "B1", "chi": 1.0 }, { "state": "B2", "chi": 1.0, "jump": "implicit" } \], "expected": { "is\_nf": false, "violations": \["INV\_CHI\_CONTINUITY"\], "normalized\_trace": "need\_discrete\_tag" } }

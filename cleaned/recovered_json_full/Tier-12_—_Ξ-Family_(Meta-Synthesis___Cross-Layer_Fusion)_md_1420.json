@@ -1,0 +1,1 @@
+{ "base\_families": \["δ", "Φ", "Π", "μ", "λ", "ψ", "Σ", "Θ", "χ", "Ω", "ρ"\], "include\_Xi\_self": true, "xi\_variants": \["Ξ", "ΞG", "ΞL", "Ξ⊗", "Ξ⊕", "Ξ-\>NF", "Ξ\*"\], "cardinality": { "families\_total": 12, "xi\_variants": 7, "directions": 2, "rules\_generated": 168 } }

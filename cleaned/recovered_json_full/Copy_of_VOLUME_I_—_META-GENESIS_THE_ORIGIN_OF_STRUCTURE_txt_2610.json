@@ -1,0 +1,1 @@
+{ "tensor": "D_{ijk...}", "rank": "Semantic dimensionality r", "fields_stored": [ "semantic_value", "delta_state", "phi_form", "pi_evaluation", "mu_weight", "theta_polarity", "lambda_curvature_mode", "psi_oscillation_mode", "rho_layer_index" ], "graph_representation": "Nodes = tensor indices; Edges = semantic adjacency" }

@@ -1,0 +1,1 @@
+{ "events": \["A", "B", "C", "D"\], "edges": \[ \["A", "B"\], \["B", "C"\], \["C", "D"\] \], "truth\_values": { "A": 0.7, "B": 0.7, "C": 0.9, "D": 0.5 // provisional birth value } }

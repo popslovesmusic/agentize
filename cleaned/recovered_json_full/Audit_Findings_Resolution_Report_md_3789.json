@@ -1,0 +1,29 @@
+python
+# Base level (raw operators)
+state_base = {
+    'working_with_raw_operators': True,
+    'psi_transformation_applied': False,
+    'direct_composition': True
+}
+context = router.detect_context(state_base)
+# → AbstractionLevel.BASE_OPERATOR
+# → Uses non-commutative variant
+
+# ψ-layer (wave-transformed)
+state_psi = {
+    'psi_transformation_applied': True,
+    'all_operators_psi_transformed': True,
+    'modal_decomposition_active': True
+}
+context = router.detect_context(state_psi)
+# → AbstractionLevel.PSI_LAYER
+# → Uses commutative canonical definition
+
+# Mixed level (partial transformation)
+state_mixed = {
+    'some_operators_psi_transformed': True,
+    'hybrid_mode': True
+}
+context = router.detect_context(state_mixed)
+# → AbstractionLevel.MIXED
+# → Uses partial_psi_transformation variant

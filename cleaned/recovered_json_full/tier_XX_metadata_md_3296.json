@@ -1,0 +1,1 @@
+{ "signature": "Term × RuleSet → Term", "implementation": "RS\_NF", "contracts": \[ "If RS\_CHECK(R).status \= 'ok', result is unique NF.", "dim\_sem(NF) ≤ dim\_sem(input)" \] }

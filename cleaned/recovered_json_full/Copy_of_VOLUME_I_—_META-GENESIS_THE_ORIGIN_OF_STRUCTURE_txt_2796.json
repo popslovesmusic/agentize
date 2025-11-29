@@ -1,0 +1,1 @@
+{ "name": "V3_Ch1_MetricEmergence_Theorem", "intent": "Prove that λ-curvature naturally forms metric structure.", "domain": "λ geometry → gμν mapping", "constraints": [ "λ-wells must satisfy Ω(global)", "Metric signature selected via Π(evaluation)" ], "cross_links": ["V1_Ch3_DeltaGeometry_ConsistencyBox"] }

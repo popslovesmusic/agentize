@@ -1,0 +1,1 @@
+{ "id": "R5\_tensor\_normalization", "pattern": "A⊗B", "rewrite": "NF\_{A⊗B}", "comment": "Parallel tensor action normalized to a canonical tensor normal form." }

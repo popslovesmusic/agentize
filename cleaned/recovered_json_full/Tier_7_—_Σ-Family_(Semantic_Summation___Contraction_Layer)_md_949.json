@@ -1,0 +1,1 @@
+{ "name": "front\_face", "vertices": \["v000", "v100", "v110", "v010"\], "operators\_cycle": \["Φ", "δ", "Φ⁻¹", "δ⁻¹"\], "commutes": true, "interpretation": "δ and Φ commute on B within Tri-Unity cube." }

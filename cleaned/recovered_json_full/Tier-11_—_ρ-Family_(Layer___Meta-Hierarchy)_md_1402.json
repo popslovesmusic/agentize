@@ -1,0 +1,1 @@
+{ "id": "R-ρ-23", "name": "lambda\_layer\_restriction", "category": "interaction", "lhs": "rho\_k ∘ λ", "rhs": "λ\[k\]", "conditions": { "k\_in\_N": true }, "notes": "ρ\_k applied to λ yields curvature at layer k." }

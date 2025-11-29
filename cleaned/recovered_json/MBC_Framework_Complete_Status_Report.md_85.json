@@ -1,0 +1,11 @@
+{
+  "δ": "Primitive deviation",
+  "δᵢ": "Directional deviation",
+  "δ²": "Laplacian (δ∘δ)",
+  "δ*": "Adjoint deviation",
+  "δJ": "Jacobian",
+  "δL": "Laplace form",
+  "δW": "Weitzenböck",
+  "δ⊗": "Tensor deviation",
+  "δ⊕": "Semantic deviation sum"
+}

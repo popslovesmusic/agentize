@@ -1,0 +1,1 @@
+{ "id": "OP\_SIGMA\_INDEX", "symbol": "Σᵢ", "kind": "index\_summation", "signature": "Tensor(D\_i..., j, ...) × Index(i) \-\> Tensor(D\_..., j, ...)", "description": "Contract over a single index i, removing it from the free index set.", "constraints": \[ "Enforce SIGMA\_INV\_INDEX\_PRESERVATION", "Enforce SIGMA\_INV\_NULL\_MODE\_STABILITY" \] }

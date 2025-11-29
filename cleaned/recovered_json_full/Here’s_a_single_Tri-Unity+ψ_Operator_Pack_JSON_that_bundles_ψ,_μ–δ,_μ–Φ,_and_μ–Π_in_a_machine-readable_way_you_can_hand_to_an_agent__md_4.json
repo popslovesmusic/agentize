@@ -1,0 +1,15 @@
+{`  
+      `"id": "pi",`  
+      `"symbol": "Π",`  
+      `"name": "Evaluation Operator",`  
+      `"role": "causal_evaluation",`  
+      `"arity": 1,`  
+      `"domain": "SemanticFormField",`  
+      `"codomain": "CausalOrderField",`  
+      `"locality": "nonlocal",`  
+      `"linearity": "monotone",`  
+      `"properties": [`  
+        `"order_preserving",`  
+        `"functorial"`  
+      `]`  
+    `}

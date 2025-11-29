@@ -1,0 +1,1 @@
+{ "rank_preservation": "Operators may not alter Domain Tensor rank unless explicitly defined.", "adjacency_integrity": "No operator may destroy valid adjacency without creating Ω-flagged edges.", "tri_unity_closure": "δ, Φ, Π closed under composition", "evaluation_integrity": "Π must evaluate to {⊥, ⊤} or a well-typed composite truth." }

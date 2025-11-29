@@ -1,0 +1,1 @@
+{ "name":"Omega\_Global\_Semantic\_Constraint", "statement":"Omega(B) yields the globally normalized, consistent, invariant-preserving state.", "properties":\[ "idempotent", "invariant-preserving", "normalizing", "consistency-enforcing", "Tri-Unity-compatible" \] }

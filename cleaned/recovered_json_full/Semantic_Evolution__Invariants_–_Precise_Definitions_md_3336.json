@@ -1,0 +1,1 @@
+{ "id": "R\_CHI\_STEP\_NORMALIZE\_01", "name": "Normalize Multi-Step to Single χΔ", "pattern": "STEP(STEP(B, χ), χ \+ kΔχ)", "condition": "k integer, χΔ\_mode='fixed'", "rewrite": "STEP(B, χ \+ (k+1)Δχ)", "preserves\_invariants": \[ "INV\_CHI\_STEP\_GRANULARITY", "INV\_CHI\_FORWARD\_FLOW" \] }

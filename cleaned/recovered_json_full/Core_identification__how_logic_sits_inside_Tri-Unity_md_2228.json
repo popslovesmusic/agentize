@@ -1,0 +1,1 @@
+{ "id": "G-DOM-RANK", "statement": "Operator actions may not change the rank of the domain tensor unless explicitly specified.", "formal": "For domain tensor D with rank r(D), and operator O, we require r(O·D) \= r(D) unless O has an explicit rank-shift Δr(O).", "violations\_map\_to": "⊥" }

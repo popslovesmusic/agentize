@@ -1,0 +1,5 @@
+python
+# Flat geometry → automatic optimization
+state = {'λ': 0, 'flat_geometry_flag': True}
+# Router selects: flat_geometry variant
+# Result: Fast commutative computation

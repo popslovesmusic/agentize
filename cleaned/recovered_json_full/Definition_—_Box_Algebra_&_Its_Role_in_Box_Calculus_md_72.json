@@ -1,0 +1,8 @@
+{`  
+      `"name": "E",`  
+      `"sealed": true,`  
+      `"kind": "unary",`  
+      `"signature": "Box -> Box",`  
+      `"tier_effect": { "delta": "flatten", "phi": "neutral", "theta": "neutral", "pi": "identity" },`  
+      `"description": "IGS-shadow / smoothing operator."`  
+    `}

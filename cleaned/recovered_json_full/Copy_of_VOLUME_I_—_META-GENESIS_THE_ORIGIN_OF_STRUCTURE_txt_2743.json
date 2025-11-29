@@ -1,0 +1,1 @@
+{ "DomainTensor": "D_{i j k ...}, multi-index semantic carrier.", "SemanticGraphNode": "Graph node associated with a Box or primitive state.", "SemanticGraphEdge": "Directed or undirected edge encoding adjacency.", "RouterNode": "Θ-router mixing polarity and connectivity.", "LayerElement": "ρ-layer atom marking hierarchical placement." }

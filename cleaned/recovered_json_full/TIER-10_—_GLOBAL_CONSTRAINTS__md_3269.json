@@ -1,0 +1,1 @@
+{ id: "Ω-CT2", chain: \["Θ\_plus", "ψ", "δ\_raw", "Π"\], expected\_chain: \["Θ\_plus", "ψ\_norm", "δ\_NF", "Π"\], description: "Mixed polarity \+ wave \+ deviation chain under Ω." }

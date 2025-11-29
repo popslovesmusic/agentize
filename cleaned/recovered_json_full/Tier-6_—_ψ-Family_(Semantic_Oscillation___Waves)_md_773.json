@@ -1,0 +1,1 @@
+{ "name": "ψΦ", "intent": "Semantic-form oscillation", "domain": "Φ-projection space", "action": "Oscillation induced by variations in semantic projection Φ", "dependencies": \["Φ", "Φ∗", "Φ→Π"\], "outputs": "ψ\_Φ(B)" }

@@ -1,0 +1,11 @@
+1. Ω-Commutation:
+   Ω∘δ = δ∘Ω,  Ω∘Φ = Φ∘Ω,  Ω∘Π = Π∘Ω
+
+2. Tri-Unity Consistency:
+   τ_TPU(Ω(s)) = 0  ⟺  Ω(s) ∈ S_Ω^TU
+
+3. Product Stability:
+   Ω(δ∘Φ∘Π) = Ω(δ) ∘ Ω(Φ) ∘ Ω(Π)
+
+4. Equilibrium Equalization:
+   δ(s) = Φ(s) = Π(s)  at Ω-equilibrium

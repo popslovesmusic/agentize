@@ -1,0 +1,1 @@
+{ "id": "T\_CHI\_017\_CHI\_NF\_UNSTABLE\_WRONG", "description": "NF state breaks into non-equivalent state → violation.", "input\_trace": \[ { "state": "B\_nf", "chi": 0, "nf": true }, { "state": "B\_bad", "chi": 1 } \], "expected": { "is\_nf": false, "violations": \["INV\_CHI\_NF\_STABILITY"\], "normalized\_trace": "reject\_or\_repair" } }

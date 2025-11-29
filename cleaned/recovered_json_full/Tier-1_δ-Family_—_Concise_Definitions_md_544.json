@@ -1,0 +1,1 @@
+{ "δ": { "symbol": "Φδ", "intent": "Projection of deviation", "defined": true }, "Φ": { "symbol": "Φ", "intent": "Idempotent projection", "defined": true }, "Π": { "symbol": "ΦΠ", "intent": "Projection of evaluation", "defined": true }, "Σ": { "symbol": "ΦΣ", "intent": "Projection of a contracted state", "defined": true, "constraints": \["Σ output lies in Φ-domain"\] } }

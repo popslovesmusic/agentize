@@ -1,0 +1,1 @@
+{ "arity": 2, "θ-aware": true, "definition": "AND weighted by polarity channels", "rule": "(A Θ₊ AND B Θ₊) → Θ₊ ; else Θ₋" }

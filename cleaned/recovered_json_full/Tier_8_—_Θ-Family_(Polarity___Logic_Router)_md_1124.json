@@ -1,0 +1,1 @@
+{ "id": "T32", "left": "Θ", "right": "ψ", "composition": "Θ⊗ψ", "category": "tensor\_product", "signature": "Box \-\> Tensor", "rule": "Pair polarity with frequency/mode components of ψ.", "notes": "Signed spectral decomposition." }

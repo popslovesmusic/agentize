@@ -1,0 +1,1 @@
+{ "truth_table_consistency": "Each operator must yield results consistent with standard logical truth tables when restricted to {⊥,⊤}.", "Θ_binding": "Logical operators must route decisions through Θ polarity states.", "quantifier_scope": "FORALL and EXISTS must respect Ω-bounded domains." }

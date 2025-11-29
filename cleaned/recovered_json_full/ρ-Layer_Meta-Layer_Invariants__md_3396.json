@@ -1,0 +1,1 @@
+{ "normal\_form": "rho-NF", "priority": \[ "ρ-cycle-elimination", "ρ-hierarchy-normalization", "ρ-merge-redundant-layers", "ρ-chi-alignment", "Ω-consistency-check" \] }

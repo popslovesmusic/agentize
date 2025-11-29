@@ -1,0 +1,10 @@
+{
+          "id": { "type": "string" },
+          "from": { "type": "string" },
+          "to": { "type": "string" },
+          "label": { "type": "string" },
+          "semantic_type": {
+            "type": "string",
+            "enum": ["map", "δ", "Φ", "Π", "μ", "Σ", "Θ", "functor-map"]
+          }
+        }

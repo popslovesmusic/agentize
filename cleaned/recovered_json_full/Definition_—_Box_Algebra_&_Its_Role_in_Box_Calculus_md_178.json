@@ -1,0 +1,4 @@
+{`  
+        `"inputs": [{ "name": "B", "polarity_range": [-1, 1] }],`  
+        `"routing_rule": "Θ assigns polarity then negate_polarity flips sign before Π."`  
+      `}

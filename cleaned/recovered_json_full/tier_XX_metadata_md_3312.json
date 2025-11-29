@@ -1,0 +1,1 @@
+{ "id": "RS-NF-02", "term": "δ(Φ(Π(Π(δ(x)))))", "call": "RS\_NF(term, R)", "expect\_nf\_properties": \[ "no\_redexes", "matches\_any\_strategy", "stable\_under\_Ω" \], "description": "NF must be stable under deviation, projection, evaluation, and Ω.", "Ω\_check": { "call": "Ω(RS\_NF(term, R))", "expect": true } }

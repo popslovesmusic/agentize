@@ -1,0 +1,1 @@
+{ "id": "T37", "left": "Θ", "right": "λ", "composition": "Θ ∘ λ", "category": "left\_composition", "signature": "Box \-\> Polarity", "rule": "Assign polarity from curvature or mode-deformation signature λ(B).", "notes": "Convex vs concave / bending direction." }

@@ -1,0 +1,1 @@
+{ "type": "operator", "role": "global\_state\_projector", "signature": "B \-\> {B\_valid, errorBox}", "description": "Determines global semantic admissibility of a Box. Final global-router decision function.", "properties": \["decision", "constraint"\] }

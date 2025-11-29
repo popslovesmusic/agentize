@@ -1,0 +1,8 @@
+{
+      "functoriality": "Π(g∘f) = Π(g) ∘ Π(f)",
+      "identity": "Π(id_B) = id_{Π(B)}",
+      "order_preservation": "A ≺ B implies Π(A) ≤ Π(B)",
+      "delta_compatibility": "Π(δB) returns the causally relevant deviation",
+      "phi_compatibility": "Π(Φ(B)) evaluates the projected semantic form",
+      "collapse_free": "Evaluation does not erase structure"
+    }

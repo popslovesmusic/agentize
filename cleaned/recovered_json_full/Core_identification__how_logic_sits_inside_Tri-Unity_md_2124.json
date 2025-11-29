@@ -1,0 +1,1 @@
+{ "classical": "binary disjunction", "theta\_formula": "Θ\_out \= max(Θ\_p, Θ\_q)", "pi\_formula": "Π\_out \= 1 if Θ\_out \= Θ\_+ else 0", "tri\_unity\_form": "OR \= Π ∘ Φ\_logic ∘ Θ\_max", "notes": "Implements logical OR as polarity maximum." }

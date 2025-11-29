@@ -1,0 +1,1 @@
+{ "name": "Jacobian Deviation", "symbol": "δᴶ", "family": "δ-family", "intent": "Return full first-order Jacobian.", "formal\_definition": "δᴶ(B) \= \[δᵢ(B)\] over all axes", "semantic\_definition": "Complete directional deviation tensor.", "rank": "tensor", "inputs": { "box": "B" }, "outputs": { "box": "Jacobian(B)", "rank": "tensor" } }

@@ -1,0 +1,1 @@
+{ "pattern": "Σ⊗(T ⊗ S)", "rewrite": "tensor\_contraction(T, S)" }

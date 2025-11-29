@@ -1,0 +1,1 @@
+{ "step": 1, "rule": "R1\_BREAK\_CYCLE", "action": "Remove edge C \-\> A as least justified causal edge.", "state\_after": { "edges": \[ \["A", "B"\], \["B", "C"\] \] } }

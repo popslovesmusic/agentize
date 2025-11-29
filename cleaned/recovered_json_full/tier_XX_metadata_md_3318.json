@@ -1,0 +1,1 @@
+{ "id": "RS-META-02", "test": "introduce rule with no μ\_term decrease", "rule": { "lhs": "δ(x)", "rhs": "δ(δ(x))" }, "expect": { "RS\_CHECK\_TERM": "false", "RS\_CHECK": "error" }, "description": "Non-terminating rule is flagged and rejected." }

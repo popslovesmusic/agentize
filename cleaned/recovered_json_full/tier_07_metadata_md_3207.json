@@ -1,0 +1,1 @@
+{ "id": "OP\_SIGMA\_NULL\_FILTER", "symbol": "Σ₀", "kind": "null\_mode\_filter", "signature": "Tensor(D\_{i}) \-\> Tensor(D\_{i})", "description": "Projectively enforces Null-Mode Stability by zeroing numerically small or explicitly null-tagged modes.", "constraints": \[ "Enforce SIGMA\_INV\_NULL\_MODE\_STABILITY" \] }

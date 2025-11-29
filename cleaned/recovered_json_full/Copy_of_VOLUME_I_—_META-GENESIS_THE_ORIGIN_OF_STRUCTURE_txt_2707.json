@@ -1,0 +1,1 @@
+{ "query_by_volume": ["Volume_I", "Volume_II"], "query_by_chapter": true, "query_by_box_name": true, "query_by_type": ["chapter_axiom", "theorem", "structure", "module_pack"], "query_by_operator": ["ψ", "λ", "μ", "Σ", "ρ", "χ", "Ω", "Π"], "supports_hash_lookup": true }

@@ -1,0 +1,1 @@
+{ "Operators": \["Φ", "Π"\], "Compositions": { "Pi\_after\_Phi": "Π ∘ Φ", "Phi\_after\_Pi": "Φ ∘ Π\* (derived)", "Idempotence\_Pi": "Π ∘ Π \= Π", "Idempotence\_Phi": "Φ ∘ Φ \= Φ" } }

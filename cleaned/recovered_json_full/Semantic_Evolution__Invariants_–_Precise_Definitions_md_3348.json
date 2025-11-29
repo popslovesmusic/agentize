@@ -1,0 +1,1 @@
+{ "id": "T\_CHI\_004\_ILLEGAL\_NEUTRAL\_UNTAGGED", "description": "Neutral χ-step missing explicit 'neutral' tag.", "input\_trace": \[ { "state": "B0", "chi": 1.0 }, { "state": "B1", "chi": 1.0 } \], "expected": { "is\_nf": false, "violations": \["INV\_CHI\_FORWARD\_FLOW"\], "normalized\_trace": "need\_tag" } }

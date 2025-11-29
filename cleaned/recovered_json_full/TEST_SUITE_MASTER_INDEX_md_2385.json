@@ -1,0 +1,1 @@
+{ system\_id: 'TRI-UNITY-INVARIANTS-REWRITE', family: 'Tri-Unity', tier: 'Tri-Unity-Core', version: '1.0.0', schema: 'mbc4.rewrite.tri\_unity.v1', description: 'Rewrite rules that assign Normal Forms (NF\_\*) to δ–Φ–Π expressions and enforce closure \+ commutativity invariants.', editable: true, }

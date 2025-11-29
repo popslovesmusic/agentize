@@ -1,0 +1,9 @@
+{
+      "id": "tau",
+      "from_functor": "phi",
+      "to_functor": "pi",
+      "components": [
+        { "object": "A", "morphism": "thetaA" },
+        { "object": "B", "morphism": "thetaB" }
+      ]
+    }

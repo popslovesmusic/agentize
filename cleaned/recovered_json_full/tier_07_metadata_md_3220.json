@@ -1,0 +1,1 @@
+{ "indices": \["i"\], "components": \[ { "i": 0, "value": "A", "psi\_mode": "ω0", "theta": "Θ+", "semantic": "s\_A" }, { "i": 1, "value": "-A", "psi\_mode": "ω0", "theta": "Θ−", "semantic": "s\_B" } \] }

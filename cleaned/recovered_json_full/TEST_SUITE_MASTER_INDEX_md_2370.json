@@ -1,0 +1,1 @@
+{ id: 36, description: "NF: δΦΠ reduces to canonical NF\_δΦΠ.", input: \["δΦΠ"\], expect\_nf: "NF\_δΦΠ", invariant: "normal\_form", }

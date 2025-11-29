@@ -1,0 +1,1 @@
+{ "tri\_unity": \["δ", "Φ", "Π"\], "dominance\_rules": { "Π∘Φ": "Φ dominates structure", "Π∘δ": "δ dominates structure", "Π\_s": "Φ-semantic", "Π\_ca": "δ-adjacency", "Π\_t": "truth lattice reduction" } }

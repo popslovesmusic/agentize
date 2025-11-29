@@ -1,0 +1,1 @@
+{ id: "T9\_03\_projection\_jump", description: "Φ projection frame changes abruptly across χ without cause.", frames: { chi\_0: "Φ\_frame\_A", chi\_1\_raw: "Φ\_frame\_Z" // sudden, unjustified }, expected: { invariant\_violations: \["χ\_PR\_TRIUNITY\_FLOW"\], rewrite\_applied: \["RW\_χ\_INSERT\_TRIUNITY\_FLOW"\], nf: "χNF" } }

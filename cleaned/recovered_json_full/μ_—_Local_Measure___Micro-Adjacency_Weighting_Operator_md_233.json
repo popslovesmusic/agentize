@@ -1,0 +1,20 @@
+{
+    "flat_geometry_zero_potentials": {
+      "description": "If δ is flat, μ is uniform, and Φ=Π=0, ψ reduces to a standard Laplacian.",
+      "conditions": [
+        "delta[i][j] = 0 for i=j; 1 for |i-j|=1; large for others",
+        "W[i][j] uniform over neighbors",
+        "Phi(B) = 0",
+        "Pi(B) = 0"
+      ],
+      "assert": "psi(B) == Delta_delta_mu(B)"
+    },
+    "static_solution": {
+      "description": "ψ(B) = 0 detects equilibrium configurations.",
+      "assert": "if psi(B) == 0 then B is a semantic wave equilibrium"
+    },
+    "linearity_check": {
+      "description": "ψ is linear",
+      "assert": "psi(a*B1 + b*B2) == a*psi(B1) + b*psi(B2)"
+    }
+  }

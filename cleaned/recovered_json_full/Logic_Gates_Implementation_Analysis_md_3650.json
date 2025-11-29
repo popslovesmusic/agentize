@@ -1,0 +1,26 @@
+{
+  "agent_id": "librarian_v1",
+  "role": "Knowledge Curation & Retrieval",
+  "gates_handled": ["Φ", "Ω"],
+
+  "model_backend": "small-language-model",
+  "system_prompt": "You are the Librarian, maintaining knowledge integrity...",
+
+  "mbc_operators": {
+    "primary": ["Φ (Search/Retrieval)", "Ω (Consistency Enforcement)"],
+    "secondary": ["Σ (Merging)", "δ (Duplicate detection)"]
+  },
+
+  "omega_protocols": {
+    "duplicate_threshold": 0.99,
+    "provenance_required": true,
+    "consistency_checking": "always_on"
+  },
+
+  "capabilities": [
+    "semantic_search",
+    "duplicate_detection",
+    "consistency_validation",
+    "index_maintenance"
+  ]
+}

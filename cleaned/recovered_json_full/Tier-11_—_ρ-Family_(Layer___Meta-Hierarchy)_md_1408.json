@@ -1,0 +1,1 @@
+{ "id": "R-ρ-29", "name": "delta\_mu\_layered", "category": "interaction", "lhs": "δ\[k\] ∘ μ\[m\]", "rhs": "(δ ∘ μ)\[max(k,m)\]", "conditions": { "composable": true }, "notes": "Weighted deviation is always taken at the maximal involved layer." }

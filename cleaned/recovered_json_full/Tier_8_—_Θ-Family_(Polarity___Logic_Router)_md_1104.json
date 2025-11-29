@@ -1,0 +1,1 @@
+{ "id": "T12", "left": "Φ", "right": "Θ", "composition": "Φ⊗Θ", "category": "tensor\_product", "signature": "Box \-\> Tensor", "rule": "Tensor with projection index first and polarity second.", "notes": "Geometry-first ordering." }

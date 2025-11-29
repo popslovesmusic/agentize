@@ -1,0 +1,1 @@
+{ fields: { nodes: "LogicGate\[\]", wires: "Wire\[(Π,Θ)\]", metadata: "any", }, }

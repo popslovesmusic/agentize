@@ -1,0 +1,1 @@
+{ "id": "T08", "left": "Θ\_LG", "right": "δ", "composition": "Θ\_LG(sign(δ), sign(δ'))", "category": "logic\_gate", "signature": "Box \-\> Bool", "rule": "Use sign of δ and its derivative as inputs to a logic gate.", "notes": "Edge/trend detection based on deviation behavior." }

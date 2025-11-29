@@ -1,0 +1,7 @@
+{
+                    'agent': self.creative_agent,
+                    'mode': 'generate_with_search',
+                    'operator': 'Φ∘δ',
+                    'pipeline': 'phi_after_delta',
+                    'preprocessing': self.librarian  # Search first
+                }

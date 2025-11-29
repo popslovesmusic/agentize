@@ -1,0 +1,7 @@
+{`  
+            `"step": 3,`  
+            `"op": "SigmaSigma_a",`  
+            `"input": ["T1", "T2"],`  
+            `"output": "M",`  
+            `"params": { "mode": "parity_bias" }`  
+          `}

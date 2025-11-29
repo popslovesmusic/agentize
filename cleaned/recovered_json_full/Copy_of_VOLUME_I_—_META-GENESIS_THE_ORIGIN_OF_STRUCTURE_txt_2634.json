@@ -1,0 +1,1 @@
+{ "objects": ["Ψ", "λ", "μ", "χ", "Σ", "Π", "ρ"], "fsm_definition": "FSM = minimal χ-periodic Σ-stable ψ–λ–μ resonance structure.", "equations": { "resonance": "ψ * λ * μ > Θ_c", "periodicity": "Ψ(χ+T) = Ψ(χ)" }, "operators": ["ψ", "λ", "μ", "Σ", "Π", "Ω"] }

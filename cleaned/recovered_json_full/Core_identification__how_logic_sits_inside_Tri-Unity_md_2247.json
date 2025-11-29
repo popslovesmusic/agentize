@@ -1,0 +1,1 @@
+{ "name": "move\_δ\_left", "when": "Φ ∘ δ", "then": "δ ∘ Φ", "intent": "δ must be leftmost." }

@@ -1,0 +1,8 @@
+{`  
+      `"step": 3,`  
+      `"op": "polarity_router",`  
+      `"formal_op": "Θ",`  
+      `"input": ["B_phi"],`  
+      `"output": "B_theta",`  
+      `"description": "Apply functorial polarity routing to create branch weights."`  
+    `}

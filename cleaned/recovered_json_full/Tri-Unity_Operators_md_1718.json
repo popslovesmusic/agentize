@@ -1,0 +1,1 @@
+{ "symbol": "{A,B}", "definition": "A∘B \+ B∘A", "intent": "Captures symmetric interaction of A and B.", "normal\_form\_behavior": "Can be reduced to a symmetric normal form NF\_{A,B}." }

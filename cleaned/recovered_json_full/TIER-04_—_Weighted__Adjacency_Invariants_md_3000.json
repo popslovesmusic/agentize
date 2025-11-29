@@ -1,0 +1,1 @@
+{ tier: "04", module\_pack: { imports: \[ "tier\_00\_primitives", "tier\_01\_structures", "tier\_02\_operators", "tier\_03\_deviation\_geometry" \], provides: \[ "μ-field", "Adj-grid", "μ-Jacobian", "μ-Laplacian", "WeightedAdjacencyModule" \], tests: \[ "test\_μPositivity", "test\_AdjConservation", "test\_WeightedAdjacencyClosure" \] } }

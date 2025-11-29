@@ -1,0 +1,1 @@
+{ "hard_invariants": "No process may violate these invariants without being marked invalid by Ω.", "rewrite_enforcement": "Rewrite systems must detect and repair or reject violations.", "Π-detectability": "Invariant violations must be Π-detectable." }

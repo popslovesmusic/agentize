@@ -1,0 +1,1 @@
+{ type: "smooth-curvature", // heuristically: edges near high curvature get smoothed rule: "μ'(e) \= μ(e) \+ ε \* (avg\_neighbors(μ) \- μ(e))", epsilon: 0.1 }

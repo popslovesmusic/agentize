@@ -1,0 +1,1 @@
+{ name: "Ω-NF-delta", pattern: { operator: "δ" }, replace\_with: { operator: "δ\_NF" }, comment: "δ is normalized under global curvature constraints." }

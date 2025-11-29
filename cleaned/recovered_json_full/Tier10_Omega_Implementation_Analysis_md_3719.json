@@ -1,0 +1,6 @@
+{
+                'decision': 'accept',
+                'reason': 'Passed all Ω-constraints',
+                'normalized_entry': normalized,
+                'surface': surface
+            }

@@ -1,0 +1,1 @@
+{ "id": "OP\_ψ-MODE-EVOLVE", "symbol": "MODE\_STEP", "kind": "evolution", "signature": "(ψ\_k, ω\_k, Δχ) \-\> ψ\_k", "description": "Evolve mode k under χ-step with fixed frequency ω\_k.", "definition": "MODE\_STEP(ψ\_k, ω\_k, Δχ) \= exp(i ω\_k Δχ) ψ\_k", "invariant": "ψ-MODE" }

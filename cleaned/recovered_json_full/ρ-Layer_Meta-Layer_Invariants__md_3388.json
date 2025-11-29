@@ -1,0 +1,1 @@
+{ "id": "RHO-AX1", "name": "Layer-Identity Axiom", "statement": "For any Box B and any valid ρ-operator O that acts within layer k, the layer index k of ρ\_k(B) is invariant under O.", "invariant\_ref": "RHO-LAYER-IDENTITY" }

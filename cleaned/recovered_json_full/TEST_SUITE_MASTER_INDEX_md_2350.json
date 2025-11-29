@@ -1,0 +1,1 @@
+{ id: 16, description: "Closure: Functor composition δ∘Φ∘Π.", input: \["δ∘Φ∘Π"\], expect\_nf: "NF\_δΦΠ", invariant: "closure", }

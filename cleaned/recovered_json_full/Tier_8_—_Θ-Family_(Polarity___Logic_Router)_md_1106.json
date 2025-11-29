@@ -1,0 +1,1 @@
+{ "id": "T14", "left": "Θ\_to\_Pi", "right": "Φ", "composition": "Θ→Π ∘ Φ", "category": "evaluation\_composition", "signature": "Box \-\> Bool", "rule": "Project, then polarize, then evaluate truth.", "notes": "Form-level truth decision via polarity." }

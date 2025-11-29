@@ -1,0 +1,1 @@
+{ "informal": "First perform Xi-variant synthesis, then re-interpret or transform that synthesized state via the family operator.", "formal\_law": "∀ XiVar,∀ Family: Family ∘ XiVar \= Family⟨XiVar⟩." }

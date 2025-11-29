@@ -1,0 +1,1 @@
+{ "fractal\_ladder": "Q\_delta(delta\[n\]) \= delta\[n+0.5\]", "adjoint": "Q\_delta\_dag(delta\[n+0.5\]) \= delta\[n\]", "closure": "{Q\_delta, Q\_delta\_dag} \= Pi(delta)", "shadow\_exchange": { "Q\_delta\_Phi": "Pi", "Q\_delta\_Pi": "Phi" } }

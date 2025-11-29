@@ -1,0 +1,1 @@
+{ "identity_uniqueness": "No two distinct geometric entities may share the same full identity signature.", "Π_invariance": "Identity is Π-stable under evaluation.", "Σ_consistency": "Normalization cannot merge distinct identities at this tier." }

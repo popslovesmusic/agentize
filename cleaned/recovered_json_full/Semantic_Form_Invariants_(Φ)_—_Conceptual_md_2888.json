@@ -1,0 +1,1 @@
+{ class\_id: "event", payload: { label: "initial\_state", time: 0.0 // canonical default }, invariant\_ok: true }

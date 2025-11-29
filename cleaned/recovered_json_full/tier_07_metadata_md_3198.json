@@ -1,0 +1,1 @@
+{ "id": "SIGMA\_INV\_INDEX\_PRESERVATION", "name": "Index-Preservation Invariant", "summary": "Contraction may only remove paired indices; remaining free indices must match pre/post tensor rank and ordering up to explicit schema.", "informal": "Σ may not create or destroy free indices. You can only sum over indices that appear in a valid contraction pair." }

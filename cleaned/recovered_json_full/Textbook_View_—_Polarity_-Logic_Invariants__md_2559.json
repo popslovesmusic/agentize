@@ -1,0 +1,1 @@
+{ id: "T9\_18\_theta\_history\_stable", description: "Polarity preserved across χ, no events required.", theta\_over\_chi: \["+", "+", "+", "+"\], expected: { invariant\_violations: \[\], nf: "χNF" } }

@@ -1,0 +1,1 @@
+{ "id": "RHO-R1-CYCLE-BREAK", "name": "ρ-Cycle Elimination", "pattern": "ρ\_i \-\>\* ρ\_j and ρ\_j \-\>\* ρ\_i (i ≠ j)", "rewrite": "reject or collapse to single layer ρ\_min(i,j)", "kind": "structural", "invariants\_preserved": \[ "RHO-HIERARCHY-PRESERVATION" \], "comment": "Any detected cycle in the layer graph is rewritten to a minimal representative layer." }

@@ -1,0 +1,1 @@
+{ "id": "R-ρ-31", "name": "lambda\_delta\_layered", "category": "interaction", "lhs": "λ\[k\] ∘ δ\[m\]", "rhs": "(λ ∘ δ)\[max(k,m)\]", "conditions": { "composable": true }, "notes": "Curvature-deviation coupling uses maximal layer index." }

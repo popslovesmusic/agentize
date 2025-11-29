@@ -1,0 +1,1 @@
+{ id: 'TU-NF-18', invariant: 'closure', pattern: '\[Φ,Π\]', rewrite: 'NF\_\[ΦΠ\]', conditions: { commutator: true }, explanation: 'Commutator \[Φ,Π\] stays closed with NF\_\[ΦΠ\].', }

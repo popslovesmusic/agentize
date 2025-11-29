@@ -1,0 +1,1 @@
+{ "name": "V3_Ch6_WebIdentity_StructureBox", "intent": "Define identity of the cosmic web.", "domain": "Nodes, edges, λ-curvature, μ flows", "constraints": [ "Node identity preserved", "Filament identity preserved" ], "cross_links": ["V2_Ch8_FilamentWell_StructureBox"] }

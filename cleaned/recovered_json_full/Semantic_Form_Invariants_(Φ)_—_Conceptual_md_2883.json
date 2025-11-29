@@ -1,0 +1,1 @@
+{ id: "B\_tensor\_break\_1", class\_id: "tensor", payload: { rank: 3, shape: \[2, 2\], values: \[\[\[1, 2\], \[3, 4\]\]\] // rank 3 claimed, rank 2 data } }

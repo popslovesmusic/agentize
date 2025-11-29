@@ -1,0 +1,1 @@
+{ "box\_type": "Operator", "tier": 3, "name": "Π∘Φ", "intent": "Composite operator: project semantic form then evaluate.", "domain": "Any Box with Φ defined.", "codomain": "Evaluation-state of the projected semantic form.", "action": "Π(Φ(B))", "constraints": { "composition": \["Φ", "Π"\], "requires\_projection\_first": true }, "cross\_links": \["Φ", "Π", "Π\_s"\] }

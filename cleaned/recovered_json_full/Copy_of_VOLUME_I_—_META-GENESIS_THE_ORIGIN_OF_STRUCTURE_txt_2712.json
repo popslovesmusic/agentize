@@ -1,0 +1,1 @@
+{ "tri_unity_composition": "δ ∘ Φ ∘ Π", "commutators": { "[δ, Φ]": "Projection deformation", "[δ, Π]": "Evaluation shift", "[Φ, Π]": "Form-evaluation tension" }, "tensor_rules": { "A⊗B": "Tensor composition of operators", "A⊕B": "Semantic sum", "A⋆B": "Semantic convolution" } }

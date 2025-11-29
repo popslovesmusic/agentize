@@ -1,0 +1,1 @@
+{ "Operators": \["δ", "Π"\], "Compositions": { "Pi\_after\_delta": "Π ∘ Φ\_to\_Π ∘ δ", "delta\_after\_Pi": "δ ∘ Π\_lift (conditional)", "StabilityCondition": "Π-stable states satisfy δ∘Π \= Π∘δ" } }

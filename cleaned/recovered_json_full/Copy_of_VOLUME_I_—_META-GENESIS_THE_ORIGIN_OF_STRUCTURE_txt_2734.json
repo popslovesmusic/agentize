@@ -1,0 +1,1 @@
+{ "entities": { "Point": "Zero-mode δ-geometry source.", "Edge": "Adjacency relation generator between Points.", "Face": "2-cell semantic surface defined by Edges.", "Box": "Fundamental IGSOA semantic-geometric unit.", "TensorIndex": "Primitive address in Domain Tensor.", "Mode": "Atomic excitation of semantic geometry." } }

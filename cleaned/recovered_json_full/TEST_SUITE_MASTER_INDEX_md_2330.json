@@ -1,0 +1,1 @@
+{ require\_axioms: true, require\_constraints: true, require\_diagrams: false, // optional require\_human\_commentary: true, require\_machine\_contract: true // expected machine invariants }

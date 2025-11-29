@@ -1,0 +1,1 @@
+{ "type": "string", "enum": \[ "semantic\_commutator", "semantic\_anticommutator", "functor\_composition", "tensor\_product", "semantic\_sum", "semantic\_convolution", "inference\_arrow", "rewrite\_arrow" \] }

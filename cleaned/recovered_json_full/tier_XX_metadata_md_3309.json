@@ -1,0 +1,1 @@
+{ "id": "RS-DEMO-C1", "input\_term": "Π(Φ(δ(δ(ID(Φ(Φ(x)))))))", "strategy\_variants": \[ { "name": "outer-first", "call": "NF\_outer(term)" }, { "name": "inner-first", "call": "NF\_inner(term)" }, { "name": "randomized", "call": "NF\_rand(term, seed=42)" } \], "expect\_nf": "Π(Φ(δ(x)))", "description": "All normalization strategies converge to the same NF." }

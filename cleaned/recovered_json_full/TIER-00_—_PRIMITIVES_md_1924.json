@@ -1,0 +1,1 @@
+{ "symbol": "±", "name": "Polarity Seed", "file": "00\_\_Primitive\_Polarity\_Box.json", "sha256": "\<to-be-filled\>", "properties": { "role": "primitive-orientation", "feeds\_layer": "Θ", "decomposable": false } }

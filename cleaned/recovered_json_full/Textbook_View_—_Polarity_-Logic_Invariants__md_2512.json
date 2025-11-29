@@ -1,0 +1,1 @@
+{ id: "Θψ\_02\_phase\_inverts\_sign", condition: "ψ phase \= π", effect: "Θ flips", requires: "explicit phase\_inversion=true" }

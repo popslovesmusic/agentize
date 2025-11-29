@@ -1,0 +1,8 @@
+{
+      "operator": "Σ (already present, expand)",
+      "additional_modes": {
+        "weighted_sum": "Combine with μ-weights",
+        "consensus": "Majority voting across inputs",
+        "best_of": "Select highest-ranked only"
+      }
+    }

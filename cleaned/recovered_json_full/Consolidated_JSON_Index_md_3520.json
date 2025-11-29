@@ -1,0 +1,9 @@
+{
+      "fields": [{ "symbol": "S", "description": "Semantic field defined on the Box domain B.", "type": "semantic_field" }],
+      "parameters": [
+        { "symbol": "ω", "role": "δ-frequency scaling", "constraints": "ω ∈ ℝ⁺" },
+        { "symbol": "η", "role": "Φ-mode scaling", "constraints": "η ∈ ℝ" },
+        { "symbol": "κ", "role": "Π-mode scaling", "constraints": "κ ∈ ℝ" },
+        { "symbol": "χ", "role": "semantic-time generator", "constraints": "χ is a first-order derivation w.r.t. semantic time" }
+      ]
+    }

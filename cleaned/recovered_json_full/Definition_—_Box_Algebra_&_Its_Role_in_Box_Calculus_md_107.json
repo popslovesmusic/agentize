@@ -1,0 +1,8 @@
+{`  
+      `"step": 4,`  
+      `"op": "aggregation",`  
+      `"formal_op": "ΣΣ_a",`  
+      `"input": ["B_theta"],`  
+      `"output": "B_agg",`  
+      `"description": "Merge polarity-routed semantics into a single Box."`  
+    `}

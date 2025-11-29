@@ -1,0 +1,1 @@
+{ "id": "R9\_rewrite\_collapse", "pattern": "A↦B", "rewrite": "B", "comment": "The rewrite arrow is meta; the target expression is taken as current state." }

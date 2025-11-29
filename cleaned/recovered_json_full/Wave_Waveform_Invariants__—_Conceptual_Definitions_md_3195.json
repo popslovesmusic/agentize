@@ -1,0 +1,1 @@
+{ delta\_chi: 0.1, mode\_steps: \[ "psi1' \= (1+i) \* exp(i \* 1.0 \* 0.1)", "psi2' \= (2) \* exp(i \* 2.0 \* 0.1)" \], psi\_after\_step: \[ "0.8952 \+ 1.0948i", "1.9600 \+ 0.3974i" \], norm\_check: { initial\_norm\_squared: 6, final\_norm\_squared: "≈ 5.999", invariant: "ψ-AMP holds" } }

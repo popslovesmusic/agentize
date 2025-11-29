@@ -1,0 +1,7 @@
+{
+  "operation": "compose",
+  "chain": ["δ", "Φ", "Π"],
+  "input": "Box_A",
+  "validate_each_step": true,
+  "normalize_result": true
+}

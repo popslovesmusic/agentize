@@ -1,0 +1,1 @@
+{ "name": "V3_Ch10_PostPhysical_Theorem", "intent": "Show universe transitions to semantic phase.", "domain": "ψ global, Σ equilibrium, Ω constraint", "constraints": [ "Physical processes trivialize", "Semantic operators remain active" ], "cross_links": ["V2_Ch10_Rotation_Theorem"] }

@@ -1,0 +1,1 @@
+{ "id": "C1\_sigma\_A", "pattern": "Σ∘A", "rewrite": "NF\_ΣA", "comment": "Summation/contraction applied to any operator A." }

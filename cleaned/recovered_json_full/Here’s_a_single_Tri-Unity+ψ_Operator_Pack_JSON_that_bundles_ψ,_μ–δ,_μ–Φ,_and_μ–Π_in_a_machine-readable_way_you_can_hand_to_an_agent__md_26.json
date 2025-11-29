@@ -1,0 +1,49 @@
+{`  
+  `"mbc_version": "4.0",`  
+  `"type": "layer",`  
+  `"id": "LAYER_ID",`  
+  `"layer_name": "LAYER_NAME",`  
+  `"layer_symbol": "ρ",`
+
+  `"meta": {`  
+    `"description": "High-level description of this layer.",`  
+    `"tags": []`  
+  `},`
+
+  `"structure": {`  
+    `"domain": "BoxField",`  
+    `"codomain": "BoxField",`  
+    `"arity": 1,`  
+    `"locality": "local | near_nonlocal | nonlocal",`  
+    `"linearity": "linear | affine | nonlinear"`  
+  `},`
+
+  `"components": [`  
+    `{`  
+      `"id": "component1",`  
+      `"role": "sub-operation",`  
+      `"equation_hint": "",`  
+      `"notes": []`  
+    `}`  
+  `],`
+
+  `"dependencies": {`  
+    `"operators": [],`  
+    `"layers": [],`  
+    `"axioms": []`  
+  `},`
+
+  `"rewrite_rules": [`  
+    `{`  
+      `"pattern": "ρ(B)",`  
+      `"rewrite": "some_expanded_form",`  
+      `"note": ""`  
+    `}`  
+  `],`
+
+  `"tensor_hooks": {`  
+    `"input_rank": null,`  
+    `"output_rank": null,`  
+    `"supports_chromatic_12x12": false`  
+  `}`  
+`}

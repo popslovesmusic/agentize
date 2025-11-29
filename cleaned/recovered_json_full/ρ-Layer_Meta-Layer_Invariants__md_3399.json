@@ -1,0 +1,1 @@
+{ "id": "RHO-R3-LIFT-TO-META", "name": "Lift Layer to Meta-Layer", "pattern": "ρ\_1(B) with meta-annotations pending", "rewrite": "LIFT\_LAYER(ρ\_1(B), 2\) \-\> ρ\_2(B)", "kind": "semantic", "preconditions": \[ "All χ-evolution up to this step is complete.", "Ω allows meta-layer promotion." \], "invariants\_preserved": \[ "RHO-META-CLOSURE", "RHO-CROSS-LAYER-CONSISTENCY" \] }

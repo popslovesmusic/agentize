@@ -1,0 +1,30 @@
+{`  
+  `"mbc_version": "4.0",`  
+  `"type": "axiom_box",`  
+  `"id": "AXIOM_ID",`
+
+  `"name": "AXIOM_NAME",`
+
+  `"intent": "What this axiom guarantees / protects / defines.",`
+
+  `"domain": {`  
+    `"objects": [],`  
+    `"operators": [],`  
+    `"layers": []`  
+  `},`
+
+  `"constraints": {`  
+    `"positivity": false,`  
+    `"idempotence": false,`  
+    `"termination": false,`  
+    `"monotonicity": false,`  
+    `"custom": []`  
+  `},`
+
+  `"cross_links": {`  
+    `"implies": [],`  
+    `"required_by": [],`  
+    `"supports": [],`  
+    `"conflicts_with": []`  
+  `}`  
+`}

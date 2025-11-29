@@ -1,0 +1,9 @@
+python
+# Attempt composition with automatic fallback
+state = {'λ': 0.5, 'numerical_precision': 'high'}
+
+result = router.compose_with_fallback("λ", "δ", state)
+
+print(f"Success: {result['success']}")
+print(f"Variant used: {result['variant_used']}")
+print(f"Fallback attempted: {result['fallback_attempted']}")

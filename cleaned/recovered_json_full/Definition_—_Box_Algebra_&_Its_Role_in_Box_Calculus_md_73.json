@@ -1,0 +1,8 @@
+{`  
+      `"name": "A",`  
+      `"sealed": true,`  
+      `"kind": "unary",`  
+      `"signature": "Box -> Box",`  
+      `"tier_effect": { "delta": "activate", "phi": "energize", "theta": "bias", "pi": "identity" },`  
+      `"description": "OA-shadow / action operator."`  
+    `}

@@ -1,0 +1,1 @@
+{ "type": "operator", "role": "tri\_unity\_projection", "signature": "B \-\> P\_{δΦΠ}(B)", "description": "Projection onto globally consistent δ–Φ–Π Tri-Unity subspace.", "properties": \["projection", "Tri-Unity\_compatible"\] }

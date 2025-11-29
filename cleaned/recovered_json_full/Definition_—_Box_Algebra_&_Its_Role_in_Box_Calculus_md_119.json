@@ -1,0 +1,19 @@
+{`  
+    `"invariants": [`  
+      `{`  
+        `"id": "INV-1",`  
+        `"name": "tower_commutation",`  
+        `"schema": "Π(Φ(δ(B))) must be well-defined for all Boxes B"`  
+      `},`  
+      `{`  
+        `"id": "INV-2",`  
+        `"name": "closure",`  
+        `"schema": "compose(B1, B2) yields a Box"`  
+      `},`  
+      `{`  
+        `"id": "INV-3",`  
+        `"name": "polarity_bounds",`  
+        `"schema": "-1 <= Θ(B).polarity <= 1"`  
+      `}`  
+    `]`  
+  `}

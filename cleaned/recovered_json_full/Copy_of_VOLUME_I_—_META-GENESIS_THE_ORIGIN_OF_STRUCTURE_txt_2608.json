@@ -1,0 +1,1 @@
+{ "truth_invariance": "Π(Φ(δ(X))) = Π(X)", "closure": "T(X) ∈ TruthStates", "stability": "T(T(X)) = T(X)", "projection_admissibility": "Φ(δ(X)) ∈ F", "deviation_generativity": "δ increases semantic distinction" }

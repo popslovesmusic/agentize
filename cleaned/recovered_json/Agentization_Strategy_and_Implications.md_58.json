@@ -1,0 +1,7 @@
+{
+  "operation": "compose",
+  "operators": ["δ", "Φ", "Π"],
+  "validate_against": "triunity_axiom_box",
+  "normalize": true,
+  "check_omega_constraints": true
+}

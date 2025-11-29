@@ -1,0 +1,1 @@
+{ "name": "Logic-Gate Tier Pack", "version": "1.0", "imports": \[ "tier\_logic\_metadata.json5", "tier\_logic\_operator\_pack.json5", "tier\_logic\_interaction\_table.json5", "tier\_logic\_axiom\_box.json5", "tier\_logic\_rewrite\_system.json5" \], "export": "Full Θ-aware Logic-Gate Layer" }

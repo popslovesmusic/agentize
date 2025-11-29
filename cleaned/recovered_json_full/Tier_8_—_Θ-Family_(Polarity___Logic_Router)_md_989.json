@@ -1,0 +1,1 @@
+{ "type": "polarity\_router", "action": "assigns \+1/-1 polarity; routes semantic channels", "outputs": \["Θ\_state", "channel"\] }

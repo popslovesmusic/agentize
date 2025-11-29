@@ -1,0 +1,4 @@
+{
+      "selection_logic": { ... },
+      "fallback_chain": [ ... ]
+    }

@@ -1,0 +1,1 @@
+{ "rules": \[ { "pattern": "ψ(μ(Φ ∘ δ))", "rewrite": "NF\_δΦ" }, { "pattern": "ψ(μ(Π ∘ Φ))", "rewrite": "NF\_ΦΠ" }, { "pattern": "ψ(μ(Π ∘ δ))", "rewrite": "NF\_δΠ" }, { "pattern": "ψ(μ(A ∘ B))", "rewrite": "NF\_AB" }, { "pattern": "A ∘ B", "rewrite": "NF\_AB" } \], "normal\_forms": { "δΦΠ": "NF\_δΦΠ", "weighted\_modal\_chain": "NF\_ψμ", "tri\_unity\_weighted": "NF\_TU\_psimu" } }

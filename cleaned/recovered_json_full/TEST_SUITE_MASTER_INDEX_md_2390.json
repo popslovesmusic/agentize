@@ -1,0 +1,1 @@
+{ id: 'TU-NF-04', invariant: 'closure', pattern: 'δΦΠ', rewrite: 'NF\_δΦΠ', conditions: {}, explanation: '3-step chain δ→Φ→Π is closed and mapped to NF\_δΦΠ.', }

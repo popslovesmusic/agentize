@@ -1,0 +1,1 @@
+{ "id": "MOD\_Θ\_INV\_CORE", "name": "Core Polarity Logic Invariants", "files": \[ "tier\_08\_metadata.json", "tier\_08\_operator\_pack.json", "tier\_08\_interaction\_table.json", "tier\_08\_axiom\_box.json", "tier\_08\_rewrite\_system.json" \] }

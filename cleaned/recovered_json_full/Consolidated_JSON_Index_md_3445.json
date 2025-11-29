@@ -1,0 +1,21 @@
+{
+  "operator": "δ",
+  "tier": 0,
+  "name": "Deviation",
+  "intent": "Measures local deviation or gradient of a Box; generator of change.",
+  "domain": "Any Box B",
+  "codomain": "Transformed Box",
+  "action_type": "local",
+  "classification": ["primitive"],
+  "constraints": {
+    "locality": "Operates on local neighborhoods",
+    "differentiability": "Requires differentiable Box structure"
+  },
+  "inputs": ["B"],
+  "outputs": ["δ(B)"],
+  "cross_links": {
+    "composed_with": ["Φ", "Π", "μ"],
+    "higher_order": ["δ²", "δᴶ", "δᴸ", "δᵂ"],
+    "family": "δ-Family (Tier-1)"
+  }
+}

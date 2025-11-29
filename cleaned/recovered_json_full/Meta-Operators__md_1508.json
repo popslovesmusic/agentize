@@ -1,0 +1,1 @@
+{ "symbol": "δ\*", "name": "Adjoint Deviation", "role": "adjoint", "intent": "Adjoint of δ with respect to the chosen inner product or measure on Box states.", "domain": "BoxState", "codomain": "BoxState", "core\_definition": "δ\* satisfies ⟨δ X, Y⟩ \= ⟨X, δ\* Y⟩ for admissible Box states X, Y.", "properties": { "adjoint": true }, "links": { "adjoint\_of": "δ" } }

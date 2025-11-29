@@ -1,0 +1,1 @@
+{ "id": "T47", "left": "Σ", "right": "ψΘ", "composition": "Σ(p\_i ψ\_i)", "category": "weighted\_sum", "signature": "Box^N \-\> Wave\_amplitude", "rule": "Wave-weighted polarity sum.", "notes": "Interference with sign." }

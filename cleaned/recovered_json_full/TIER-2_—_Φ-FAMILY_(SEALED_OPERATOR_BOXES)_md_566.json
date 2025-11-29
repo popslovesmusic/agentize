@@ -1,0 +1,1 @@
+{ "BoxName": "Π\_t", "BoxIntent": "Semantic truth-evaluation functor.", "Domain": { "Input": "Φ\_s(B)", "Output": "Π\_t(B)" }, "Constraints": { "TruthGrounding": "Evaluates on semantic form", "ProjectionRequirement": "Π\_t∘Φ \= Π\_t", "Stability": "Stable under Φ\_s" }, "CrossLinks": { "Φ\_s": "Semantic source", "Θ": "Polarity", "Σ": "Contraction interactions" } }

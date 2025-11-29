@@ -1,0 +1,1 @@
+{ "pattern": "Ξ(tier\_n\_module\_pack)", "rewrite": "tier\_n\_module\_pack' (Ξ-transformed)", "description": "Module packs are mapped to valid Ξ-transformed module packs." }

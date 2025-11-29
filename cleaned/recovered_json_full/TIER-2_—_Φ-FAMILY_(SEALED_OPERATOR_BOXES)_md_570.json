@@ -1,0 +1,1 @@
+{ "BoxName": "Pi\_plus", "BoxIntent": "Composite evaluation operator.", "Domain": { "Input": "B", "Output": "Π⊕(B)" }, "Constraints": { "Decomposition": "Π⊕ \= Π\_t ⊕ Π\_c", "Idempotence": "Π⊕∘Π⊕ \= Π⊕", "CausalDominanceOption": "Θ-weighted priority" }, "CrossLinks": { "Π\_t": "Semantic eval", "Π\_c": "Causal eval", "Σ": "Contraction" } }

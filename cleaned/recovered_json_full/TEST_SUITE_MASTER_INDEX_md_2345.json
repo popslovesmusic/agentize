@@ -1,0 +1,1 @@
+{ id: 11, description: "Closure: Π² remains Π.", input: \[Π, Π\], expect\_nf: "NF\_Π", invariant: "closure", }

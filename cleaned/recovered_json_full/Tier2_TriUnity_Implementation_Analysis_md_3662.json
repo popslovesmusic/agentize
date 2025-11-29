@@ -1,0 +1,5 @@
+{
+  "gate": "Delta (δ)",
+  "condition": "Is this a request for NEW generation?",
+  "action": "Route to Creative/Reasoning Agent"
+}

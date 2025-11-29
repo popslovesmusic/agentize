@@ -1,0 +1,1 @@
+{ id: "Φ(B0)", class\_id: "undefined", // \<-- Φ produced an undefined class (violation) payload: null }

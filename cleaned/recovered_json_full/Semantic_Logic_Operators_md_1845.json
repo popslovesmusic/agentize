@@ -1,0 +1,1 @@
+{ "symbol": "∃", "arity": 2, "arguments": \["variable", "predicate\_box"\], "category": "quantifier", "definition": { "theta\_rule": "Θ\_out \= Θ⁺ iff some domain element yields Θ⁺.", "sigma\_rule": "Σ\_out aggregates supremum of instance supports.", "pi\_rule": "Π\_out \= 1 iff Π\_pred(x) \= 1 for at least one x." } }

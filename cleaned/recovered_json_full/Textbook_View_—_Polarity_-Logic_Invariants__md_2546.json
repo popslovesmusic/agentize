@@ -1,0 +1,1 @@
+{ id: "T9\_06\_wave\_forbidden\_resonance", description: "ψ-wave enters forbidden resonance mode banned by Ωχ energy surface.", psi\_modes: { initial: \["m0"\], raw\_after: \["m0", "m\_forbidden"\] }, expected: { invariant\_violations: \["χ\_PR\_WAVE\_CONSTRAINT"\], rewrite\_applied: \["RW\_χ\_ENFORCE\_WAVE\_CONSTRAINT"\], nf: "χNF" } }

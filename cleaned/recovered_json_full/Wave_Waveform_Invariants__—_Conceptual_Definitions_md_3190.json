@@ -1,0 +1,1 @@
+{ "id": "RULE\_ψ-Ω-BREAK-AMP", "pattern": { "state": "ψ", "condition": "Ω\_domain.lossless \== false" }, "action": "Apply declared Ω-dissipation/gain, update ‖ψ‖\_μ² and attach log entry to Box history.", "target\_nf": "ψ\_state", "preserves\_invariants": \[\], "notes": "This is an explicit, allowed \*break\* of ψ-AMP governed by Ω." }

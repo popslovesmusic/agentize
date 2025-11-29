@@ -1,0 +1,1 @@
+{ "name": "Σ\_identity", "when": "Σ\_identity ∘ ψ", "then": "ψ", "intent": "Trivial Σ removed." }

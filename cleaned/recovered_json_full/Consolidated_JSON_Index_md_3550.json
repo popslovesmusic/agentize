@@ -1,0 +1,5 @@
+{
+    "canonical_form": "psi_chi_chi = Delta_mu(psi) + Phi_mu(psi)",
+    "expanded_form": "psi_chi_chi = mu * delta^2(psi) + (delta mu) * (delta psi) + Phi(mu * psi)",
+    "operator_form": "psi_chi_chi = (mu->delta)(delta(psi)) + (mu->Phi)(psi)"
+  }

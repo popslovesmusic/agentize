@@ -1,0 +1,1 @@
+{ "symbol": "A⊕B", "definition": "A and B act additively on the same Box, preserving distinction of channels.", "intent": "Combined but distinguishable semantic action.", "normal\_form\_behavior": "Reduced to NF\_{A⊕B} describing net effect." }

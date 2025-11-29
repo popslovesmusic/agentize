@@ -1,0 +1,1 @@
+{ "pattern": "Σ(λ\_x)", "rewrite": "curvature\_collapse" }

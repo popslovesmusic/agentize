@@ -1,0 +1,1 @@
+{ "id": "PI\_CHECK\_DAG", "symbol": "Π\_DAG?", "role": "causal\_consistency\_check", "signature": "(EvalState) \-\> boolean", "description": "Returns true iff the underlying causal graph is acyclic and antisymmetric.", "invariant\_guards": \["PI-CO"\] }

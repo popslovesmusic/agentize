@@ -1,0 +1,38 @@
+{`  
+    `"psi_core": {`  
+      `"id": "psi_core",`  
+      `"role": "baseline_wave_generator",`  
+      `"equation_hint": "second-order δ-based mode propagation",`  
+      `"schematic": "ψ_core(B) ≈ Δ_δ(B)"`  
+    `},`
+
+    `"psi_mu_weight": {`  
+      `"id": "psi_mu_weight",`  
+      `"role": "μ-weighted_curvature",`  
+      `"schematic": "ψ_μ(B) = μ · Δ_δ(B)",`  
+      `"notes": [`  
+        `"μ introduces spatially varying density.",`  
+        `"Generates anisotropic propagation speed."`  
+      `]`  
+    `},`
+
+    `"psi_phi_feedback": {`  
+      `"id": "psi_phi_feedback",`  
+      `"role": "semantic_mode_correction",`  
+      `"schematic": "ψ_Φ(B) = Φ(B) − Φ_equilibrium(B)",`  
+      `"notes": [`  
+        `"Imposes mode-filtering from semantic form.",`  
+        `"Defines allowed/forbidden wave harmonics."`  
+      `]`  
+    `},`
+
+    `"psi_pi_feedback": {`  
+      `"id": "psi_pi_feedback",`  
+      `"role": "causal_evaluation_boundary_term",`  
+      `"schematic": "ψ_Π(B) = boundary_condition(Π(B))",`  
+      `"notes": [`  
+        `"Π provides terminal causal feedback.",`  
+        `"Ensures ψ resolves to valid causal states."`  
+      `]`  
+    `}`  
+  `}

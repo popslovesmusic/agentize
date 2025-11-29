@@ -1,0 +1,6 @@
+{`  
+      `"template_name": "router_operator",`  
+      `"kind": "higher_order",`  
+      `"signature": "(Theta, Box, metadata) -> Box",`  
+      `"description": "Family of routing operators built from Θ + composition."`  
+    `}

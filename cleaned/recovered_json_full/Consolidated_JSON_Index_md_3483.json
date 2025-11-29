@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MBC-4.0 ψ-Layer Schema",
+  "type": "object",
+  "required": ["operators", "wave_equation", "interaction_table"],
+  "properties": {
+    "operators": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["symbol", "role", "tier"],
+        "properties": {
+          "symbol": { "type": "string" },
+          "role": { "type": "string" },
+          "tier": { "type": "integer", "minimum": 0, "maximum": 12 }
+        }
+      }
+    },
+    "wave_equation": {
+      "type": "object",
+      "required": ["canonical_form", "operators_used"],
+      "properties": {
+        "canonical_form": { "type": "string" },
+        "operators_used": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "interaction_table": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "lhs", "rhs", "role"],
+        "properties": {
+          "id": { "type": "string" },
+          "lhs": { "type": "string" },
+          "rhs": { "type": "string" },
+          "role": { "type": "string" }
+        }
+      }
+    }
+  }
+}

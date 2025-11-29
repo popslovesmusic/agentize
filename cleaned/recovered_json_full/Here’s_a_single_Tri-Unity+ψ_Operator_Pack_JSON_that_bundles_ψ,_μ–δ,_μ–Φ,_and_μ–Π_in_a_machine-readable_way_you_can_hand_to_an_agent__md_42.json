@@ -1,0 +1,34 @@
+{`  
+  `"mbc_version": "4.0",`  
+  `"type": "module_pack",`  
+  `"pack_id": "sigma_summation_pack",`  
+  `"pack_name": "Semantic Summation Pack",`
+
+  `"manifest": {`  
+    `"description": "Defines Σ contraction rules, δ–Φ–Π–Σ interactions, polarity tables.",`  
+    `"tags": ["sigma", "summation", "contraction"]`  
+  `},`
+
+  `"dependencies": {`  
+    `"module_packs": ["tri_unity_core_pack", "theta_logic_pack"],`  
+    `"operators": ["Σ"],`  
+    `"layers": []`  
+  `},`
+
+  `"objects": {`  
+    `"theorems": ["sigma_interaction_theorem"],`  
+    `"axiom_boxes": ["sigma_axiom"],`  
+    `"layers": [],`  
+    `"diagrams": ["sigma_operator_diagram"]`  
+  `},`
+
+  `"router": {`  
+    `"operator_chains": ["Σ ∘ δ", "Σ ∘ Φ", "Σ ∘ Π"],`  
+    `"semantic_flows": ["Tensor → Σ → Tensor"]`  
+  `},`
+
+  `"export": {`  
+    `"operators": ["Σ"],`  
+    `"theorems": ["sigma_interaction_theorem"]`  
+  `}`  
+`}

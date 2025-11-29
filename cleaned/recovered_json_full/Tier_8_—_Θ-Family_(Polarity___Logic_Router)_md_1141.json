@@ -1,0 +1,1 @@
+{ "id": "T49", "left": "Θ", "right": "Θ", "composition": "Θ ∘ Θ", "category": "self\_composition", "signature": "Box \-\> Box\_polarized", "rule": "Θ is idempotent on polarity channels.", "notes": "Applying Θ twice is the same as once." }

@@ -1,0 +1,1 @@
+{ "c1": "Polarity must resolve BEFORE Σ contraction.", "c2": "Σ is terminal; no operator follows Σ.", "c3": "Θ may alter sign, phase, magnitude, but not structure.", "c4": "ΣΘ is idempotent: ΣΘΣ \= Σ", "c5": "Θ never acts after Σ." }

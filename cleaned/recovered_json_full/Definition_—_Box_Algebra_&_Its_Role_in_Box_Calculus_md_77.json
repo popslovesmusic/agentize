@@ -1,0 +1,8 @@
+{`  
+      `"name": "Theta",`  
+      `"sealed": true,`  
+      `"kind": "unary",`  
+      `"signature": "Box -> Box",`  
+      `"tier_effect": { "delta": "none", "phi": "none", "theta": "route", "pi": "none" },`  
+      `"description": "Polarity router / branch-weight assigner."`  
+    `}

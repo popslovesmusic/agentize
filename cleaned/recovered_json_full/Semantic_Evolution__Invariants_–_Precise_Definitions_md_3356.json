@@ -1,0 +1,1 @@
+{ "id": "T\_CHI\_009\_CONTINUITY\_WITH\_KINKS", "description": "Piecewise smooth with tagged kinks (allowed).", "input\_trace": \[ { "state": "B0", "chi": 0 }, { "state": "B1", "chi": 0.4, "tag": "kink" }, { "state": "B2", "chi": 1.0 } \], "expected": { "is\_nf": true, "violations": \[\], "normalized\_trace": "same" } }

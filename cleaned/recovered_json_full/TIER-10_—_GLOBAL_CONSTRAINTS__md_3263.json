@@ -1,0 +1,1 @@
+{ id: "Ω-F1", description: "Simple ρ-layer gets normalized \+ federated.", input\_geometry: { ρ: \["ρ0", "ρ1\_unstable"\] }, expected\_geometry: { ρ: \["ρ0", "ρ1\_federated"\] }, enforced\_by: "Ω\_federate" }

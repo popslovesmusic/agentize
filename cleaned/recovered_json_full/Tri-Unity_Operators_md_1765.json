@@ -1,0 +1,1 @@
+{ "id": "R4\_anticommutator\_normalization", "pattern": "{A,B}", "rewrite": "NF\_{A,B}^{sym}", "comment": "Symmetric interaction of A and B reduces to a canonical symmetric normal form." }

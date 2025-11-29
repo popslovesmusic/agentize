@@ -1,0 +1,5 @@
+{
+            'commutes': not commutator,
+            'semantic_curvature': commutator,
+            'order_matters': commutator
+        }

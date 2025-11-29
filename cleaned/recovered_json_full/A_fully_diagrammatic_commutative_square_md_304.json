@@ -1,0 +1,7 @@
+{
+              "equation": { "type": "string" },
+              "semantic_layer": {
+                "type": "string",
+                "enum": ["δ", "Φ", "Π", "μ", "Σ", "Θ", "general"]
+              }
+            }

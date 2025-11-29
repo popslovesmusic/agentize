@@ -1,0 +1,1 @@
+{ "pattern": "Ξ\_dual(Ξ\_dual(X))", "rewrite": "X", "description": "Duality is involutive on duality-stable objects." }

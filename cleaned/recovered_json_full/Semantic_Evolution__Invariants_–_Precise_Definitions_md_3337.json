@@ -1,0 +1,1 @@
+{ "id": "R\_CHI\_TRIUNITY\_SYNC\_01", "name": "Sync δ–Φ–Π along χ", "pattern": "χ-evolution where δ, Φ, Π are updated at mismatched χ-indices", "condition": "Tri-Unity required", "rewrite": "insert\_sync\_steps so that δ(B(χ)), Φ(B(χ)), Π(B(χ)) share aligned χ indices", "preserves\_invariants": \[ "INV\_CHI\_TRIUNITY\_COMPAT" \] }

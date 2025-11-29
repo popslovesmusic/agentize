@@ -1,0 +1,1 @@
+{ "suite\_id": "T3-PI-CE-TESTS", "goals": \[ "Detect and repair causal cycles.", "Enforce monotone Π-truth along causal edges.", "Ensure Tri-Unity-induced states can be repaired to Π-CE-NF." \] }

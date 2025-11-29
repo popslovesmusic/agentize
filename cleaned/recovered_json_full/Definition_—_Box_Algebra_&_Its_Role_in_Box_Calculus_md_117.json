@@ -1,0 +1,8 @@
+{`  
+    `"operator": "ΣΣ_a",`  
+    `"arity": "n >= 2",`  
+    `"merge_semantics": true,`  
+    `"merge_polarity": true,`  
+    `"bounded": true,`  
+    `"description": "Aggregation combines multiple routed Boxes into a coherent structure."`  
+  `}

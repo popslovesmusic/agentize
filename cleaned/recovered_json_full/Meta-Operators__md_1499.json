@@ -1,0 +1,1 @@
+{ "name": "Tri-Unity Normal Form", "scope": \["δ", "Φ", "Π"\], "rules": \[ { "id": "TRIUNITY\_NF\_001", "pattern": "Φ ∘ δ", "replacement": "δ ∘ Φ \+ correction\_term", "justification": "Commutation relation \[δ,Φ\]", "direction": "left\_to\_right", "priority": 10 } // ... many rules \] }

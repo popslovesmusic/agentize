@@ -1,0 +1,1 @@
+{ "id": "S6\_psi\_convolution", "pattern": "ψ⋆A", "rewrite": "NF\_{ψ⋆A}", "comment": "ψ convolved with any operator A." }

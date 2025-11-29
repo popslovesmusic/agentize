@@ -1,0 +1,1 @@
+{ version: "0.1.0", schema: "mbc4.json5.v1", author: "IGSOA-System", editable: true, // humans can modify these files auto\_generated: false, // unless explicitly stated }

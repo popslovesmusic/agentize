@@ -1,0 +1,21 @@
+python
+from variant_aware_router import VariantAwareRouter
+
+router = VariantAwareRouter()
+
+# Define execution state
+state = {
+    'λ': 0.5,
+    'convergence_issues': True,
+    'numerical_instability_detected': True
+}
+
+# Automatic context detection + variant selection
+context = router.detect_context(state)
+selection = router.select_variant(("λ", "δ"), context)
+
+print(f"Selected: {selection.variant_id}")
+print(f"Reason: {selection.reason}")
+# Output:
+# Selected: symmetric_approximation
+# Reason: Symmetrized curvature-deviation coupling...

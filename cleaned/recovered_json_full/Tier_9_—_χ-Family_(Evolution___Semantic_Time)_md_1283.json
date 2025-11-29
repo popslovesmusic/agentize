@@ -1,0 +1,1 @@
+{ "type": "operator", "role": "invariant\_enforcer", "signature": "B \-\> B\_invariant", "description": "Ensures Tri-Unity, polarity, μ-density, χ-evolution, ψ-wave-energy invariants.", "properties": \["invariant\_preserving"\] }

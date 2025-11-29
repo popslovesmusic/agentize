@@ -1,0 +1,10 @@
+{`  
+    `"delta_incompatibility": {`  
+      `"code": "ERR::COMPOSE::DELTA_MISMATCH",`  
+      `"description": "The δ-structures of B1 and B2 are not adjacency-compatible."`  
+    `},`  
+    `"interface_misalignment": {`  
+      `"code": "ERR::COMPOSE::TYPE_MISMATCH",`  
+      `"description": "The input/output port types are incompatible."`  
+    `}`  
+  `}

@@ -1,0 +1,7 @@
+{`  
+      `"template_name": "semantic_logic_gate",`  
+      `"kind": "binary",`  
+      `"signature": "Box×Box -> Box",`  
+      `"construction_basis": ["Theta", "SigmaSigma_a", "Pi"],`  
+      `"description": "Derived AND/OR/XOR/IMPLIES/NAND/NOR/XNOR etc."`  
+    `}

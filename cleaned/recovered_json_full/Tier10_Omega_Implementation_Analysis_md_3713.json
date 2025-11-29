@@ -1,0 +1,6 @@
+{
+            'tri_unity_coherent': [],    # S_Ω^TU
+            'high_consistency': [],       # S_Ω^(1)
+            'medium_consistency': [],     # S_Ω^(2)
+            'acceptable': []              # S_Ω^(3)
+        }

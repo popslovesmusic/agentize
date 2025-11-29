@@ -1,0 +1,4 @@
+{
+    'causal_valid': pi_c_operator(pi_ready),
+    'semantic_valid': pi_t_operator(pi_ready)
+}

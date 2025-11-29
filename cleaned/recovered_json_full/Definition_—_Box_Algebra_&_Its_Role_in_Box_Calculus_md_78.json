@@ -1,0 +1,9 @@
+{`  
+      `"name": "SigmaSigma_a",`  
+      `"sealed": true,`  
+      `"kind": "n_ary",`  
+      `"arity": "n>=2",`  
+      `"signature": "Box^n -> Box",`  
+      `"tier_effect": { "delta": "cohere", "phi": "merge_semantics", "theta": "merge_polarity", "pi": "none" },`  
+      `"description": "Aggregation / merge operator."`  
+    `}

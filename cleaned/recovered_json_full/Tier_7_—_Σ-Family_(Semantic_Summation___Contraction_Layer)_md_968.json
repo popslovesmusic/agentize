@@ -1,0 +1,1 @@
+{ "rewrite\_order": \[ "1. Resolve δ-components (δ-first rule).", "2. Normalize Φ projections (Φ-normalization).", "3. Evaluate Π channels (Π-collapse).", "4. Apply μ, λ, ψ, Θ modifiers.", "5. Apply Σ-terminal contraction → NF." \], "termination": "Σ is terminal; all paths must end in Σ→NF.", "confluence": "System is globally confluent: all reduction paths yield NF(B)." }

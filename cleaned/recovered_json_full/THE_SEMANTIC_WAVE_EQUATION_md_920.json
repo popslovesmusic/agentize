@@ -1,0 +1,1 @@
+{ "tier": 6, "family": "psi", "tags": \[ "Tri-Unity", "psi-layer", "SDE", "semantic\_wave\_equation", "MBC-4.0" \], "depends\_on": \[ "AXIOM\_BOX\_\_Semantic\_Wave\_Equation", "OP\_PACK\_\_TriUnity\_plus\_psi" \] }

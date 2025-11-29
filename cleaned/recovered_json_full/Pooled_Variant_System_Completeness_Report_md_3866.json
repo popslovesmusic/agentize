@@ -1,0 +1,17 @@
+python
+# Mathematical Consistency (6 tests)
+- test_flat_limit_consistency
+- test_psi_layer_commutativity
+- test_base_level_non_commutativity
+- test_symmetric_approximation_stability
+- test_perturbative_expansion_analytical
+- test_conservative_safety_mode
+
+# Cross-File Consistency (3 tests)
+- test_no_conflicting_statements
+- test_fallback_chains_valid
+- test_variant_metadata_complete
+
+# Context Detection (2 tests)
+- test_geometry_detection
+- test_abstraction_level_detection

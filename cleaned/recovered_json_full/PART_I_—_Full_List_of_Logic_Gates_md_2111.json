@@ -1,0 +1,1 @@
+{ "rule": "Θ-XOR(A,B) → Θ-NORMALIZE(XOR(A,B))" }

@@ -1,0 +1,1 @@
+{ id: 'TU-NF-32', invariant: 'normal\_form', pattern: 'δ⋆Φ⋆Π', rewrite: 'NF\_δ⋆Φ⋆Π', conditions: { convolution\_semantics: true }, explanation: 'Convolution δ⋆Φ⋆Π is assigned NF\_δ⋆Φ⋆Π.', }

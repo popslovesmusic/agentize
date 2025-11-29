@@ -1,0 +1,1 @@
+{ "type": "layer\_meta\_symmetry", "intent": "Act on ρ-layer chains to permute, fold, or replicate layers while preserving consistency.", "domain": "ρ-layer chain", "codomain": "Symmetry-transformed layer chain" }

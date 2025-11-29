@@ -1,0 +1,1 @@
+{ id: "T9\_01\_missing\_triunity\_factorization", description: "χ-step applied without δ→Φ→Π factorization must insert Tri-Unity flow node.", state: { chi: 0.0, box\_raw: "B0", evolution: "direct\_raw\_transition", }, expected: { invariant\_violations: \["χ\_PR\_TRIUNITY\_FLOW"\], rewrite\_applied: \["RW\_χ\_INSERT\_TRIUNITY\_FLOW"\], nf: "χNF" } }

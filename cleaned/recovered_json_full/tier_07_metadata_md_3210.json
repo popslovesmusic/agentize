@@ -1,0 +1,1 @@
+{ "id": "CHK\_SIGMA\_NULL\_MODE\_STABILITY", "kind": "invariant\_checker", "invariant": "SIGMA\_INV\_NULL\_MODE\_STABILITY", "signature": "TensorBefore × TensorAfter \-\> Bool", "description": "Returns true iff null modes before contraction remain null after contraction, absent explicit source terms." }

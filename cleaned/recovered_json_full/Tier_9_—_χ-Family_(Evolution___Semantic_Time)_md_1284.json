@@ -1,0 +1,1 @@
+{ "type": "operator", "role": "consistency\_checker", "signature": "B \-\> {B, errorBox}", "description": "Enforces global consistency: domain constraints, operator validity, rewrite correctness, commutativity, causal ordering.", "properties": \["error\_emitting", "normal\_form\_enforcing"\] }

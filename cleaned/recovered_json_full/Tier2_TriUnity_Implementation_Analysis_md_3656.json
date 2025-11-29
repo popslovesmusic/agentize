@@ -1,0 +1,12 @@
+python
+   def theta_mux_routing(theta_signal, query):
+       """
+       Θ-MUX: Route based on polarity.
+
+       If Θ₊: Route to high-confidence path (use cached)
+       If Θ₋: Route to low-confidence path (regenerate)
+       """
+       if theta_signal == "Θ₊":
+           return librarian.search_cache(query)
+       else:
+           return creative_agent.generate_new(query)

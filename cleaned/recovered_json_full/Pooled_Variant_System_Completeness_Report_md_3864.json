@@ -1,0 +1,17 @@
+{
+  "guide_version": "1.0.0",
+  "context_detectors": {
+    "geometry_type": { /* flat/curved detection */ },
+    "abstraction_level": { /* base/ψ/mixed detection */ },
+    "numerical_mode": { /* precision/stability/analytical */ },
+    "safety_mode": { /* conservative/exploratory */ }
+  },
+  "operator_selection_rules": {
+    "lambda_delta_composition": { /* priority-based selection */ },
+    "psi_commutativity": { /* level-aware selection */ }
+  },
+  "context_combinations": { /* multi-dimensional contexts */ },
+  "performance_profiles": { /* computational cost */ },
+  "diagnostics": { /* debugging rules */ },
+  "examples": [ /* 5 complete scenarios */ ]
+}

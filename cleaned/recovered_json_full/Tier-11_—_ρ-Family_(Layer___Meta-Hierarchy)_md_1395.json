@@ -1,0 +1,1 @@
+{ "id": "R-ρ-16", "name": "rho\_canonical\_nf", "category": "normal\_form", "lhs": "A\[k\]", "rhs": "NF\_ρ(A)\[k\]", "conditions": { "NF\_ρ": "move all layer annotations to the outermost operator; collapse with max rule" }, "notes": "Defines the ρ-Normal Form: a single layer index at the outermost level." }

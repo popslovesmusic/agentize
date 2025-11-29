@@ -1,0 +1,1 @@
+{ "symbol": "A↦B", "definition": "Directed syntactic rewrite: expression A is rewritten to expression B.", "intent": "Implements reduction rules toward normal form.", "normal\_form\_behavior": "Chains of ↦ must terminate at NF\_nHYP." }

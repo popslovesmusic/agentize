@@ -1,0 +1,15 @@
+{
+      "signature": "Θ-MUX(control_signal, path_A, path_B) → path",
+      "algorithm": {
+        "step_1": "Evaluate control_signal to Θ polarity",
+        "step_2": "If Θ₊: execute path_A",
+        "step_3": "If Θ₋: execute path_B",
+        "step_4": "Return result from selected path"
+      },
+      "example": {
+        "control": "Π→Θ(validation_passed)",
+        "path_A": "return_result",
+        "path_B": "route_to_δ_for_fix",
+        "execution": "If validation passed (Θ₊), return result. Else route to generator."
+      }
+    }

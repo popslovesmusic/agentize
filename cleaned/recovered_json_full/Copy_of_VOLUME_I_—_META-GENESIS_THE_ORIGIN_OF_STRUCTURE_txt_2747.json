@@ -1,0 +1,1 @@
+{ "invertibility_on_box": "Box ↔ DomainTensorSlice is invertible up to Ω-equivalent relabeling.", "adjacency_soundness": "Every Edge must map to a valid edge in the SemanticGraph.", "rank_coherence": "Tensor rank must match geometric dimensionality." }

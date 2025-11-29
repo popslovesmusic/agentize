@@ -1,0 +1,1 @@
+{ "id": "R-ρ-04", "name": "nested\_layer\_annotation\_collapse", "category": "normalization", "lhs": "(A\[k\])\[m\]", "rhs": "A\[max(k,m)\]", "conditions": { "k\_in\_N": true, "m\_in\_N": true }, "notes": "Repeated annotation collapses to a single max layer." }

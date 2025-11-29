@@ -1,0 +1,1 @@
+{ "identity_components": { "Point": ["position_index", "ρ-layer"], "Edge": ["endpoint_indices", "adjacency_type"], "Face": ["boundary_edges", "orientation"], "Box": ["δ-state", "Φ-state", "Π-state"], "Mode": ["frequency_label", "curvature_coupling"] } }

@@ -1,0 +1,13 @@
+{
+  "lambda_family": {
+    "lambda": {
+      "name": "λ",
+      "intent": "Base curvature / deformation generator.",
+      "domain": "Boxes (δ–Φ–Π structured states).",
+      "action": "Produces curvature tensor describing geometric + modal bending.",
+      "inputs": ["Box"],
+      "outputs": ["CurvatureTensor"],
+      "cross_links": ["λᶜᵘʳᵛ", "λᵐᵒᵈᵉ", "λˣ", "λ∗", "λ→δ"]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{ "name": "classical\_wave\_limit", "conditions": { "Phi\_zero": true, "Pi\_zero": true, "mu\_constant": true }, "reduced\_equation": "δ² S \+ (χ² / ω²) S \= 0" }

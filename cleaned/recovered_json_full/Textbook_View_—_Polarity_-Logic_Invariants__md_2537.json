@@ -1,0 +1,1 @@
+{ chi: 2.0, box: "B2\_raw", psi: { amplitude\_norm: 1.2 }, theta: "-", // flipped omega\_energy: 1.2, events: \[\] // missing event tag → violation }

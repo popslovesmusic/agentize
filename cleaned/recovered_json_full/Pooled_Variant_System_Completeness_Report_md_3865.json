@@ -1,0 +1,15 @@
+python
+# Enums (4)
+GeometryType, AbstractionLevel, NumericalMode, SafetyMode
+
+# Data Classes (2)
+ExecutionContext, VariantSelection
+
+# Main Class
+VariantAwareRouter:
+    - __init__: Load JSON, initialize
+    - detect_context: Automatic context detection
+    - select_variant: Intelligent variant selection
+    - compose_with_fallback: Robust composition
+    - get_selection_stats: Analytics
+    - explain_selection: Human-readable explanation

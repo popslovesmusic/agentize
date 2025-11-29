@@ -1,0 +1,8 @@
+{`  
+      `"step": 1,`  
+      `"op": "delta_merge",`  
+      `"formal_op": "δ",`  
+      `"input": ["B1", "B2"],`  
+      `"output": "B_delta",`  
+      `"description": "Compute δ(B1 ⊛ B2) via geometric adjacency merge."`  
+    `}

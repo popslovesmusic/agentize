@@ -1,0 +1,1 @@
+{ id: 46, description: "NF: δ⊗Φ⊗Π reduces to unique tensor NF.", input: \["δ⊗Φ⊗Π"\], expect\_nf: "NF\_δ⊗Φ⊗Π", invariant: "normal\_form", }

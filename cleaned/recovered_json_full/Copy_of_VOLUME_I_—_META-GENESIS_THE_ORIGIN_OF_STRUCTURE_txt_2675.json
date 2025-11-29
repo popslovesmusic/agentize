@@ -1,0 +1,1 @@
+{ "regions": { "core": "λ, μ maximal; ψ fully coherent; ρ = k", "inner_shell": "moderate λ, μ; ψ coupled; ρ = k+1", "halo": "soft λ; decaying μ; radiative ψ; ρ = k+2" }, "conditions": [ "μ >> μ_c", "λ > λ_c", "ψ periodic & coherent", "Σ-stable", "Π-invariant" ] }

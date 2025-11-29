@@ -1,0 +1,1 @@
+{ "left": "Φ", "right": "Π", "meta": \[ { "meta\_operator\_name": "functor\_composition", "symbol": "Φ∘Π", "id": "IT\_03" } \], "defined": false, "notes": "Domain mismatch (Π outputs TruthValue, Φ expects Box). Useful as a validation example." }

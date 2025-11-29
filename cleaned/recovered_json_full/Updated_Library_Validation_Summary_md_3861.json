@@ -1,0 +1,18 @@
+$ python operators/validation/variant_consistency_tests.py
+
+======================================================================
+VARIANT CONSISTENCY VALIDATION SUITE
+======================================================================
+
+Total Tests:  11
+Passed:       11 (100%)
+Failed:       0
+
+✓ Mathematical consistency
+✓ Cross-file consistency
+✓ Context detection accuracy
+✓ Tier-5 formula alignment
+✓ Tier-6 level separation
+✓ Canonical λ-Theorem match
+
+======================================================================

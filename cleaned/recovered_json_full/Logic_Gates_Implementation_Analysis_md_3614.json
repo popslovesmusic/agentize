@@ -1,0 +1,5 @@
+{
+        "condition": "search_intent",
+        "polarity": "Θ₊",
+        "routes_to": "librarian"
+      }

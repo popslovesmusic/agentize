@@ -1,0 +1,1 @@
+{ "name": "BOX\_BOUNDARY", "symbol": "∂B", "signature": "Box \-\> {Face...}", "intent": "Return boundary Faces of a Box.", "constraints": \[ "Boundary Faces form a closed manifold around B." \], "chi\_action": "STEPχ(∂B, χ) \= ∂(STEPχ(B, χ)) (boundary commutes with χ-evolution at this tier).", "omega\_action": "Ω(∂B) is induced from Ω(B) by restriction to boundary Faces." }

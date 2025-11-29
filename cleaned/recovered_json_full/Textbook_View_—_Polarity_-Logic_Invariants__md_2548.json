@@ -1,0 +1,1 @@
+{ id: "T9\_08\_polarity\_flip\_valid", description: "Θ flip accompanied by NOT event is valid.", theta: { before: "+", after: "-", events: \["NOT"\] }, expected: { invariant\_violations: \[\], nf: "χNF" } }

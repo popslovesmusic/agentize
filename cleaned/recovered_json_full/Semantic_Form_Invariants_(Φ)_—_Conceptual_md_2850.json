@@ -1,0 +1,1 @@
+{ id: "Φ(B0)'", class\_id: "vector", payload: { dim: 2, values: \[2, 4\] }, provenance: { repaired\_from: "Φ(B0)", repair\_rule: "PHI\_RW\_01\_CLASS\_REPAIR" } }

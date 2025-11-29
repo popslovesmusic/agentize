@@ -1,0 +1,1 @@
+{ id: 'TU-COMM-04', invariant: 'commutativity', pattern: \['δΦΠ', 'ΦΠδ'\], rewrite: 'NF\_δΦΠ', conditions: { three\_cycle: true }, explanation: '3-cycle δ→Φ→Π and its rotation Φ→Π→δ share NF\_δΦΠ.', }

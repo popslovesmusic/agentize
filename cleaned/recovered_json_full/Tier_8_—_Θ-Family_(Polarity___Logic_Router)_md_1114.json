@@ -1,0 +1,1 @@
+{ "id": "T22", "left": "Θ", "right": "Π", "composition": "Θ⊗Π", "category": "tensor\_product", "signature": "Box \-\> Tensor", "rule": "Pair polarity with truth value, polarity first.", "notes": "Useful when routing uses polarity as primary key." }

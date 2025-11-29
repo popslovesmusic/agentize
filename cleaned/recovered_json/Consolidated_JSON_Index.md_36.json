@@ -1,0 +1,23 @@
+{
+  "box_type": "SealedAxiomBox",
+  "schema_version": "MBC-4.0",
+  "name": "Semantic Wave Equation Axiom",
+  "id": "AXIOM_BOX__Semantic_Wave_Equation",
+  "intent": "Fix the canonical ψ-dynamics governing semantic wave propagation in Tri-Unity+μ+ψ geometry.",
+  "domain": {
+    "spaces": {
+      "semantic_base": "B",
+      "semantic_field_space": "S : B → ℳ",
+      "measure_space": "⟨B, μ dV⟩"
+    },
+    "entities": {
+      "fields": [{ "symbol": "S", "description": "Semantic field defined on the Box domain B.", "type": "semantic_field" }],
+      "parameters": [
+        { "symbol": "ω", "role": "δ-frequency scaling", "constraints": "ω ∈ ℝ⁺" },
+        { "symbol": "η", "role": "Φ-mode scaling", "constraints": "η ∈ ℝ" },
+        { "symbol": "κ", "role": "Π-mode scaling", "constraints": "κ ∈ ℝ" },
+        { "symbol": "χ", "role": "semantic-time generator", "constraints": "χ is a first-order derivation w.r.t. semantic time" }
+      ]
+    }
+  }
+}

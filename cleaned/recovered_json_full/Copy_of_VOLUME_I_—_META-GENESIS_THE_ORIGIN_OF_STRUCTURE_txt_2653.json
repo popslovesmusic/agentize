@@ -1,0 +1,1 @@
+{ "mass_condition": "m_proto(M) > m_c", "curvature_threshold": "λ(M) > λ_c", "oscillation_periodicity": "ψ(M, χ+T) = ψ(M, χ)", "normal_form": "Σ(M) = M", "truth_stability": "Π(M) = Π*" }

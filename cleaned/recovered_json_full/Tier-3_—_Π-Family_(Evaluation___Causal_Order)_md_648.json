@@ -1,0 +1,1 @@
+{ "id": "rr\_tri\_unity\_normal\_form\_2", "pattern": "Π(Φ(Φ(B)))", "normal\_form": "Π(Φ(B))", "condition": "Φ idempotent on semantic form", "intent": "Repeated projection does not change evaluation outcome." }

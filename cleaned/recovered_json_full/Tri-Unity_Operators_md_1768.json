@@ -1,0 +1,1 @@
+{ "id": "R7\_convolution\_normalization", "pattern": "A⋆B", "rewrite": "NF\_{A⋆B}", "comment": "Convolution-based interactions normalized to a canonical form." }

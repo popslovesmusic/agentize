@@ -1,0 +1,1 @@
+{ "id": "G1\_global\_nf", "pattern": "E(O\_12, M)", "rewrite": "NF\_12", "comment": "Any expression built from the 12 operators and meta-operators reduces to the unique global normal form NF\_12." }

@@ -1,0 +1,6 @@
+{
+                    'agent': self.creative_agent,
+                    'mode': 'generate',
+                    'operator': 'δ',
+                    'pipeline': 'delta_only'
+                }

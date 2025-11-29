@@ -1,0 +1,1 @@
+{ id: "Ω-C2", description: "Contradiction reduction is forbidden.", input\_state: "⊥", expected\_state: "Illegal-State-Under-Ω", enforced\_by: "Ω\_guard", notes: "Guarantees global contradiction immunity." }

@@ -1,0 +1,1 @@
+{ "name": "χ\_step\_fusion", "when": "χ ∘ χ", "then": "χ²", "intent": "Compress consecutive steps." }

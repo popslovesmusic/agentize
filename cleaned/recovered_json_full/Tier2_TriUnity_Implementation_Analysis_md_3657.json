@@ -1,0 +1,55 @@
+python
+class MBCFullRouter:
+    """
+    Complete MBC router combining:
+    - δ-Φ-Π Tri-Unity (semantic routing)
+    - Θ-logic gates (polarity routing)
+    """
+
+    def __init__(self):
+        self.triunity_router = MBCTriUnityRouter(
+            librarian=LibrarianAgent(),
+            creative_agent=CreativeAgent(),
+            critic=CriticAgent()
+        )
+        self.logic_router = MBCLogicRouter()  # From Tier-8 analysis
+
+    def route_with_polarity(self, query, context):
+        """
+        Two-stage routing:
+        1. Tri-Unity: Classify query type (δ/Φ/Π)
+        2. Θ-gates: Route within agent based on confidence
+        """
+        # Stage 1: Tri-Unity classification
+        routing = self.triunity_router.route_query(query)
+
+        # Stage 2: Evaluate confidence
+        triunity_result = self.triunity_router.process_with_triunity(query)
+
+        # Stage 3: Convert to polarity
+        polarity = self.logic_router.pi_to_theta(triunity_result['overall_valid'])
+
+        # Stage 4: Θ-MUX routing
+        if routing['operator'] == 'Φ':  # Search query
+            if polarity == "Θ₊":
+                # High confidence - use fast path
+                return self.triunity_router.librarian.search_fast(query)
+            else:
+                # Low confidence - use thorough search
+                return self.triunity_router.librarian.search_deep(query)
+
+        elif routing['operator'] == 'δ':  # Generative query
+            if polarity == "Θ₊":
+                # High confidence in requirements - generate directly
+                return self.triunity_router.creative_agent.generate(query)
+            else:
+                # Low confidence - request clarification first
+                return self.triunity_router.creative_agent.request_clarification(query)
+
+        elif routing['operator'] == 'Π':  # Validation query
+            if polarity == "Θ₊":
+                # Likely valid - light validation
+                return self.triunity_router.critic.validate_light(query)
+            else:
+                # Likely invalid - thorough validation
+                return self.triunity_router.critic.validate_deep(query)

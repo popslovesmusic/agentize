@@ -1,0 +1,6 @@
+{
+        "operator": "Θ-OR",
+        "inputs": ["search_local", "search_web", "search_memory"],
+        "merge": "Θ-Σ",
+        "example": "Search multiple sources, merge with polarity-sum"
+      }

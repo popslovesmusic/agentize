@@ -1,0 +1,1 @@
+{ "type": "self\_equivalence\_operator", "intent": "Identify and enforce self-equivalences (auto-equivalences) of the system: mappings that preserve all structural laws.", "domain": "Global IGSOA structure", "codomain": "Equivalent global structure" }

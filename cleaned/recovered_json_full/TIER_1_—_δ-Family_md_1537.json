@@ -1,0 +1,1 @@
+{ "type": "structural\_template", "intent": "Standard form for theorem objects.", "schema": { "name": "string", "tier": "integer", "dependencies": "list\<TheoremRef | AxiomBoxRef | OperatorRef\>", "statement": "string", "proof": "string | structured\_proof", "diagram": "string | diagram\_ref", "tags": "list\<string\>" } }

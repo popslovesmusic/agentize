@@ -1,0 +1,1 @@
+{ "id": "T33", "left": "ψ", "right": "Θ", "composition": "ψ⊗Θ", "category": "tensor\_product", "signature": "Box \-\> Tensor", "rule": "Wave-first tensor pairing of ψ and polarity.", "notes": "Convenient in Fourier domain." }

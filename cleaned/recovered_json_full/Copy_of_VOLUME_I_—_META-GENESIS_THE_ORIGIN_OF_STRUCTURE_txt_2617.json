@@ -1,0 +1,1 @@
+{ "sigma_operator": "Σ: M^n → M", "triunity_contraction": "Σ(δ(X), Φ(X), Π(X)) = X_NF", "tensor_contraction": "Σ(D) = Σ_{i,j,k,…} μ_{ijk…} D_{ijk…}", "wave_normalization": "Ψ_NF = Σ(Ψ)", "curvature_normalization": "λ_NF = Σ(λ)", "metric_normalization": "μ_NF = Σ(μ)", "temporal_normalization": "X_NF = Σ(χ^n(X))" }

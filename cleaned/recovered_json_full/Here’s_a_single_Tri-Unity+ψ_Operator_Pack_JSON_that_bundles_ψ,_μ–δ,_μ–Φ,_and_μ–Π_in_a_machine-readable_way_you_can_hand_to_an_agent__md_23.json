@@ -1,0 +1,20 @@
+{`  
+    `"delta": {`  
+      `"symbol": "δ",`  
+      `"role": "geometric_deviation",`  
+      `"domain": "BoxField",`  
+      `"codomain": "BoxField"`  
+    `},`  
+    `"phi": {`  
+      `"symbol": "Φ",`  
+      `"role": "semantic_projection",`  
+      `"domain": "BoxField",`  
+      `"codomain": "SemanticFormField"`  
+    `},`  
+    `"pi": {`  
+      `"symbol": "Π",`  
+      `"role": "causal_evaluation",`  
+      `"domain": "SemanticFormField",`  
+      `"codomain": "CausalOrderField"`  
+    `}`  
+  `}

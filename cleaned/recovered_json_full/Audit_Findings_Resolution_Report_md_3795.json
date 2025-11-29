@@ -1,0 +1,6 @@
+State: {'λ': 0, 'flat_geometry_flag': True}
+Detected Context: GeometryType.FLAT
+Selected Variant: flat_geometry
+Reason: No curvature means perfect commutativity
+Performance: Fastest - skips curvature computation
+Status: ✓ PASS

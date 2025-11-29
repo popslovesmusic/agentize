@@ -1,0 +1,1 @@
+{ "omega": { "symbol": "ω", "role": "Deviation wave-frequency", "type": "real\_scalar" }, "eta": { "symbol": "η", "role": "Projection-mode weight", "type": "real\_scalar" }, "kappa": { "symbol": "κ", "role": "Evaluation-mode weight", "type": "real\_scalar" }, "chi": { "symbol": "χ", "role": "Semantic-time generator", "type": "operator" } }

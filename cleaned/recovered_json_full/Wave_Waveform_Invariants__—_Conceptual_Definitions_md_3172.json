@@ -1,0 +1,1 @@
+{ "id": "OP\_ψ-AMP-NORM", "symbol": "‖ψ‖\_μ²", "kind": "functional", "signature": "(ψ, μ) \-\> ℝ≥0", "description": "Compute μ-weighted amplitude norm of ψ.", "definition": "‖ψ‖\_μ² \= Σ\_i μ\_i |ψ\_i|²", "invariant": "ψ-AMP" }

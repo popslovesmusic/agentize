@@ -1,0 +1,1 @@
+{ "id": "RS-INT-01", "lhs": "Π(RS\_NF(t, R))", "rhs": "Π(t)", "call": "Π ∘ RS\_NF", "expect": "Π", "description": "NF before Π-evaluation must equal direct Π-evaluation. (Π ∘ NF) \= Π" }

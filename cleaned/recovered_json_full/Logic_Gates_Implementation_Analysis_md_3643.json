@@ -1,0 +1,11 @@
+{
+    "user_profile": {
+      "expertise": "beginner",
+      "detected_from": "previous_interactions"
+    },
+    "query": "How does quantum entanglement work?",
+    "complexity_analysis": "complex",
+    "polarity_signature": "(beginner, complex) = Θ₊₋",
+    "routed_to": "breakdown_and_simplify_agent",
+    "output_style": "Start with classical analogy, build to quantum, use visualizations"
+  }

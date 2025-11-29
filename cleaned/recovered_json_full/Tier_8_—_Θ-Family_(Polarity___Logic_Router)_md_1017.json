@@ -1,0 +1,1 @@
+{ "id": "T19", "left": "Θ\_to\_Pi", "right": "Θ", "composition": "Θ\_to\_Pi(p)", "category": "primitive\_map", "signature": "Polarity \-\> Bool", "rule": "+1 maps to 1, \-1 maps to 0.", "notes": "Base truth routing." }

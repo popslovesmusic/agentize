@@ -1,0 +1,77 @@
+{
+  "delta_operators": {
+    "delta": {
+      "symbol": "δ",
+      "type": "first_order",
+      "rank": 1,
+      "description": "Base deviation operator; initiates asymmetry and curvature.",
+      "composes_with": ["delta_squared", "phi_of_delta", "delta_of_phi", "pi_of_delta"],
+      "formal_equivalent": "first_order_derivative"
+    },
+    "delta_squared": {
+      "symbol": "δ²",
+      "type": "second_order",
+      "rank": 1,
+      "description": "Curvature-sensitive deviation operator (second derivative).",
+      "formal_equivalent": "second_derivative"
+    },
+    "delta_adjoint": {
+      "symbol": "δ*",
+      "type": "adjoint",
+      "rank": 1,
+      "description": "Adjoint deviation; reverse semantic flow.",
+      "formal_equivalent": "adjoint_differential_operator"
+    },
+    "delta_jacobian": {
+      "symbol": "Jδ",
+      "type": "tensor",
+      "rank": 2,
+      "description": "Jacobian of deviation; local semantic deformation matrix.",
+      "components": ["det", "trace"],
+      "formal_equivalent": "jacobian_matrix"
+    },
+    "delta_laplacian": {
+      "symbol": "Δδ",
+      "type": "second_order",
+      "rank": 0,
+      "description": "Deviation Laplacian; semantic diffusion and smoothing operator.",
+      "formal_equivalent": "laplacian"
+    },
+    "delta_weitzenbock": {
+      "symbol": "Wδ",
+      "type": "torsion_operator",
+      "rank": 0,
+      "description": "Torsion-weighted deviation (Weitzenböck operator).",
+      "identity": "Wδ = Δδ + Tδ",
+      "formal_equivalent": "weitzenbock_operator"
+    },
+    "delta_of_phi": {
+      "symbol": "δ ∘ Φ",
+      "type": "mixed",
+      "rank": 1,
+      "description": "Deviation of projection.",
+      "formal_equivalent": "derivative_of_projection"
+    },
+    "phi_of_delta": {
+      "symbol": "Φ ∘ δ",
+      "type": "mixed",
+      "rank": 1,
+      "description": "Projection of deviation.",
+      "formal_equivalent": "projected_derivative"
+    },
+    "pi_of_delta": {
+      "symbol": "Π ∘ δ",
+      "type": "mixed",
+      "rank": 1,
+      "description": "Causal evaluation of deviation.",
+      "formal_equivalent": "evaluated_derivative"
+    },
+    "delta_tensor": {
+      "symbol": "δ ⊗ δ",
+      "type": "tensor",
+      "rank": 2,
+      "description": "Deviation tensor; interaction of deviation directions.",
+      "formal_equivalent": "tensor_product"
+    }
+  }
+}

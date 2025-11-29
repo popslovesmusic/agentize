@@ -1,0 +1,1 @@
+{ "pattern": "ΣΘ(a, b)", "rewrite": "Θ\_polarity\_weighted\_sum(a, b)" }

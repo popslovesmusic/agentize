@@ -1,0 +1,1 @@
+{ "categories": \[ "ok", "repair", "catastrophic\_violation" \], "output\_fields": \[ "id", "name", "invariant", "status", "normal\_form", "repair\_operator", "flag" \] }

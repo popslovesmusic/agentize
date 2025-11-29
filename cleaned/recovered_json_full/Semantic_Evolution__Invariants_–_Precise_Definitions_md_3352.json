@@ -1,0 +1,1 @@
+{ "is\_nf": true, "violations": \[\], "normalized\_trace": \[ // Should insert a χ-reset barrier { "state": "B0", "chi": 5.0 }, { "state": "B\_rst", "chi": 2.0, "mode": "reset" }, { "state": "B2", "chi": 4.0 } \] }

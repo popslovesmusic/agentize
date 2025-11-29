@@ -1,0 +1,1 @@
+{ "id": "RULE\_ψ-MODE-EVOLVE-STEP", "pattern": { "state": "ψ\_k(χ)", "condition": "FixedDomain \== true" }, "action": "ψ\_k(χ+Δχ) \= MODE\_STEP(ψ\_k(χ), ω\_k, Δχ)", "target\_nf": "ψ\_state", "preserves\_invariants": \["ψ-MODE", "ψ-AMP"\] }

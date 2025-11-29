@@ -1,0 +1,5 @@
+{
+      "δ": { "symbol": "Πδ", "intent": "Evaluation of deviation", "defined": true, "constraints": [] },
+      "Φ": { "symbol": "ΠΦ", "intent": "Evaluation of semantic projection", "defined": true, "constraints": [] },
+      "Π": { "symbol": "Π", "intent": "Idempotent evaluation", "defined": true, "constraints": ["Π∘Π = Π"] }
+    }

@@ -1,0 +1,1 @@
+{ "irreducible": "No primitive value can be defined as a composition of other values via primitive operators.", "dual_bounds": "⊥ and ⊤ act as semantic bounds in Π-evaluation.", "neutrality": "0 is neutral under Σ and under addition of semantic content.", "identity": "1 acts as identity for appropriate semantic products." }

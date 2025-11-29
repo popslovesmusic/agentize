@@ -1,0 +1,1 @@
+{ "Name": "Pi\_plus", "Expression": "Π⊕(B) \= Π\_t(B) ⊕ Π\_c(B)", "Intent": "Composite evaluation combining truth and causal-order evaluation.", "SealedBoxRef": "Pi\_plus" }

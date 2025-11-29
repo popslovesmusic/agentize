@@ -1,0 +1,6 @@
+{
+    "B": { "label": "B", "type": "Box", "description": "Base semantic Box" },
+    "delta_B": { "label": "δB", "type": "Box", "description": "Deviation of B" },
+    "phi_B": { "label": "ΦB", "type": "Box", "description": "Projection of B" },
+    "pi_phi_delta_B": { "label": "ΠΦδB", "type": "Box", "description": "Tri-Unity endpoint" }
+  }

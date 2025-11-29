@@ -1,0 +1,1 @@
+{ pattern: \[δ, Φ\], rewrite: \['NF\_δΦ'\], // NF justification: // δ ∘ Φ is projection-invariant under semantic contraction }

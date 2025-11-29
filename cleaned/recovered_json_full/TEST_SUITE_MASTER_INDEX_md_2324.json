@@ -1,0 +1,1 @@
+{ allow\_comments: true, // // and /\* \*/ comments allow\_trailing\_commas: true, allow\_unquoted\_keys: true, // operators: δ, Φ, Π, μ, etc. allow\_single\_quotes: true, allow\_multiline\_strings: true, preserve\_math\_symbols: true, // do NOT convert δ → "delta" preserve\_order: true, // important for rewrite rules }

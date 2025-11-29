@@ -1,0 +1,1 @@
+{ id: 'TU-NF-08', invariant: 'closure', pattern: \['Π', '⊥'\], rewrite: 'NF\_Π⊥', conditions: { argument\_is\_contradiction: true }, explanation: 'Π on contradiction keeps the evaluation in NF\_Π⊥.', }

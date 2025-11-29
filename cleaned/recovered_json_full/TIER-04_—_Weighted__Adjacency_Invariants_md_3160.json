@@ -1,0 +1,1 @@
+{ id: "BR-λ-03", name: "LambdaMustMaintainWeightedAdjacency", pattern: "λᶜᵘʳᵛ(μ,Adj) \-\> (μ',Adj)", condition: "∃ edge e in Adj: μ'(e) undefined", action: "insert μ'(e) \= μ\_default", preserves: \["A3\_WeightedAdjacencyCompatibility"\] }

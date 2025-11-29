@@ -1,0 +1,1 @@
+{ "id": "R-ρ-33", "name": "theta\_eval\_layered", "category": "interaction", "lhs": "Θ\[k\] ∘ Π\[m\]", "rhs": "(Θ ∘ Π)\[max(k,m)\]", "conditions": { "composable": true }, "notes": "Polarity-conditioned evaluation occurs at maximal layer." }

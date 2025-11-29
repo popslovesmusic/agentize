@@ -1,0 +1,1 @@
+{ "id": "TH\_ψ-UNIT-NORM", "name": "Unit-Norm Waveform Theorem", "statement": "If ‖ψ(χ₀)‖\_μ² \= 1 and AX\_ψ-AMP holds, then ‖ψ(χ)‖\_μ² \= 1 for all χ.", "depends\_on": \["AX\_ψ-AMP"\] }

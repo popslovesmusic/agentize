@@ -1,0 +1,1 @@
+{ "recommended\_scheme": "explicit\_or\_semi\_implicit\_time\_step", "time\_step\_symbol": "Δχ", "discrete\_update\_rule": "S\_{n+1}(x) \= S\_n(x) \+ Δχ · ψ S\_n(x)", "wave\_constraint\_enforcement": "project S\_{n+1} back into the kernel of the wave operator if necessary." }

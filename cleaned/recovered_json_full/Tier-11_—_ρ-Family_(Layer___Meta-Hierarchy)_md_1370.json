@@ -1,0 +1,1 @@
+{ "LayerComposition": "ρ\_m ∘ ρ\_n \= ρ\_max(m,n)", "LayerLifting": "ρ\_k(O) \= O\_k", "VerticalMetaLifting": "O\_{k+1} \= ρ(O\_k)", "LayerFlattening": "ρ^{-1}(ρ\_k) \= ρ\_{k-1}" }

@@ -1,0 +1,1 @@
+{ "id": "Θ\_IMPLIES", "signature": "(Polarity,Polarity) \-\> Bool", "polarity\_expression": "1 \- p1 ⊗ ((1 \+ p2) / 2)", "truth\_expression": "Pi(1 \- p1 ⊗ ((1 \+ p2) / 2))", "simplified\_truth\_table": { "+1,+1": 1, "+1,-1": 0, "-1,+1": 1, "-1,-1": 1 }, "comments": "Only false when p1=+1 and p2=-1." }

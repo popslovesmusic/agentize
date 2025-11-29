@@ -1,0 +1,1 @@
+{ linear: true, order\_preserving: true, truth\_reflecting: true, idempotent: true, // Π∘Π \= Π key\_identities: \[ 'Π∘Π \= Π', 'Π(⊤) \= ⊤', 'Π(⊥) \= ⊥', \], }

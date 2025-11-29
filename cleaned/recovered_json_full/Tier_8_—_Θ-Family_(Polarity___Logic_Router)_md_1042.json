@@ -1,0 +1,1 @@
+{ "id": "T44", "left": "Σ", "right": "Θ", "composition": "Σ ∘ Θ", "category": "right\_composition", "signature": "Box^N \-\> Polarity\_sum", "rule": "Sum polarity-tagged Boxes before contraction.", "notes": "Preserves sign info during sum." }

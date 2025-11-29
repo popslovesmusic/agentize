@@ -1,0 +1,16 @@
+{`  
+      `"id": "delta",`  
+      `"symbol": "δ",`  
+      `"name": "Deviation Operator",`  
+      `"role": "geometric_deviation",`  
+      `"arity": 1,`  
+      `"domain": "BoxField",`  
+      `"codomain": "BoxField",`  
+      `"locality": "local",`  
+      `"linearity": "linear",`  
+      `"properties": [`  
+        `"derivation_like",`  
+        `"supports_jacobian",`  
+        `"supports_laplacian"`  
+      `]`  
+    `}

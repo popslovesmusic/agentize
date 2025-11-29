@@ -1,0 +1,1 @@
+{ "id": "RHO-R5-CROSS-LAYER-Ω", "name": "Cross-Layer Ω-NF", "pattern": "ρ\_k(B) where Ω(ρ\_k(B)) \= violation", "rewrite": "apply local fixes (Σ/Θ/Π) until Ω(ρ\_k(B')) \= ok", "kind": "constraint", "invariants\_preserved": \[ "RHO-CROSS-LAYER-CONSISTENCY" \] }

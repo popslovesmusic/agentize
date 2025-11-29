@@ -1,0 +1,1 @@
+{ "id": "INT\_04", "lhs\_structure": "D\_TENSOR", "rhs\_structure": "LAYER\_ELEMENT", "relation": "SLICE", "result": "D\_TENSOR\_SLICE", "constraints": \[ "Each LAYER\_ELEMENT corresponds to a slice of D\_TENSOR along a ρ-index.", "Φ\_ρ^D(ℓ\_ρ) \= D|\_{ρ \= const}." \] }

@@ -1,0 +1,1 @@
+{ "id": "e\_delta\_phi\_B\_to\_delta\_phi\_pi\_B", "from": "delta\_phi\_B", "to": "delta\_phi\_pi\_B", "operator": "Π", "weighted\_operator": "μ→Π", "direction\_axis": "pi\_axis" }

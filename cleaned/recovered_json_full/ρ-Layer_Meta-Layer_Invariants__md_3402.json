@@ -1,0 +1,1 @@
+{ "layers": \[ { "id": "ρ0", "parent": null }, { "id": "ρ1", "parent": "ρ0" }, { "id": "ρ2", "parent": "ρ1" } \], "relations": \[ \["ρ0", "ρ1"\], \["ρ1", "ρ2"\], \["ρ2", "ρ0"\] // invalid cycle \] }

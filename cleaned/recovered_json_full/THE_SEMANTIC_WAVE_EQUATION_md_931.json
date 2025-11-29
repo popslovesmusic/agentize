@@ -1,0 +1,1 @@
+{ "type": "generic", "examples": \[ "Initial condition: S(χ0, x) \= S0(x)", "Boundary condition: ∂S/∂n |∂B \= J0(x)" \] }

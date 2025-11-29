@@ -1,0 +1,11 @@
+{`  
+      `"id": "LAW-2",`  
+      `"name": "identity_box",`  
+      `"identity_element": "I",`  
+      `"schema": "I ∘ B == B && B ∘ I == B",`  
+      `"definition": {`  
+        `"delta_state": "zero_deviation",`  
+        `"theta_state": "neutral",`  
+        `"pi_state": "identity"`  
+      `}`  
+    `}

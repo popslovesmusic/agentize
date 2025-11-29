@@ -1,0 +1,20 @@
+python
+# Example 1: Flat geometry
+state = {'λ': 0, 'flat_geometry_flag': True}
+# → Selects: flat_geometry variant
+# → Performance: Fastest (commutative simplification)
+
+# Example 2: Numerical instability
+state = {'λ': 0.8, 'convergence_issues': True}
+# → Selects: symmetric_approximation variant
+# → Performance: Improved convergence
+
+# Example 3: Analytical mode
+state = {'λ': 0.1, 'analytical_calculation': True}
+# → Selects: perturbative_expansion variant
+# → Performance: Closed-form power series
+
+# Example 4: General case
+state = {'λ': 0.5}
+# → Selects: canonical_definition
+# → Performance: Full exact computation

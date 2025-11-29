@@ -1,0 +1,6 @@
+{
+      "id": "Δ_{δ,μ}",
+      "type": "weighted_laplacian",
+      "definition": "Δ_{δ,μ} B[i] = sum_j w_ij * delta[i][j] * (B[j] - B[i])",
+      "dependencies": ["δ", "μ"]
+    }

@@ -1,0 +1,1 @@
+{ "name": "BOX\_BOUNDARY", "symbol": "∂B", "signature": "Box \-\> {Face...}", "intent": "Return boundary Faces of a Box.", "constraints": \[ "Boundary Faces form a closed manifold around B." \] }

@@ -1,0 +1,1 @@
+{ "id": "T03", "left": "Θ", "right": "δ", "composition": "Θ⊗δ", "category": "tensor\_product", "signature": "Box \-\> Tensor(polarity, gradient)", "rule": "Build tensor with components (p\_i, ∂\_j B).", "notes": "For polarity-aware Jacobians." }

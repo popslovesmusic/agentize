@@ -1,0 +1,1 @@
+{ "name": "V3_Ch2_FirstLight_Theorem", "intent": "Show free ψ-modes produce radiative field modes.", "domain": "ψ→radiation mapping", "constraints": [ "Σ-normalization ensures stable propagation", "Ω invariants preserved in ψ→photon mapping" ], "cross_links": ["V1_Ch6_ThetaLogic_NormalFormTheorem"] }

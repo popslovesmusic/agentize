@@ -1,0 +1,1 @@
+{ meta\_section\_required: true, // version, tier, family, description human\_docs\_required: true, // inline comments for humans machine\_section\_required: true, // strict fields for agents canonical\_sections: \[ "meta", "operators", "interaction\_table", "axioms", "rewrite\_system", "modules", "tests" \] }

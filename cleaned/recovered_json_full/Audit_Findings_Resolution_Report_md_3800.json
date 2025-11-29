@@ -1,0 +1,10 @@
+Problem:
+  - λ file: "[λ, δ] ≠ 0" AND "[λ, δ] = ..."  (contradictory)
+  - ψ file: "all faces commute"
+  - λ file: "[λ, δ] ≠ 0"  (contradictory)
+
+Result:
+  - Ambiguous which to use
+  - Manual selection error-prone
+  - No optimization opportunities
+  - Unclear when commutativity applies

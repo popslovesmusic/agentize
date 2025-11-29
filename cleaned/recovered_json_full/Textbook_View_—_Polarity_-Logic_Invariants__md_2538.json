@@ -1,0 +1,1 @@
+{ chi: 2.0, box: "B2", psi: { amplitude\_norm: 1.2 }, theta: "-", omega\_energy: 1.2, events: \["NOT"\], // explicit polarity event inserted rewrites\_applied: \[ "RW\_χ\_INSERT\_POLARITY\_EVENT" \] }

@@ -1,0 +1,1 @@
+{ "id": "T03\_NORM\_01", "name": "δ-Norm Preservation Under Internal Reparam", "invariant": "δ-NORM", "initial\_state": { "δ\_norm": 1.0, "μ": "fixed", "reparam\_rule": "internal" }, "operators": \[ "δ\_reparameterize\_internal" \], "expected": { "status": "ok", "δ\_norm": 1.0 } }

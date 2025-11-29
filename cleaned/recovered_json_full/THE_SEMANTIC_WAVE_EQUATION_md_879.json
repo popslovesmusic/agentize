@@ -1,0 +1,1 @@
+{ "commutators": \[ { "relation": "\[δ, Φ\] \= λ", "description": "δ–Φ curvature generator" }, { "relation": "\[δ, Π\] \= ψ₀", "description": "δ–Π resonance / seed oscillation" }, { "relation": "\[Φ, Π\] \= Θ", "description": "Φ–Π polarity interference" } \], "weighted\_laplacian": { "relation": "δ\_μ² S \= μ⁻¹ ∇·( μ ∇S )", "description": "μ-weighted deviation Laplacian" } }

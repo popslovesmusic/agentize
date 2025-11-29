@@ -1,0 +1,1 @@
+{ "id": "F4\_phi\_plus\_sigma", "pattern": "Φ⊕Σ", "rewrite": "NF\_Φ⊕Σ", "comment": "Projection combined with summation." }

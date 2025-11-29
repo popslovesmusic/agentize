@@ -1,0 +1,7 @@
+{`  
+        `"inputs": [`  
+          `{ "name": "B1", "polarity_range": [-1, 1] },`  
+          `{ "name": "B2", "polarity_range": [-1, 1] }`  
+        `],`  
+        `"routing_rule": "Θ assigns positive branch only if both inputs are positive after ΣΣₐ intersection merge."`  
+      `}

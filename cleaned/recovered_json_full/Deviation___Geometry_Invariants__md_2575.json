@@ -1,0 +1,1 @@
+{ "id": "RW\_03\_TORSION\_RANK\_PROJECT", "name": "Project Torsion Rank to NF", "pattern": { "state\_predicates": \[ "CHECK\_TORSION\_RANK(state).status \== 'violation'" \] }, "action": \[ "state := PROJECT\_TORSION\_TO\_NF(state)" \], "target\_nf": "NF\_torsion\_rank", "guarantees": \["WEITZENBOECK-TORSION-RANK"\] }

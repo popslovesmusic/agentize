@@ -1,0 +1,1 @@
+{ "primitive_values": ["0", "1", "±", "∞", "⊥", "⊤"], "semantics": { "0": "Null semantic state / pure stillness", "1": "Unit semantic state / identity", "±": "Primitive polarity signs", "∞": "Unbounded semantic extension", "⊥": "Contradiction / impossible state", "⊤": "Tautology / fully consistent state" } }

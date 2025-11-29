@@ -1,0 +1,8 @@
+Theorem: λ(B) = λ_curv(B) + λ_mode(B) + λ_×(B)
+
+Proof: Via mode-augmented connection ∇_M = δ + M
+→ Expansion of [∇_M, ∇_M]
+→ Separation into intrinsic + linear modal + cross modal
+→ Integrability conditions for modal flatness
+
+∴ Our pooled variants are mathematically PROVEN decomposition

@@ -1,0 +1,1 @@
+{ semantic\_classes: \[ "scalar", "vector", "matrix", "tensor", "form", "proposition", "predicate", "event", "state", "undefined" // reserved; should never be final NF class \] }

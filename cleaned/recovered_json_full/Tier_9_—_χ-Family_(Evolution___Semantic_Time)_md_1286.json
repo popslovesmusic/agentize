@@ -1,0 +1,1 @@
+{ "type": "operator", "role": "layer\_harmonization", "signature": "B \-\> B\_harmonized", "description": "Ensures compatibility and harmonic balance between δ, Φ, Π, μ, ψ, λ, Σ, Θ, χ layers.", "properties": \["cross\_layer"\] }

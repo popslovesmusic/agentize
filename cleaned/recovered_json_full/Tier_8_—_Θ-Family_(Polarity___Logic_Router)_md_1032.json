@@ -1,0 +1,1 @@
+{ "id": "T34", "left": "Θ", "right": "ψ", "composition": "Θ⊕ψ", "category": "sum\_composition", "signature": "(Box,Box) \-\> polarity\_sum", "rule": "Sum polarity-tagged wave responses.", "notes": "Interference with sign." }

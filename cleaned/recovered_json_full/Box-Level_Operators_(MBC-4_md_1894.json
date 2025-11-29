@@ -1,0 +1,1 @@
+{ "operator": "SUM", "maps": "Σ", "effects": \["tensor\_contraction", "state\_reduction"\] }

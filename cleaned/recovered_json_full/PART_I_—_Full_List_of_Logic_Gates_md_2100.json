@@ -1,0 +1,1 @@
+{ "arity": 3, "inputs": \["control Θ", "A", "B"\], "definition": "If Θ \= Θ₊ select A; Θ₋ select B" }

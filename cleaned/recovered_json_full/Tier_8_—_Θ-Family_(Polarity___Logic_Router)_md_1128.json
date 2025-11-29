@@ -1,0 +1,1 @@
+{ "id": "T36", "left": "Θ\_LG", "right": "ψ", "composition": "Θ\_LG(sign(ψ), sign(ψ\_dot))", "category": "logic\_gate", "signature": "Box \-\> Bool", "rule": "Use wave sign and time-derivative sign as logic gate inputs.", "notes": "Edge/transition detector from wave dynamics." }

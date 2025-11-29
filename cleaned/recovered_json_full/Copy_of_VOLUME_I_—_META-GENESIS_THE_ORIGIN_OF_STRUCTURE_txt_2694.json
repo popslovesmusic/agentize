@@ -1,0 +1,1 @@
+{ "intent": "Map curvature wells to metric tensors.", "rule": "λ_super → g_μν", "constraints": "g_μν must be Ω-admissible" }

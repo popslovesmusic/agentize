@@ -1,0 +1,1 @@
+{ "id": "face\_delta\_phi\_low", "name": "δ-Φ face (Π \= 0)", "vertices": \["B", "delta\_B", "phi\_B", "delta\_phi\_B"\], "commutativity": { "unweighted": "δ ∘ Φ \~ Φ ∘ δ (subject to Tri-Unity rewrite rules)", "weighted": "μ→δ ∘ μ→Φ \~ μ→Φ ∘ μ→δ up to μ-correction terms" } }

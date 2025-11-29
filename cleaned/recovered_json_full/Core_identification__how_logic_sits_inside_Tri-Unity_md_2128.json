@@ -1,0 +1,1 @@
+{ "classical": "negated disjunction", "theta\_formula": "Θ\_out \= \-max(Θ\_p, Θ\_q)", "pi\_formula": "Π\_out \= 1 if Θ\_out \= Θ\_+ else 0", "tri\_unity\_form": "NOR \= NOT ∘ OR", "notes": "Functionally complete gate." }

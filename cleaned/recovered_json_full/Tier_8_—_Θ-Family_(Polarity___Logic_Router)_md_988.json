@@ -1,0 +1,7 @@
+{  
+    polarity\_states: \["+1", "-1"\],  
+    exclusivity: "Θ₊ ∩ Θ₋ \= ∅",  
+    completeness: "Θ \= Θ₊ ∪ Θ₋",  
+    truth\_map: "Π(Θ₊) \= 1, Π(Θ₋) \= 0",  
+    tensor\_rule: "(Θ⊗Θ)\_{ij} \= p\_i p\_j"  
+  }

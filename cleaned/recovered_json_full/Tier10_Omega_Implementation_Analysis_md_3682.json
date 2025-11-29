@@ -1,0 +1,9 @@
+Raw State Space (S)
+      |
+      | Ω projection
+      ↓
+Admissible Manifold (A)
+   |            |
+   | stratified | (S_Ω^(1), S_Ω^(2), ..., S_Ω^(k))
+   ↓            ↓
+Constraint Surfaces (legal regimes)

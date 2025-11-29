@@ -1,0 +1,1 @@
+{ "intent": "Convert ψ-coherence into rotation, turbulence, and angular momentum.", "rules": { "ψ_vorticity → L_angular", "ψ_harmonics → magnetic/turbulent fields" } }

@@ -1,0 +1,14 @@
+MBC_Framework_v4/
+├── README.md (this file)
+├── mbc_framework_index.json         # Master index of all pointers
+├── 00_Meta/                          # Framework metadata & principles
+├── 01_Primitives/                    # Tier-0 primitive operators
+├── 02_Tiers/                         # Tiers 1-12 (operator families)
+├── 03_MetaOperators/                 # Commutators, tensor products, etc.
+├── 04_InteractionTables/             # Cross-operator interaction tables
+├── 05_RewriteSystems/                # Normal forms and rewrite rules
+├── 06_AxiomBoxes/                    # Sealed axiom boxes per operator
+├── 07_Diagrams/                      # Commutative squares, cubes, hypercubes
+├── 08_ModulePacks/                   # Integrated layer packs
+├── 09_CrossLinks/                    # Inter-component mappings
+└── 10_Validation/                    # Schema definitions, consistency checks

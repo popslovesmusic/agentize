@@ -1,0 +1,1 @@
+{ "id": "T\_CHI\_002\_FORWARD\_NEUTRAL\_TAGGED", "description": "A neutral χ-step (allowed only with explicit tag).", "input\_trace": \[ { "state": "B0", "chi": 0.0 }, { "state": "B1", "chi": 0.0, "mode": "neutral" }, { "state": "B2", "chi": 0.5 } \], "expected": { "is\_nf": true, "violations": \[\], "normalized\_trace": "same" } }

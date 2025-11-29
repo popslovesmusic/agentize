@@ -1,0 +1,1 @@
+{ "imports": { "meta\_operator\_pack": "meta\_operator\_pack.json" }, "operators": \[ /\* tier-specific operators here \*/ \], "meta\_operator\_instances": \[ /\* optional: concrete \[δ,Φ\], δ⊕Φ, etc. using instance\_schema \*/ \] }

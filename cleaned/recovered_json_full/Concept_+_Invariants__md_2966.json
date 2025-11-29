@@ -1,0 +1,1 @@
+{ "id": "PI\_CHECK\_MONO", "symbol": "Π\_mono?", "role": "truth\_monotonicity\_check", "signature": "(EvalState) \-\> boolean", "description": "Returns true iff Π-truth assignment is monotone in the Π-induced order.", "invariant\_guards": \["PI-TM"\] }

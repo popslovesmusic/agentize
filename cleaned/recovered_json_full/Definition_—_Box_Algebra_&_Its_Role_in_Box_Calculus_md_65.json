@@ -1,0 +1,10 @@
+{`  
+            `"truth_value": {`  
+              `"type": ["boolean", "number", "string", "null"],`  
+              `"description": "Evaluated causal truth / output."`  
+            `},`  
+            `"fixed_point": {`  
+              `"type": "boolean",`  
+              `"description": "True iff Π has stabilized (Π∘Π = Π)."`  
+            `}`  
+          `}

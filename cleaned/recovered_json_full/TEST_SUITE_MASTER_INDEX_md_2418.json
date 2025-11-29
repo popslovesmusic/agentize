@@ -1,0 +1,1 @@
+{ id: 'TU-COMM-12', invariant: 'commutativity', pattern: \['δ∘Φ∘Π', 'Π∘Φ∘δ'\], rewrite: 'NF\_δΦΠ', conditions: { opposite\_paths: true }, explanation: 'Full opposite paths across the Tri-Unity cube share NF\_δΦΠ.', }

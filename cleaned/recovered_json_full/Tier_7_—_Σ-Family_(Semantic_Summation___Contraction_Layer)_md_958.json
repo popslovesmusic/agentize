@@ -1,0 +1,1 @@
+{ "symbol": "Σᵢ", "intent": "Indexed summation (internal components).", "domain": "Indexed objects, δ-components, Φ-channels.", "action": "Σᵢ Xᵢ \= scalar or lower-rank invariant.", "properties": { "type": "index contraction", "linearity": true } }

@@ -1,0 +1,1 @@
+{ "id": "T03\_NORM\_03", "name": "δ-Norm Violation with Dynamic μ (Allowed)", "invariant": "δ-NORM", "initial\_state": { "δ\_norm": 1.0, "μ": "dynamic" }, "operators": \[ "μ\_rescale", "δ\_rescale" \], "expected": { "status": "ok", "explanation": "Norm change allowed under dynamic μ." } }

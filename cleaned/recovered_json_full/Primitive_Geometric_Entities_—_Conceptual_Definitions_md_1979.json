@@ -1,0 +1,1 @@
+{ "id": "B1", "type": "Box", "modes": \[ { "id": "m1", "initial\_value": "1.0+0.0i" }, { "id": "m2", "initial\_value": "0.0+0.0i" } \] }

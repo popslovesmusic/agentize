@@ -1,0 +1,12 @@
+{
+  "name": "Delta-Laplacian",
+  "symbol": "δ²",
+  "family": "δ-family",
+  "intent": "Second-order deviation measuring curvature-like spread.",
+  "formal_definition": "δ²(B) = Σᵢ δᵢ(δᵢ(B))",
+  "semantic_definition": "Measures the diffusion/spread of deviation.",
+  "rank": "operator",
+  "inputs": { "box": "B" },
+  "outputs": { "box": "δ²B", "rank": "scalar" },
+  "constraints": ["All axes must be defined"]
+}

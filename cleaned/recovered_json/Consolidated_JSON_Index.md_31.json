@@ -1,0 +1,14 @@
+{
+  "name": "μ→δ",
+  "tier": 4,
+  "family": "μ-Family",
+  "intent": "Weight-informed deviation operator",
+  "domain": "Box → Box",
+  "definition": "Applies the deviation operator to μ-weighted fields: (μ→δ)(X) = δ(μ·X).",
+  "constraints": {
+    "linearity": "Linear in X",
+    "product_rule": "Obeys δ(μ·X) = μ·δX + (δμ)·X",
+    "compatibility": "Must preserve δ-family commutation rules"
+  },
+  "outputs": { "type": "DeviationField", "structure": "tensor or vector field" }
+}

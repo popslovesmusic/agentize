@@ -1,0 +1,1 @@
+{ "Left": "δ", "Right": "Π", "CompositeName": "Pi\_after\_delta", "Expression": "Π ∘ δ", "DefinedAtTier2": true, "DefinitionMode": "derived\_via\_Phi\_to\_Pi", "Intent": "Evaluate deviation after projection/normalization: Π ∘ Φ\_to\_Π ∘ δ.", "CanonicalDecomposition": "Π ∘ Φ\_to\_Π ∘ δ", "Conditions": "Requires δ(B) to be Φ\_to\_Π-normalizable." }

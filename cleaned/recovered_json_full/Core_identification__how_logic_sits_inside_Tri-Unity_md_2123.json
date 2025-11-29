@@ -1,0 +1,1 @@
+{ "classical": "binary conjunction", "theta\_formula": "Θ\_out \= min(Θ\_p, Θ\_q) with ordering Θ\_- \< Θ\_+", "pi\_formula": "Π\_out \= 1 if Θ\_out \= Θ\_+ else 0", "tri\_unity\_form": "AND \= Π ∘ Φ\_logic ∘ Θ\_min", "notes": "Implements logical AND as polarity minimum." }

@@ -1,0 +1,1 @@
+{ "id": "INT\_05", "lhs\_structure": "D\_TENSOR", "rhs\_operator": "δ", "relation": "DEVIATION", "result": "DELTA\_FIELD", "constraints": \[ "δ acts componentwise on D\_TENSOR indices.", "δ(D) defines the deviation geometry over the domain." \] }

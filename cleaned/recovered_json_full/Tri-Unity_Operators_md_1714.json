@@ -1,0 +1,1 @@
+{ "local\_commutativity": "Every 2D face spanned by any pair (A,B) of operators must commute in normal form.", "global\_normal\_form": "There exists a unique NF\_nHYP for any expression built from the chosen operators and meta-operators.", "embedding": "Lower-dimensional slices (Tri-Unity, Tri-Unity+μ, etc.) must embed consistently into NF\_nHYP." }

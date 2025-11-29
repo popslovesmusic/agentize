@@ -1,0 +1,1 @@
+{ "tensor_well_typed": "All indices of D must follow a consistent typing scheme.", "graph_simple": "No multiedges or self-loops unless explicitly Ω-marked.", "router_stability": "RouterNode must not introduce cycles that violate Ω.", "layer_monotonicity": "LayerElements must respect parent-child partial order." }

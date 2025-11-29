@@ -1,0 +1,1 @@
+{ "name": "generic\_chain\_nf", "pattern": "A1∘A2∘...∘An", "rewrite": "NF\_nHYP(A1,...,An)", "comment": "Template for general n-length chains." }

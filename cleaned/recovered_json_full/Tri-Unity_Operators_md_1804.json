@@ -1,0 +1,1 @@
+{ "id": "C3\_sigma\_plus\_theta", "pattern": "Σ⊕Θ", "rewrite": "NF\_Σ⊕Θ", "comment": "Combined summation and polarity." }

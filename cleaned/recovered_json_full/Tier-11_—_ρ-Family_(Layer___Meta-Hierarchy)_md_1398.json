@@ -1,0 +1,1 @@
+{ "id": "R-ρ-19", "name": "delta\_layer\_restriction", "category": "interaction", "lhs": "rho\_k ∘ δ", "rhs": "δ\[k\]", "conditions": { "k\_in\_N": true }, "notes": "ρ\_k applied to δ yields δ restricted to layer k." }

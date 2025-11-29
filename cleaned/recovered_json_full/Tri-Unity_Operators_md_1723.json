@@ -1,0 +1,1 @@
+{ "symbol": "A⇒B", "definition": "Semantic entailment: whenever A holds, B is derivable under the current axiom set.", "intent": "Logical/semantic implication relation.", "normal\_form\_behavior": "May be reduced to a canonical entailment schema or truth condition NF\_{A⇒B}." }

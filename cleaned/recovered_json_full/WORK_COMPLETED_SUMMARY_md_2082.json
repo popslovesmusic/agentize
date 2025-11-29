@@ -1,0 +1,5 @@
+bash
+cd MBC_Framework_v4/
+cat mbc_framework_index.json    # See complete inventory
+cd 01_Primitives/
+cat delta_primitive.pointer.json # See where δ content lives

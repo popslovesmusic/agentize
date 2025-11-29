@@ -1,0 +1,1 @@
+{ "id": "T11", "left": "Θ", "right": "Φ", "composition": "Θ⊗Φ", "category": "tensor\_product", "signature": "Box \-\> Tensor(polarity, form\_component)", "rule": "Tensor of polarity and projected components.", "notes": "Defines polarity-tagged basis vectors." }

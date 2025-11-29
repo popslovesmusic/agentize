@@ -1,0 +1,1 @@
+{ "symbol": "χΔ", "name": "Semantic Time Step", "arity": 1, "domain": "Box", "codomain": "Box", "params": { "delta": "Δχ", "mode": "discrete", "granularity": "base\_or\_multiple" }, "description": "Applies a discrete χ-step of size Δχ (or allowed multiple), tagged as discrete.", "invariants\_respected": \[ "INV\_CHI\_FORWARD\_FLOW", "INV\_CHI\_STEP\_GRANULARITY" \] }

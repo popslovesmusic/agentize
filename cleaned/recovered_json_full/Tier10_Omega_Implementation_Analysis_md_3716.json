@@ -1,0 +1,6 @@
+{
+                'decision': 'reject',
+                'reason': f"Duplicate (similarity={duplicate_check['similarity']:.3f})",
+                'duplicate_of': duplicate_check['matched_entry'],
+                'normalized_entry': None
+            }

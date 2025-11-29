@@ -1,0 +1,12 @@
+python
+class MBCLogicRouter:
+    """23 logic gates for polarity-based routing"""
+
+    def theta_mux(self, control, path_a, path_b):
+        """Θ-MUX: Route based on polarity"""
+
+    def pi_to_theta(self, validation_result):
+        """Π→Θ bridge"""
+
+    def theta_to_pi(self, theta_signal):
+        """Θ→Π bridge"""

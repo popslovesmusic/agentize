@@ -1,0 +1,9 @@
+{
+      "id": "delta_to_mu_composite",
+      "dimension": 2,
+      "boundary": ["d_f", "kapB", "m_f", "etaA"],
+      "commutes": {
+        "equation": "μ(f) ∘ (κ_A ∘ τ_A ∘ η_A) = (κ_B ∘ τ_B ∘ η_B) ∘ δ(f)",
+        "semantic_layer": "general"
+      }
+    }

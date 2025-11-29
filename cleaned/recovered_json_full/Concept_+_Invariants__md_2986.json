@@ -1,0 +1,1 @@
+{ "events": \["A", "B", "C"\], "edges": \[ \["A", "B"\], \["B", "C"\] \], "truth\_values": { "A": 0.7, "B": 0.7, "C": 0.9 }, "omega\_globals": { "max\_truth": 1.0, "min\_truth": 0.0, "total\_truth\_target": 2.3 // example Ω constraint } }

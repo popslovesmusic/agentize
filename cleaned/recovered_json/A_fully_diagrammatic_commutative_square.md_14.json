@@ -1,0 +1,131 @@
+{
+  "diagram_type": "n-cube",
+
+  "objects": [
+    { "id": "FA",   "label": "δ(A)",   "semantic_role": "δ-layer" },
+    { "id": "GA",   "label": "Φ(A)",   "semantic_role": "Φ-layer" },
+    { "id": "PA",   "label": "Π(A)",   "semantic_role": "Π-layer" },
+    { "id": "mFA",  "label": "μδ(A)",  "semantic_role": "μ-layer" },
+    { "id": "mGA",  "label": "μΦ(A)",  "semantic_role": "μ-layer" },
+    { "id": "mPA",  "label": "μΠ(A)",  "semantic_role": "μ-layer" },
+
+    { "id": "FB",   "label": "δ(B)",   "semantic_role": "δ-layer" },
+    { "id": "GB",   "label": "Φ(B)",   "semantic_role": "Φ-layer" },
+    { "id": "PB",   "label": "Π(B)",   "semantic_role": "Π-layer" },
+    { "id": "mFB",  "label": "μδ(B)",  "semantic_role": "μ-layer" },
+    { "id": "mGB",  "label": "μΦ(B)",  "semantic_role": "μ-layer" },
+    { "id": "mPB",  "label": "μΠ(B)",  "semantic_role": "μ-layer" }
+  ],
+
+  "morphisms": [
+    { "id": "delta_f", "from": "FA", "to": "FB", "label": "δ(f)", "semantic_type": "δ" },
+    { "id": "phi_f",   "from": "GA", "to": "GB", "label": "Φ(f)", "semantic_type": "Φ" },
+    { "id": "pi_f",    "from": "PA", "to": "PB", "label": "Π(f)", "semantic_type": "Π" },
+
+    { "id": "etaA",  "from": "FA", "to": "GA", "label": "η_A", "semantic_type": "map" },
+    { "id": "thetaA", "from": "GA", "to": "PA", "label": "τ_A: Φ→Π", "semantic_type": "map" },
+
+    { "id": "etaB",  "from": "FB", "to": "GB", "label": "η_B", "semantic_type": "map" },
+    { "id": "thetaB", "from": "GB", "to": "PB", "label": "τ_B: Φ→Π", "semantic_type": "map" },
+
+    { "id": "mu_delta_f", "from": "mFA", "to": "mFB", "label": "μδ(f)", "semantic_type": "μ" },
+    { "id": "mu_phi_f",   "from": "mGA", "to": "mGB", "label": "μφ(f)", "semantic_type": "μ" },
+    { "id": "mu_pi_f",    "from": "mPA", "to": "mPB", "label": "μπ(f)", "semantic_type": "μ" },
+
+    { "id": "mu_etaA",   "from": "mFA", "to": "mGA", "label": "μ(η_A)", "semantic_type": "map" },
+    { "id": "mu_thetaA", "from": "mGA", "to": "mPA", "label": "μ(τ_A)", "semantic_type": "map" },
+
+    { "id": "mu_etaB",   "from": "mFB", "to": "mGB", "label": "μ(η_B)", "semantic_type": "map" },
+    { "id": "mu_thetaB", "from": "mGB", "to": "mPB", "label": "μ(τ_B)", "semantic_type": "map" }
+  ],
+
+  "functors": [
+    { "id": "delta", "label": "δ", "kind": "δ" },
+    { "id": "phi",   "label": "Φ", "kind": "Φ" },
+    { "id": "pi",    "label": "Π", "kind": "Π" },
+    { "id": "mu",    "label": "μ", "kind": "μ" }
+  ],
+
+  "natural_transformations": [
+    {
+      "id": "eta",
+      "from_functor": "delta",
+      "to_functor": "phi",
+      "components": [
+        { "object": "A", "morphism": "etaA" },
+        { "object": "B", "morphism": "etaB" }
+      ]
+    },
+    {
+      "id": "tau",
+      "from_functor": "phi",
+      "to_functor": "pi",
+      "components": [
+        { "object": "A", "morphism": "thetaA" },
+        { "object": "B", "morphism": "thetaB" }
+      ]
+    }
+  ],
+
+  "faces": [
+    {
+      "id": "delta_to_phi",
+      "dimension": 2,
+      "boundary": ["delta_f", "etaB", "phi_f", "etaA"],
+      "commutes": {
+        "equation": "Φ(f) ∘ η_A = η_B ∘ δ(f)",
+        "semantic_layer": "general"
+      }
+    },
+
+    {
+      "id": "phi_to_pi",
+      "dimension": 2,
+      "boundary": ["phi_f", "thetaB", "pi_f", "thetaA"],
+      "commutes": {
+        "equation": "Π(f) ∘ τ_A = τ_B ∘ Φ(f)",
+        "semantic_layer": "general"
+      }
+    },
+
+    {
+      "id": "delta_to_pi_composite",
+      "dimension": 2,
+      "boundary": ["delta_f", "thetaB", "pi_f", "etaA"],
+      "commutes": {
+        "equation": "Π(f) ∘ (τ_A ∘ η_A) = (τ_B ∘ η_B) ∘ δ(f)",
+        "semantic_layer": "general"
+      }
+    },
+
+    {
+      "id": "mu_lift_delta_phi",
+      "dimension": 2,
+      "boundary": ["mu_delta_f", "mu_etaB", "mu_phi_f", "mu_etaA"],
+      "commutes": {
+        "equation": "μφ(f) ∘ μ(η_A) = μ(η_B) ∘ μδ(f)",
+        "semantic_layer": "μ"
+      }
+    },
+
+    {
+      "id": "mu_lift_phi_pi",
+      "dimension": 2,
+      "boundary": ["mu_phi_f", "mu_thetaB", "mu_pi_f", "mu_thetaA"],
+      "commutes": {
+        "equation": "μπ(f) ∘ μ(τ_A) = μ(τ_B) ∘ μφ(f)",
+        "semantic_layer": "μ"
+      }
+    },
+
+    {
+      "id": "mu_lift_delta_pi_composite",
+      "dimension": 2,
+      "boundary": ["mu_delta_f", "mu_thetaB", "mu_pi_f", "mu_etaA"],
+      "commutes": {
+        "equation": "μπ(f) ∘ μ(τ_A ∘ η_A) = μ(τ_B ∘ η_B) ∘ μδ(f)",
+        "semantic_layer": "μ"
+      }
+    }
+  ]
+}

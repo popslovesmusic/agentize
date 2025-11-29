@@ -1,0 +1,1 @@
+{ "id": "F1\_phi\_idempotent", "pattern": "Φ∘Φ", "rewrite": "Φ", "comment": "Projection is idempotent." }

@@ -1,0 +1,1 @@
+{ "symbol": "→", "arity": 2, "category": "boolean", "definition": { "theta\_rule": "Θ\_out \= Θ⁺ if A is Θ⁻ or (A Θ⁺ supports B Θ⁺); Θ⁻ if A Θ⁺ conflicts with B.", "sigma\_rule": "Σ\_out encodes implication strength, often Σ\_out \= Σ\_B − Σ\_conflict(A,B).", "pi\_rule": "Π\_out \= (¬Π\_A) ∨ Π\_B." }, "aliases": \["entails"\] }

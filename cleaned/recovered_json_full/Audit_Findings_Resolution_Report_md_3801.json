@@ -1,0 +1,11 @@
+Solution:
+  - Canonical + 3 variants for λ-δ
+  - Level-separated ψ-commutativity
+  - Automatic context detection
+  - Clear selection reasoning
+
+Result:
+  - No ambiguity (router decides)
+  - Context-specific optimizations
+  - All formulations preserved
+  - Level separation prevents contradictions
