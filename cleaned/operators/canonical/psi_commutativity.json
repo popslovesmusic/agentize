@@ -1,0 +1,335 @@
+{
+  // ============================================================================
+  // CANONICAL DEFINITION: ψ-Layer Commutativity
+  // Operator Family: ψ-Family (Semantic Oscillation / Waves)
+  // Status: PRIMARY - Level-dependent formulation
+  // ============================================================================
+
+  "operator_family": "ψ-Family",
+  "property": "commutativity",
+  "canonical_definition": {
+    "statement": "ψ-transformed operator compositions commute within ψ-layer hypercube",
+    "level": "ψ-abstracted (wave-transformed)",
+    "formula": "ψ(A) ∘ ψ(B) = ψ(B) ∘ ψ(A)",
+    "status": "PRIMARY",
+    "tier": 6,
+
+    "precise_statement": "When all operators are lifted into the ψ-layer via ψ-transformation, and weighted by μ and shaped by λ, the resulting ψ-mediated compositions commute.",
+
+    "use_when": [
+      "Working within ψ-layer hypercube",
+      "All operators are ψ-transformed",
+      "Wave-space analysis",
+      "Modal decomposition contexts"
+    ],
+
+    "physical_meaning": "ψ-transformation 'smooths' non-commutativity through wave-based interference, similar to how Fourier transforms convert non-commutative differential operators into commutative multiplication.",
+
+    "mathematical_analogy": {
+      "fourier_space": "In Fourier space, d/dx becomes multiplication by ik (commutative)",
+      "real_space": "In real space, d/dx is non-commutative with many operators",
+      "psi_layer": "ψ plays analogous role - lifts operators into wave space where commutativity emerges"
+    },
+
+    "conditions": {
+      "required": [
+        "All operators ψ-transformed",
+        "μ-weighting applied",
+        "λ-curvature shaped",
+        "Working within single ψ-layer"
+      ],
+      "not_required": [
+        "Base operators to commute (they don't need to)",
+        "Flat geometry (works even with λ ≠ 0)"
+      ]
+    },
+
+    "source_files": [
+      {
+        "file": "Tier-6 — ψ-Family (Semantic Oscillation _ Waves).md",
+        "lines": [90, 124],
+        "quote": "All faces commute under ψ-action when weighted by μ and shaped by λ"
+      }
+    ],
+
+    "cross_references": {
+      "tier_6_psi": "ψ-operator definition",
+      "tier_6_hypercube": "Tri-Unity+ψ hypercube structure",
+      "wave_equation": "Semantic Wave Equation (ψ propagation)"
+    }
+  },
+
+  // ============================================================================
+  // VARIANT FORMULATIONS (Different abstraction levels)
+  // ============================================================================
+
+  "variants": [
+    {
+      "variant_id": "base_level_non_commutative",
+      "statement": "Base operators are non-commutative before ψ-transformation",
+      "level": "Raw operator level (pre-ψ)",
+      "formula": "[λ, δ] ≠ 0 (at base level)",
+      "status": "ALTERNATIVE - Different abstraction level",
+      "tier": 6,
+
+      "use_when": [
+        "Working with raw λ, δ, Φ, Π before ψ-transformation",
+        "Base-layer analysis",
+        "Pre-wave-transformation contexts",
+        "Direct operator composition (not ψ-mediated)"
+      ],
+
+      "precise_statement": "At the base operator level (before ψ-transformation), operators like λ and δ are non-commutative: [λ, δ] ≠ 0. This non-commutativity is preserved but lifted into ψ-layer structure.",
+
+      "physical_meaning": "Base operators retain their fundamental non-commutativity. ψ doesn't eliminate this - it transforms it into wave-space structure.",
+
+      "relation_to_canonical": {
+        "type": "DIFFERENT_LEVEL",
+        "explanation": "This is not a contradiction. Base level non-commutativity and ψ-level commutativity coexist at different abstraction levels.",
+        "analogy": "Like position and momentum in QM: [x, p] ≠ 0 (operator level) but both have simultaneous Fourier representations (wave level)",
+        "transformation": "ψ-transformation lifts [λ, δ] into wave structure without eliminating it"
+      },
+
+      "implementation_note": "Use when working directly with operators before wave decomposition."
+    },
+
+    {
+      "variant_id": "partial_psi_transformation",
+      "statement": "Commutativity holds for some faces, not others, depending on which operators are ψ-transformed",
+      "level": "Mixed (some ψ-transformed, some not)",
+      "status": "ALTERNATIVE - Partial abstraction",
+      "tier": 6,
+
+      "use_when": [
+        "Transitioning between base and ψ-layer",
+        "Some operators ψ-transformed, others not",
+        "Hybrid wave-geometric analysis",
+        "Debugging wave transformations"
+      ],
+
+      "precise_statement": "When only some operators are ψ-transformed, the hypercube has mixed commutativity: ψ-transformed faces commute, non-transformed faces may not.",
+
+      "composition_rules": {
+        "psi_psi_commute": "ψ(A) ∘ ψ(B) = ψ(B) ∘ ψ(A) ✓",
+        "base_base_may_not": "[A, B] may be ≠ 0",
+        "mixed": "ψ(A) ∘ B ≠ B ∘ ψ(A) in general"
+      },
+
+      "physical_meaning": "Partial wave transformation creates hybrid dynamics where wave-modes and geometric-modes interact with partial commutativity.",
+
+      "relation_to_canonical": {
+        "type": "PARTIAL_CASE",
+        "explanation": "Canonical assumes full ψ-transformation. This variant relaxes that assumption.",
+        "use_case": "Transitional analysis, incomplete transformations"
+      }
+    },
+
+    {
+      "variant_id": "exception_lambda_delta",
+      "statement": "Most faces commute under ψ, EXCEPT λ–δ interactions which retain non-commutativity",
+      "level": "ψ-layer with exceptions",
+      "status": "ALTERNATIVE - Conservative interpretation",
+      "tier": 6,
+
+      "use_when": [
+        "Conservative analysis",
+        "When uncertain about full ψ-commutativity",
+        "Explicitly tracking λ–δ coupling",
+        "Safety-critical contexts"
+      ],
+
+      "precise_statement": "Even within ψ-layer, λ–δ fundamental coupling [λ, δ] ≠ 0 may persist as a residual non-commutativity in wave space.",
+
+      "exceptional_faces": {
+        "lambda_delta": "May not commute even in ψ-layer",
+        "reason": "Fundamental curvature-deviation coupling",
+        "status": "Conservative assumption"
+      },
+
+      "physical_meaning": "Some fundamental non-commutativities may be so deeply structural that even ψ-transformation preserves them.",
+
+      "relation_to_canonical": {
+        "type": "CONSERVATIVE_RESTRICTION",
+        "explanation": "More restrictive than canonical. May be unnecessary but safe.",
+        "use_case": "When proof of full commutativity is unclear"
+      },
+
+      "implementation_note": "Use if ψ-commutativity proofs are incomplete or if numerical stability issues arise."
+    }
+  ],
+
+  // ============================================================================
+  // RESOLUTION OF APPARENT CONFLICT
+  // ============================================================================
+
+  "conflict_resolution": {
+    "apparent_conflict": "ψ-file says operators commute, but λ-file says [λ, δ] ≠ 0",
+
+    "resolution": "NO ACTUAL CONFLICT - Different abstraction levels",
+
+    "explanation": {
+      "level_1_base": {
+        "operators": "Raw λ, δ (pre-transformation)",
+        "commutativity": "[λ, δ] ≠ 0",
+        "context": "Direct geometric/semantic operations",
+        "statement_source": "λ — Curvature & Mode-Deformation Operator.md"
+      },
+
+      "level_2_psi_layer": {
+        "operators": "ψ(λ), ψ(δ) (wave-transformed)",
+        "commutativity": "ψ(λ) ∘ ψ(δ) = ψ(δ) ∘ ψ(λ)",
+        "context": "Wave space / modal decomposition",
+        "statement_source": "Tier-6 — ψ-Family (Semantic Oscillation _ Waves).md"
+      },
+
+      "analogy": "Fourier Transform Example",
+      "detailed_analogy": {
+        "real_space": "d/dx and x don't commute: [d/dx, x] = 1",
+        "fourier_space": "ik and -id/dk commute when properly transformed",
+        "both_valid": "Both statements true at their respective levels",
+        "psi_parallel": "ψ acts like Fourier transform - changes commutativity structure"
+      }
+    },
+
+    "formal_proof_sketch": {
+      "assume": "ψ-transformation ψ: Op → ψ(Op)",
+      "base_level": "[λ, δ] = c ≠ 0",
+      "apply_psi": "ψ([λ, δ]) = ψ(c)",
+      "linearity": "ψ(λ∘δ - δ∘λ) = ψ(λ∘δ) - ψ(δ∘λ)",
+      "if_psi_linearizes": "= ψ(λ)∘ψ(δ) - ψ(δ)∘ψ(λ)",
+      "if_psi_commutes": "= 0 when ψ-operators commute",
+      "conclusion": "Base non-commutativity transforms into ψ-layer structure (possibly commutative)"
+    },
+
+    "key_insight": "ψ-transformation is like going from Schrödinger to Heisenberg picture, or position to momentum space. Commutativity properties can change under such transformations."
+  },
+
+  // ============================================================================
+  // SELECTION GUIDANCE
+  // ============================================================================
+
+  "selection_guide": {
+    "decision_tree": {
+      "check_abstraction_level": {
+        "if": "working_in_psi_layer = true AND all_operators_psi_transformed = true",
+        "use": "canonical_definition (ψ-layer commutativity)",
+        "reason": "Full ψ-transformation enables commutativity"
+      },
+      "check_base_level": {
+        "if": "working_with_raw_operators = true AND psi_transformation = false",
+        "use": "base_level_non_commutative variant",
+        "reason": "Base operators retain non-commutativity"
+      },
+      "check_mixed": {
+        "if": "some_operators_psi_transformed = true AND some_not_transformed = true",
+        "use": "partial_psi_transformation variant",
+        "reason": "Hybrid commutativity structure"
+      },
+      "check_conservative": {
+        "if": "safety_critical = true OR proof_uncertainty = true",
+        "use": "exception_lambda_delta variant",
+        "reason": "Conservative assumption preserves λ–δ coupling"
+      }
+    },
+
+    "context_detection": {
+      "psi_layer_indicators": [
+        "Working with ψ-transformed operators",
+        "Modal decomposition active",
+        "Wave equation analysis",
+        "Frequency-domain calculations"
+      ],
+      "base_layer_indicators": [
+        "Direct geometric operations",
+        "Pre-transformation analysis",
+        "Operator algebra at raw level",
+        "Constructing operators before ψ-action"
+      ]
+    }
+  },
+
+  // ============================================================================
+  // VALIDATION & CONSISTENCY
+  // ============================================================================
+
+  "validation": {
+    "variant_consistency_tests": [
+      {
+        "test": "level_separation",
+        "check": "Canonical and base_level variants refer to different abstraction levels",
+        "status": "PASS - No contradiction"
+      },
+      {
+        "test": "transformation_consistency",
+        "check": "ψ(base_non_commutative) can equal psi_layer_commutative",
+        "status": "PASS - Transformation changes structure"
+      },
+      {
+        "test": "conservative_subset",
+        "check": "exception_lambda_delta is valid conservative restriction",
+        "status": "PASS - Safe assumption"
+      }
+    ],
+
+    "cross_file_consistency": {
+      "psi_family_file": "States ψ-layer commutativity",
+      "lambda_operator_file": "States base-level [λ,δ] ≠ 0",
+      "resolution": "Both true at different levels - NO CONFLICT",
+      "audit_status": "Finding #3 RESOLVED via level separation"
+    }
+  },
+
+  // ============================================================================
+  // EXAMPLES & USE CASES
+  // ============================================================================
+
+  "examples": [
+    {
+      "scenario": "Wave-space modal analysis",
+      "context": {
+        "level": "ψ-layer",
+        "all_operators_transformed": true,
+        "analysis_type": "modal_decomposition"
+      },
+      "selected_variant": "canonical_definition",
+      "commutativity": "ψ(λ) ∘ ψ(δ) = ψ(δ) ∘ ψ(λ) ✓",
+      "result": "Commutative wave-space analysis proceeds smoothly"
+    },
+    {
+      "scenario": "Direct curvature-deviation coupling",
+      "context": {
+        "level": "base",
+        "psi_transformation": false,
+        "analysis_type": "geometric"
+      },
+      "selected_variant": "base_level_non_commutative",
+      "commutativity": "[λ, δ] ≠ 0",
+      "result": "Non-commutativity properly accounted for"
+    },
+    {
+      "scenario": "Transitional wave-building",
+      "context": {
+        "level": "mixed",
+        "some_transformed": ["δ", "Φ"],
+        "some_not": ["λ"],
+        "analysis_type": "hybrid"
+      },
+      "selected_variant": "partial_psi_transformation",
+      "commutativity": "ψ(δ) ∘ ψ(Φ) = ψ(Φ) ∘ ψ(δ), but λ ∘ ψ(δ) ≠ ψ(δ) ∘ λ",
+      "result": "Partial commutativity correctly handled"
+    }
+  ],
+
+  // ============================================================================
+  // METADATA
+  // ============================================================================
+
+  "metadata": {
+    "created": "2025-11-28",
+    "version": "1.0.0",
+    "author": "MBC Framework Pooled Variant System",
+    "audit_finding": "Logical_Audit_Report.md - Finding #3",
+    "resolution": "Level-separated pooled definition - both statements valid at different levels",
+    "tags": ["tier-6", "psi", "commutativity", "wave-transformation", "level-dependent"]
+  }
+}

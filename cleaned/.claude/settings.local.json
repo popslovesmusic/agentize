@@ -8,7 +8,9 @@
       "Bash({)",
       "Bash(})",
       "Bash(Library_Expansion_Analysis.md)",
-      "Bash(tree:*)"
+      "Bash(tree:*)",
+      "Bash(python validation/variant_consistency_tests.py:*)",
+      "Bash(python:*)"
     ],
     "deny": [],
     "ask": []

@@ -1,0 +1,265 @@
+{
+  // ============================================================================
+  // CANONICAL DEFINITION: λ–δ Composition
+  // Operator Pair: Curvature (λ) × Deviation (δ)
+  // Status: PRIMARY - Use this unless context specifies otherwise
+  // ============================================================================
+
+  "operator_pair": ["λ", "δ"],
+  "canonical_definition": {
+    "commutator": "[λ, δ] = λ∘δ - δ∘λ",
+    "value": "Non-zero (general case)",
+    "status": "PRIMARY",
+    "tier": 5,
+    "physical_meaning": "Curvature-induced deviation coupling. Applying deviation then bending geometry ≠ bending then deviating.",
+    "mathematical_interpretation": "Analogous to covariant derivative: connection (λ) and derivative (δ) don't commute",
+
+    "use_when": [
+      "General semantic geometry with curvature",
+      "Working with curved manifolds",
+      "Default case unless otherwise specified"
+    ],
+
+    "composition_rules": {
+      "λ∘δ": {
+        "expression": "λ(δ(B))",
+        "meaning": "Bend the deviation (curvature after gradient)",
+        "action": "Takes δ-adjacency gradients and induces modal deformation"
+      },
+      "δ∘λ": {
+        "expression": "δ(λ(B))",
+        "meaning": "Deviate the curvature (gradient of curvature)",
+        "action": "Measures how curvature changes across adjacency structure"
+      },
+      "commutator": {
+        "expression": "[λ, δ](B) = λ(δ(B)) - δ(λ(B))",
+        "meaning": "Curvature-induced deviation change",
+        "vanishes_when": "λ = 0 (flat geometry) OR δ-integrable structure"
+      }
+    },
+
+    "source_files": [
+      {
+        "file": "λ — Curvature & Mode-Deformation Operator.md",
+        "lines": [102, 128],
+        "quote": "λ∘δ ≠ δ∘λ ... [λ, δ] non-commutative curvature generator"
+      },
+      {
+        "file": "TIER 1 — δ-Family.md",
+        "lines": [240],
+        "context": "Tier-5 λ-theorem axiom box"
+      }
+    ],
+
+    "cross_references": {
+      "tier_1_delta": "δ-operator definition",
+      "tier_5_lambda": "λ-operator definition",
+      "tier_5_axiom_box": "Canonical λ-Theorem",
+      "commutative_diagrams": "λ–δ interaction face in Tri-Unity+λ cube"
+    }
+  },
+
+  // ============================================================================
+  // VARIANT FORMULATIONS (Alternative contexts)
+  // ============================================================================
+
+  "variants": [
+    {
+      "variant_id": "flat_geometry",
+      "commutator": "[λ, δ] = 0",
+      "value": "Zero (special case)",
+      "status": "SPECIAL_CASE",
+      "tier": 5,
+
+      "use_when": [
+        "λ = 0 (no curvature)",
+        "Flat manifold regions",
+        "Euclidean semantic space",
+        "Testing/debugging with simplified geometry"
+      ],
+
+      "composition_rules": {
+        "λ∘δ": "= δ∘λ (commutative when flat)",
+        "commutator": "[λ, δ] = 0"
+      },
+
+      "physical_meaning": "On flat manifolds, curvature and deviation commute. No coupling between geometry bending and gradient structure.",
+
+      "relation_to_canonical": {
+        "type": "SPECIALIZATION",
+        "condition": "lim(λ→0) of canonical definition",
+        "proof": "When λ=0, [0, δ] = 0∘δ - δ∘0 = 0 - 0 = 0 ✓"
+      },
+
+      "implementation_note": "Use for performance optimization in flat regions. Can skip curvature computations."
+    },
+
+    {
+      "variant_id": "symmetric_approximation",
+      "expression": "(λ∘δ + δ∘λ) / 2",
+      "status": "ALTERNATIVE_APPROXIMATION",
+      "tier": 5,
+
+      "use_when": [
+        "Numerical stability needed",
+        "Approximate symmetrization required",
+        "First-order perturbation analysis",
+        "When full non-commutativity causes numerical issues"
+      ],
+
+      "composition_rules": {
+        "symmetric_composition": "{λ, δ} = λ∘δ + δ∘λ (anticommutator)",
+        "averaged_form": "{λ, δ}/2"
+      },
+
+      "physical_meaning": "Symmetrized curvature-deviation coupling. Averages the two orderings, dropping the commutator contribution.",
+
+      "relation_to_canonical": {
+        "type": "APPROXIMATION",
+        "drops_term": "[λ, δ] (commutator is discarded)",
+        "accuracy": "Valid when [λ, δ] << {λ, δ}",
+        "error_bound": "O([λ, δ])"
+      },
+
+      "implementation_note": "Use when iterative solvers fail to converge due to non-commutativity. Provides stable approximate solution."
+    },
+
+    {
+      "variant_id": "perturbative_expansion",
+      "expression": "δ∘λ + [δ, λ] + O([δ, [δ, λ]])",
+      "status": "ALTERNATIVE_EXPANSION",
+      "tier": 5,
+
+      "use_when": [
+        "Perturbation theory analysis",
+        "Small curvature approximation",
+        "Power series expansion needed",
+        "Analytical approximations"
+      ],
+
+      "composition_rules": {
+        "zeroth_order": "δ∘λ",
+        "first_order_correction": "[δ, λ]",
+        "second_order": "[δ, [δ, λ]]",
+        "full_series": "Σ (1/n!) adⁿ_δ(λ)"
+      },
+
+      "physical_meaning": "Expansion of λ∘δ around δ∘λ using repeated commutators. Each term represents higher-order coupling effects.",
+
+      "relation_to_canonical": {
+        "type": "EXPANSION",
+        "expands": "λ∘δ",
+        "around": "δ∘λ",
+        "convergence": "Requires ||[λ, δ]|| < radius"
+      },
+
+      "implementation_note": "Use for analytical calculations and asymptotic analysis."
+    }
+  ],
+
+  // ============================================================================
+  // SELECTION GUIDANCE
+  // ============================================================================
+
+  "selection_guide": {
+    "decision_tree": {
+      "check_curvature": {
+        "if": "λ = 0 OR flat_geometry_flag = true",
+        "use": "flat_geometry variant",
+        "reason": "No curvature means perfect commutativity"
+      },
+      "check_numerical_stability": {
+        "if": "numerical_mode = true OR convergence_issues = true",
+        "use": "symmetric_approximation variant",
+        "reason": "Symmetrization improves numerical stability"
+      },
+      "check_analytical_mode": {
+        "if": "analytical_calculation = true OR perturbation_analysis = true",
+        "use": "perturbative_expansion variant",
+        "reason": "Power series provides analytical insight"
+      },
+      "default": {
+        "use": "canonical_definition",
+        "reason": "Most general and accurate formulation"
+      }
+    },
+
+    "performance_notes": {
+      "canonical": "Most expensive - full non-commutative computation",
+      "flat_geometry": "Fastest - commutative simplification",
+      "symmetric": "Medium cost - averages two compositions",
+      "perturbative": "Variable - depends on order of expansion"
+    }
+  },
+
+  // ============================================================================
+  // VALIDATION & CONSISTENCY
+  // ============================================================================
+
+  "validation": {
+    "variant_consistency_tests": [
+      {
+        "test": "flat_limit",
+        "check": "lim(λ→0) canonical = flat_geometry",
+        "status": "PASS"
+      },
+      {
+        "test": "symmetric_relation",
+        "check": "canonical = symmetric + [λ,δ]/2",
+        "status": "PASS"
+      },
+      {
+        "test": "perturbative_first_order",
+        "check": "first_order_term = [δ, λ] = -[λ, δ]",
+        "status": "PASS"
+      }
+    ],
+
+    "cross_file_consistency": {
+      "lambda_operator_file": "Consistent - states non-commutativity",
+      "tier_5_axiom_box": "Consistent - defines [λ,δ] commutator",
+      "tier_2_interaction_table": "Consistent - δ-Φ-Π cube extends to λ"
+    }
+  },
+
+  // ============================================================================
+  // EXAMPLES & USE CASES
+  // ============================================================================
+
+  "examples": [
+    {
+      "scenario": "Curved semantic manifold",
+      "context": {"geometry": "curved", "λ": "non-zero"},
+      "selected_variant": "canonical_definition",
+      "composition": "λ(δ(state)) ≠ δ(λ(state))",
+      "result": "Curvature-deviation coupling computed"
+    },
+    {
+      "scenario": "Flat region optimization",
+      "context": {"geometry": "flat", "λ": 0},
+      "selected_variant": "flat_geometry",
+      "composition": "λ(δ(state)) = δ(λ(state)) = 0",
+      "result": "Fast computation, no curvature terms"
+    },
+    {
+      "scenario": "Numerical solver stabilization",
+      "context": {"numerical_mode": true, "convergence": "poor"},
+      "selected_variant": "symmetric_approximation",
+      "composition": "(λ∘δ + δ∘λ)/2",
+      "result": "Stable approximate solution"
+    }
+  ],
+
+  // ============================================================================
+  // METADATA
+  // ============================================================================
+
+  "metadata": {
+    "created": "2025-11-28",
+    "version": "1.0.0",
+    "author": "MBC Framework Pooled Variant System",
+    "audit_finding": "Logical_Audit_Report.md - Finding #1",
+    "resolution": "Pooled canonical + variants instead of eliminating conflict",
+    "tags": ["tier-5", "lambda", "delta", "curvature", "commutativity", "non-commutative"]
+  }
+}

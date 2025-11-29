@@ -1,0 +1,378 @@
+{
+  // ============================================================================
+  // MASTER CONTEXT SELECTION GUIDE
+  // Determines which operator variant to use based on execution context
+  // ============================================================================
+
+  "guide_version": "1.0.0",
+  "created": "2025-11-28",
+  "purpose": "Map execution contexts to optimal operator variant selections",
+
+  // ============================================================================
+  // CONTEXT DETECTION RULES
+  // ============================================================================
+
+  "context_detectors": {
+    "geometry_type": {
+      "flat": {
+        "indicators": [
+          "λ = 0",
+          "curvature_tensor_norm < threshold",
+          "flat_geometry_flag = true",
+          "euclidean_space = true"
+        ],
+        "confidence_threshold": 0.8
+      },
+      "curved": {
+        "indicators": [
+          "λ ≠ 0",
+          "curvature_tensor_norm >= threshold",
+          "manifold_type = 'curved'",
+          "non_euclidean_space = true"
+        ],
+        "confidence_threshold": 0.7
+      }
+    },
+
+    "abstraction_level": {
+      "base_operator": {
+        "indicators": [
+          "psi_transformation_applied = false",
+          "working_with_raw_operators = true",
+          "direct_composition = true",
+          "pre_wave_analysis = true"
+        ],
+        "confidence_threshold": 0.9
+      },
+      "psi_layer": {
+        "indicators": [
+          "psi_transformation_applied = true",
+          "all_operators_psi_transformed = true",
+          "modal_decomposition_active = true",
+          "wave_space_analysis = true",
+          "frequency_domain = true"
+        ],
+        "confidence_threshold": 0.85
+      },
+      "mixed": {
+        "indicators": [
+          "some_operators_psi_transformed = true",
+          "transitional_analysis = true",
+          "hybrid_mode = true"
+        ],
+        "confidence_threshold": 0.75
+      }
+    },
+
+    "numerical_mode": {
+      "high_precision": {
+        "indicators": [
+          "numerical_precision = 'high'",
+          "analytical_mode = false",
+          "full_computation_required = true"
+        ]
+      },
+      "stability_critical": {
+        "indicators": [
+          "convergence_issues = true",
+          "numerical_instability_detected = true",
+          "iterative_solver_failing = true",
+          "approximation_acceptable = true"
+        ]
+      },
+      "analytical": {
+        "indicators": [
+          "analytical_calculation = true",
+          "symbolic_computation = true",
+          "perturbation_analysis = true"
+        ]
+      }
+    },
+
+    "safety_mode": {
+      "conservative": {
+        "indicators": [
+          "safety_critical = true",
+          "proof_uncertainty = true",
+          "production_deployment = true",
+          "risk_averse = true"
+        ]
+      },
+      "exploratory": {
+        "indicators": [
+          "research_mode = true",
+          "experimental_feature = true",
+          "testing_phase = true"
+        ]
+      }
+    }
+  },
+
+  // ============================================================================
+  // OPERATOR-SPECIFIC SELECTION RULES
+  // ============================================================================
+
+  "operator_selection_rules": {
+    "lambda_delta_composition": {
+      "canonical_file": "canonical/lambda_delta_composition.json",
+
+      "selection_logic": {
+        "priority_1": {
+          "if": {
+            "geometry_type": "flat"
+          },
+          "select": "flat_geometry",
+          "reason": "Zero curvature means perfect commutativity",
+          "performance": "Fastest - skips curvature computation"
+        },
+
+        "priority_2": {
+          "if": {
+            "numerical_mode": "stability_critical"
+          },
+          "select": "symmetric_approximation",
+          "reason": "Symmetrization improves numerical stability",
+          "performance": "Medium - two compositions + average"
+        },
+
+        "priority_3": {
+          "if": {
+            "numerical_mode": "analytical"
+          },
+          "select": "perturbative_expansion",
+          "reason": "Power series provides analytical insight",
+          "performance": "Variable - depends on expansion order"
+        },
+
+        "default": {
+          "select": "canonical_definition",
+          "reason": "Most general and accurate formulation",
+          "performance": "Full computation - most expensive"
+        }
+      },
+
+      "fallback_chain": [
+        "canonical_definition",
+        "symmetric_approximation",
+        "flat_geometry"
+      ]
+    },
+
+    "psi_commutativity": {
+      "canonical_file": "canonical/psi_commutativity.json",
+
+      "selection_logic": {
+        "priority_1": {
+          "if": {
+            "abstraction_level": "psi_layer",
+            "all_operators_psi_transformed": true
+          },
+          "select": "canonical_definition",
+          "reason": "Full ψ-transformation enables commutativity"
+        },
+
+        "priority_2": {
+          "if": {
+            "abstraction_level": "base_operator"
+          },
+          "select": "base_level_non_commutative",
+          "reason": "Base operators retain non-commutativity"
+        },
+
+        "priority_3": {
+          "if": {
+            "abstraction_level": "mixed"
+          },
+          "select": "partial_psi_transformation",
+          "reason": "Hybrid commutativity structure"
+        },
+
+        "priority_4": {
+          "if": {
+            "safety_mode": "conservative"
+          },
+          "select": "exception_lambda_delta",
+          "reason": "Conservative assumption for safety"
+        },
+
+        "default": {
+          "select": "canonical_definition",
+          "reason": "Assume ψ-layer unless context specifies otherwise"
+        }
+      },
+
+      "fallback_chain": [
+        "canonical_definition",
+        "partial_psi_transformation",
+        "exception_lambda_delta",
+        "base_level_non_commutative"
+      ]
+    }
+  },
+
+  // ============================================================================
+  // CONTEXT COMBINATION RULES
+  // ============================================================================
+
+  "context_combinations": {
+    "flat_geometry_AND_numerical_stability": {
+      "operators_affected": ["lambda_delta"],
+      "resolution": "Use flat_geometry variant (simpler geometry dominates)",
+      "reason": "Flat simplification already provides stability"
+    },
+
+    "psi_layer_AND_conservative_mode": {
+      "operators_affected": ["psi_commutativity"],
+      "resolution": "Use exception_lambda_delta variant",
+      "reason": "Safety mode overrides ψ-layer optimizations"
+    },
+
+    "analytical_AND_curved_geometry": {
+      "operators_affected": ["lambda_delta"],
+      "resolution": "Use perturbative_expansion variant",
+      "reason": "Analytical mode requested, expansion handles curvature"
+    }
+  },
+
+  // ============================================================================
+  // PERFORMANCE PROFILES
+  // ============================================================================
+
+  "performance_profiles": {
+    "lambda_delta": {
+      "canonical_definition": {
+        "computational_cost": "HIGH",
+        "accuracy": "EXACT",
+        "use_case": "Production, high-precision needed"
+      },
+      "flat_geometry": {
+        "computational_cost": "LOW",
+        "accuracy": "EXACT (when λ=0)",
+        "use_case": "Flat regions, optimization"
+      },
+      "symmetric_approximation": {
+        "computational_cost": "MEDIUM",
+        "accuracy": "APPROXIMATE (O([λ,δ]) error)",
+        "use_case": "Numerical stability, iterative solvers"
+      },
+      "perturbative_expansion": {
+        "computational_cost": "VARIABLE (order-dependent)",
+        "accuracy": "APPROXIMATE (truncation error)",
+        "use_case": "Analytical calculations, small curvature"
+      }
+    },
+
+    "psi_commutativity": {
+      "canonical_definition": {
+        "computational_cost": "MEDIUM",
+        "accuracy": "EXACT (in ψ-layer)",
+        "use_case": "Modal analysis, wave space"
+      },
+      "base_level_non_commutative": {
+        "computational_cost": "HIGH",
+        "accuracy": "EXACT (base level)",
+        "use_case": "Direct operator composition"
+      },
+      "partial_psi_transformation": {
+        "computational_cost": "HIGH (mixed modes)",
+        "accuracy": "EXACT (for specified transformation level)",
+        "use_case": "Transitional analysis"
+      },
+      "exception_lambda_delta": {
+        "computational_cost": "MEDIUM-HIGH",
+        "accuracy": "CONSERVATIVE",
+        "use_case": "Safety-critical systems"
+      }
+    }
+  },
+
+  // ============================================================================
+  // DEBUGGING & DIAGNOSTICS
+  // ============================================================================
+
+  "diagnostics": {
+    "variant_mismatch_detection": {
+      "check": "If results differ significantly between variants",
+      "action": "Log warning with variant details and context",
+      "threshold": "relative_error > 0.1"
+    },
+
+    "convergence_failure": {
+      "check": "If canonical variant fails to converge",
+      "action": "Automatically try fallback_chain in order",
+      "log": "Fallback attempt: canonical → {next_variant}"
+    },
+
+    "context_ambiguity": {
+      "check": "If multiple context detectors trigger with similar confidence",
+      "action": "Request user clarification or use most conservative variant",
+      "threshold": "confidence_difference < 0.1"
+    }
+  },
+
+  // ============================================================================
+  // USAGE EXAMPLES
+  // ============================================================================
+
+  "examples": [
+    {
+      "context": {
+        "geometry_type": "flat",
+        "numerical_mode": "high_precision",
+        "abstraction_level": "base_operator"
+      },
+      "operator": "lambda_delta",
+      "selected_variant": "flat_geometry",
+      "reason": "Flat geometry detected - simplest and exact"
+    },
+    {
+      "context": {
+        "geometry_type": "curved",
+        "numerical_mode": "stability_critical",
+        "convergence_issues": true
+      },
+      "operator": "lambda_delta",
+      "selected_variant": "symmetric_approximation",
+      "reason": "Numerical stability needed for convergence"
+    },
+    {
+      "context": {
+        "abstraction_level": "psi_layer",
+        "all_operators_psi_transformed": true,
+        "modal_decomposition_active": true
+      },
+      "operator": "psi_commutativity",
+      "selected_variant": "canonical_definition",
+      "reason": "Full ψ-layer context - use commutative formulation"
+    },
+    {
+      "context": {
+        "abstraction_level": "base_operator",
+        "psi_transformation_applied": false
+      },
+      "operator": "psi_commutativity",
+      "selected_variant": "base_level_non_commutative",
+      "reason": "Base level - operators don't commute yet"
+    },
+    {
+      "context": {
+        "safety_mode": "conservative",
+        "production_deployment": true
+      },
+      "operator": "psi_commutativity",
+      "selected_variant": "exception_lambda_delta",
+      "reason": "Production safety - use conservative assumptions"
+    }
+  ],
+
+  // ============================================================================
+  // INTEGRATION NOTES
+  // ============================================================================
+
+  "integration": {
+    "with_tri_unity_router": "Context from Tri-Unity routing (δ/Φ/Π) informs abstraction level",
+    "with_omega_enforcer": "Ω-consistency checks validate variant selections",
+    "with_theta_gates": "Θ-polarity signals can indicate numerical_mode",
+    "logging": "All variant selections logged for debugging and optimization"
+  }
+}
